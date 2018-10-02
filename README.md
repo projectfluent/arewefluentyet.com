@@ -1,2 +1,3 @@
 # arewefluentyet.com
-Well, are we?
+
+A simple dashboard for tracking progress of migrating Firefox to Fluent.
