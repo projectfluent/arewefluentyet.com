@@ -27,30 +27,37 @@ async function prepare_data(url) {
             label: "Fluent",
             backgroundColor: "#EB6896",
             borderColor: "#EB6896",
+            pointBorderColor: "#222",
             data: [],
         },
         dtd: {
             label: "DTD",
             backgroundColor: "#696890",
             borderColor: "#696890",
+            pointBorderColor: "#222",
             data: [],
         },
         properties: {
             label: "Properties",
             backgroundColor: "#46698d",
             borderColor: "#46698d",
+            pointBorderColor: "#222",
             data: [],
         },
         ini: {
             label: "*.ini",
             backgroundColor: "#666",
             borderColor: "#666",
+            pointBorderColor: "#222",
+            pointRadius: 0,
             data: [],
         },
         inc: {
             label: "*.inc",
             backgroundColor: "#666",
             borderColor: "#666",
+            pointBorderColor: "#222",
+            pointRadius: 0,
             data: [],
         },
     }
@@ -106,13 +113,19 @@ function create_chart(selector, {max, ...data}) {
                     type: "time",
                     time: {
                         unit: "month"
-                    }
+                    },
+                    gridLines: {
+                        display: false,
+                    },
                 }],
                 yAxes: [{
                     stacked: true,
                     ticks: {
                         min: 0,
                         max: Math.ceil(max / 1000) * 1000,
+                    },
+                    gridLines: {
+                        display: false,
                     },
                 }]
             },
@@ -122,7 +135,8 @@ function create_chart(selector, {max, ...data}) {
             },
             elements: {
                 point: {
-                    radius: 0,
+                    radius: 2,
+                    hitRadius: 5,
                 },
                 line: {
                     tension: 0,
@@ -130,9 +144,11 @@ function create_chart(selector, {max, ...data}) {
                 }
 
             },
-            hover: {
-                mode: "index",
-            }
+            tooltips: {
+                mode: "x",
+                position: "nearest",
+                intersect: false,
+            },
         },
     });
 }
