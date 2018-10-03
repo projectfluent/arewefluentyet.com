@@ -148,6 +148,11 @@ function create_chart(selector, {max, ...data}) {
                 mode: "index",
                 position: "nearest",
                 intersect: false,
+                itemSort(a, b) {
+                    // By default, labels are listed in reverse order relative
+                    // to the order of the datasets. Reverse them again.
+                    return b.datasetIndex - a.datasetIndex;
+                }
             },
         },
     });
