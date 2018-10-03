@@ -23,41 +23,41 @@ async function prepare_data(url) {
     let max = 0;
     let labels = [];
     let datasets = {
-        ftl: {
-            label: "Fluent",
-            backgroundColor: "#EB6896",
-            borderColor: "#EB6896",
-            pointBorderColor: "#222",
-            data: [],
-        },
-        dtd: {
-            label: "DTD",
-            backgroundColor: "#696890",
-            borderColor: "#696890",
-            pointBorderColor: "#222",
-            data: [],
-        },
-        properties: {
-            label: "Properties",
-            backgroundColor: "#46698d",
-            borderColor: "#46698d",
-            pointBorderColor: "#222",
-            data: [],
-        },
         ini: {
             label: "*.ini",
-            backgroundColor: "#666",
-            borderColor: "#666",
+            backgroundColor: "#3d4b5e",
+            borderColor: "#3d4b5e",
             pointBorderColor: "#222",
             pointRadius: 0,
             data: [],
         },
         inc: {
             label: "*.inc",
-            backgroundColor: "#666",
-            borderColor: "#666",
+            backgroundColor: "#3d4b5e",
+            borderColor: "#3d4b5e",
             pointBorderColor: "#222",
             pointRadius: 0,
+            data: [],
+        },
+        dtd: {
+            label: "DTD",
+            backgroundColor: "#46698d",
+            borderColor: "#46698d",
+            pointBorderColor: "#222",
+            data: [],
+        },
+        properties: {
+            label: "Properties",
+            backgroundColor: "#696890",
+            borderColor: "#696890",
+            pointBorderColor: "#222",
+            data: [],
+        },
+        ftl: {
+            label: "Fluent",
+            backgroundColor: "#EB6896",
+            borderColor: "#EB6896",
+            pointBorderColor: "#222",
             data: [],
         },
     }
