@@ -1,9 +1,47 @@
 export default {
-    /* Sunset */
+    point: "rgba(0, 0, 0, 0.8)",
+
+    /* Sunset
     fluent: "#eb6896",
     properties: "#696890",
     dtd: "#46698d",
     other: "#3d4b5e",
+    */
+
+    /* CMYK */
+    fluent: "#00cffa",
+    properties: "#ffce38",
+    dtd: "#ff0038",
+    other: "#020509",
+    /*/
+
+    /* Les Alpes
+    fluent: "#4cb5f5",
+    properties: "#34675c",
+    dtd: "#b3c100",
+    other: "#b7b8b6",
+    */
+
+    /* Larkin
+    fluent: "#f9ba32",
+    properties: "#f8f1e5",
+    dtd: "#426e86",
+    other: "#2f3131",
+    */
+
+    /* Sunflowers
+    fluent: "#ffbb00",
+    properties: "#fb6542",
+    dtd: "#3f681c",
+    other: "#375e97",
+    */
+
+    /* Taxi
+    fluent: "#ffb745",
+    properties: "#5cc5ef",
+    dtd: "#344d90",
+    other: "#333",
+    */
 
     /* Warm
     fluent: "#fcdc5e",
