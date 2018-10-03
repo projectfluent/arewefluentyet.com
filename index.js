@@ -20,6 +20,7 @@ async function prepare_data(url) {
     let response = await fetch(url);
     let snapshots = await response.json();
 
+    let max = 0;
     let labels = [];
     let datasets = {
         ftl: {
@@ -79,21 +80,22 @@ async function prepare_data(url) {
             }
         }
 
+        max = Math.max(max, total);
         labels.push(new Date(date));
         for (let [format, count] of Object.entries(snapshot)) {
-            let ratio = 100 * count / total;
-            datasets[format].data.push(ratio);
+            datasets[format].data.push(count);
         }
 
     }
 
     return {
+        max,
         labels,
         datasets: [...Object.values(datasets)],
     };
 }
 
-function create_chart(selector, data) {
+function create_chart(selector, {max, ...data}) {
     let ctx = document.querySelector(selector).getContext("2d");
     return new Chart(ctx, {
         type: "line",
@@ -110,7 +112,7 @@ function create_chart(selector, data) {
                     stacked: true,
                     ticks: {
                         min: 0,
-                        max: 100,
+                        max: Math.ceil(max / 1000) * 1000,
                     },
                 }]
             },
