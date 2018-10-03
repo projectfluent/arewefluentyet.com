@@ -145,7 +145,7 @@ function create_chart(selector, {max, ...data}) {
 
             },
             tooltips: {
-                mode: "x",
+                mode: "index",
                 position: "nearest",
                 intersect: false,
             },
