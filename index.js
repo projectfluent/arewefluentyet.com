@@ -1,3 +1,5 @@
+import COLORS from "./colors.js";
+
 main();
 
 async function main() {
@@ -5,16 +7,6 @@ async function main() {
         "#strings-chart > canvas",
         await prepare_data("./data/progress.json"));
 }
-
-    // Seaside
-    // backgroundColor: "#f4f8ce",
-    // backgroundColor: "#81d5b2",
-    // backgroundColor: "#398ba6",
-
-    // Steel
-    // backgroundColor: "#fcec9b",
-    // backgroundColor: "#84A3B2",
-    // backgroundColor: "#517082",
 
 async function prepare_data(url) {
     let response = await fetch(url);
@@ -25,38 +17,38 @@ async function prepare_data(url) {
     let datasets = {
         ini: {
             label: "*.ini",
-            backgroundColor: "#3d4b5e",
-            borderColor: "#3d4b5e",
+            backgroundColor: COLORS.other,
+            borderColor: COLORS.other,
             pointBorderColor: "#222",
             pointRadius: 0,
             data: [],
         },
         inc: {
             label: "*.inc",
-            backgroundColor: "#3d4b5e",
-            borderColor: "#3d4b5e",
+            backgroundColor: COLORS.other,
+            borderColor: COLORS.other,
             pointBorderColor: "#222",
             pointRadius: 0,
             data: [],
         },
         dtd: {
             label: "DTD",
-            backgroundColor: "#46698d",
-            borderColor: "#46698d",
+            backgroundColor: COLORS.dtd,
+            borderColor: COLORS.dtd,
             pointBorderColor: "#222",
             data: [],
         },
         properties: {
             label: "Properties",
-            backgroundColor: "#696890",
-            borderColor: "#696890",
+            backgroundColor: COLORS.properties,
+            borderColor: COLORS.properties,
             pointBorderColor: "#222",
             data: [],
         },
         ftl: {
             label: "Fluent",
-            backgroundColor: "#EB6896",
-            borderColor: "#EB6896",
+            backgroundColor: COLORS.fluent,
+            borderColor: COLORS.fluent,
             pointBorderColor: "#222",
             data: [],
         },
