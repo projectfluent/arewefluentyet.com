@@ -100,6 +100,13 @@ function create_chart(selector, {max, ...data}) {
         type: "line",
         data,
         options: {
+            title: {
+                display: true,
+                position: "top",
+                text: "Number of localizable strings in mozilla-central",
+                fontStyle: "normal",
+                fontSize: 16,
+            },
             scales: {
                 xAxes: [{
                     type: "time",
