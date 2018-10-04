@@ -100,6 +100,7 @@ function create_chart(selector, {max, ...data}) {
         type: "line",
         data,
         options: {
+            maintainAspectRatio: false,
             title: {
                 display: true,
                 position: "top",
