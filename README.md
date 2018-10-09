@@ -12,6 +12,10 @@ for d in 2018-10-14; do
 done
 ```
 
+This requires the [`version-control-tools/hgext/mozext`](https://hg.mozilla.org/hgcustom/version-control-tools/)
+mercurial extension to be enabled in your `mozilla-central` clone, for
+`pushhead` and `pushdate` to work.
+
 Update your `mozilla-central` clone to the corresponding revision.
 
 The actual data bit is in `arewefluentyet.data.Aggregator`. Use that class like so
