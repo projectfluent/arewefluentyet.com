@@ -23,17 +23,21 @@ The actual data bit is in `arewefluentyet.data.Aggregator`. Use that class like 
 ```python
 import json
 from arewefluentyet import data
+
+progress_path = "../data/progress.json"
+
 aggregator = data.Aggregator(
     ["browser/locales/l10n.toml", "mobile/android/locales/l10n.toml"]
 )
 aggregator.load()
+global_json = json.load(open(progress_path))
 global_json.append({
     "date": "yyyy-mm-dd",
     "revision": "abcdef",
     "data": aggregator.gather()
 })
 json.dump(
-    global_json, open(".../progress.json", "w"),
+    global_json, open(progress_path, "w"),
     indent=0,
     separators=(",", ": "),
     sort_keys=True,
