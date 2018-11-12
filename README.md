@@ -9,7 +9,8 @@ and of `gh-pages` for the data.
 
 This requires the [`version-control-tools/hgext/mozext`](https://hg.mozilla.org/hgcustom/version-control-tools/)
 mercurial extension to be enabled in your `mozilla-central` clone, for
-`pushhead` and `pushdate` to work.
+`pushhead` and `pushdate` to work. At the time of this writing, `mozext`
+is compatible with [mercurial versions 4.3 - 4.6](https://bugzilla.mozilla.org/show_bug.cgi?id=1482325).
 
 Update your `mozilla-central` clone to the corresponding revision.
 
