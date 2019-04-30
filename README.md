@@ -46,7 +46,7 @@ while this_date < today:
     'reverse(pushhead("central") and pushdate("<{} 00:00"))'.format(
       date_stamp
     )
-  ])
+  ]).decode('utf-8')
   subprocess.check_call([
     "hg", "update", "-r", rev
   ])
