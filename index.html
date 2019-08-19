@@ -1,62 +1,72 @@
 <!doctype html>
 <meta charset="utf8">
-<meta name="viewport" content="width=device-width">
-<title>Are We Fluent Yet?</title>
-<link rel="shortcut icon" href="./favicon.ico">
-<link rel="stylesheet" href="./index.css">
-<script defer src="./vendor/moment.bundle.min.js"></script>
-<script defer src="./vendor/Chart.bundle.min.js"></script>
-<script defer src="./index.js" type="module"></script>
+<html>
 
-<h1>Are We Fluent Yet?</h1>
-<div id="strings-chart">
-    <canvas></canvas>
-</div>
+<head>
+    <title>Are We Fluent Yet?</title>
+    <link rel="stylesheet" href="./vendor/fira/fira.css">
+    <link rel="stylesheet" href="./style/theme.css">
+    <link rel="stylesheet" href="./style/awfy.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <script defer src="./js/helpers.js"></script>
+    <script defer src="./js/app.js"></script>
+    <script defer src="./js/data.js"></script>
+    <script defer src="./js/chart.js"></script>
+    <script defer src="./vendor/Chart.bundle.min.js"></script>
+    <script defer src="./vendor/chartjs-plugin-datalabels.js"></script>
+    <script defer src="./js/index.js"></script>
+</head>
 
-<div class="columns">
-    <div>
-        <h2>What is Fluent?</h2>
-        <p>
-            Fluent is a localization system designed to improve how software is
-            translated.
-        </p>
-        <p>
-            With Fluent, developers can write language-agnostic code and
-            localizers can create natural-sounding translations.
-        </p>
-        <p>
-            Learn more about Fluent at
-            <a href="https://projectfluent.org/">projectfluent.org</a>.
-        </p>
+<body>
+    <h1>Are We Fluent Yet?</h1>
+    <div id="main">
+        <div id="milestones">
+            <div class="desc-box">
+                <table>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="main-chart">
+            <canvas></canvas>
+        </div>
+        <div id="side">
+            <div id="legend">
+                <p><span class="icon fluent"></span><span class="label">Fluent</span></p>
+                <p><span class="icon prop"></span><span class="label">Properties</span></p>
+                <p><span class="icon dtd"></span><span class="label">DTD</span></p>
+            </div>
+        </div>
+        <footer id="footer">
+            <div id="desc" class="desc-box">
+                <h2>What is Fluent?</h2>
+                <p>Fluent is a localization system designed to improve how software is translated.</p>
+                <p>With Fluent, developers can write language-agnostic code and localizers can create natural-sounding
+                    translations.</p>
+                <p>Learn more about Fluent at <a href="https://projectfluent.org">projectfluent.org</a>.</p>
+            </div>
+            <div id="desc2" class="desc-box">
+                <h2>Fluent in Firefox</h2>
+                <p>
+                    Fluent aims to eventually replace all legacy localization formats
+                    used in Firefox today. Read the
+                    <a href="https://firefox-source-docs.mozilla.org/intl/l10n/l10n/index.html">Fluent for Firefox
+                        Developers</a>
+                    tutorial to learn how to start using Fluent.
+                </p>
+            </div>
+            <div id="desc3" class="desc-box">
+                <h2>About this dashboard</h2>
+                <p>
+                    This is a very early prototype. We're planning to automate the data
+                    collection and present other useful information in the coming
+                    months. Please submit feedback and ideas on
+                    <a href="https://github.com/projectfluent/arewefluentyet.com/">GitHub</a>.
+                </p>
+            </div>
+        </footer>
     </div>
+</body>
 
-    <div>
-        <h2>Fluent in Firefox</h2>
-        <p>
-            Fluent aims to eventually replace all legacy localization formats
-            used in Firefox today. Read the
-            <a href="https://firefox-source-docs.mozilla.org/intl/l10n/l10n/index.html">Fluent for Firefox Developers</a>
-            tutorial to learn how to start using Fluent.
-        </p>
-
-        <p>
-            The migration work is tracked in
-            <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1365426">bug1365426</a>.
-            The latest areas of focus have been the
-            <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1415730">Preferences</a>
-            and the
-            <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1486917">Capstone</a>
-            project.
-        </p>
-    </div>
-
-    <div>
-        <h2>About this dashboard</h2>
-        <p>
-            This is a very early prototype. We're planning to automate the data
-            collection and present other useful information in the coming
-            months. Please submit feedback and ideas on
-            <a href="https://github.com/projectfluent/arewefluentyet.com/">GitHub</a>.
-        </p>
-    </div>
-</div>
+</html>

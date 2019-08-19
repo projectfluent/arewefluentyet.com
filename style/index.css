@@ -1,0 +1,48 @@
+body {
+  display: none;
+}
+
+#milestones {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#milestones > .desc-box {
+  margin: 0;
+  padding: 10px;
+  margin-top: -100px;
+  font-size: 0.9em;
+  width: auto;
+  height: auto;
+}
+
+#milestones table {
+  border: 0px;
+  border-collapse: collapse;
+}
+
+#milestones table thead {
+  font-weight: 400;
+}
+
+#milestones table thead td {
+  line-height: 1.2em;
+}
+
+#milestones table td {
+  line-height: 1.2em;
+  padding: 2px 8px;
+}
+
+#milestones table tbody tr {
+  cursor: pointer;
+}
+
+#milestones table tbody tr:not(.active):hover {
+  background-color: #ededf0;
+}
+
+#milestones table tr.active {
+  background-color: #45a1ff;
+  color: white;
+}
