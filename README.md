@@ -31,7 +31,7 @@ today = datetime.utcnow().date()
 week = timedelta(days=7)
 
 aggregator = data.Aggregator(
-    ["browser/locales/l10n.toml", "mobile/android/locales/l10n.toml"]
+    ["browser/locales/l10n.toml"]
 )
 aggregator.load()
 
