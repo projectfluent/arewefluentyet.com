@@ -57,31 +57,10 @@ async function prepare_data(url) {
     let ext_re = /\.(\w+)$/;
 
     for (let {date, data} of snapshots) {
-        let total = 0;
-        let snapshot = {
-            properties: 0,
-            dtd: 0,
-            ftl: 0,
-            inc: 0,
-            ini: 0,
-        };
-
-        for (let platform of data) {
-            for (let [path, count] of Object.entries(platform)) {
-                total += count;
-
-                let match = ext_re.exec(path);
-                if (match === null) {
-                    continue;
-                }
-                let [_, extension] = match;
-                snapshot[extension] += count;
-            }
-        }
-
+        let total = Object.values(data).reduce((a, b) => a + b);
         max = Math.max(max, total);
         labels.push(new Date(date));
-        for (let [format, count] of Object.entries(snapshot)) {
+        for (let [format, count] of Object.entries(data)) {
             datasets[format].data.push(count);
         }
 
