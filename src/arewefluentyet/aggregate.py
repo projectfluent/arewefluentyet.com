@@ -10,6 +10,7 @@ from helper import read_progress_data, parse_date, \
     switch_to_revision, write_data, is_file_writable, is_dir_readable
 
 START_DATE = date(2017, 11, 1)
+MILESTONE = "M1"
 FREQUENCY = timedelta(days=7)
 
 
@@ -113,7 +114,8 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    data_path = args.gh_pages_data
+    data_path = os.path.join(args.gh_pages_data, MILESTONE)
+
     if not is_file_writable(data_path, "progress.json"):
         parser.error("{} path is not writable!".format(
             os.path.join(data_path, "progress.json")))
@@ -123,4 +125,4 @@ if __name__ == "__main__":
     if not is_dir_readable(args.mc):
         parser.error("{} path is not readable!".format(args.mc))
 
-    main(args.mc, args.gh_pages_data)
+    main(args.mc, data_path)
