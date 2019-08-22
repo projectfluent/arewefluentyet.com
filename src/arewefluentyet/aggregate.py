@@ -10,7 +10,7 @@ from helper import read_progress_data, parse_date, \
     switch_to_revision, write_data, is_file_writable, is_dir_readable
 
 START_DATE = date(2017, 11, 1)
-MILESTONE = "M1"
+MILESTONE = "M3"
 FREQUENCY = timedelta(days=7)
 
 
