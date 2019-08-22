@@ -5,7 +5,7 @@ main();
 async function main() {
     create_chart(
         "#strings-chart > canvas",
-        await prepare_data("./data/M1/progress.json"));
+        await prepare_data("./data/M3/progress.json"));
 }
 
 async function prepare_data(url) {
