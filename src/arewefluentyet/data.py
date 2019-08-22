@@ -18,7 +18,7 @@ class Aggregator(object):
         p = configparser.TOMLParser()
         del self.configs[:]
         for path in self.config_paths:
-            cfg = p.parse(path, env={"l10n_base": "."})
+            cfg = p.parse(path, env={"l10n_base": mozpath.abspath(".")})
             cfg.set_locales(["en-US"], True)
             self.configs.append(cfg)
 
@@ -36,7 +36,7 @@ class Aggregator(object):
             p.readFile(f)
             string_count = len(list(p))
             for i, cfg in enumerate(self.configs):
-                l10n_file = paths.File(l10n_path, mozpath.relpath(l10n_path, '.'), locale='en-US')
+                l10n_file = paths.File(l10n_path, mozpath.relpath(l10n_path, mozpath.abspath(".")), locale='en-US')
                 if cfg.filter(l10n_file) != "ignore":
                     results[i][l10n_file.file] = string_count
         return results
