@@ -1,6 +1,6 @@
 {
 "date": "2019-08-25",
-"revision": "4ab60925635ce3d59573a6021486ab9bd272cbec",
+"revision": "98cbe150f012619bf9e8d44413fa33374e92dbc9",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -28,7 +28,7 @@
 },
 {
 "file": "en-US/browser/browser/aboutLogins.ftl",
-"count": 71
+"count": 70
 },
 {
 "file": "en-US/browser/browser/aboutPolicies.ftl",
@@ -92,7 +92,7 @@
 },
 {
 "file": "en-US/browser/browser/pageInfo.ftl",
-"count": 88
+"count": 86
 },
 {
 "file": "en-US/browser/browser/panicButton.ftl",
@@ -144,7 +144,7 @@
 },
 {
 "file": "en-US/browser/browser/preferences/preferences.ftl",
-"count": 353
+"count": 355
 },
 {
 "file": "en-US/browser/browser/preferences/selectBookmark.ftl",
@@ -216,7 +216,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.dtd",
-"count": 594
+"count": 593
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
@@ -237,6 +237,10 @@
 {
 "file": "en-US/browser/chrome/browser/feeds/subscribe.properties",
 "count": 3
+},
+{
+"file": "en-US/browser/chrome/browser/fxmonitor.properties",
+"count": 11
 },
 {
 "file": "en-US/browser/chrome/browser/migration/migration.dtd",
@@ -351,10 +355,6 @@
 "count": 117
 },
 {
-"file": "en-US/browser/extensions/fxmonitor/fxmonitor.properties",
-"count": 11
-},
-{
 "file": "en-US/browser/extensions/report-site-issue/webcompat.properties",
 "count": 2
 },
@@ -416,7 +416,7 @@
 },
 {
 "file": "en-US/devtools/client/application.ftl",
-"count": 21
+"count": 26
 },
 {
 "file": "en-US/devtools/client/boxmodel.properties",
@@ -496,7 +496,7 @@
 },
 {
 "file": "en-US/devtools/client/netmonitor.properties",
-"count": 327
+"count": 330
 },
 {
 "file": "en-US/devtools/client/network-throttling.properties",
@@ -520,7 +520,7 @@
 },
 {
 "file": "en-US/devtools/client/scratchpad.properties",
-"count": 22
+"count": 23
 },
 {
 "file": "en-US/devtools/client/shared.properties",
@@ -560,7 +560,7 @@
 },
 {
 "file": "en-US/devtools/client/toolbox.properties",
-"count": 70
+"count": 71
 },
 {
 "file": "en-US/devtools/client/tooltips.ftl",
@@ -644,7 +644,7 @@
 },
 {
 "file": "en-US/dom/chrome/dom/dom.properties",
-"count": 232
+"count": 235
 },
 {
 "file": "en-US/dom/chrome/global-strres.properties",
