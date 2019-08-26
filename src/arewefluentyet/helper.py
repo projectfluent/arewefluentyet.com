@@ -35,6 +35,12 @@ def get_current_revision(mc_path):
     ]).decode("utf-8")
     return rev
 
+def get_revision_date(rev, mc_path):
+    rev = subprocess.check_output([
+        "hg", "id", "--cwd", mc_path, "-r", rev, "-T", "{date|shortdate}"
+    ]).decode("utf-8")
+    return parse_date(rev)
+
 
 def switch_to_revision(rev, mc_path):
     subprocess.check_call([

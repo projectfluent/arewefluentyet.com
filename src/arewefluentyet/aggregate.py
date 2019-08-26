@@ -6,7 +6,7 @@ from collections import defaultdict
 from datetime import date, timedelta
 
 from helper import read_progress_data, parse_date, \
-    pick_next_revision, get_current_revision, \
+    pick_next_revision, get_current_revision, get_revision_date, \
     switch_to_revision, write_data, is_file_writable, is_dir_readable
 
 START_DATE = date(2017, 11, 1)
@@ -81,6 +81,14 @@ def main(mc_path, gh_pages_data_path):
         next_revision = pick_next_revision(next_date, mc_path)
         if next_revision == last_revision:
             break
+
+        next_rev_date = get_revision_date(next_revision, mc_path)
+        if next_rev_date < next_date:
+            print("The next scheduled date for data collection is {}".format(next_date))
+            print("But the latest available revision is from {}".format(next_rev_date))
+            response = input("Do you want to collect date for it (Y/N):")
+            if response.lower() != "y":
+                break
 
         snapshot_data = update_data(progress_data, next_revision, next_date, mc_path)
         any_update_happened = True
