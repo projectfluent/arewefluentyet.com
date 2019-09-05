@@ -47,6 +47,10 @@ body {
   color: white;
 }
 
+body.dashboard #link-desc {
+  display: none;
+}
+
 #link-desc {
   margin: 0 auto;
   margin-top: 30px;
