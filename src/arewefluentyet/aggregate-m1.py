@@ -11,7 +11,7 @@ from helper import read_progress_data, parse_date, \
     run_app
 
 PARAMS = {
-    "start_date": date(2019, 6, 30),
+    "start_date": date(2019, 3, 31),
     "milestone": "M1",
     "frequency": timedelta(days=7),
     "main_file": "./browser/base/content/browser.xhtml"
