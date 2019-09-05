@@ -234,6 +234,10 @@ const Page = {
       i++;
     }
   },
+  setListLinkTarget() {
+    let link = document.getElementById("list-link");
+    link.setAttribute("href", `list.html?milestone=${State.activeMilestone}`);
+  },
   getCategories() {
     let activeMilestone = Page.getActiveMilestone();
     let categories = activeMilestone.categories;

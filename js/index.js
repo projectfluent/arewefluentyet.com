@@ -12,6 +12,7 @@ async function main() {
   State.charts.push(chart);
 
   Page.updateMilestones();
+  Page.setListLinkTarget();
 
   document.body.style.display = "block";
   window.addEventListener("resize", updateAspectMode);

@@ -59,6 +59,7 @@ async function loadFile() {
   let response = await fetch(`./data/${State.activeMilestone}/snapshot.json`);
   let snapshot = await response.json();
 
+  document.getElementById("meta-milestone").textContent = State.activeMilestone;
   document.getElementById("meta-date").textContent = snapshot.date;
   document.getElementById("meta-rev").textContent = snapshot.revision;
 
