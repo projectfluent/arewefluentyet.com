@@ -1,10 +1,13 @@
 from data import Aggregator
 import os
+import json
 from collections import defaultdict
 from datetime import date, timedelta
 
-from helper_mc import main
-from helper import run_app
+from helper import read_progress_data, parse_date, \
+    pick_next_revision, get_current_revision, get_revision_date, \
+    switch_to_revision, write_data, is_file_writable, is_dir_readable, \
+    run_app
 
 PARAMS = {
     "start_date": date(2017, 11, 1),
@@ -43,4 +46,4 @@ def get_data(mc_path, next_date, next_revision):
 
 
 if __name__ == "__main__":
-    run_app(PARAMS, ["mc"], get_data, main)
+    run_app(PARAMS, get_data)
