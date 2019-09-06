@@ -5,10 +5,8 @@ from datetime import date, timedelta
 from functools import partial
 import re
 
-from helper import read_progress_data, parse_date, \
-    pick_next_revision, get_current_revision, get_revision_date, \
-    switch_to_revision, write_data, is_file_writable, is_dir_readable, \
-    run_app
+from helper_mc import main
+from helper import run_app
 
 PARAMS = {
     "start_date": date(2019, 3, 31),
@@ -48,8 +46,6 @@ def get_data(mc_path, next_date, next_revision):
     entries = []
     matches_in_file(PARAMS["main_file"], entries, mc_path)
 
-    snapshot = {"date": str(next_date), "revision": next_revision, "data": entries}
-
     progress = defaultdict(int)
 
     for entry in entries:
@@ -59,4 +55,4 @@ def get_data(mc_path, next_date, next_revision):
 
 
 if __name__ == "__main__":
-    run_app(PARAMS, get_data)
+    run_app(PARAMS, ["mc"], get_data, main)
