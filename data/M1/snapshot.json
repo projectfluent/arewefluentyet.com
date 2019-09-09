@@ -1,6 +1,6 @@
 {
-"date": "2019-09-01",
-"revision": "b338d55d5007ce5a7d4cdce3aaa8e9f63c5555f7",
+"date": "2019-09-08",
+"revision": "95288ceaa9e40ac673e0337db0e9281a9943e32c",
 "data": [
 {
 "type": "dtd",
@@ -197,6 +197,14 @@
 {
 "type": "dtd",
 "id": "toggleReaderMode.win.keycode"
+},
+{
+"type": "dtd",
+"id": "togglePictureInPicture.key"
+},
+{
+"type": "dtd",
+"id": "togglePictureInPicture.key2"
 },
 {
 "type": "dtd",
@@ -1876,10 +1884,6 @@
 },
 {
 "type": "dtd",
-"id": "goOfflineCmd.label"
-},
-{
-"type": "dtd",
 "id": "bookmarksSubview.label"
 },
 {
@@ -2804,7 +2808,7 @@
 },
 {
 "type": "dtd",
-"id": "navbarCmd.label"
+"id": "navbar.accessibleLabel"
 },
 {
 "type": "dtd",
@@ -3060,6 +3064,10 @@
 },
 {
 "type": "dtd",
+"id": "personalbar.accessibleLabel"
+},
+{
+"type": "dtd",
 "id": "bookmarksToolbarItem.label"
 },
 {
@@ -3169,6 +3177,10 @@
 {
 "type": "dtd",
 "id": "pointerlockWarning.generic.label"
+},
+{
+"type": "ftl",
+"id": "menu-file-go-offline"
 },
 {
 "type": "ftl",
