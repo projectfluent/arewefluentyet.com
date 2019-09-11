@@ -108,22 +108,22 @@ def extract_progress(raw_data):
     return (entries, progress)
 
 
-def get_bm_parent(mc_path, bm):
+def get_bookmark_parent(mc_path, bookmark):
     rev = subprocess.check_output([
         "hg", "log",
         "--cwd", mc_path,
-        "-r", "parents({})".format(bm),
-        "-T", "{node}",
+        "-r", bookmark,
+        "-T", "{p1.node}",
     ]).decode('utf-8')
 
     return rev
 
 
-def apply_bm(mc_path, next_revision, bm):
-    parent = get_bm_parent(mc_path, bm)
+def rebase_bookmark(mc_path, next_revision, bookmark):
+    parent = get_bookmark_parent(mc_path, bookmark)
     if parent != next_revision:
         subprocess.run([
-            "hg", "rebase", "--cwd", mc_path, "-s", bm, "-d", next_revision
+            "hg", "rebase", "--cwd", mc_path, "-s", bookmark, "-d", next_revision
         ], check=True, stdout=subprocess.DEVNULL)
 
 
@@ -156,7 +156,7 @@ def get_data(mc_path, next_date, next_revision):
     response = input("About to attempt to apply the `collect-startup-entries` onto {} (Y/N): ".format(next_revision))
     if response.lower() != "y":
         exit()
-    apply_bm(mc_path, next_revision, PARAMS["bookmark"])
+    rebase_bookmark(mc_path, next_revision, PARAMS["bookmark"])
     switch_to_revision(PARAMS["bookmark"], mc_path)
 
     response = input("About to build Firefox with the `collect-startup-entries` (Y/N): ")
