@@ -1,6 +1,6 @@
 {
-"date": "2019-09-08",
-"revision": "95288ceaa9e40ac673e0337db0e9281a9943e32c",
+"date": "2019-09-15",
+"revision": "286cbc3b542b29210b9d7a4b5678adcac9211962",
 "data": [
 {
 "type": "dtd",
@@ -1832,19 +1832,27 @@
 },
 {
 "type": "dtd",
-"id": "appMenuRemoteTabs.notsignedin.label"
+"id": "appMenuRemoteTabs.welcome.label"
 },
 {
 "type": "dtd",
-"id": "appMenuRemoteTabs.signin.label"
+"id": "appMenuRemoteTabs.signintosync.label"
 },
 {
 "type": "dtd",
-"id": "appMenuRemoteTabs.notsignedin.label"
+"id": "appMenuRemoteTabs.welcome.label"
 },
 {
 "type": "dtd",
-"id": "appMenuRemoteTabs.signin.label"
+"id": "appMenuRemoteTabs.turnonsync.label"
+},
+{
+"type": "dtd",
+"id": "appMenuRemoteTabs.welcome.label"
+},
+{
+"type": "dtd",
+"id": "appMenuRemoteTabs.signintosync.label"
 },
 {
 "type": "dtd",
@@ -2380,7 +2388,7 @@
 },
 {
 "type": "dtd",
-"id": "contentBlocking.manageSettings.accesskey"
+"id": "contentBlocking.manageSettings2.accesskey"
 },
 {
 "type": "dtd",
@@ -2392,7 +2400,7 @@
 },
 {
 "type": "dtd",
-"id": "contentBlocking.manageSettings.accesskey"
+"id": "contentBlocking.manageSettings2.accesskey"
 },
 {
 "type": "dtd",
@@ -2404,7 +2412,7 @@
 },
 {
 "type": "dtd",
-"id": "contentBlocking.manageSettings.accesskey"
+"id": "contentBlocking.manageSettings2.accesskey"
 },
 {
 "type": "dtd",
@@ -2416,7 +2424,7 @@
 },
 {
 "type": "dtd",
-"id": "contentBlocking.manageSettings.accesskey"
+"id": "contentBlocking.manageSettings2.accesskey"
 },
 {
 "type": "dtd",
@@ -2428,7 +2436,7 @@
 },
 {
 "type": "dtd",
-"id": "contentBlocking.manageSettings.accesskey"
+"id": "contentBlocking.manageSettings2.accesskey"
 },
 {
 "type": "dtd",
@@ -2844,10 +2852,6 @@
 },
 {
 "type": "dtd",
-"id": "urlbar.viewSiteInfo.label"
-},
-{
-"type": "dtd",
 "id": "urlbar.permissionsGranted.tooltip"
 },
 {
@@ -2893,86 +2897,6 @@
 {
 "type": "dtd",
 "id": "urlbar.installBlocked.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.defaultNotificationAnchor.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.geolocationNotificationAnchor.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.autoplayNotificationAnchor.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.addonsNotificationAnchor.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.canvasNotificationAnchor.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.indexedDBNotificationAnchor.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.passwordNotificationAnchor.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.pluginsNotificationAnchor.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.webNotificationAnchor.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.webRTCShareDevicesNotificationAnchor.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.webRTCShareScreenNotificationAnchor.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.servicesNotificationAnchor.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.translateNotificationAnchor.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.translatedNotificationAnchor.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.emeNotificationAnchor.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.persistentStorageNotificationAnchor.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.midiNotificationAnchor.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.webAuthnAnchor.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.storageAccessAnchor.tooltip"
 },
 {
 "type": "dtd",
@@ -3452,6 +3376,10 @@
 },
 {
 "type": "ftl",
+"id": "menu-tools-turn-on-sync"
+},
+{
+"type": "ftl",
 "id": "menu-tools-sync-sign-in"
 },
 {
@@ -3521,6 +3449,90 @@
 {
 "type": "ftl",
 "id": "menu-help-report-deceptive-site"
+},
+{
+"type": "ftl",
+"id": "urlbar-identity-button"
+},
+{
+"type": "ftl",
+"id": "urlbar-default-notification-anchor"
+},
+{
+"type": "ftl",
+"id": "urlbar-geolocation-notification-anchor"
+},
+{
+"type": "ftl",
+"id": "urlbar-autoplay-notification-anchor"
+},
+{
+"type": "ftl",
+"id": "urlbar-addons-notification-anchor"
+},
+{
+"type": "ftl",
+"id": "urlbar-canvas-notification-anchor"
+},
+{
+"type": "ftl",
+"id": "urlbar-indexed-db-notification-anchor"
+},
+{
+"type": "ftl",
+"id": "urlbar-password-notification-anchor"
+},
+{
+"type": "ftl",
+"id": "urlbar-plugins-notification-anchor"
+},
+{
+"type": "ftl",
+"id": "urlbar-web-notification-anchor"
+},
+{
+"type": "ftl",
+"id": "urlbar-web-rtc-share-devices-notification-anchor"
+},
+{
+"type": "ftl",
+"id": "urlbar-web-rtc-share-microphone-notification-anchor"
+},
+{
+"type": "ftl",
+"id": "urlbar-web-rtc-share-screen-notification-anchor"
+},
+{
+"type": "ftl",
+"id": "urlbar-services-notification-anchor"
+},
+{
+"type": "ftl",
+"id": "urlbar-translate-notification-anchor"
+},
+{
+"type": "ftl",
+"id": "urlbar-translated-notification-anchor"
+},
+{
+"type": "ftl",
+"id": "urlbar-eme-notification-anchor"
+},
+{
+"type": "ftl",
+"id": "urlbar-persistent-storage-notification-anchor"
+},
+{
+"type": "ftl",
+"id": "urlbar-midi-notification-anchor"
+},
+{
+"type": "ftl",
+"id": "urlbar-web-authn-anchor"
+},
+{
+"type": "ftl",
+"id": "urlbar-storage-access-anchor"
 },
 {
 "type": "ftl",

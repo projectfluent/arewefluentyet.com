@@ -1,6 +1,6 @@
 {
-"date": "2019-09-08",
-"revision": "95288ceaa9e40ac673e0337db0e9281a9943e32c",
+"date": "2019-09-15",
+"revision": "286cbc3b542b29210b9d7a4b5678adcac9211962",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -28,7 +28,7 @@
 },
 {
 "file": "en-US/browser/browser/aboutLogins.ftl",
-"count": 73
+"count": 74
 },
 {
 "file": "en-US/browser/browser/aboutPolicies.ftl",
@@ -67,12 +67,16 @@
 "count": 3
 },
 {
+"file": "en-US/browser/browser/browser.ftl",
+"count": 21
+},
+{
 "file": "en-US/browser/browser/customizeMode.ftl",
 "count": 19
 },
 {
 "file": "en-US/browser/browser/menubar.ftl",
-"count": 84
+"count": 85
 },
 {
 "file": "en-US/browser/browser/newInstallPage.ftl",
@@ -80,7 +84,7 @@
 },
 {
 "file": "en-US/browser/browser/newtab/asrouter.ftl",
-"count": 57
+"count": 65
 },
 {
 "file": "en-US/browser/browser/newtab/newtab.ftl",
@@ -180,7 +184,7 @@
 },
 {
 "file": "en-US/browser/browser/syncedTabs.ftl",
-"count": 18
+"count": 19
 },
 {
 "file": "en-US/browser/browser/tabContextMenu.ftl",
@@ -216,11 +220,11 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.dtd",
-"count": 594
+"count": 534
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
-"count": 503
+"count": 494
 },
 {
 "file": "en-US/browser/chrome/browser/customizableui/customizableWidgets.properties",
@@ -416,7 +420,7 @@
 },
 {
 "file": "en-US/devtools/client/application.ftl",
-"count": 29
+"count": 32
 },
 {
 "file": "en-US/devtools/client/boxmodel.properties",
@@ -440,7 +444,7 @@
 },
 {
 "file": "en-US/devtools/client/debugger.properties",
-"count": 281
+"count": 285
 },
 {
 "file": "en-US/devtools/client/device.properties",
@@ -496,7 +500,7 @@
 },
 {
 "file": "en-US/devtools/client/netmonitor.properties",
-"count": 335
+"count": 341
 },
 {
 "file": "en-US/devtools/client/network-throttling.properties",
@@ -560,7 +564,7 @@
 },
 {
 "file": "en-US/devtools/client/toolbox.properties",
-"count": 71
+"count": 74
 },
 {
 "file": "en-US/devtools/client/tooltips.ftl",
@@ -612,7 +616,7 @@
 },
 {
 "file": "en-US/devtools/startup/key-shortcuts.properties",
-"count": 17
+"count": 18
 },
 {
 "file": "en-US/devtools/startup/startup.properties",
@@ -712,7 +716,7 @@
 },
 {
 "file": "en-US/dom/chrome/security/csp.properties",
-"count": 36
+"count": 37
 },
 {
 "file": "en-US/dom/chrome/security/security.properties",
@@ -1091,12 +1095,16 @@
 "count": 46
 },
 {
+"file": "en-US/toolkit/toolkit/about/certviewer.ftl",
+"count": 45
+},
+{
 "file": "en-US/toolkit/toolkit/about/url-classifier.ftl",
 "count": 49
 },
 {
 "file": "en-US/toolkit/toolkit/global/processTypes.ftl",
-"count": 7
+"count": 8
 },
 {
 "file": "en-US/toolkit/toolkit/global/resetProfile.ftl",
@@ -1121,6 +1129,10 @@
 {
 "file": "en-US/toolkit/toolkit/passwordmgr/passwordManagerList.ftl",
 "count": 30
+},
+{
+"file": "en-US/toolkit/toolkit/pictureinpicture/pictureinpicture.ftl",
+"count": 1
 },
 {
 "file": "en-US/toolkit/toolkit/preferences/preferences.ftl",
