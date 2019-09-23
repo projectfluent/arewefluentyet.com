@@ -1,6 +1,6 @@
 {
-"date": "2019-09-15",
-"revision": "286cbc3b542b29210b9d7a4b5678adcac9211962",
+"date": "2019-09-22",
+"revision": "2b8364cfdb04bfdfde7c01589e48e24973c1ce9c",
 "data": [
 {
 "type": "dtd",
@@ -1476,26 +1476,6 @@
 },
 {
 "type": "dtd",
-"id": "pageAction.addToUrlbar.label"
-},
-{
-"type": "dtd",
-"id": "pageAction.removeFromUrlbar.label"
-},
-{
-"type": "dtd",
-"id": "pageAction.addToUrlbar.label"
-},
-{
-"type": "dtd",
-"id": "pageAction.removeFromUrlbar.label"
-},
-{
-"type": "dtd",
-"id": "pageAction.manageExtension.label"
-},
-{
-"type": "dtd",
 "id": "backButton.tooltip"
 },
 {
@@ -1969,6 +1949,22 @@
 {
 "type": "dtd",
 "id": "sendFullName"
+},
+{
+"type": "dtd",
+"id": "fxa.menu.settings.label"
+},
+{
+"type": "dtd",
+"id": "fxa.menu.accountSettings.label"
+},
+{
+"type": "dtd",
+"id": "fxa.menu.deviceSettings.label"
+},
+{
+"type": "dtd",
+"id": "fxa.menu.signOut.label"
 },
 {
 "type": "dtd",
@@ -3104,6 +3100,34 @@
 },
 {
 "type": "ftl",
+"id": "page-action-add-to-urlbar"
+},
+{
+"type": "ftl",
+"id": "page-action-remove-from-urlbar"
+},
+{
+"type": "ftl",
+"id": "page-action-add-to-urlbar"
+},
+{
+"type": "ftl",
+"id": "page-action-remove-from-urlbar"
+},
+{
+"type": "ftl",
+"id": "page-action-manage-extension"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-protection-report-tooltip"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-protection-report-title"
+},
+{
+"type": "ftl",
 "id": "menu-file-go-offline"
 },
 {
@@ -3372,7 +3396,7 @@
 },
 {
 "type": "ftl",
-"id": "menu-tools-sync-sign-in"
+"id": "menu-tools-fxa-sign-in"
 },
 {
 "type": "ftl",
@@ -3380,7 +3404,7 @@
 },
 {
 "type": "ftl",
-"id": "menu-tools-sync-sign-in"
+"id": "menu-tools-fxa-sign-in"
 },
 {
 "type": "ftl",
@@ -3388,7 +3412,7 @@
 },
 {
 "type": "ftl",
-"id": "menu-tools-sync-re-auth"
+"id": "menu-tools-fxa-re-auth"
 },
 {
 "type": "ftl",

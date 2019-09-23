@@ -1,10 +1,10 @@
 {
-"date": "2019-09-15",
-"revision": "286cbc3b542b29210b9d7a4b5678adcac9211962",
+"date": "2019-09-22",
+"revision": "2b8364cfdb04bfdfde7c01589e48e24973c1ce9c",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
-"count": 6
+"count": 4
 },
 {
 "file": "en-US/browser/branding/official/brand.ftl",
@@ -20,7 +20,7 @@
 },
 {
 "file": "en-US/browser/browser/aboutConfig.ftl",
-"count": 18
+"count": 19
 },
 {
 "file": "en-US/browser/browser/aboutDialog.ftl",
@@ -59,6 +59,10 @@
 "count": 15
 },
 {
+"file": "en-US/browser/browser/appmenu.ftl",
+"count": 2
+},
+{
 "file": "en-US/browser/browser/branding/brandings.ftl",
 "count": 7
 },
@@ -68,11 +72,15 @@
 },
 {
 "file": "en-US/browser/browser/browser.ftl",
-"count": 21
+"count": 24
 },
 {
 "file": "en-US/browser/browser/customizeMode.ftl",
 "count": 19
+},
+{
+"file": "en-US/browser/browser/fxaDisconnect.ftl",
+"count": 3
 },
 {
 "file": "en-US/browser/browser/menubar.ftl",
@@ -93,6 +101,10 @@
 {
 "file": "en-US/browser/browser/newtab/onboarding.ftl",
 "count": 63
+},
+{
+"file": "en-US/browser/browser/nsserrors.ftl",
+"count": 332
 },
 {
 "file": "en-US/browser/browser/pageInfo.ftl",
@@ -148,7 +160,7 @@
 },
 {
 "file": "en-US/browser/browser/preferences/preferences.ftl",
-"count": 357
+"count": 379
 },
 {
 "file": "en-US/browser/browser/preferences/selectBookmark.ftl",
@@ -159,16 +171,12 @@
 "count": 18
 },
 {
-"file": "en-US/browser/browser/preferences/syncDisconnect.ftl",
-"count": 10
-},
-{
 "file": "en-US/browser/browser/preferences/translation.ftl",
 "count": 11
 },
 {
 "file": "en-US/browser/browser/protections.ftl",
-"count": 50
+"count": 48
 },
 {
 "file": "en-US/browser/browser/safeMode.ftl",
@@ -212,7 +220,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/baseMenuOverlay.dtd",
-"count": 35
+"count": 15
 },
 {
 "file": "en-US/browser/chrome/browser/brandings.dtd",
@@ -220,11 +228,11 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.dtd",
-"count": 534
+"count": 532
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
-"count": 494
+"count": 471
 },
 {
 "file": "en-US/browser/chrome/browser/customizableui/customizableWidgets.properties",
@@ -232,11 +240,11 @@
 },
 {
 "file": "en-US/browser/chrome/browser/downloads/downloads.dtd",
-"count": 43
+"count": 39
 },
 {
 "file": "en-US/browser/chrome/browser/downloads/downloads.properties",
-"count": 29
+"count": 28
 },
 {
 "file": "en-US/browser/chrome/browser/feeds/subscribe.properties",
@@ -268,19 +276,15 @@
 },
 {
 "file": "en-US/browser/chrome/browser/places/places.dtd",
-"count": 86
+"count": 85
 },
 {
 "file": "en-US/browser/chrome/browser/places/places.properties",
-"count": 50
+"count": 43
 },
 {
 "file": "en-US/browser/chrome/browser/pocket.properties",
-"count": 29
-},
-{
-"file": "en-US/browser/chrome/browser/preferences/preferences.properties",
-"count": 14
+"count": 26
 },
 {
 "file": "en-US/browser/chrome/browser/safebrowsing/safebrowsing.properties",
@@ -288,15 +292,15 @@
 },
 {
 "file": "en-US/browser/chrome/browser/search.properties",
-"count": 14
+"count": 13
 },
 {
 "file": "en-US/browser/chrome/browser/setDesktopBackground.dtd",
-"count": 12
+"count": 11
 },
 {
 "file": "en-US/browser/chrome/browser/shellservice.properties",
-"count": 19
+"count": 17
 },
 {
 "file": "en-US/browser/chrome/browser/siteData.properties",
@@ -304,11 +308,11 @@
 },
 {
 "file": "en-US/browser/chrome/browser/sitePermissions.properties",
-"count": 30
+"count": 28
 },
 {
 "file": "en-US/browser/chrome/browser/syncBrand.dtd",
-"count": 3
+"count": 2
 },
 {
 "file": "en-US/browser/chrome/browser/syncSetup.properties",
@@ -316,7 +320,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/tabbrowser.properties",
-"count": 27
+"count": 26
 },
 {
 "file": "en-US/browser/chrome/browser/taskbar.properties",
@@ -324,7 +328,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/translation.dtd",
-"count": 21
+"count": 18
 },
 {
 "file": "en-US/browser/chrome/browser/translation.properties",
@@ -444,7 +448,7 @@
 },
 {
 "file": "en-US/devtools/client/debugger.properties",
-"count": 285
+"count": 290
 },
 {
 "file": "en-US/devtools/client/device.properties",
@@ -472,7 +476,7 @@
 },
 {
 "file": "en-US/devtools/client/inspector.properties",
-"count": 122
+"count": 118
 },
 {
 "file": "en-US/devtools/client/jit-optimizations.properties",
@@ -480,19 +484,19 @@
 },
 {
 "file": "en-US/devtools/client/jsonview.properties",
-"count": 13
+"count": 11
 },
 {
 "file": "en-US/devtools/client/layout.properties",
-"count": 29
+"count": 28
 },
 {
 "file": "en-US/devtools/client/markers.properties",
-"count": 117
+"count": 85
 },
 {
 "file": "en-US/devtools/client/memory.properties",
-"count": 106
+"count": 101
 },
 {
 "file": "en-US/devtools/client/menus.properties",
@@ -500,7 +504,7 @@
 },
 {
 "file": "en-US/devtools/client/netmonitor.properties",
-"count": 341
+"count": 326
 },
 {
 "file": "en-US/devtools/client/network-throttling.properties",
@@ -508,7 +512,7 @@
 },
 {
 "file": "en-US/devtools/client/performance.dtd",
-"count": 52
+"count": 50
 },
 {
 "file": "en-US/devtools/client/performance.properties",
@@ -516,15 +520,15 @@
 },
 {
 "file": "en-US/devtools/client/responsive.properties",
-"count": 33
+"count": 32
 },
 {
 "file": "en-US/devtools/client/scratchpad.dtd",
-"count": 76
+"count": 70
 },
 {
 "file": "en-US/devtools/client/scratchpad.properties",
-"count": 23
+"count": 22
 },
 {
 "file": "en-US/devtools/client/shared.properties",
@@ -536,11 +540,11 @@
 },
 {
 "file": "en-US/devtools/client/sourceeditor.properties",
-"count": 22
+"count": 17
 },
 {
 "file": "en-US/devtools/client/startup.properties",
-"count": 62
+"count": 61
 },
 {
 "file": "en-US/devtools/client/storage.dtd",
@@ -548,11 +552,11 @@
 },
 {
 "file": "en-US/devtools/client/storage.properties",
-"count": 46
+"count": 45
 },
 {
 "file": "en-US/devtools/client/styleeditor.dtd",
-"count": 19
+"count": 18
 },
 {
 "file": "en-US/devtools/client/styleeditor.properties",
@@ -560,11 +564,11 @@
 },
 {
 "file": "en-US/devtools/client/toolbox.dtd",
-"count": 65
+"count": 58
 },
 {
 "file": "en-US/devtools/client/toolbox.properties",
-"count": 74
+"count": 68
 },
 {
 "file": "en-US/devtools/client/tooltips.ftl",
@@ -576,11 +580,11 @@
 },
 {
 "file": "en-US/devtools/client/webide.dtd",
-"count": 112
+"count": 104
 },
 {
 "file": "en-US/devtools/client/webide.properties",
-"count": 52
+"count": 40
 },
 {
 "file": "en-US/devtools/shared/accessibility.properties",
@@ -608,7 +612,7 @@
 },
 {
 "file": "en-US/devtools/shared/styleinspector.properties",
-"count": 52
+"count": 51
 },
 {
 "file": "en-US/devtools/startup/aboutDevTools.ftl",
@@ -640,11 +644,11 @@
 },
 {
 "file": "en-US/dom/chrome/appstrings.properties",
-"count": 38
+"count": 33
 },
 {
 "file": "en-US/dom/chrome/dom/dom.properties",
-"count": 237
+"count": 224
 },
 {
 "file": "en-US/dom/chrome/global-strres.properties",
@@ -664,7 +668,7 @@
 },
 {
 "file": "en-US/dom/chrome/layout/css.properties",
-"count": 175
+"count": 38
 },
 {
 "file": "en-US/dom/chrome/layout/htmlparser.properties",
@@ -672,15 +676,15 @@
 },
 {
 "file": "en-US/dom/chrome/layout/layout_errors.properties",
-"count": 18
+"count": 19
 },
 {
 "file": "en-US/dom/chrome/layout/printing.properties",
-"count": 24
+"count": 20
 },
 {
 "file": "en-US/dom/chrome/layout/xbl.properties",
-"count": 9
+"count": 8
 },
 {
 "file": "en-US/dom/chrome/layout/xmlparser.properties",
@@ -688,7 +692,7 @@
 },
 {
 "file": "en-US/dom/chrome/layout/xul.properties",
-"count": 4
+"count": 3
 },
 {
 "file": "en-US/dom/chrome/mathml/mathml.properties",
@@ -712,15 +716,15 @@
 },
 {
 "file": "en-US/dom/chrome/security/caps.properties",
-"count": 21
+"count": 5
 },
 {
 "file": "en-US/dom/chrome/security/csp.properties",
-"count": 37
+"count": 32
 },
 {
 "file": "en-US/dom/chrome/security/security.properties",
-"count": 84
+"count": 85
 },
 {
 "file": "en-US/dom/chrome/svg/svg.properties",
@@ -736,7 +740,7 @@
 },
 {
 "file": "en-US/netwerk/necko.properties",
-"count": 35
+"count": 33
 },
 {
 "file": "en-US/security/manager/chrome/pipnss/nsserrors.properties",
@@ -752,7 +756,7 @@
 },
 {
 "file": "en-US/security/manager/chrome/pippki/pippki.properties",
-"count": 39
+"count": 38
 },
 {
 "file": "en-US/security/manager/security/certificates/certManager.ftl",
@@ -824,7 +828,7 @@
 },
 {
 "file": "en-US/toolkit/chrome/global/browser.properties",
-"count": 8
+"count": 6
 },
 {
 "file": "en-US/toolkit/chrome/global/charsetMenu.dtd",
@@ -836,19 +840,11 @@
 },
 {
 "file": "en-US/toolkit/chrome/global/commonDialog.dtd",
-"count": 9
+"count": 6
 },
 {
 "file": "en-US/toolkit/chrome/global/commonDialogs.properties",
 "count": 23
-},
-{
-"file": "en-US/toolkit/chrome/global/console.dtd",
-"count": 30
-},
-{
-"file": "en-US/toolkit/chrome/global/console.properties",
-"count": 9
 },
 {
 "file": "en-US/toolkit/chrome/global/contentAreaCommands.properties",
@@ -864,11 +860,11 @@
 },
 {
 "file": "en-US/toolkit/chrome/global/dialogOverlay.dtd",
-"count": 3
+"count": 2
 },
 {
 "file": "en-US/toolkit/chrome/global/editMenuOverlay.dtd",
-"count": 31
+"count": 29
 },
 {
 "file": "en-US/toolkit/chrome/global/extensions.properties",
@@ -915,10 +911,6 @@
 "count": 6
 },
 {
-"file": "en-US/toolkit/chrome/global/nsTreeSorting.properties",
-"count": 1
-},
-{
 "file": "en-US/toolkit/chrome/global/printdialog.properties",
 "count": 33
 },
@@ -940,7 +932,7 @@
 },
 {
 "file": "en-US/toolkit/chrome/global/videocontrols.dtd",
-"count": 31
+"count": 18
 },
 {
 "file": "en-US/toolkit/chrome/global/viewSource.properties",
@@ -956,7 +948,7 @@
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/downloads/downloads.properties",
-"count": 46
+"count": 45
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/downloads/settingsChange.dtd",
@@ -968,7 +960,7 @@
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/downloads/unknownContentType.properties",
-"count": 13
+"count": 12
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/extensions/blocklist.dtd",
@@ -976,11 +968,11 @@
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/extensions/extensions.dtd",
-"count": 47
+"count": 1
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/extensions/extensions.properties",
-"count": 73
+"count": 57
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/handling/handling.dtd",
@@ -1000,11 +992,11 @@
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/profile/profileSelection.dtd",
-"count": 16
+"count": 14
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/profile/profileSelection.properties",
-"count": 37
+"count": 34
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/update/updates.dtd",
@@ -1012,11 +1004,11 @@
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/update/updates.properties",
-"count": 35
+"count": 29
 },
 {
 "file": "en-US/toolkit/chrome/passwordmgr/passwordmgr.properties",
-"count": 42
+"count": 36
 },
 {
 "file": "en-US/toolkit/chrome/places/places.properties",
@@ -1096,7 +1088,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/certviewer.ftl",
-"count": 45
+"count": 47
 },
 {
 "file": "en-US/toolkit/toolkit/about/url-classifier.ftl",
