@@ -4,7 +4,7 @@ from milestone1 import Milestone1
 from milestone2 import Milestone2
 from milestone3 import Milestone3
 from source import Source
-from datetime import date, datetime, timedelta
+from datetime import timedelta
 
 PARAMS = {
     "frequency": timedelta(days=7),

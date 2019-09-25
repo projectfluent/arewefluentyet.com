@@ -1,10 +1,8 @@
 import os
 import re
 import subprocess
-from collections import defaultdict
 from datetime import date
 from milestone import Milestone
-from functools import partial
 
 
 class Milestone2(Milestone):

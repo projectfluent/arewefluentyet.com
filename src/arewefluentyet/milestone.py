@@ -10,11 +10,10 @@ def parse_date(input):
 class Milestone:
     name = None
     start_date = None
-    data_path = None
-    progress_data = None
 
     def __init__(self, data_path):
         self.data_path = os.path.join(data_path, self.name)
+        self.progress_data = None
 
     def append_progress_entry(self, progress_entry):
         self.get_progress_data().append(progress_entry)
@@ -31,7 +30,15 @@ class Milestone:
         return self.progress_data
 
     def has_log_for_date(self, source, date):
+        """
+        This method can be overloaded by subclasses which can cache log for a given date.
+
+        Milestone2 does it to save us from having to rebuild/relaunch to generate the log.
+        """
         return False
+
+    def get_data(self, date, revision):
+        raise NotImplementedError
 
     def collect_data(self, source, date, revision):
         result = self.get_data(source, date, revision)

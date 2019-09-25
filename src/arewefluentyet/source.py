@@ -8,17 +8,15 @@ def parse_date(input):
 
 
 class Source:
-    path = None
-    current_revision = None
-
     def __init__(self, path):
         self.path = path
+        self.current_revision = None
 
     def get_current_revision(self):
         if not self.current_revision:
             result = subprocess.run([
                 "hg", "id", "--cwd", self.path, "-T{id}"
-            ], check=True, capture_output=True, text=True)
+            ], check=True, capture_output=True, encoding="utf-8")
             self.current_revision = result.stdout
         return self.current_revision
 
@@ -30,14 +28,14 @@ class Source:
             "-T", "{node}",
             "-r",
             f"reverse(pushhead() and pushdate('< {next_date}') and ::central)"
-        ], check=True, capture_output=True, text=True)
+        ], check=True, capture_output=True, encoding="utf-8")
         return result.stdout
 
     def get_revision_date(self, rev):
         result = subprocess.run([
             "hg", "id", "--cwd", self.path,
             "-r", rev, "-T", "{pushdate|shortdate}"
-        ], check=True, capture_output=True, text=True)
+        ], check=True, capture_output=True, encoding="utf-8")
         return parse_date(result.stdout)
 
     def switch_to_revision(self, rev):
@@ -59,7 +57,7 @@ class Source:
             "--cwd", self.path,
             "-r", bookmark,
             "-T", "{p1.node}",
-        ], check=True, capture_output=True, text=True)
+        ], check=True, capture_output=True, encoding="utf-8")
 
         return result.stdout
 
@@ -68,7 +66,7 @@ class Source:
         if parent != revision:
             subprocess.run([
                 "hg", "rebase", "--cwd", self.path,
-                "-s", bookmark, "-d", revision
+                "-b", bookmark, "-d", revision
             ], check=True, stdout=subprocess.DEVNULL)
 
     def build_firefox(self):
