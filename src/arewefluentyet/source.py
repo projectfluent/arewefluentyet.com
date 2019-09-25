@@ -16,7 +16,7 @@ class Source:
         if not self.current_revision:
             result = subprocess.run([
                 "hg", "id", "--cwd", self.path, "-T{id}"
-            ], check=True, capture_output=True, encoding="utf-8")
+            ], check=True, capture_output=True, encoding="ascii")
             self.current_revision = result.stdout
         return self.current_revision
 
@@ -28,14 +28,14 @@ class Source:
             "-T", "{node}",
             "-r",
             f"reverse(pushhead() and pushdate('< {next_date}') and ::central)"
-        ], check=True, capture_output=True, encoding="utf-8")
+        ], check=True, capture_output=True, encoding="ascii")
         return result.stdout
 
     def get_revision_date(self, rev):
         result = subprocess.run([
             "hg", "id", "--cwd", self.path,
             "-r", rev, "-T", "{pushdate|shortdate}"
-        ], check=True, capture_output=True, encoding="utf-8")
+        ], check=True, capture_output=True, encoding="ascii")
         return parse_date(result.stdout)
 
     def switch_to_revision(self, rev):
@@ -57,7 +57,7 @@ class Source:
             "--cwd", self.path,
             "-r", bookmark,
             "-T", "{p1.node}",
-        ], check=True, capture_output=True, encoding="utf-8")
+        ], check=True, capture_output=True, encoding="ascii")
 
         return result.stdout
 
