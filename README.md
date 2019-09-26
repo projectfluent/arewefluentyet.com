@@ -11,8 +11,15 @@ This requires the [`version-control-tools/hgext/pushlog`](https://hg.mozilla.org
 mercurial extension to be enabled in your `mozilla-central` clone, for
 `pushhead` and `pushdate` to work.
 
-The aggregator for M3 (all mozilla-central strings) can be called like this:
+The aggregator for M1 and M3 can be called like this:
 
 ```bash
-python ./src/arewefluentyet/aggregate.py --mc ~/projects/mozilla-unified --gh-pages-data ~/projects/awfy/gh-pages/data
+python ./src/arewefluentyet/aggregate.py -m M1 -m M3 --mc ~/projects/mozilla-unified --gh-pages-data ~/projects/awfy/gh-pages/data
 ```
+
+Alternatively, `-m all` will enable all three milestones.
+
+If you want to just collect data from the current revision, `--use-current-revision` will do just that.
+
+A `--dry-run` is also available for testing purposes.
+
