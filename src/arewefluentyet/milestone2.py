@@ -117,7 +117,7 @@ class Milestone2(Milestone):
         for line in stack.split("\n"):
             if len(line.strip()) == 0:
                 continue
-            match = re.match("([0-9]+) (.*?) \[\"([^\"]+)\"\:([0-9]+)\:([0-9]+)\]", line)
+            match = re.match("([0-9]+) (.*?) [\"([^\"]+)\":([0-9]+):([0-9]+)]", line)
             if match is None:
                 print(line)
                 continue
