@@ -64,6 +64,13 @@ class Milestone:
         else:
             return self.start_date
 
+    def get_last_date(self):
+        progress_data = self.get_progress_data()
+        if len(progress_data) > 0:
+            return parse_date(progress_data[-1]["date"])
+        else:
+            return None
+
     def save_progress(self):
         json.dump(
             self.progress_data,

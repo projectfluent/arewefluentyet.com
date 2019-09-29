@@ -30,11 +30,11 @@ def is_switch_to_revision_required(milestones, source, date):
     return False
 
 
-def update_milestones_for_revision(source, milestones, revision, date=None):
+def update_milestones_for_revision(source, milestones, revision):
     for milestone in milestones:
         rev_date = source.get_revision_date(revision)
-        milestone_next_date = date or milestone.get_next_date(PARAMS["frequency"])
-        if milestone_next_date > rev_date:
+        milestone_last_date = milestone.get_last_date()
+        if milestone_last_date and rev_date <= milestone_last_date:
             print(f"   - {milestone.name}: Skipping (Already collected)")
             continue
         result = milestone.collect_data(source, rev_date, revision)
@@ -59,8 +59,7 @@ def main(use_current_revision, source, milestones):
     any_update_happened = False
 
     if use_current_revision:
-        date = source.get_revision_date(start_revision)
-        update_milestones_for_revision(source, milestones, start_revision, date)
+        update_milestones_for_revision(source, milestones, start_revision)
         any_update_happened = True
     else:
         next_date = get_next_date(milestones)
