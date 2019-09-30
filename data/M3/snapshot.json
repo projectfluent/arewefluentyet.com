@@ -1,6 +1,6 @@
 {
-"date": "2019-09-22",
-"revision": "2b8364cfdb04bfdfde7c01589e48e24973c1ce9c",
+"date": "2019-09-29",
+"revision": "ca257801d86f5d4e9c1768722c7131216c07d38f",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -160,7 +160,7 @@
 },
 {
 "file": "en-US/browser/browser/preferences/preferences.ftl",
-"count": 379
+"count": 388
 },
 {
 "file": "en-US/browser/browser/preferences/selectBookmark.ftl",
@@ -232,7 +232,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
-"count": 471
+"count": 470
 },
 {
 "file": "en-US/browser/chrome/browser/customizableui/customizableWidgets.properties",
@@ -348,7 +348,7 @@
 },
 {
 "file": "en-US/browser/chrome/overrides/netError.dtd",
-"count": 93
+"count": 96
 },
 {
 "file": "en-US/browser/chrome/overrides/settingsChange.dtd",
@@ -419,10 +419,6 @@
 "count": 30
 },
 {
-"file": "en-US/devtools/client/app-manager.properties",
-"count": 17
-},
-{
 "file": "en-US/devtools/client/application.ftl",
 "count": 32
 },
@@ -437,14 +433,6 @@
 {
 "file": "en-US/devtools/client/components.properties",
 "count": 4
-},
-{
-"file": "en-US/devtools/client/connection-screen.dtd",
-"count": 16
-},
-{
-"file": "en-US/devtools/client/connection-screen.properties",
-"count": 1
 },
 {
 "file": "en-US/devtools/client/debugger.properties",
@@ -500,11 +488,11 @@
 },
 {
 "file": "en-US/devtools/client/menus.properties",
-"count": 29
+"count": 25
 },
 {
 "file": "en-US/devtools/client/netmonitor.properties",
-"count": 326
+"count": 328
 },
 {
 "file": "en-US/devtools/client/network-throttling.properties",
@@ -572,19 +560,11 @@
 },
 {
 "file": "en-US/devtools/client/tooltips.ftl",
-"count": 20
+"count": 23
 },
 {
 "file": "en-US/devtools/client/webconsole.properties",
 "count": 110
-},
-{
-"file": "en-US/devtools/client/webide.dtd",
-"count": 104
-},
-{
-"file": "en-US/devtools/client/webide.properties",
-"count": 40
 },
 {
 "file": "en-US/devtools/shared/accessibility.properties",
@@ -620,7 +600,7 @@
 },
 {
 "file": "en-US/devtools/startup/key-shortcuts.properties",
-"count": 18
+"count": 17
 },
 {
 "file": "en-US/devtools/startup/startup.properties",
@@ -648,7 +628,7 @@
 },
 {
 "file": "en-US/dom/chrome/dom/dom.properties",
-"count": 224
+"count": 225
 },
 {
 "file": "en-US/dom/chrome/global-strres.properties",
@@ -1088,7 +1068,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/certviewer.ftl",
-"count": 47
+"count": 66
 },
 {
 "file": "en-US/toolkit/toolkit/about/url-classifier.ftl",
@@ -1104,7 +1084,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/intl/languageNames.ftl",
-"count": 207
+"count": 208
 },
 {
 "file": "en-US/toolkit/toolkit/intl/regionNames.ftl",
