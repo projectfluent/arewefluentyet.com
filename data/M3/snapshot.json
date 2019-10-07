@@ -1,6 +1,6 @@
 {
-"date": "2019-09-29",
-"revision": "ca257801d86f5d4e9c1768722c7131216c07d38f",
+"date": "2019-10-06",
+"revision": "dbe05c7204a38b7df389c42ca1d022ff94a51b53",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -28,7 +28,7 @@
 },
 {
 "file": "en-US/browser/browser/aboutLogins.ftl",
-"count": 74
+"count": 73
 },
 {
 "file": "en-US/browser/browser/aboutPolicies.ftl",
@@ -72,15 +72,11 @@
 },
 {
 "file": "en-US/browser/browser/browser.ftl",
-"count": 24
+"count": 26
 },
 {
 "file": "en-US/browser/browser/customizeMode.ftl",
 "count": 19
-},
-{
-"file": "en-US/browser/browser/fxaDisconnect.ftl",
-"count": 3
 },
 {
 "file": "en-US/browser/browser/menubar.ftl",
@@ -96,11 +92,11 @@
 },
 {
 "file": "en-US/browser/browser/newtab/newtab.ftl",
-"count": 78
+"count": 83
 },
 {
 "file": "en-US/browser/browser/newtab/onboarding.ftl",
-"count": 63
+"count": 72
 },
 {
 "file": "en-US/browser/browser/nsserrors.ftl",
@@ -160,7 +156,7 @@
 },
 {
 "file": "en-US/browser/browser/preferences/preferences.ftl",
-"count": 388
+"count": 393
 },
 {
 "file": "en-US/browser/browser/preferences/selectBookmark.ftl",
@@ -168,7 +164,7 @@
 },
 {
 "file": "en-US/browser/browser/preferences/siteDataSettings.ftl",
-"count": 18
+"count": 19
 },
 {
 "file": "en-US/browser/browser/preferences/translation.ftl",
@@ -189,6 +185,10 @@
 {
 "file": "en-US/browser/browser/sanitize.ftl",
 "count": 27
+},
+{
+"file": "en-US/browser/browser/sync.ftl",
+"count": 5
 },
 {
 "file": "en-US/browser/browser/syncedTabs.ftl",
@@ -212,7 +212,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/accounts.properties",
-"count": 33
+"count": 31
 },
 {
 "file": "en-US/browser/chrome/browser/app-extension-fields.properties",
@@ -228,7 +228,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.dtd",
-"count": 532
+"count": 529
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
@@ -464,7 +464,7 @@
 },
 {
 "file": "en-US/devtools/client/inspector.properties",
-"count": 118
+"count": 119
 },
 {
 "file": "en-US/devtools/client/jit-optimizations.properties",
@@ -628,7 +628,7 @@
 },
 {
 "file": "en-US/dom/chrome/dom/dom.properties",
-"count": 225
+"count": 226
 },
 {
 "file": "en-US/dom/chrome/global-strres.properties",

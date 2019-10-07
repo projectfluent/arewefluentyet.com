@@ -1,6 +1,6 @@
 {
-"date": "2019-09-29",
-"revision": "ca257801d86f5d4e9c1768722c7131216c07d38f",
+"date": "2019-10-06",
+"revision": "dbe05c7204a38b7df389c42ca1d022ff94a51b53",
 "data": [
 {
 "type": "dtd",
@@ -541,22 +541,6 @@
 {
 "type": "dtd",
 "id": "dontShowMessage.accesskey"
-},
-{
-"type": "dtd",
-"id": "fullScreenAutohide.label"
-},
-{
-"type": "dtd",
-"id": "fullScreenAutohide.accesskey"
-},
-{
-"type": "dtd",
-"id": "fullScreenExit.label"
-},
-{
-"type": "dtd",
-"id": "fullScreenExit.accesskey"
 },
 {
 "type": "dtd",
@@ -1916,15 +1900,7 @@
 },
 {
 "type": "dtd",
-"id": "appMenuRemoteTabs.label"
-},
-{
-"type": "dtd",
 "id": "fxa.menu.connectAnotherDevice2.label"
-},
-{
-"type": "dtd",
-"id": "fxa.menu.syncSettings.label"
 },
 {
 "type": "dtd",
@@ -1933,6 +1909,18 @@
 {
 "type": "dtd",
 "id": "syncSyncNowItemSyncing.label"
+},
+{
+"type": "dtd",
+"id": "fxa.menu.setupSync.label"
+},
+{
+"type": "dtd",
+"id": "appMenuRemoteTabs.label"
+},
+{
+"type": "dtd",
+"id": "fxa.menu.syncSettings2.label"
 },
 {
 "type": "dtd",
@@ -3201,6 +3189,14 @@
 {
 "type": "ftl",
 "id": "toolbar-context-menu-undo-close-tab"
+},
+{
+"type": "ftl",
+"id": "full-screen-autohide"
+},
+{
+"type": "ftl",
+"id": "full-screen-exit"
 },
 {
 "type": "ftl",
