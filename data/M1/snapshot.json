@@ -1,6 +1,6 @@
 {
-"date": "2019-10-20",
-"revision": "b34beb21e1cf9d283ef0d855f68f63bcc15e40fb",
+"date": "2019-10-27",
+"revision": "d31698ac05594dddbceba44fa99aebc97e1a8a50",
 "data": [
 {
 "type": "dtd",
@@ -2280,10 +2280,6 @@
 },
 {
 "type": "dtd",
-"id": "contentBlocking.cookies2.label"
-},
-{
-"type": "dtd",
 "id": "contentBlocking.cryptominers.label"
 },
 {
@@ -2813,50 +2809,6 @@
 {
 "type": "dtd",
 "id": "urlbar.permissionsGranted.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.geolocationBlocked.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.webNotificationsBlocked.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.cameraBlocked.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.microphoneBlocked.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.screenBlocked.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.persistentStorageBlocked.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.popupBlocked.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.autoplayMediaBlocked.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.canvasBlocked.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.midiBlocked.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.installBlocked.tooltip"
 },
 {
 "type": "dtd",
@@ -3665,6 +3617,50 @@
 {
 "type": "ftl",
 "id": "urlbar-identity-button"
+},
+{
+"type": "ftl",
+"id": "urlbar-geolocation-blocked"
+},
+{
+"type": "ftl",
+"id": "urlbar-web-notifications-blocked"
+},
+{
+"type": "ftl",
+"id": "urlbar-camera-blocked"
+},
+{
+"type": "ftl",
+"id": "urlbar-microphone-blocked"
+},
+{
+"type": "ftl",
+"id": "urlbar-screen-blocked"
+},
+{
+"type": "ftl",
+"id": "urlbar-persistent-storage-blocked"
+},
+{
+"type": "ftl",
+"id": "urlbar-popup-blocked"
+},
+{
+"type": "ftl",
+"id": "urlbar-autoplay-media-blocked"
+},
+{
+"type": "ftl",
+"id": "urlbar-canvas-blocked"
+},
+{
+"type": "ftl",
+"id": "urlbar-midi-blocked"
+},
+{
+"type": "ftl",
+"id": "urlbar-install-blocked"
 },
 {
 "type": "ftl",
