@@ -1,6 +1,6 @@
 {
-"date": "2019-10-27",
-"revision": "d31698ac05594dddbceba44fa99aebc97e1a8a50",
+"date": "2019-11-03",
+"revision": "611bf4a5e7a22d20f99afc5d56f6b4b8a683cd26",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -60,7 +60,7 @@
 },
 {
 "file": "en-US/browser/browser/appmenu.ftl",
-"count": 3
+"count": 5
 },
 {
 "file": "en-US/browser/browser/branding/brandings.ftl",
@@ -88,7 +88,7 @@
 },
 {
 "file": "en-US/browser/browser/newtab/asrouter.ftl",
-"count": 70
+"count": 71
 },
 {
 "file": "en-US/browser/browser/newtab/newtab.ftl",
@@ -172,7 +172,7 @@
 },
 {
 "file": "en-US/browser/browser/protections.ftl",
-"count": 48
+"count": 50
 },
 {
 "file": "en-US/browser/browser/readerView.ftl",
@@ -348,11 +348,11 @@
 },
 {
 "file": "en-US/browser/chrome/overrides/appstrings.properties",
-"count": 37
+"count": 38
 },
 {
 "file": "en-US/browser/chrome/overrides/netError.dtd",
-"count": 96
+"count": 98
 },
 {
 "file": "en-US/browser/chrome/overrides/settingsChange.dtd",
@@ -396,15 +396,11 @@
 },
 {
 "file": "en-US/browser/profile/bookmarks.inc",
-"count": 18
+"count": 17
 },
 {
 "file": "en-US/browser/updater/updater.ini",
 "count": 3
-},
-{
-"file": "en-US/devtools/client/VariablesView.dtd",
-"count": 1
 },
 {
 "file": "en-US/devtools/client/aboutdebugging.ftl",
@@ -492,7 +488,7 @@
 },
 {
 "file": "en-US/devtools/client/menus.properties",
-"count": 25
+"count": 23
 },
 {
 "file": "en-US/devtools/client/netmonitor.properties",
@@ -515,14 +511,6 @@
 "count": 32
 },
 {
-"file": "en-US/devtools/client/scratchpad.dtd",
-"count": 70
-},
-{
-"file": "en-US/devtools/client/scratchpad.properties",
-"count": 22
-},
-{
 "file": "en-US/devtools/client/shared.properties",
 "count": 1
 },
@@ -536,7 +524,7 @@
 },
 {
 "file": "en-US/devtools/client/startup.properties",
-"count": 61
+"count": 57
 },
 {
 "file": "en-US/devtools/client/storage.dtd",
@@ -560,7 +548,7 @@
 },
 {
 "file": "en-US/devtools/client/toolbox.properties",
-"count": 69
+"count": 68
 },
 {
 "file": "en-US/devtools/client/tooltips.ftl",
@@ -568,7 +556,7 @@
 },
 {
 "file": "en-US/devtools/client/webconsole.properties",
-"count": 116
+"count": 118
 },
 {
 "file": "en-US/devtools/shared/accessibility.properties",
@@ -604,7 +592,7 @@
 },
 {
 "file": "en-US/devtools/startup/key-shortcuts.properties",
-"count": 17
+"count": 16
 },
 {
 "file": "en-US/devtools/startup/startup.properties",
@@ -628,11 +616,11 @@
 },
 {
 "file": "en-US/dom/chrome/appstrings.properties",
-"count": 33
+"count": 34
 },
 {
 "file": "en-US/dom/chrome/dom/dom.properties",
-"count": 228
+"count": 231
 },
 {
 "file": "en-US/dom/chrome/global-strres.properties",
@@ -660,7 +648,7 @@
 },
 {
 "file": "en-US/dom/chrome/layout/layout_errors.properties",
-"count": 20
+"count": 21
 },
 {
 "file": "en-US/dom/chrome/layout/printing.properties",
@@ -684,7 +672,7 @@
 },
 {
 "file": "en-US/dom/chrome/netError.dtd",
-"count": 57
+"count": 59
 },
 {
 "file": "en-US/dom/chrome/netErrorApp.dtd",
@@ -956,7 +944,7 @@
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/extensions/extensions.properties",
-"count": 57
+"count": 55
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/handling/handling.dtd",
@@ -1024,7 +1012,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutAddons.ftl",
-"count": 161
+"count": 168
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutCompat.ftl",
