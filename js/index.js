@@ -1,6 +1,7 @@
 main();
 
 async function main() {
+  await document.fonts.ready;
   layout();
   updateAspectMode();
 
@@ -13,6 +14,8 @@ async function main() {
 
   Page.updateMilestones();
   Page.setListLinkTarget();
+
+  await document.fonts.ready;
 
   document.body.style.display = "block";
   window.addEventListener("resize", updateAspectMode);
