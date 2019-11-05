@@ -1,7 +1,6 @@
 main();
 
 async function main() {
-  await document.fonts.ready;
   layout();
   updateAspectMode();
 
@@ -14,6 +13,10 @@ async function main() {
 
   Page.updateMilestones();
   Page.setListLinkTarget();
+
+  if (State.dashboard) {
+    await new Promise((resolve) => setTimeout(resolve, 300));
+  }
 
   await document.fonts.ready;
 
