@@ -1,6 +1,6 @@
 {
-"date": "2019-11-03",
-"revision": "611bf4a5e7a22d20f99afc5d56f6b4b8a683cd26",
+"date": "2019-11-10",
+"revision": "72c52c0101cfd102b207224646c3007d6872e65c",
 "data": [
 {
 "type": "dtd",
@@ -12,10 +12,6 @@
 },
 {
 "type": "dtd",
-"id": "mainWindow.title"
-},
-{
-"type": "dtd",
 "id": "mainWindow.titlemodifiermenuseparator"
 },
 {
@@ -57,6 +53,10 @@
 {
 "type": "dtd",
 "id": "mainWindow.titlemodifiermenuseparator"
+},
+{
+"type": "dtd",
+"id": "mainWindow.title"
 },
 {
 "type": "dtd",
@@ -3244,6 +3244,14 @@
 },
 {
 "type": "ftl",
+"id": "protections-panel-sitefixedsendreport-label"
+},
+{
+"type": "ftl",
+"id": "protections-panel-sendreportview-error"
+},
+{
+"type": "ftl",
 "id": "synced-tabs-context-open"
 },
 {
@@ -3625,6 +3633,10 @@
 {
 "type": "ftl",
 "id": "menu-help-report-deceptive-site"
+},
+{
+"type": "ftl",
+"id": "menu-help-not-deceptive"
 },
 {
 "type": "ftl",
