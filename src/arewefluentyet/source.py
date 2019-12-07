@@ -31,11 +31,18 @@ class Source:
         ], check=True, capture_output=True, encoding="ascii")
         return result.stdout
 
-    def get_revision_date(self, rev):
-        result = subprocess.run([
-            "hg", "id", "--cwd", self.path,
-            "-r", rev, "-T", "{pushdate|shortdate}"
-        ], check=True, capture_output=True, encoding="ascii")
+    def get_revision_date(self, rev, use_current_revision):
+        if use_current_revision:
+            result = subprocess.run([
+                "hg", "id", "--cwd", self.path,
+                "-r", rev, "-T", "{date|shortdate}"
+                ], check=True, capture_output=True, encoding="ascii")
+        else:
+            result = subprocess.run([
+                "hg", "id", "--cwd", self.path,
+                "-r", rev, "-T", "{pushdate|shortdate}"
+                ], check=True, capture_output=True, encoding="ascii")
+
         return parse_date(result.stdout)
 
     def switch_to_revision(self, rev):
