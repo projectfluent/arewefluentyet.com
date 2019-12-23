@@ -1,6 +1,6 @@
 {
-"date": "2019-12-15",
-"revision": "7e6a4e2214958f95a105a53ee575fde499a0cee2",
+"date": "2019-12-22",
+"revision": "d2a4d549f9955412471054a5f5f92f7f1ad160a2",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -73,6 +73,10 @@
 {
 "file": "en-US/browser/browser/browser.ftl",
 "count": 51
+},
+{
+"file": "en-US/browser/browser/browserContext.ftl",
+"count": 83
 },
 {
 "file": "en-US/browser/browser/customizeMode.ftl",
@@ -232,11 +236,11 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.dtd",
-"count": 499
+"count": 350
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
-"count": 489
+"count": 487
 },
 {
 "file": "en-US/browser/chrome/browser/customizableui/customizableWidgets.properties",
@@ -708,7 +712,7 @@
 },
 {
 "file": "en-US/netwerk/necko.properties",
-"count": 33
+"count": 31
 },
 {
 "file": "en-US/security/manager/chrome/pipnss/nsserrors.properties",
@@ -992,7 +996,7 @@
 },
 {
 "file": "en-US/toolkit/crashreporter/aboutcrashes.ftl",
-"count": 15
+"count": 16
 },
 {
 "file": "en-US/toolkit/crashreporter/crashreporter.ini",
@@ -1069,6 +1073,10 @@
 {
 "file": "en-US/toolkit/toolkit/global/resetProfile.ftl",
 "count": 8
+},
+{
+"file": "en-US/toolkit/toolkit/global/textActions.ftl",
+"count": 6
 },
 {
 "file": "en-US/toolkit/toolkit/intl/languageNames.ftl",
