@@ -1,6 +1,6 @@
 {
-"date": "2019-12-22",
-"revision": "d2a4d549f9955412471054a5f5f92f7f1ad160a2",
+"date": "2019-12-29",
+"revision": "1ce2006dd1937e2f35d283198533dd30d33a71fd",
 "data": [
 {
 "type": "dtd",
@@ -652,38 +652,6 @@
 },
 {
 "type": "dtd",
-"id": "cutCmd.label"
-},
-{
-"type": "dtd",
-"id": "cutCmd.accesskey"
-},
-{
-"type": "dtd",
-"id": "copyCmd.label"
-},
-{
-"type": "dtd",
-"id": "copyCmd.accesskey"
-},
-{
-"type": "dtd",
-"id": "pasteCmd.label"
-},
-{
-"type": "dtd",
-"id": "pasteCmd.accesskey"
-},
-{
-"type": "dtd",
-"id": "deleteCmd.label"
-},
-{
-"type": "dtd",
-"id": "deleteCmd.accesskey"
-},
-{
-"type": "dtd",
 "id": "cmd.deleteDomainData.label"
 },
 {
@@ -1188,15 +1156,11 @@
 },
 {
 "type": "dtd",
-"id": "fxa.menu.settings.label"
-},
-{
-"type": "dtd",
 "id": "fxa.menu.accountSettings.label"
 },
 {
 "type": "dtd",
-"id": "fxa.menu.deviceSettings.label"
+"id": "fxa.menu.manageAccount2.label"
 },
 {
 "type": "dtd",
@@ -1885,54 +1849,6 @@
 {
 "type": "dtd",
 "id": "manageUserContext.accesskey"
-},
-{
-"type": "dtd",
-"id": "undoCmd.label"
-},
-{
-"type": "dtd",
-"id": "undoCmd.accesskey"
-},
-{
-"type": "dtd",
-"id": "cutCmd.label"
-},
-{
-"type": "dtd",
-"id": "cutCmd.accesskey"
-},
-{
-"type": "dtd",
-"id": "copyCmd.label"
-},
-{
-"type": "dtd",
-"id": "copyCmd.accesskey"
-},
-{
-"type": "dtd",
-"id": "pasteCmd.label"
-},
-{
-"type": "dtd",
-"id": "pasteCmd.accesskey"
-},
-{
-"type": "dtd",
-"id": "deleteCmd.label"
-},
-{
-"type": "dtd",
-"id": "deleteCmd.accesskey"
-},
-{
-"type": "dtd",
-"id": "selectAllCmd.label"
-},
-{
-"type": "dtd",
-"id": "selectAllCmd.accesskey"
 },
 {
 "type": "dtd",
@@ -2704,6 +2620,22 @@
 },
 {
 "type": "ftl",
+"id": "text-action-cut"
+},
+{
+"type": "ftl",
+"id": "text-action-copy"
+},
+{
+"type": "ftl",
+"id": "text-action-paste"
+},
+{
+"type": "ftl",
+"id": "text-action-delete"
+},
+{
+"type": "ftl",
 "id": "page-action-add-to-urlbar"
 },
 {
@@ -2880,6 +2812,30 @@
 },
 {
 "type": "ftl",
+"id": "text-action-undo"
+},
+{
+"type": "ftl",
+"id": "text-action-cut"
+},
+{
+"type": "ftl",
+"id": "text-action-copy"
+},
+{
+"type": "ftl",
+"id": "text-action-paste"
+},
+{
+"type": "ftl",
+"id": "text-action-delete"
+},
+{
+"type": "ftl",
+"id": "text-action-select-all"
+},
+{
+"type": "ftl",
 "id": "synced-tabs-context-sync-now"
 },
 {
@@ -2952,31 +2908,31 @@
 },
 {
 "type": "ftl",
-"id": "menu-edit-undo"
+"id": "text-action-undo"
 },
 {
 "type": "ftl",
-"id": "menu-edit-redo"
+"id": "text-action-redo"
 },
 {
 "type": "ftl",
-"id": "menu-edit-cut"
+"id": "text-action-cut"
 },
 {
 "type": "ftl",
-"id": "menu-edit-copy"
+"id": "text-action-copy"
 },
 {
 "type": "ftl",
-"id": "menu-edit-paste"
+"id": "text-action-paste"
 },
 {
 "type": "ftl",
-"id": "menu-edit-delete"
+"id": "text-action-delete"
 },
 {
 "type": "ftl",
-"id": "menu-edit-select-all"
+"id": "text-action-select-all"
 },
 {
 "type": "ftl",
