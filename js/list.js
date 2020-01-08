@@ -106,6 +106,13 @@ function getEntryFile(entry) {
   return "";
 }
 
+function getIdPath(entry) {
+  if (entry.id) {
+    return getLinkForId(entry.id);
+  }
+  return "";
+}
+
 const twoPartModules = [
   "devtools",
   "security",
@@ -118,6 +125,11 @@ function getLinkForPath(path) {
   let rest = path.substr(module.length + 1);
   let sfPath = `https://searchfox.org/mozilla-central/source/${module}/locales/en-US/${rest}`;
   return `<a href="${sfPath}">${path}</a>`;
+}
+
+function getLinkForId(id) {
+  let sfPath = `https://searchfox.org/mozilla-central/search?q=${id}&case=true`;
+  return `<a href="${sfPath}">${id}</a>`;
 }
 
 function getTypeFromPath(path) {
@@ -151,7 +163,7 @@ function prepareData(data) {
       file: getEntryFile(entry),
       stack: formatStack(entry.stack),
       count: entry.count || 1,
-      id: entry.id || ""
+      id: getIdPath(entry),
     });
     i++;
   }
