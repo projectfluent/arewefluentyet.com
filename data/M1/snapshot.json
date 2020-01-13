@@ -1,6 +1,6 @@
 {
-"date": "2020-01-05",
-"revision": "fc3002cb85dc4d2c44d8aec1246f0356097411e3",
+"date": "2020-01-12",
+"revision": "1536cf66a302811c1e302118e0d356c6c7545fab",
 "data": [
 {
 "type": "dtd",
@@ -1273,186 +1273,6 @@
 {
 "type": "dtd",
 "id": "tabHideControlled.disableButton.accesskey"
-},
-{
-"type": "dtd",
-"id": "identity.connectionNotSecure2"
-},
-{
-"type": "dtd",
-"id": "identity.connectionSecure3"
-},
-{
-"type": "dtd",
-"id": "identity.connectionInternal"
-},
-{
-"type": "dtd",
-"id": "identity.connectionFile"
-},
-{
-"type": "dtd",
-"id": "identity.extensionPage"
-},
-{
-"type": "dtd",
-"id": "identity.activeBlocked"
-},
-{
-"type": "dtd",
-"id": "identity.customRoot"
-},
-{
-"type": "dtd",
-"id": "identity.passiveLoaded"
-},
-{
-"type": "dtd",
-"id": "identity.activeLoaded"
-},
-{
-"type": "dtd",
-"id": "identity.weakEncryption"
-},
-{
-"type": "dtd",
-"id": "identity.insecureLoginForms2"
-},
-{
-"type": "dtd",
-"id": "identity.permissions3"
-},
-{
-"type": "dtd",
-"id": "identity.permissionsReloadHint"
-},
-{
-"type": "dtd",
-"id": "identity.permissionsEmpty"
-},
-{
-"type": "dtd",
-"id": "identity.clearSiteData"
-},
-{
-"type": "dtd",
-"id": "identity.connectionNotSecureSecurityView"
-},
-{
-"type": "dtd",
-"id": "identity.connectionVerified3"
-},
-{
-"type": "dtd",
-"id": "identity.evOwnerLabel2"
-},
-{
-"type": "dtd",
-"id": "identity.description.customRoot"
-},
-{
-"type": "dtd",
-"id": "identity.learnMore"
-},
-{
-"type": "dtd",
-"id": "identity.removeCertException.label"
-},
-{
-"type": "dtd",
-"id": "identity.removeCertException.accesskey"
-},
-{
-"type": "dtd",
-"id": "identity.description.insecure"
-},
-{
-"type": "dtd",
-"id": "identity.description.insecureLoginForms"
-},
-{
-"type": "dtd",
-"id": "identity.learnMore"
-},
-{
-"type": "dtd",
-"id": "identity.description.weakCipher"
-},
-{
-"type": "dtd",
-"id": "identity.description.weakCipher2"
-},
-{
-"type": "dtd",
-"id": "identity.description.activeBlocked"
-},
-{
-"type": "dtd",
-"id": "identity.learnMore"
-},
-{
-"type": "dtd",
-"id": "identity.description.passiveLoaded"
-},
-{
-"type": "dtd",
-"id": "identity.description.passiveLoaded2"
-},
-{
-"type": "dtd",
-"id": "identity.learnMore"
-},
-{
-"type": "dtd",
-"id": "identity.description.passiveLoaded"
-},
-{
-"type": "dtd",
-"id": "identity.description.passiveLoaded3"
-},
-{
-"type": "dtd",
-"id": "identity.learnMore"
-},
-{
-"type": "dtd",
-"id": "identity.description.activeLoaded"
-},
-{
-"type": "dtd",
-"id": "identity.description.activeLoaded2"
-},
-{
-"type": "dtd",
-"id": "identity.learnMore"
-},
-{
-"type": "dtd",
-"id": "identity.description.activeLoaded"
-},
-{
-"type": "dtd",
-"id": "identity.learnMore"
-},
-{
-"type": "dtd",
-"id": "identity.disableMixedContentBlocking.label"
-},
-{
-"type": "dtd",
-"id": "identity.disableMixedContentBlocking.accesskey"
-},
-{
-"type": "dtd",
-"id": "identity.enableMixedContentBlocking.label"
-},
-{
-"type": "dtd",
-"id": "identity.enableMixedContentBlocking.accesskey"
-},
-{
-"type": "dtd",
-"id": "identity.moreInfoLinkText2"
 },
 {
 "type": "dtd",
@@ -2765,6 +2585,158 @@
 {
 "type": "ftl",
 "id": "fxa-toolbar-sync-now"
+},
+{
+"type": "ftl",
+"id": "identity-connection-not-secure"
+},
+{
+"type": "ftl",
+"id": "identity-connection-secure"
+},
+{
+"type": "ftl",
+"id": "identity-connection-internal"
+},
+{
+"type": "ftl",
+"id": "identity-connection-file"
+},
+{
+"type": "ftl",
+"id": "identity-extension-page"
+},
+{
+"type": "ftl",
+"id": "identity-active-blocked"
+},
+{
+"type": "ftl",
+"id": "identity-custom-root"
+},
+{
+"type": "ftl",
+"id": "identity-passive-loaded"
+},
+{
+"type": "ftl",
+"id": "identity-active-loaded"
+},
+{
+"type": "ftl",
+"id": "identity-weak-encryption"
+},
+{
+"type": "ftl",
+"id": "identity-insecure-login-forms"
+},
+{
+"type": "ftl",
+"id": "identity-permissions"
+},
+{
+"type": "ftl",
+"id": "identity-permissions-reload-hint"
+},
+{
+"type": "ftl",
+"id": "identity-permissions-empty"
+},
+{
+"type": "ftl",
+"id": "identity-clear-site-data"
+},
+{
+"type": "ftl",
+"id": "identity-connection-not-secure-security-view"
+},
+{
+"type": "ftl",
+"id": "identity-connection-verified"
+},
+{
+"type": "ftl",
+"id": "identity-ev-owner-label"
+},
+{
+"type": "ftl",
+"id": "identity-description-custom-root"
+},
+{
+"type": "ftl",
+"id": "identity-remove-cert-exception"
+},
+{
+"type": "ftl",
+"id": "identity-description-insecure"
+},
+{
+"type": "ftl",
+"id": "identity-description-insecure-login-forms"
+},
+{
+"type": "ftl",
+"id": "identity-learn-more"
+},
+{
+"type": "ftl",
+"id": "identity-description-weak-cipher-intro"
+},
+{
+"type": "ftl",
+"id": "identity-description-weak-cipher-risk"
+},
+{
+"type": "ftl",
+"id": "identity-description-active-blocked"
+},
+{
+"type": "ftl",
+"id": "identity-description-passive-loaded"
+},
+{
+"type": "ftl",
+"id": "identity-description-passive-loaded-insecure"
+},
+{
+"type": "ftl",
+"id": "identity-description-passive-loaded"
+},
+{
+"type": "ftl",
+"id": "identity-description-passive-loaded-mixed"
+},
+{
+"type": "ftl",
+"id": "identity-description-active-loaded"
+},
+{
+"type": "ftl",
+"id": "identity-description-active-loaded-insecure"
+},
+{
+"type": "ftl",
+"id": "identity-learn-more"
+},
+{
+"type": "ftl",
+"id": "identity-description-active-loaded"
+},
+{
+"type": "ftl",
+"id": "identity-learn-more"
+},
+{
+"type": "ftl",
+"id": "identity-disable-mixed-content-blocking"
+},
+{
+"type": "ftl",
+"id": "identity-enable-mixed-content-blocking"
+},
+{
+"type": "ftl",
+"id": "identity-more-info-link-text"
 },
 {
 "type": "ftl",

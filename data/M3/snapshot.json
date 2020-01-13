@@ -1,6 +1,6 @@
 {
-"date": "2020-01-05",
-"revision": "fc3002cb85dc4d2c44d8aec1246f0356097411e3",
+"date": "2020-01-12",
+"revision": "1536cf66a302811c1e302118e0d356c6c7545fab",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -72,7 +72,7 @@
 },
 {
 "file": "en-US/browser/browser/browser.ftl",
-"count": 51
+"count": 85
 },
 {
 "file": "en-US/browser/browser/browserContext.ftl",
@@ -176,7 +176,7 @@
 },
 {
 "file": "en-US/browser/browser/protections.ftl",
-"count": 49
+"count": 51
 },
 {
 "file": "en-US/browser/browser/protectionsPanel.ftl",
@@ -236,7 +236,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.dtd",
-"count": 336
+"count": 299
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
@@ -264,11 +264,11 @@
 },
 {
 "file": "en-US/browser/chrome/browser/migration/migration.dtd",
-"count": 36
+"count": 38
 },
 {
 "file": "en-US/browser/chrome/browser/migration/migration.properties",
-"count": 55
+"count": 56
 },
 {
 "file": "en-US/browser/chrome/browser/newInstall.dtd",
@@ -376,7 +376,7 @@
 },
 {
 "file": "en-US/browser/installer/custom.properties",
-"count": 53
+"count": 52
 },
 {
 "file": "en-US/browser/installer/mui.properties",
@@ -384,7 +384,7 @@
 },
 {
 "file": "en-US/browser/installer/nsisstrings.properties",
-"count": 24
+"count": 23
 },
 {
 "file": "en-US/browser/installer/override.properties",
@@ -496,7 +496,7 @@
 },
 {
 "file": "en-US/devtools/client/netmonitor.properties",
-"count": 335
+"count": 336
 },
 {
 "file": "en-US/devtools/client/network-throttling.properties",
@@ -547,8 +547,16 @@
 "count": 14
 },
 {
+"file": "en-US/devtools/client/toolbox-options.ftl",
+"count": 50
+},
+{
 "file": "en-US/devtools/client/toolbox.dtd",
-"count": 53
+"count": 2
+},
+{
+"file": "en-US/devtools/client/toolbox.ftl",
+"count": 50
 },
 {
 "file": "en-US/devtools/client/toolbox.properties",
