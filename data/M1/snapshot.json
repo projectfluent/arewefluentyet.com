@@ -1,6 +1,6 @@
 {
-"date": "2020-01-12",
-"revision": "1536cf66a302811c1e302118e0d356c6c7545fab",
+"date": "2020-01-19",
+"revision": "1c9b97bed37830e39642bfa7e73dbc2ea860662a",
 "data": [
 {
 "type": "dtd",
@@ -85,34 +85,6 @@
 {
 "type": "dtd",
 "id": "toggleMuteCmd.key"
-},
-{
-"type": "dtd",
-"id": "undoCmd.key"
-},
-{
-"type": "dtd",
-"id": "undoCmd.key"
-},
-{
-"type": "dtd",
-"id": "redoCmd.key"
-},
-{
-"type": "dtd",
-"id": "cutCmd.key"
-},
-{
-"type": "dtd",
-"id": "copyCmd.key"
-},
-{
-"type": "dtd",
-"id": "pasteCmd.key"
-},
-{
-"type": "dtd",
-"id": "selectAllCmd.key"
 },
 {
 "type": "dtd",
@@ -1992,6 +1964,34 @@
 },
 {
 "type": "ftl",
+"id": "text-action-undo-shortcut"
+},
+{
+"type": "ftl",
+"id": "text-action-undo-shortcut"
+},
+{
+"type": "ftl",
+"id": "text-action-redo-shortcut"
+},
+{
+"type": "ftl",
+"id": "text-action-cut-shortcut"
+},
+{
+"type": "ftl",
+"id": "text-action-copy-shortcut"
+},
+{
+"type": "ftl",
+"id": "text-action-paste-shortcut"
+},
+{
+"type": "ftl",
+"id": "text-action-select-all-shortcut"
+},
+{
+"type": "ftl",
 "id": "reload-tab"
 },
 {
@@ -2541,18 +2541,6 @@
 {
 "type": "ftl",
 "id": "appmenu-addon-post-install-incognito-checkbox"
-},
-{
-"type": "ftl",
-"id": "appmenu-addon-private-browsing"
-},
-{
-"type": "ftl",
-"id": "appmenu-addon-private-browsing-message"
-},
-{
-"type": "ftl",
-"id": "appmenu-addon-private-browsing-learn-more"
 },
 {
 "type": "ftl",
