@@ -1,6 +1,6 @@
 {
-"date": "2020-01-19",
-"revision": "1c9b97bed37830e39642bfa7e73dbc2ea860662a",
+"date": "2020-01-26",
+"revision": "3222cd65ae42e085f1b0d3c56f6d77f6596ab949",
 "data": [
 {
 "type": "dtd",
@@ -185,10 +185,6 @@
 {
 "type": "dtd",
 "id": "bookmarksCmd.commandkey"
-},
-{
-"type": "dtd",
-"id": "bookmarksWinCmd.commandkey"
 },
 {
 "type": "dtd",
@@ -529,14 +525,6 @@
 {
 "type": "dtd",
 "id": "noLoginSuggestions.label"
-},
-{
-"type": "dtd",
-"id": "useGeneratedPassword.label"
-},
-{
-"type": "dtd",
-"id": "useGeneratedPassword.accesskey"
 },
 {
 "type": "dtd",
@@ -2333,6 +2321,10 @@
 {
 "type": "ftl",
 "id": "main-context-menu-view-background-image"
+},
+{
+"type": "ftl",
+"id": "main-context-menu-generate-new-password"
 },
 {
 "type": "ftl",
