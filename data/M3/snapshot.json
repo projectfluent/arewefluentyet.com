@@ -1,6 +1,6 @@
 {
-"date": "2020-01-26",
-"revision": "3222cd65ae42e085f1b0d3c56f6d77f6596ab949",
+"date": "2020-02-02",
+"revision": "6d46db840d6e71ffa2c416ae018e27e921eac6e0",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -72,11 +72,15 @@
 },
 {
 "file": "en-US/browser/browser/browser.ftl",
-"count": 88
+"count": 90
 },
 {
 "file": "en-US/browser/browser/browserContext.ftl",
-"count": 84
+"count": 87
+},
+{
+"file": "en-US/browser/browser/browserSets.ftl",
+"count": 50
 },
 {
 "file": "en-US/browser/browser/customizeMode.ftl",
@@ -84,7 +88,7 @@
 },
 {
 "file": "en-US/browser/browser/menubar.ftl",
-"count": 79
+"count": 81
 },
 {
 "file": "en-US/browser/browser/newInstallPage.ftl",
@@ -232,7 +236,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/baseMenuOverlay.dtd",
-"count": 15
+"count": 8
 },
 {
 "file": "en-US/browser/chrome/browser/brandings.dtd",
@@ -240,11 +244,11 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.dtd",
-"count": 292
+"count": 244
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
-"count": 487
+"count": 485
 },
 {
 "file": "en-US/browser/chrome/browser/customizableui/customizableWidgets.properties",
@@ -553,10 +557,6 @@
 {
 "file": "en-US/devtools/client/toolbox-options.ftl",
 "count": 50
-},
-{
-"file": "en-US/devtools/client/toolbox.dtd",
-"count": 2
 },
 {
 "file": "en-US/devtools/client/toolbox.properties",
