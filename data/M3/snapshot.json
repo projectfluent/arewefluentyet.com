@@ -1,6 +1,6 @@
 {
-"date": "2020-02-09",
-"revision": "1ece26f610490b707948f20fe1230dbe306ef985",
+"date": "2020-02-16",
+"revision": "3b823d058ef541ec6abd5e781c6b9b4e1b893fbf",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -96,7 +96,7 @@
 },
 {
 "file": "en-US/browser/browser/newtab/asrouter.ftl",
-"count": 81
+"count": 85
 },
 {
 "file": "en-US/browser/browser/newtab/newtab.ftl",
@@ -120,7 +120,7 @@
 },
 {
 "file": "en-US/browser/browser/policies/policies-descriptions.ftl",
-"count": 71
+"count": 72
 },
 {
 "file": "en-US/browser/browser/preferences/applicationManager.ftl",
@@ -201,6 +201,10 @@
 {
 "file": "en-US/browser/browser/screenshots.ftl",
 "count": 28
+},
+{
+"file": "en-US/browser/browser/setDesktopBackground.ftl",
+"count": 12
 },
 {
 "file": "en-US/browser/browser/sync.ftl",
@@ -308,10 +312,6 @@
 },
 {
 "file": "en-US/browser/chrome/browser/search.properties",
-"count": 11
-},
-{
-"file": "en-US/browser/chrome/browser/setDesktopBackground.dtd",
 "count": 11
 },
 {
@@ -448,7 +448,7 @@
 },
 {
 "file": "en-US/devtools/client/debugger.properties",
-"count": 301
+"count": 300
 },
 {
 "file": "en-US/devtools/client/device.properties",
@@ -500,11 +500,11 @@
 },
 {
 "file": "en-US/devtools/client/menus.properties",
-"count": 23
+"count": 18
 },
 {
 "file": "en-US/devtools/client/netmonitor.properties",
-"count": 336
+"count": 337
 },
 {
 "file": "en-US/devtools/client/network-throttling.properties",
@@ -536,7 +536,7 @@
 },
 {
 "file": "en-US/devtools/client/startup.properties",
-"count": 57
+"count": 55
 },
 {
 "file": "en-US/devtools/client/storage.dtd",
@@ -560,7 +560,7 @@
 },
 {
 "file": "en-US/devtools/client/toolbox.properties",
-"count": 70
+"count": 65
 },
 {
 "file": "en-US/devtools/client/tooltips.ftl",
@@ -700,7 +700,7 @@
 },
 {
 "file": "en-US/dom/chrome/security/csp.properties",
-"count": 32
+"count": 31
 },
 {
 "file": "en-US/dom/chrome/security/security.properties",
@@ -731,10 +731,6 @@
 "count": 234
 },
 {
-"file": "en-US/security/manager/chrome/pippki/pippki.dtd",
-"count": 28
-},
-{
 "file": "en-US/security/manager/chrome/pippki/pippki.properties",
 "count": 38
 },
@@ -745,6 +741,10 @@
 {
 "file": "en-US/security/manager/security/certificates/deviceManager.ftl",
 "count": 41
+},
+{
+"file": "en-US/security/manager/security/pippki/pippki.ftl",
+"count": 28
 },
 {
 "file": "en-US/services/sync/sync.properties",
@@ -1056,7 +1056,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutSupport.ftl",
-"count": 223
+"count": 224
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutTelemetry.ftl",
@@ -1104,7 +1104,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/pictureinpicture/pictureinpicture.ftl",
-"count": 5
+"count": 7
 },
 {
 "file": "en-US/toolkit/toolkit/preferences/preferences.ftl",
