@@ -1,6 +1,6 @@
 {
-"date": "2020-03-22",
-"revision": "9f3f88599fffa54ddf0c744b98cc02df99f8d0b8",
+"date": "2020-03-29",
+"revision": "d5efb485c09c230a90fc2a24ba473ae35c1963f2",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -16,7 +16,7 @@
 },
 {
 "file": "en-US/browser/browser/aboutCertError.ftl",
-"count": 25
+"count": 58
 },
 {
 "file": "en-US/browser/browser/aboutConfig.ftl",
@@ -28,7 +28,7 @@
 },
 {
 "file": "en-US/browser/browser/aboutLogins.ftl",
-"count": 83
+"count": 90
 },
 {
 "file": "en-US/browser/browser/aboutPolicies.ftl",
@@ -180,7 +180,7 @@
 },
 {
 "file": "en-US/browser/browser/protections.ftl",
-"count": 56
+"count": 57
 },
 {
 "file": "en-US/browser/browser/protectionsPanel.ftl",
@@ -205,6 +205,10 @@
 {
 "file": "en-US/browser/browser/setDesktopBackground.ftl",
 "count": 12
+},
+{
+"file": "en-US/browser/browser/sidebarMenu.ftl",
+"count": 4
 },
 {
 "file": "en-US/browser/browser/sync.ftl",
@@ -248,11 +252,11 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.dtd",
-"count": 244
+"count": 242
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
-"count": 485
+"count": 487
 },
 {
 "file": "en-US/browser/chrome/browser/customizableui/customizableWidgets.properties",
@@ -364,7 +368,7 @@
 },
 {
 "file": "en-US/browser/chrome/overrides/netError.dtd",
-"count": 98
+"count": 67
 },
 {
 "file": "en-US/browser/chrome/overrides/settingsChange.dtd",
@@ -448,7 +452,7 @@
 },
 {
 "file": "en-US/devtools/client/debugger.properties",
-"count": 300
+"count": 309
 },
 {
 "file": "en-US/devtools/client/device.properties",
@@ -484,7 +488,7 @@
 },
 {
 "file": "en-US/devtools/client/jsonview.properties",
-"count": 11
+"count": 12
 },
 {
 "file": "en-US/devtools/client/layout.properties",
@@ -500,11 +504,11 @@
 },
 {
 "file": "en-US/devtools/client/menus.properties",
-"count": 18
+"count": 16
 },
 {
 "file": "en-US/devtools/client/netmonitor.properties",
-"count": 339
+"count": 340
 },
 {
 "file": "en-US/devtools/client/network-throttling.properties",
@@ -568,7 +572,7 @@
 },
 {
 "file": "en-US/devtools/client/webconsole.properties",
-"count": 124
+"count": 126
 },
 {
 "file": "en-US/devtools/shared/accessibility.properties",
@@ -616,7 +620,7 @@
 },
 {
 "file": "en-US/dom/chrome/accessibility/mac/accessible.properties",
-"count": 42
+"count": 44
 },
 {
 "file": "en-US/dom/chrome/accessibility/unix/accessible.properties",
@@ -632,7 +636,7 @@
 },
 {
 "file": "en-US/dom/chrome/dom/dom.properties",
-"count": 233
+"count": 234
 },
 {
 "file": "en-US/dom/chrome/global-strres.properties",
@@ -704,7 +708,7 @@
 },
 {
 "file": "en-US/dom/chrome/security/security.properties",
-"count": 87
+"count": 88
 },
 {
 "file": "en-US/dom/chrome/svg/svg.properties",
@@ -720,7 +724,7 @@
 },
 {
 "file": "en-US/netwerk/necko.properties",
-"count": 36
+"count": 38
 },
 {
 "file": "en-US/security/manager/chrome/pipnss/nsserrors.properties",
@@ -919,10 +923,6 @@
 "count": 11
 },
 {
-"file": "en-US/toolkit/chrome/global/wizard.dtd",
-"count": 18
-},
-{
 "file": "en-US/toolkit/chrome/global/wizard.properties",
 "count": 4
 },
@@ -943,10 +943,6 @@
 "count": 12
 },
 {
-"file": "en-US/toolkit/chrome/mozapps/extensions/blocklist.dtd",
-"count": 11
-},
-{
 "file": "en-US/toolkit/chrome/mozapps/extensions/extensions.dtd",
 "count": 1
 },
@@ -961,10 +957,6 @@
 {
 "file": "en-US/toolkit/chrome/mozapps/handling/handling.properties",
 "count": 8
-},
-{
-"file": "en-US/toolkit/chrome/mozapps/profile/createProfileWizard.dtd",
-"count": 17
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/profile/profileDowngrade.dtd",
@@ -1071,6 +1063,14 @@
 "count": 49
 },
 {
+"file": "en-US/toolkit/toolkit/extensions/blocklist.ftl",
+"count": 9
+},
+{
+"file": "en-US/toolkit/toolkit/global/createProfileWizard.ftl",
+"count": 13
+},
+{
 "file": "en-US/toolkit/toolkit/global/processTypes.ftl",
 "count": 8
 },
@@ -1085,6 +1085,10 @@
 {
 "file": "en-US/toolkit/toolkit/global/textActions.ftl",
 "count": 13
+},
+{
+"file": "en-US/toolkit/toolkit/global/wizard.ftl",
+"count": 12
 },
 {
 "file": "en-US/toolkit/toolkit/intl/languageNames.ftl",
