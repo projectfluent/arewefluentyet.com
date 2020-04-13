@@ -1,6 +1,6 @@
 {
-"date": "2020-04-05",
-"revision": "84bc52da6c3b8a78b60c714d0b6ee022f0771acb",
+"date": "2020-04-12",
+"revision": "da2b1829e1fd5bb09b405214cfb8d80bd911f111",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -55,8 +55,12 @@
 "count": 19
 },
 {
+"file": "en-US/browser/browser/allTabsMenu.ftl",
+"count": 5
+},
+{
 "file": "en-US/browser/browser/appMenuNotifications.ftl",
-"count": 12
+"count": 15
 },
 {
 "file": "en-US/browser/browser/appmenu.ftl",
@@ -72,7 +76,7 @@
 },
 {
 "file": "en-US/browser/browser/browser.ftl",
-"count": 89
+"count": 90
 },
 {
 "file": "en-US/browser/browser/browserContext.ftl",
@@ -85,6 +89,14 @@
 {
 "file": "en-US/browser/browser/customizeMode.ftl",
 "count": 19
+},
+{
+"file": "en-US/browser/browser/downloads.ftl",
+"count": 36
+},
+{
+"file": "en-US/browser/browser/editBookmarkOverlay.ftl",
+"count": 10
 },
 {
 "file": "en-US/browser/browser/menubar.ftl",
@@ -164,7 +176,7 @@
 },
 {
 "file": "en-US/browser/browser/preferences/preferences.ftl",
-"count": 405
+"count": 407
 },
 {
 "file": "en-US/browser/browser/preferences/selectBookmark.ftl",
@@ -252,7 +264,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.dtd",
-"count": 246
+"count": 224
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
@@ -261,10 +273,6 @@
 {
 "file": "en-US/browser/chrome/browser/customizableui/customizableWidgets.properties",
 "count": 51
-},
-{
-"file": "en-US/browser/chrome/browser/downloads/downloads.dtd",
-"count": 39
 },
 {
 "file": "en-US/browser/chrome/browser/downloads/downloads.properties",
@@ -293,10 +301,6 @@
 {
 "file": "en-US/browser/chrome/browser/places/bookmarkProperties.properties",
 "count": 11
-},
-{
-"file": "en-US/browser/chrome/browser/places/editBookmarkOverlay.dtd",
-"count": 16
 },
 {
 "file": "en-US/browser/chrome/browser/places/places.dtd",
@@ -508,7 +512,7 @@
 },
 {
 "file": "en-US/devtools/client/netmonitor.properties",
-"count": 342
+"count": 341
 },
 {
 "file": "en-US/devtools/client/network-throttling.properties",
@@ -656,7 +660,7 @@
 },
 {
 "file": "en-US/dom/chrome/layout/css.properties",
-"count": 38
+"count": 39
 },
 {
 "file": "en-US/dom/chrome/layout/htmlparser.properties",
@@ -724,7 +728,7 @@
 },
 {
 "file": "en-US/netwerk/necko.properties",
-"count": 38
+"count": 39
 },
 {
 "file": "en-US/security/manager/chrome/pipnss/nsserrors.properties",
@@ -959,10 +963,6 @@
 "count": 8
 },
 {
-"file": "en-US/toolkit/chrome/mozapps/profile/profileDowngrade.dtd",
-"count": 7
-},
-{
 "file": "en-US/toolkit/chrome/mozapps/profile/profileSelection.properties",
 "count": 34
 },
@@ -1044,7 +1044,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutSupport.ftl",
-"count": 229
+"count": 230
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutTelemetry.ftl",
@@ -1056,7 +1056,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/certviewer.ftl",
-"count": 71
+"count": 77
 },
 {
 "file": "en-US/toolkit/toolkit/about/url-classifier.ftl",
@@ -1072,7 +1072,11 @@
 },
 {
 "file": "en-US/toolkit/toolkit/global/processTypes.ftl",
-"count": 8
+"count": 9
+},
+{
+"file": "en-US/toolkit/toolkit/global/profileDowngrade.ftl",
+"count": 5
 },
 {
 "file": "en-US/toolkit/toolkit/global/profileSelection.ftl",
@@ -1101,10 +1105,6 @@
 {
 "file": "en-US/toolkit/toolkit/main-window/findbar.ftl",
 "count": 7
-},
-{
-"file": "en-US/toolkit/toolkit/passwordmgr/passwordManagerList.ftl",
-"count": 30
 },
 {
 "file": "en-US/toolkit/toolkit/pictureinpicture/pictureinpicture.ftl",
