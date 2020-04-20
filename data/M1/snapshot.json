@@ -1,6 +1,6 @@
 {
-"date": "2020-04-12",
-"revision": "da2b1829e1fd5bb09b405214cfb8d80bd911f111",
+"date": "2020-04-19",
+"revision": "9226f5b0d05bea99caf4f2f2119b47c0dadf6c69",
 "data": [
 {
 "type": "dtd",
@@ -244,102 +244,6 @@
 },
 {
 "type": "dtd",
-"id": "cmd.open.label"
-},
-{
-"type": "dtd",
-"id": "cmd.open.accesskey"
-},
-{
-"type": "dtd",
-"id": "cmd.open_tab.label"
-},
-{
-"type": "dtd",
-"id": "cmd.open_tab.accesskey"
-},
-{
-"type": "dtd",
-"id": "cmd.open_all_in_tabs.label"
-},
-{
-"type": "dtd",
-"id": "cmd.open_all_in_tabs.accesskey"
-},
-{
-"type": "dtd",
-"id": "cmd.open_all_in_tabs.label"
-},
-{
-"type": "dtd",
-"id": "cmd.open_all_in_tabs.accesskey"
-},
-{
-"type": "dtd",
-"id": "cmd.open_window.label"
-},
-{
-"type": "dtd",
-"id": "cmd.open_window.accesskey"
-},
-{
-"type": "dtd",
-"id": "cmd.open_private_window.label"
-},
-{
-"type": "dtd",
-"id": "cmd.open_private_window.accesskey"
-},
-{
-"type": "dtd",
-"id": "cmd.new_bookmark.label"
-},
-{
-"type": "dtd",
-"id": "cmd.new_bookmark.accesskey"
-},
-{
-"type": "dtd",
-"id": "cmd.new_folder.label"
-},
-{
-"type": "dtd",
-"id": "cmd.context_new_folder.accesskey"
-},
-{
-"type": "dtd",
-"id": "cmd.new_separator.label"
-},
-{
-"type": "dtd",
-"id": "cmd.new_separator.accesskey"
-},
-{
-"type": "dtd",
-"id": "cmd.deleteDomainData.label"
-},
-{
-"type": "dtd",
-"id": "cmd.deleteDomainData.accesskey"
-},
-{
-"type": "dtd",
-"id": "cmd.sortby_name.label"
-},
-{
-"type": "dtd",
-"id": "cmd.context_sortby_name.accesskey"
-},
-{
-"type": "dtd",
-"id": "cmd.properties.label"
-},
-{
-"type": "dtd",
-"id": "cmd.properties.accesskey"
-},
-{
-"type": "dtd",
 "id": "pinTab.label"
 },
 {
@@ -369,26 +273,6 @@
 {
 "type": "dtd",
 "id": "pageAction.shareMore.label"
-},
-{
-"type": "dtd",
-"id": "getUserMedia.selectCamera.label"
-},
-{
-"type": "dtd",
-"id": "getUserMedia.selectCamera.accesskey"
-},
-{
-"type": "dtd",
-"id": "getUserMedia.allWindowsShared.message"
-},
-{
-"type": "dtd",
-"id": "getUserMedia.selectMicrophone.label"
-},
-{
-"type": "dtd",
-"id": "getUserMedia.selectMicrophone.accesskey"
 },
 {
 "type": "dtd",
@@ -1265,18 +1149,6 @@
 {
 "type": "dtd",
 "id": "appmenu.tooltip"
-},
-{
-"type": "dtd",
-"id": "fullScreenMinimize.tooltip"
-},
-{
-"type": "dtd",
-"id": "fullScreenRestore.tooltip"
-},
-{
-"type": "dtd",
-"id": "fullScreenClose.tooltip"
 },
 {
 "type": "dtd",
@@ -2176,6 +2048,42 @@
 },
 {
 "type": "ftl",
+"id": "places-open"
+},
+{
+"type": "ftl",
+"id": "places-open-tab"
+},
+{
+"type": "ftl",
+"id": "places-open-all-in-tabs"
+},
+{
+"type": "ftl",
+"id": "places-open-all-in-tabs"
+},
+{
+"type": "ftl",
+"id": "places-open-window"
+},
+{
+"type": "ftl",
+"id": "places-open-private-window"
+},
+{
+"type": "ftl",
+"id": "places-new-bookmark"
+},
+{
+"type": "ftl",
+"id": "places-new-folder-contextmenu"
+},
+{
+"type": "ftl",
+"id": "places-new-separator"
+},
+{
+"type": "ftl",
 "id": "text-action-cut"
 },
 {
@@ -2189,6 +2097,18 @@
 {
 "type": "ftl",
 "id": "text-action-delete"
+},
+{
+"type": "ftl",
+"id": "places-delete-domain-data"
+},
+{
+"type": "ftl",
+"id": "places-sortby-name"
+},
+{
+"type": "ftl",
+"id": "places-properties"
 },
 {
 "type": "ftl",
@@ -2229,6 +2149,18 @@
 {
 "type": "ftl",
 "id": "navbar-tooltip-instruction"
+},
+{
+"type": "ftl",
+"id": "popup-select-camera"
+},
+{
+"type": "ftl",
+"id": "popup-all-windows-shared"
+},
+{
+"type": "ftl",
+"id": "popup-select-microphone"
 },
 {
 "type": "ftl",
@@ -2980,6 +2912,38 @@
 },
 {
 "type": "ftl",
+"id": "browser-window-minimize-button"
+},
+{
+"type": "ftl",
+"id": "browser-window-maximize-button"
+},
+{
+"type": "ftl",
+"id": "browser-window-restore-button"
+},
+{
+"type": "ftl",
+"id": "browser-window-close-button"
+},
+{
+"type": "ftl",
+"id": "browser-window-minimize-button"
+},
+{
+"type": "ftl",
+"id": "browser-window-maximize-button"
+},
+{
+"type": "ftl",
+"id": "browser-window-restore-button"
+},
+{
+"type": "ftl",
+"id": "browser-window-close-button"
+},
+{
+"type": "ftl",
 "id": "toolbar-button-back"
 },
 {
@@ -3133,6 +3097,18 @@
 {
 "type": "ftl",
 "id": "urlbar-storage-access-anchor"
+},
+{
+"type": "ftl",
+"id": "browser-window-minimize-button"
+},
+{
+"type": "ftl",
+"id": "browser-window-restore-button"
+},
+{
+"type": "ftl",
+"id": "browser-window-close-button"
 },
 {
 "type": "ftl",
