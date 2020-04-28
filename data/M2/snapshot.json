@@ -1,6 +1,6 @@
 {
-"date": "2020-04-19",
-"revision": "9226f5b0d05bea99caf4f2f2119b47c0dadf6c69",
+"date": "2020-04-26",
+"revision": "df251f2e0320157d444a0e8e5e609f3bc1969f57",
 "data": [
 {
 "type": "properties",
@@ -51,14 +51,14 @@
 "index": "5",
 "call": "checkForChanges()",
 "path": "resource://gre/modules/addons/XPIProvider.jsm",
-"line": "2953",
+"line": "2955",
 "col": "20"
 },
 {
 "index": "6",
 "call": "startup()",
 "path": "resource://gre/modules/addons/XPIProvider.jsm",
-"line": "2415",
+"line": "2417",
 "col": "11"
 },
 {
@@ -142,14 +142,14 @@
 "index": "5",
 "call": "checkForChanges()",
 "path": "resource://gre/modules/addons/XPIProvider.jsm",
-"line": "2953",
+"line": "2955",
 "col": "20"
 },
 {
 "index": "6",
 "call": "startup()",
 "path": "resource://gre/modules/addons/XPIProvider.jsm",
-"line": "2415",
+"line": "2417",
 "col": "11"
 },
 {
@@ -233,14 +233,14 @@
 "index": "5",
 "call": "checkForChanges()",
 "path": "resource://gre/modules/addons/XPIProvider.jsm",
-"line": "2953",
+"line": "2955",
 "col": "20"
 },
 {
 "index": "6",
 "call": "startup()",
 "path": "resource://gre/modules/addons/XPIProvider.jsm",
-"line": "2415",
+"line": "2417",
 "col": "11"
 },
 {
@@ -372,14 +372,14 @@
 "index": "11",
 "call": "_getNormalizedManifest()",
 "path": "resource://gre/modules/Extension.jsm",
-"line": "840",
+"line": "842",
 "col": "19"
 },
 {
 "index": "12",
 "call": "parseManifest()",
 "path": "resource://gre/modules/Extension.jsm",
-"line": "890",
+"line": "892",
 "col": "32"
 },
 {
@@ -421,14 +421,14 @@
 "index": "18",
 "call": "checkForChanges()",
 "path": "resource://gre/modules/addons/XPIProvider.jsm",
-"line": "2955",
+"line": "2957",
 "col": "54"
 },
 {
 "index": "19",
 "call": "startup()",
 "path": "resource://gre/modules/addons/XPIProvider.jsm",
-"line": "2415",
+"line": "2417",
 "col": "11"
 },
 {
@@ -554,14 +554,14 @@
 "index": "11",
 "call": "_getNormalizedManifest()",
 "path": "resource://gre/modules/Extension.jsm",
-"line": "840",
+"line": "842",
 "col": "19"
 },
 {
 "index": "12",
 "call": "parseManifest()",
 "path": "resource://gre/modules/Extension.jsm",
-"line": "890",
+"line": "892",
 "col": "32"
 },
 {
@@ -603,14 +603,14 @@
 "index": "18",
 "call": "checkForChanges()",
 "path": "resource://gre/modules/addons/XPIProvider.jsm",
-"line": "2955",
+"line": "2957",
 "col": "54"
 },
 {
 "index": "19",
 "call": "startup()",
 "path": "resource://gre/modules/addons/XPIProvider.jsm",
-"line": "2415",
+"line": "2417",
 "col": "11"
 },
 {
@@ -2777,14 +2777,14 @@
 "index": "11",
 "call": "_getNormalizedManifest()",
 "path": "resource://gre/modules/Extension.jsm",
-"line": "840",
+"line": "842",
 "col": "19"
 },
 {
 "index": "12",
 "call": "parseManifest()",
 "path": "resource://gre/modules/Extension.jsm",
-"line": "890",
+"line": "892",
 "col": "32"
 },
 {
@@ -2882,942 +2882,18 @@
 "index": "11",
 "call": "_getNormalizedManifest()",
 "path": "resource://gre/modules/Extension.jsm",
-"line": "840",
+"line": "842",
 "col": "19"
 },
 {
 "index": "12",
 "call": "parseManifest()",
 "path": "resource://gre/modules/Extension.jsm",
-"line": "890",
+"line": "892",
 "col": "32"
 },
 {
 "index": "13",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.doh-rollout@mozilla.org.description",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1404",
-"col": "46"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "758",
-"col": "0"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.doh-rollout@mozilla.org.description",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1404",
-"col": "46"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "758",
-"col": "0"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.doh-rollout@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1404",
-"col": "46"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "761",
-"col": "12"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.doh-rollout@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1404",
-"col": "46"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "761",
-"col": "12"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.formautofill@mozilla.org.description",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1404",
-"col": "46"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "758",
-"col": "0"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.formautofill@mozilla.org.description",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1404",
-"col": "46"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "758",
-"col": "0"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.formautofill@mozilla.org.description",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1413",
-"col": "33"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "758",
-"col": "0"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.formautofill@mozilla.org.description",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1413",
-"col": "33"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "758",
-"col": "0"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.formautofill@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1404",
-"col": "46"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "761",
-"col": "12"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.formautofill@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1404",
-"col": "46"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "761",
-"col": "12"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.screenshots@mozilla.org.description",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1404",
-"col": "46"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "758",
-"col": "0"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.screenshots@mozilla.org.description",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1404",
-"col": "46"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "758",
-"col": "0"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.screenshots@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1404",
-"col": "46"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "761",
-"col": "12"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.screenshots@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1404",
-"col": "46"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "761",
-"col": "12"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat-reporter@mozilla.org.description",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1404",
-"col": "46"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "758",
-"col": "0"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat-reporter@mozilla.org.description",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1404",
-"col": "46"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "758",
-"col": "0"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat-reporter@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1404",
-"col": "46"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "761",
-"col": "12"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat-reporter@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1404",
-"col": "46"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "761",
-"col": "12"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat@mozilla.org.description",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1404",
-"col": "46"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "758",
-"col": "0"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat@mozilla.org.description",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1404",
-"col": "46"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "758",
-"col": "0"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1404",
-"col": "46"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "761",
-"col": "12"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1304",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1404",
-"col": "46"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "761",
-"col": "12"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
 "line": "693",
@@ -5766,7 +4842,7 @@
 },
 {
 "type": "ftl",
-"id": "browser-window-restore-button",
+"id": "browser-window-restore-down-button",
 "stack": null,
 "file": null
 },
@@ -5790,7 +4866,7 @@
 },
 {
 "type": "ftl",
-"id": "browser-window-restore-button",
+"id": "browser-window-restore-down-button",
 "stack": null,
 "file": null
 },
@@ -6042,7 +5118,7 @@
 },
 {
 "type": "ftl",
-"id": "browser-window-restore-button",
+"id": "browser-window-restore-down-button",
 "stack": null,
 "file": null
 },
@@ -6096,14 +5172,14 @@
 "index": "0",
 "call": "update()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "6373",
+"line": "6416",
 "col": "26"
 },
 {
 "index": "1",
 "call": "onBeforeInitialXULLayout()",
 "path": "chrome://browser/content/browser.js",
-"line": "1706",
+"line": "1707",
 "col": "28"
 },
 {
@@ -6138,7 +5214,7 @@
 "index": "2",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1765",
+"line": "1766",
 "col": "13"
 },
 {
@@ -6173,7 +5249,7 @@
 "index": "2",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6692",
+"line": "6654",
 "col": "32"
 },
 {
@@ -6194,7 +5270,7 @@
 "index": "5",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1765",
+"line": "1766",
 "col": "13"
 },
 {
@@ -6229,7 +5305,7 @@
 "index": "2",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6692",
+"line": "6654",
 "col": "32"
 },
 {
@@ -6250,7 +5326,7 @@
 "index": "5",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1765",
+"line": "1766",
 "col": "13"
 },
 {
@@ -6278,7 +5354,7 @@
 "index": "1",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6697",
+"line": "6659",
 "col": "23"
 },
 {
@@ -6299,7 +5375,7 @@
 "index": "4",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1765",
+"line": "1766",
 "col": "13"
 },
 {
@@ -6327,7 +5403,7 @@
 "index": "1",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6697",
+"line": "6659",
 "col": "23"
 },
 {
@@ -6348,7 +5424,7 @@
 "index": "4",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1765",
+"line": "1766",
 "col": "13"
 },
 {
@@ -6418,7 +5494,7 @@
 "index": "7",
 "call": "_setupInitialBrowserAndTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "392",
+"line": "390",
 "col": "21"
 },
 {
@@ -6432,7 +5508,7 @@
 "index": "9",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1765",
+"line": "1766",
 "col": "13"
 },
 {
@@ -6502,7 +5578,7 @@
 "index": "7",
 "call": "_setupInitialBrowserAndTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "392",
+"line": "390",
 "col": "21"
 },
 {
@@ -6516,7 +5592,7 @@
 "index": "9",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1765",
+"line": "1766",
 "col": "13"
 },
 {
@@ -6586,7 +5662,7 @@
 "index": "7",
 "call": "_setupInitialBrowserAndTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "392",
+"line": "390",
 "col": "21"
 },
 {
@@ -6600,7 +5676,7 @@
 "index": "9",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1765",
+"line": "1766",
 "col": "13"
 },
 {
@@ -6670,7 +5746,7 @@
 "index": "7",
 "call": "_setupInitialBrowserAndTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "392",
+"line": "390",
 "col": "21"
 },
 {
@@ -6684,7 +5760,7 @@
 "index": "9",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1765",
+"line": "1766",
 "col": "13"
 },
 {
@@ -6747,7 +5823,7 @@
 "index": "6",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1775",
+"line": "1776",
 "col": "21"
 },
 {
@@ -6810,7 +5886,7 @@
 "index": "6",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1775",
+"line": "1776",
 "col": "21"
 },
 {
@@ -6831,7 +5907,7 @@
 "index": "0",
 "call": "_initPasteAndGo()",
 "path": "resource:///modules/UrlbarInput.jsm",
-"line": "1761",
+"line": "1777",
 "col": "7"
 },
 {
@@ -6859,28 +5935,28 @@
 "index": "4",
 "call": "_setInitialFocus/<()",
 "path": "chrome://browser/content/browser.js",
-"line": "2114",
+"line": "2115",
 "col": "8"
 },
 {
 "index": "5",
 "call": "_callWithURIToLoad()",
 "path": "chrome://browser/content/browser.js",
-"line": "2378",
+"line": "2383",
 "col": "14"
 },
 {
 "index": "6",
 "call": "_setInitialFocus()",
 "path": "chrome://browser/content/browser.js",
-"line": "2112",
+"line": "2113",
 "col": "9"
 },
 {
 "index": "7",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1794",
+"line": "1795",
 "col": "9"
 },
 {
@@ -6901,13 +5977,937 @@
 },
 {
 "type": "properties",
+"id": "extension.doh-rollout@mozilla.org.description",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1404",
+"col": "46"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "758",
+"col": "0"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.doh-rollout@mozilla.org.description",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1404",
+"col": "46"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "758",
+"col": "0"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.doh-rollout@mozilla.org.name",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1404",
+"col": "46"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "761",
+"col": "12"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.doh-rollout@mozilla.org.name",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1404",
+"col": "46"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "761",
+"col": "12"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.formautofill@mozilla.org.description",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1404",
+"col": "46"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "758",
+"col": "0"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.formautofill@mozilla.org.description",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1404",
+"col": "46"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "758",
+"col": "0"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.formautofill@mozilla.org.description",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1413",
+"col": "33"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "758",
+"col": "0"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.formautofill@mozilla.org.description",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1413",
+"col": "33"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "758",
+"col": "0"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.formautofill@mozilla.org.name",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1404",
+"col": "46"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "761",
+"col": "12"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.formautofill@mozilla.org.name",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1404",
+"col": "46"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "761",
+"col": "12"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.screenshots@mozilla.org.description",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1404",
+"col": "46"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "758",
+"col": "0"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.screenshots@mozilla.org.description",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1404",
+"col": "46"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "758",
+"col": "0"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.screenshots@mozilla.org.name",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1404",
+"col": "46"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "761",
+"col": "12"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.screenshots@mozilla.org.name",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1404",
+"col": "46"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "761",
+"col": "12"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.webcompat-reporter@mozilla.org.description",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1404",
+"col": "46"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "758",
+"col": "0"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.webcompat-reporter@mozilla.org.description",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1404",
+"col": "46"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "758",
+"col": "0"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.webcompat-reporter@mozilla.org.name",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1404",
+"col": "46"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "761",
+"col": "12"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.webcompat-reporter@mozilla.org.name",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1404",
+"col": "46"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "761",
+"col": "12"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.webcompat@mozilla.org.description",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1404",
+"col": "46"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "758",
+"col": "0"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.webcompat@mozilla.org.description",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1404",
+"col": "46"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "758",
+"col": "0"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.webcompat@mozilla.org.name",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1404",
+"col": "46"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "761",
+"col": "12"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.webcompat@mozilla.org.name",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1304",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1404",
+"col": "46"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "761",
+"col": "12"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
 "id": "brandShortName",
 "stack": [
 {
 "index": "0",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1916",
+"line": "1917",
 "col": "4"
 },
 {
@@ -6956,7 +6956,7 @@
 "index": "4",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1976",
+"line": "1977",
 "col": "24"
 },
 {
@@ -7039,7 +7039,7 @@
 "index": "8",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2082",
+"line": "2083",
 "col": "25"
 },
 {
@@ -7109,7 +7109,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2091",
+"line": "2092",
 "col": "17"
 },
 {
@@ -7179,7 +7179,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2091",
+"line": "2092",
 "col": "17"
 },
 {
@@ -7249,7 +7249,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2091",
+"line": "2092",
 "col": "17"
 },
 {
@@ -7319,7 +7319,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2091",
+"line": "2092",
 "col": "17"
 },
 {
@@ -7389,7 +7389,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2091",
+"line": "2092",
 "col": "17"
 },
 {
@@ -7459,7 +7459,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2091",
+"line": "2092",
 "col": "17"
 },
 {
@@ -7529,7 +7529,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2091",
+"line": "2092",
 "col": "17"
 },
 {
@@ -7599,7 +7599,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2091",
+"line": "2092",
 "col": "17"
 },
 {
@@ -7669,7 +7669,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2091",
+"line": "2092",
 "col": "17"
 },
 {
@@ -7739,7 +7739,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2091",
+"line": "2092",
 "col": "17"
 },
 {
@@ -7809,7 +7809,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2091",
+"line": "2092",
 "col": "17"
 },
 {
@@ -7879,7 +7879,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2091",
+"line": "2092",
 "col": "17"
 },
 {
@@ -7949,7 +7949,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2091",
+"line": "2092",
 "col": "17"
 },
 {
@@ -8019,7 +8019,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2091",
+"line": "2092",
 "col": "17"
 },
 {
@@ -8068,7 +8068,7 @@
 "index": "4",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2091",
+"line": "2092",
 "col": "17"
 },
 {
@@ -8117,7 +8117,7 @@
 "index": "4",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2091",
+"line": "2092",
 "col": "17"
 },
 {
@@ -8187,7 +8187,7 @@
 "index": "2",
 "call": "receiveMessage()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "740",
+"line": "751",
 "col": "29"
 },
 {
@@ -8222,7 +8222,7 @@
 "index": "2",
 "call": "receiveMessage()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "740",
+"line": "751",
 "col": "29"
 },
 {
@@ -8238,625 +8238,6 @@
 {
 "type": "ftl",
 "id": "onboarding-welcome-header",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "readerView.enter",
-"stack": [
-{
-"index": "0",
-"call": "updateReaderButton()",
-"path": "resource:///modules/ReaderParent.jsm",
-"line": "99",
-"col": "36"
-},
-{
-"index": "1",
-"call": "onLocationChange()",
-"path": "chrome://browser/content/browser.js",
-"line": "5302",
-"col": "17"
-},
-{
-"index": "2",
-"call": "callListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "822",
-"col": "30"
-},
-{
-"index": "3",
-"call": "_callProgressListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "836",
-"col": "21"
-},
-{
-"index": "4",
-"call": "_callProgressListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "5733",
-"col": "45"
-},
-{
-"index": "5",
-"call": "onLocationChange()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "6151",
-"col": "13"
-},
-{
-"index": "6",
-"call": "_callProgressListeners()",
-"path": "resource://gre/modules/RemoteWebProgress.jsm",
-"line": "75",
-"col": "30"
-},
-{
-"index": "7",
-"call": "onLocationChange()",
-"path": "resource://gre/modules/RemoteWebProgress.jsm",
-"line": "119",
-"col": "9"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "readerView.enter.accesskey",
-"stack": [
-{
-"index": "0",
-"call": "updateReaderButton()",
-"path": "resource:///modules/ReaderParent.jsm",
-"line": "109",
-"col": "22"
-},
-{
-"index": "1",
-"call": "onLocationChange()",
-"path": "chrome://browser/content/browser.js",
-"line": "5302",
-"col": "17"
-},
-{
-"index": "2",
-"call": "callListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "822",
-"col": "30"
-},
-{
-"index": "3",
-"call": "_callProgressListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "836",
-"col": "21"
-},
-{
-"index": "4",
-"call": "_callProgressListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "5733",
-"col": "45"
-},
-{
-"index": "5",
-"call": "onLocationChange()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "6151",
-"col": "13"
-},
-{
-"index": "6",
-"call": "_callProgressListeners()",
-"path": "resource://gre/modules/RemoteWebProgress.jsm",
-"line": "75",
-"col": "30"
-},
-{
-"index": "7",
-"call": "onLocationChange()",
-"path": "resource://gre/modules/RemoteWebProgress.jsm",
-"line": "119",
-"col": "9"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "brandShortName",
-"stack": [
-{
-"index": "0",
-"call": "get noTrackerTooltipText()",
-"path": "chrome://browser/content/browser-siteProtections.js",
-"line": "1345",
-"col": "22"
-},
-{
-"index": "1",
-"call": "showNoTrackerTooltipForTPIcon()",
-"path": "chrome://browser/content/browser-siteProtections.js",
-"line": "2157",
-"col": "4"
-},
-{
-"index": "2",
-"call": "onContentBlockingEvent()",
-"path": "chrome://browser/content/browser-siteProtections.js",
-"line": "1801",
-"col": "11"
-},
-{
-"index": "3",
-"call": "onContentBlockingEvent()",
-"path": "chrome://browser/content/browser.js",
-"line": "5412",
-"col": "24"
-},
-{
-"index": "4",
-"call": "callListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "822",
-"col": "30"
-},
-{
-"index": "5",
-"call": "_callProgressListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "836",
-"col": "21"
-},
-{
-"index": "6",
-"call": "_callProgressListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "5733",
-"col": "45"
-},
-{
-"index": "7",
-"call": "onLocationChange()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "6160",
-"col": "15"
-},
-{
-"index": "8",
-"call": "_callProgressListeners()",
-"path": "resource://gre/modules/RemoteWebProgress.jsm",
-"line": "75",
-"col": "30"
-},
-{
-"index": "9",
-"call": "onLocationChange()",
-"path": "resource://gre/modules/RemoteWebProgress.jsm",
-"line": "119",
-"col": "9"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "trackingProtection.icon.noTrackersDetectedTooltip",
-"stack": [
-{
-"index": "0",
-"call": "getFormattedString()",
-"path": "chrome://browser/content/browser.js",
-"line": "633",
-"col": "26"
-},
-{
-"index": "1",
-"call": "get noTrackerTooltipText()",
-"path": "chrome://browser/content/browser-siteProtections.js",
-"line": "1343",
-"col": "59"
-},
-{
-"index": "2",
-"call": "showNoTrackerTooltipForTPIcon()",
-"path": "chrome://browser/content/browser-siteProtections.js",
-"line": "2157",
-"col": "4"
-},
-{
-"index": "3",
-"call": "onContentBlockingEvent()",
-"path": "chrome://browser/content/browser-siteProtections.js",
-"line": "1801",
-"col": "11"
-},
-{
-"index": "4",
-"call": "onContentBlockingEvent()",
-"path": "chrome://browser/content/browser.js",
-"line": "5412",
-"col": "24"
-},
-{
-"index": "5",
-"call": "callListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "822",
-"col": "30"
-},
-{
-"index": "6",
-"call": "_callProgressListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "836",
-"col": "21"
-},
-{
-"index": "7",
-"call": "_callProgressListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "5733",
-"col": "45"
-},
-{
-"index": "8",
-"call": "onLocationChange()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "6160",
-"col": "15"
-},
-{
-"index": "9",
-"call": "_callProgressListeners()",
-"path": "resource://gre/modules/RemoteWebProgress.jsm",
-"line": "75",
-"col": "30"
-},
-{
-"index": "10",
-"call": "onLocationChange()",
-"path": "resource://gre/modules/RemoteWebProgress.jsm",
-"line": "119",
-"col": "9"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "trackingProtection.icon.noTrackersDetectedTooltip",
-"stack": [
-{
-"index": "0",
-"call": "getFormattedString()",
-"path": "chrome://browser/content/browser.js",
-"line": "633",
-"col": "26"
-},
-{
-"index": "1",
-"call": "get noTrackerTooltipText()",
-"path": "chrome://browser/content/browser-siteProtections.js",
-"line": "1343",
-"col": "59"
-},
-{
-"index": "2",
-"call": "showNoTrackerTooltipForTPIcon()",
-"path": "chrome://browser/content/browser-siteProtections.js",
-"line": "2157",
-"col": "4"
-},
-{
-"index": "3",
-"call": "onContentBlockingEvent()",
-"path": "chrome://browser/content/browser-siteProtections.js",
-"line": "1801",
-"col": "11"
-},
-{
-"index": "4",
-"call": "onContentBlockingEvent()",
-"path": "chrome://browser/content/browser.js",
-"line": "5412",
-"col": "24"
-},
-{
-"index": "5",
-"call": "callListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "822",
-"col": "30"
-},
-{
-"index": "6",
-"call": "_callProgressListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "836",
-"col": "21"
-},
-{
-"index": "7",
-"call": "_callProgressListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "5733",
-"col": "45"
-},
-{
-"index": "8",
-"call": "onLocationChange()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "6160",
-"col": "15"
-},
-{
-"index": "9",
-"call": "_callProgressListeners()",
-"path": "resource://gre/modules/RemoteWebProgress.jsm",
-"line": "75",
-"col": "30"
-},
-{
-"index": "10",
-"call": "onLocationChange()",
-"path": "resource://gre/modules/RemoteWebProgress.jsm",
-"line": "119",
-"col": "9"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "VK_CONTROL",
-"stack": [
-{
-"index": "0",
-"call": "getModifierString()",
-"path": "resource://gre/modules/ShortcutUtils.jsm",
-"line": "82",
-"col": "23"
-},
-{
-"index": "1",
-"call": "prettifyShortcut()",
-"path": "resource://gre/modules/ShortcutUtils.jsm",
-"line": "56",
-"col": "26"
-},
-{
-"index": "2",
-"call": "BUI__updateStar()",
-"path": "chrome://browser/content/browser-places.js",
-"line": "1673",
-"col": "30"
-},
-{
-"index": "3",
-"call": "BUI_updateStarState/<()",
-"path": "chrome://browser/content/browser-places.js",
-"line": "1615",
-"col": "13"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "MODIFIER_SEPARATOR",
-"stack": [
-{
-"index": "0",
-"call": "getModifierString()",
-"path": "resource://gre/modules/ShortcutUtils.jsm",
-"line": "83",
-"col": "23"
-},
-{
-"index": "1",
-"call": "prettifyShortcut()",
-"path": "resource://gre/modules/ShortcutUtils.jsm",
-"line": "56",
-"col": "26"
-},
-{
-"index": "2",
-"call": "BUI__updateStar()",
-"path": "chrome://browser/content/browser-places.js",
-"line": "1673",
-"col": "30"
-},
-{
-"index": "3",
-"call": "BUI_updateStarState/<()",
-"path": "chrome://browser/content/browser-places.js",
-"line": "1615",
-"col": "13"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "VK_CONTROL",
-"stack": [
-{
-"index": "0",
-"call": "getModifierString()",
-"path": "resource://gre/modules/ShortcutUtils.jsm",
-"line": "82",
-"col": "23"
-},
-{
-"index": "1",
-"call": "prettifyShortcut()",
-"path": "resource://gre/modules/ShortcutUtils.jsm",
-"line": "56",
-"col": "26"
-},
-{
-"index": "2",
-"call": "updateBookmarkPageMenuItem()",
-"path": "chrome://browser/content/browser-places.js",
-"line": "1723",
-"col": "37"
-},
-{
-"index": "3",
-"call": "BUI__updateStar()",
-"path": "chrome://browser/content/browser-places.js",
-"line": "1682",
-"col": "9"
-},
-{
-"index": "4",
-"call": "BUI_updateStarState/<()",
-"path": "chrome://browser/content/browser-places.js",
-"line": "1615",
-"col": "13"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "MODIFIER_SEPARATOR",
-"stack": [
-{
-"index": "0",
-"call": "getModifierString()",
-"path": "resource://gre/modules/ShortcutUtils.jsm",
-"line": "83",
-"col": "23"
-},
-{
-"index": "1",
-"call": "prettifyShortcut()",
-"path": "resource://gre/modules/ShortcutUtils.jsm",
-"line": "56",
-"col": "26"
-},
-{
-"index": "2",
-"call": "updateBookmarkPageMenuItem()",
-"path": "chrome://browser/content/browser-places.js",
-"line": "1723",
-"col": "37"
-},
-{
-"index": "3",
-"call": "BUI__updateStar()",
-"path": "chrome://browser/content/browser-places.js",
-"line": "1682",
-"col": "9"
-},
-{
-"index": "4",
-"call": "BUI_updateStarState/<()",
-"path": "chrome://browser/content/browser-places.js",
-"line": "1615",
-"col": "13"
-}
-],
-"file": null
-},
-{
-"type": "ftl",
-"id": "menu-bookmark-this-page",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "urlbar-star-add-bookmark",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "main-context-menu-bookmark-add-with-shortcut",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "zoom-button.label",
-"stack": [
-{
-"index": "0",
-"call": "getFormattedString()",
-"path": "chrome://browser/content/browser.js",
-"line": "633",
-"col": "26"
-},
-{
-"index": "1",
-"call": "updateZoomUI()",
-"path": "resource:///modules/ZoomUI.jsm",
-"line": "162",
-"col": "35"
-},
-{
-"index": "2",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "3",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "zoom-button.label",
-"stack": [
-{
-"index": "0",
-"call": "getFormattedString()",
-"path": "chrome://browser/content/browser.js",
-"line": "633",
-"col": "26"
-},
-{
-"index": "1",
-"call": "updateZoomUI()",
-"path": "resource:///modules/ZoomUI.jsm",
-"line": "162",
-"col": "35"
-},
-{
-"index": "2",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "3",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "brandShortName",
 "stack": null,
 "file": null
 },
@@ -8927,14 +8308,300 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "screenshots-context-menu",
-"stack": null,
+"type": "properties",
+"id": "readerView.enter",
+"stack": [
+{
+"index": "0",
+"call": "updateReaderButton()",
+"path": "resource:///modules/ReaderParent.jsm",
+"line": "99",
+"col": "36"
+},
+{
+"index": "1",
+"call": "onLocationChange()",
+"path": "chrome://browser/content/browser.js",
+"line": "5260",
+"col": "17"
+},
+{
+"index": "2",
+"call": "callListeners()",
+"path": "chrome://browser/content/tabbrowser.js",
+"line": "820",
+"col": "30"
+},
+{
+"index": "3",
+"call": "_callProgressListeners()",
+"path": "chrome://browser/content/tabbrowser.js",
+"line": "834",
+"col": "21"
+},
+{
+"index": "4",
+"call": "_callProgressListeners()",
+"path": "chrome://browser/content/tabbrowser.js",
+"line": "5776",
+"col": "45"
+},
+{
+"index": "5",
+"call": "onLocationChange()",
+"path": "chrome://browser/content/tabbrowser.js",
+"line": "6194",
+"col": "13"
+},
+{
+"index": "6",
+"call": "_callProgressListeners()",
+"path": "resource://gre/modules/RemoteWebProgress.jsm",
+"line": "75",
+"col": "30"
+},
+{
+"index": "7",
+"call": "onLocationChange()",
+"path": "resource://gre/modules/RemoteWebProgress.jsm",
+"line": "119",
+"col": "9"
+}
+],
 "file": null
 },
 {
 "type": "properties",
-"id": "brandShortName",
+"id": "readerView.enter.accesskey",
+"stack": [
+{
+"index": "0",
+"call": "updateReaderButton()",
+"path": "resource:///modules/ReaderParent.jsm",
+"line": "109",
+"col": "22"
+},
+{
+"index": "1",
+"call": "onLocationChange()",
+"path": "chrome://browser/content/browser.js",
+"line": "5260",
+"col": "17"
+},
+{
+"index": "2",
+"call": "callListeners()",
+"path": "chrome://browser/content/tabbrowser.js",
+"line": "820",
+"col": "30"
+},
+{
+"index": "3",
+"call": "_callProgressListeners()",
+"path": "chrome://browser/content/tabbrowser.js",
+"line": "834",
+"col": "21"
+},
+{
+"index": "4",
+"call": "_callProgressListeners()",
+"path": "chrome://browser/content/tabbrowser.js",
+"line": "5776",
+"col": "45"
+},
+{
+"index": "5",
+"call": "onLocationChange()",
+"path": "chrome://browser/content/tabbrowser.js",
+"line": "6194",
+"col": "13"
+},
+{
+"index": "6",
+"call": "_callProgressListeners()",
+"path": "resource://gre/modules/RemoteWebProgress.jsm",
+"line": "75",
+"col": "30"
+},
+{
+"index": "7",
+"call": "onLocationChange()",
+"path": "resource://gre/modules/RemoteWebProgress.jsm",
+"line": "119",
+"col": "9"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "VK_CONTROL",
+"stack": [
+{
+"index": "0",
+"call": "getModifierString()",
+"path": "resource://gre/modules/ShortcutUtils.jsm",
+"line": "82",
+"col": "23"
+},
+{
+"index": "1",
+"call": "prettifyShortcut()",
+"path": "resource://gre/modules/ShortcutUtils.jsm",
+"line": "56",
+"col": "26"
+},
+{
+"index": "2",
+"call": "BUI__updateStar()",
+"path": "chrome://browser/content/browser-places.js",
+"line": "1669",
+"col": "30"
+},
+{
+"index": "3",
+"call": "BUI_updateStarState/<()",
+"path": "chrome://browser/content/browser-places.js",
+"line": "1611",
+"col": "13"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "MODIFIER_SEPARATOR",
+"stack": [
+{
+"index": "0",
+"call": "getModifierString()",
+"path": "resource://gre/modules/ShortcutUtils.jsm",
+"line": "83",
+"col": "23"
+},
+{
+"index": "1",
+"call": "prettifyShortcut()",
+"path": "resource://gre/modules/ShortcutUtils.jsm",
+"line": "56",
+"col": "26"
+},
+{
+"index": "2",
+"call": "BUI__updateStar()",
+"path": "chrome://browser/content/browser-places.js",
+"line": "1669",
+"col": "30"
+},
+{
+"index": "3",
+"call": "BUI_updateStarState/<()",
+"path": "chrome://browser/content/browser-places.js",
+"line": "1611",
+"col": "13"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "VK_CONTROL",
+"stack": [
+{
+"index": "0",
+"call": "getModifierString()",
+"path": "resource://gre/modules/ShortcutUtils.jsm",
+"line": "82",
+"col": "23"
+},
+{
+"index": "1",
+"call": "prettifyShortcut()",
+"path": "resource://gre/modules/ShortcutUtils.jsm",
+"line": "56",
+"col": "26"
+},
+{
+"index": "2",
+"call": "updateBookmarkPageMenuItem()",
+"path": "chrome://browser/content/browser-places.js",
+"line": "1719",
+"col": "37"
+},
+{
+"index": "3",
+"call": "BUI__updateStar()",
+"path": "chrome://browser/content/browser-places.js",
+"line": "1678",
+"col": "9"
+},
+{
+"index": "4",
+"call": "BUI_updateStarState/<()",
+"path": "chrome://browser/content/browser-places.js",
+"line": "1611",
+"col": "13"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "MODIFIER_SEPARATOR",
+"stack": [
+{
+"index": "0",
+"call": "getModifierString()",
+"path": "resource://gre/modules/ShortcutUtils.jsm",
+"line": "83",
+"col": "23"
+},
+{
+"index": "1",
+"call": "prettifyShortcut()",
+"path": "resource://gre/modules/ShortcutUtils.jsm",
+"line": "56",
+"col": "26"
+},
+{
+"index": "2",
+"call": "updateBookmarkPageMenuItem()",
+"path": "chrome://browser/content/browser-places.js",
+"line": "1719",
+"col": "37"
+},
+{
+"index": "3",
+"call": "BUI__updateStar()",
+"path": "chrome://browser/content/browser-places.js",
+"line": "1678",
+"col": "9"
+},
+{
+"index": "4",
+"call": "BUI_updateStarState/<()",
+"path": "chrome://browser/content/browser-places.js",
+"line": "1611",
+"col": "13"
+}
+],
+"file": null
+},
+{
+"type": "ftl",
+"id": "menu-bookmark-this-page",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "urlbar-star-add-bookmark",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "main-context-menu-bookmark-add-with-shortcut",
 "stack": null,
 "file": null
 },
@@ -9094,6 +8761,82 @@
 },
 {
 "type": "properties",
+"id": "zoom-button.label",
+"stack": [
+{
+"index": "0",
+"call": "getFormattedString()",
+"path": "chrome://browser/content/browser.js",
+"line": "633",
+"col": "26"
+},
+{
+"index": "1",
+"call": "updateZoomUI()",
+"path": "resource:///modules/ZoomUI.jsm",
+"line": "162",
+"col": "35"
+},
+{
+"index": "2",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "3",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "zoom-button.label",
+"stack": [
+{
+"index": "0",
+"call": "getFormattedString()",
+"path": "chrome://browser/content/browser.js",
+"line": "633",
+"col": "26"
+},
+{
+"index": "1",
+"call": "updateZoomUI()",
+"path": "resource:///modules/ZoomUI.jsm",
+"line": "162",
+"col": "35"
+},
+{
+"index": "2",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "3",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "brandShortName",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
 "id": "wc-reporter.label2",
 "stack": [
 {
@@ -9114,39 +8857,46 @@
 "index": "2",
 "call": "recvAPICall/result</<()",
 "path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "960",
+"line": "987",
 "col": "67"
 },
 {
 "index": "3",
 "call": "withPendingBrowser()",
 "path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "592",
+"line": "593",
 "col": "25"
 },
 {
 "index": "4",
 "call": "recvAPICall/result<()",
 "path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "960",
+"line": "987",
 "col": "23"
 },
 {
 "index": "5",
 "call": "callAndLog()",
 "path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "922",
+"line": "949",
 "col": "13"
 },
 {
 "index": "6",
 "call": "recvAPICall()",
 "path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "959",
+"line": "986",
 "col": "24"
 },
 {
 "index": "7",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "8",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
 "line": "693",
@@ -9177,45 +8927,64 @@
 "index": "2",
 "call": "recvAPICall/result</<()",
 "path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "960",
+"line": "987",
 "col": "67"
 },
 {
 "index": "3",
 "call": "withPendingBrowser()",
 "path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "592",
+"line": "593",
 "col": "25"
 },
 {
 "index": "4",
 "call": "recvAPICall/result<()",
 "path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "960",
+"line": "987",
 "col": "23"
 },
 {
 "index": "5",
 "call": "callAndLog()",
 "path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "922",
+"line": "949",
 "col": "13"
 },
 {
 "index": "6",
 "call": "recvAPICall()",
 "path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "959",
+"line": "986",
 "col": "24"
 },
 {
 "index": "7",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "8",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
 "line": "693",
 "col": "0"
 }
 ],
+"file": null
+},
+{
+"type": "ftl",
+"id": "screenshots-context-menu",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "brandShortName",
+"stack": null,
 "file": null
 },
 {
@@ -9282,21 +9051,21 @@
 "index": "8",
 "call": "callAsyncFunction/<()",
 "path": "resource://gre/modules/ExtensionChild.jsm",
-"line": "842",
+"line": "819",
 "col": "18"
 },
 {
 "index": "9",
 "call": "callAndLog()",
 "path": "resource://gre/modules/ExtensionChild.jsm",
-"line": "818",
+"line": "795",
 "col": "13"
 },
 {
 "index": "10",
 "call": "callAsyncFunction()",
 "path": "resource://gre/modules/ExtensionChild.jsm",
-"line": "841",
+"line": "818",
 "col": "16"
 },
 {
@@ -9309,7 +9078,7 @@
 {
 "index": "12",
 "call": "migrateLocalStoragePrefs()",
-"path": "moz-extension://81b05009-206e-4bb0-ab42-83481c3547b7/background.js",
+"path": "moz-extension://110335f0-bb8e-48fa-8040-c434db0e6e39/background.js",
 "line": "467",
 "col": "45"
 },
@@ -9326,6 +9095,102 @@
 {
 "type": "ftl",
 "id": "newtab-page-title",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-search-box-search-the-web-input",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-search-box-search-the-web-text",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-topsites",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-section-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-highlights",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-collapse-section-label",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-section-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-settings-button",
 "stack": null,
 "file": null
 },
@@ -9349,6 +9214,174 @@
 },
 {
 "type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
 "id": "6",
 "stack": null,
 "file": null
@@ -9361,25 +9394,7 @@
 },
 {
 "type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -9397,145 +9412,7 @@
 },
 {
 "type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
 "id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
 "stack": null,
 "file": null
 },
@@ -9595,114 +9472,6 @@
 },
 {
 "type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
 "id": "12",
 "stack": null,
 "file": null
@@ -9710,6 +9479,126 @@
 {
 "type": "properties",
 "id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-topsites",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-section-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
 "stack": null,
 "file": null
 },
@@ -9784,14 +9673,14 @@
 "index": "9",
 "call": "task()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2170",
+"line": "2194",
 "col": "12"
 },
 {
 "index": "10",
 "call": "_scheduleStartupIdleTasks/<()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2365",
+"line": "2389",
 "col": "19"
 }
 ],
@@ -9868,14 +9757,14 @@
 "index": "9",
 "call": "task()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2170",
+"line": "2194",
 "col": "12"
 },
 {
 "index": "10",
 "call": "_scheduleStartupIdleTasks/<()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2365",
+"line": "2389",
 "col": "19"
 }
 ],
@@ -9889,7 +9778,7 @@
 "index": "0",
 "call": "isMasterPasswordSet()",
 "path": "resource://gre/modules/LoginHelper.jsm",
-"line": "1092",
+"line": "1127",
 "col": "24"
 },
 {
@@ -9910,7 +9799,7 @@
 "index": "0",
 "call": "isMasterPasswordSet()",
 "path": "resource://gre/modules/LoginHelper.jsm",
-"line": "1092",
+"line": "1127",
 "col": "24"
 },
 {
@@ -11073,18 +10962,6 @@
 },
 {
 "type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
 "id": "13",
 "stack": null,
 "file": null
@@ -11205,61 +11082,13 @@
 },
 {
 "type": "properties",
-"id": "6",
+"id": "10",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
+"id": "10",
 "stack": null,
 "file": null
 },
@@ -11582,252 +11411,6 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "searchWithEngine",
-"stack": [
-{
-"index": "0",
-"call": "_currentEngineObj()",
-"path": "resource:///actors/ContentSearchParent.jsm",
-"line": "523",
-"col": "41"
-},
-{
-"index": "1",
-"call": "currentStateObj()",
-"path": "resource:///actors/ContentSearchParent.jsm",
-"line": "331",
-"col": "32"
-},
-{
-"index": "2",
-"call": "_onMessageGetEngine()",
-"path": "resource:///actors/ContentSearchParent.jsm",
-"line": "418",
-"col": "16"
-},
-{
-"index": "3",
-"call": "_onMessage()",
-"path": "resource:///actors/ContentSearchParent.jsm",
-"line": "406",
-"col": "28"
-},
-{
-"index": "4",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "5",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "searchWithEngine",
-"stack": [
-{
-"index": "0",
-"call": "_currentEngineObj()",
-"path": "resource:///actors/ContentSearchParent.jsm",
-"line": "523",
-"col": "41"
-},
-{
-"index": "1",
-"call": "currentStateObj()",
-"path": "resource:///actors/ContentSearchParent.jsm",
-"line": "331",
-"col": "32"
-},
-{
-"index": "2",
-"call": "_onMessageGetEngine()",
-"path": "resource:///actors/ContentSearchParent.jsm",
-"line": "418",
-"col": "16"
-},
-{
-"index": "3",
-"call": "_onMessage()",
-"path": "resource:///actors/ContentSearchParent.jsm",
-"line": "406",
-"col": "28"
-},
-{
-"index": "4",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "5",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "searchWithEngine",
-"stack": [
-{
-"index": "0",
-"call": "_currentEngineObj()",
-"path": "resource:///actors/ContentSearchParent.jsm",
-"line": "523",
-"col": "41"
-},
-{
-"index": "1",
-"call": "currentStateObj()",
-"path": "resource:///actors/ContentSearchParent.jsm",
-"line": "332",
-"col": "39"
-},
-{
-"index": "2",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "3",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "searchWithEngine",
-"stack": [
-{
-"index": "0",
-"call": "_currentEngineObj()",
-"path": "resource:///actors/ContentSearchParent.jsm",
-"line": "523",
-"col": "41"
-},
-{
-"index": "1",
-"call": "currentStateObj()",
-"path": "resource:///actors/ContentSearchParent.jsm",
-"line": "332",
-"col": "39"
-},
-{
-"index": "2",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1151",
-"col": "0"
-},
-{
-"index": "3",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "693",
-"col": "0"
-}
-],
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-search-box-search-the-web-input",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-search-box-search-the-web-text",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-header-topsites",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-collapse-section-label",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-section-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
 "type": "ftl",
 "id": "newtab-section-header-pocket",
 "stack": null,
@@ -11858,8 +11441,906 @@
 "file": null
 },
 {
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onMessageGetEngine()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "418",
+"col": "16"
+},
+{
+"index": "3",
+"call": "_onMessage()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "406",
+"col": "28"
+},
+{
+"index": "4",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "5",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onMessageGetEngine()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "418",
+"col": "16"
+},
+{
+"index": "3",
+"call": "_onMessage()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "406",
+"col": "28"
+},
+{
+"index": "4",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "5",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "3",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "3",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "7",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "7",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "3",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "3",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
 "type": "ftl",
-"id": "newtab-section-header-highlights",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "observe()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "181",
+"col": "13"
+},
+{
+"index": "6",
+"call": "notifyAction()",
+"path": "resource://gre/modules/SearchUtils.jsm",
+"line": "94",
+"col": "19"
+},
+{
+"index": "7",
+"call": "_setIcon()",
+"path": "resource://gre/modules/SearchEngine.jsm",
+"line": "1296",
+"col": "22"
+},
+{
+"index": "8",
+"call": "_initFromMetadata()",
+"path": "resource://gre/modules/SearchEngine.jsm",
+"line": "1512",
+"col": "11"
+},
+{
+"index": "9",
+"call": "makeEngineFromConfig()",
+"path": "resource://gre/modules/SearchService.jsm",
+"line": "2695",
+"col": "11"
+},
+{
+"index": "10",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "7",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "7",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "7",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "7",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
@@ -11871,211 +12352,2017 @@
 },
 {
 "type": "ftl",
-"id": "newtab-menu-section-tooltip",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "observe()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "181",
+"col": "13"
+},
+{
+"index": "6",
+"call": "notifyAction()",
+"path": "resource://gre/modules/SearchUtils.jsm",
+"line": "94",
+"col": "19"
+},
+{
+"index": "7",
+"call": "_setIcon()",
+"path": "resource://gre/modules/SearchEngine.jsm",
+"line": "1296",
+"col": "22"
+},
+{
+"index": "8",
+"call": "_initFromMetadata()",
+"path": "resource://gre/modules/SearchEngine.jsm",
+"line": "1512",
+"col": "11"
+},
+{
+"index": "9",
+"call": "makeEngineFromConfig()",
+"path": "resource://gre/modules/SearchService.jsm",
+"line": "2695",
+"col": "11"
+},
+{
+"index": "10",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "observe()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "181",
+"col": "13"
+},
+{
+"index": "6",
+"call": "notifyAction()",
+"path": "resource://gre/modules/SearchUtils.jsm",
+"line": "94",
+"col": "19"
+},
+{
+"index": "7",
+"call": "_setIcon()",
+"path": "resource://gre/modules/SearchEngine.jsm",
+"line": "1296",
+"col": "22"
+},
+{
+"index": "8",
+"call": "_initFromMetadata()",
+"path": "resource://gre/modules/SearchEngine.jsm",
+"line": "1512",
+"col": "11"
+},
+{
+"index": "9",
+"call": "makeEngineFromConfig()",
+"path": "resource://gre/modules/SearchService.jsm",
+"line": "2695",
+"col": "11"
+},
+{
+"index": "10",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "7",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "7",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "7",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "7",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "7",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "7",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "7",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "7",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "7",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1151",
+"col": "0"
+},
+{
+"index": "7",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "331",
+"col": "32"
+},
+{
+"index": "2",
+"call": "_onObserve()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "490",
+"col": "29"
+},
+{
+"index": "3",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "367",
+"col": "38"
+},
+{
+"index": "4",
+"call": "_processEventQueue()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "375",
+"col": "6"
+},
+{
+"index": "5",
+"call": "_processEventQueue/this._currentEventPromise<()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "373",
+"col": "13"
+},
+{
+"index": "6",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "searchWithEngine",
+"stack": [
+{
+"index": "0",
+"call": "_currentEngineObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "523",
+"col": "41"
+},
+{
+"index": "1",
+"call": "currentStateObj()",
+"path": "resource:///actors/ContentSearchParent.jsm",
+"line": "332",
+"col": "39"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "693",
+"col": "0"
+}
+],
 "file": null
 },
 {
 "type": "ftl",
 "id": "newtab-empty-section-highlights",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-settings-button",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
 "stack": null,
 "file": null
 },
@@ -17079,14 +19366,14 @@
 "index": "0",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2582",
+"line": "2606",
 "col": "41"
 },
 {
 "index": "1",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "887",
+"line": "898",
 "col": "13"
 },
 {
@@ -17135,14 +19422,14 @@
 "index": "2",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2583",
+"line": "2607",
 "col": "6"
 },
 {
 "index": "3",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "887",
+"line": "898",
 "col": "13"
 },
 {
@@ -17177,14 +19464,14 @@
 "index": "0",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2599",
+"line": "2623",
 "col": "26"
 },
 {
 "index": "1",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "887",
+"line": "898",
 "col": "13"
 },
 {
@@ -17219,14 +19506,14 @@
 "index": "0",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2605",
+"line": "2629",
 "col": "24"
 },
 {
 "index": "1",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "887",
+"line": "898",
 "col": "13"
 },
 {
@@ -17261,14 +19548,14 @@
 "index": "0",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2608",
+"line": "2632",
 "col": "24"
 },
 {
 "index": "1",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "887",
+"line": "898",
 "col": "13"
 },
 {
@@ -17303,42 +19590,42 @@
 "index": "0",
 "call": "getLocalizedString()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "254",
+"line": "773",
 "col": "26"
 },
 {
 "index": "1",
 "call": "confirmExHelper()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "274",
+"line": "793",
 "col": "36"
 },
 {
 "index": "2",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "822",
+"line": "1408",
 "col": "20"
 },
 {
 "index": "3",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "110",
+"line": "298",
 "col": "13"
 },
 {
 "index": "4",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2603",
+"line": "2627",
 "col": "40"
 },
 {
 "index": "5",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "887",
+"line": "898",
 "col": "13"
 },
 {
@@ -17385,37 +19672,37 @@
 },
 {
 "index": "2",
-"call": "openPrompt()",
+"call": "openPromptSync()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "660",
+"line": "1094",
 "col": "16"
 },
 {
 "index": "3",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "837",
+"line": "1430",
 "col": "9"
 },
 {
 "index": "4",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "110",
+"line": "298",
 "col": "13"
 },
 {
 "index": "5",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2603",
+"line": "2627",
 "col": "40"
 },
 {
 "index": "6",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "887",
+"line": "898",
 "col": "13"
 },
 {
@@ -17526,37 +19813,37 @@
 },
 {
 "index": "6",
-"call": "openPrompt()",
+"call": "openPromptSync()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "660",
+"line": "1094",
 "col": "16"
 },
 {
 "index": "7",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "837",
+"line": "1430",
 "col": "9"
 },
 {
 "index": "8",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "110",
+"line": "298",
 "col": "13"
 },
 {
 "index": "9",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2603",
+"line": "2627",
 "col": "40"
 },
 {
 "index": "10",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "887",
+"line": "898",
 "col": "13"
 },
 {
@@ -17631,37 +19918,37 @@
 },
 {
 "index": "6",
-"call": "openPrompt()",
+"call": "openPromptSync()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "660",
+"line": "1094",
 "col": "16"
 },
 {
 "index": "7",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "837",
+"line": "1430",
 "col": "9"
 },
 {
 "index": "8",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "110",
+"line": "298",
 "col": "13"
 },
 {
 "index": "9",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2603",
+"line": "2627",
 "col": "40"
 },
 {
 "index": "10",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "887",
+"line": "898",
 "col": "13"
 },
 {
@@ -17735,37 +20022,37 @@
 },
 {
 "index": "5",
-"call": "openPrompt()",
+"call": "openPromptSync()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "660",
+"line": "1094",
 "col": "16"
 },
 {
 "index": "6",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "837",
+"line": "1430",
 "col": "9"
 },
 {
 "index": "7",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "110",
+"line": "298",
 "col": "13"
 },
 {
 "index": "8",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2603",
+"line": "2627",
 "col": "40"
 },
 {
 "index": "9",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "887",
+"line": "898",
 "col": "13"
 },
 {
@@ -17833,37 +20120,37 @@
 },
 {
 "index": "5",
-"call": "openPrompt()",
+"call": "openPromptSync()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "660",
+"line": "1094",
 "col": "16"
 },
 {
 "index": "6",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "837",
+"line": "1430",
 "col": "9"
 },
 {
 "index": "7",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "110",
+"line": "298",
 "col": "13"
 },
 {
 "index": "8",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2603",
+"line": "2627",
 "col": "40"
 },
 {
 "index": "9",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "887",
+"line": "898",
 "col": "13"
 },
 {
@@ -17931,37 +20218,37 @@
 },
 {
 "index": "5",
-"call": "openPrompt()",
+"call": "openPromptSync()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "660",
+"line": "1094",
 "col": "16"
 },
 {
 "index": "6",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "837",
+"line": "1430",
 "col": "9"
 },
 {
 "index": "7",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "110",
+"line": "298",
 "col": "13"
 },
 {
 "index": "8",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2603",
+"line": "2627",
 "col": "40"
 },
 {
 "index": "9",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "887",
+"line": "898",
 "col": "13"
 },
 {
@@ -18029,37 +20316,37 @@
 },
 {
 "index": "5",
-"call": "openPrompt()",
+"call": "openPromptSync()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "660",
+"line": "1094",
 "col": "16"
 },
 {
 "index": "6",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "837",
+"line": "1430",
 "col": "9"
 },
 {
 "index": "7",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "110",
+"line": "298",
 "col": "13"
 },
 {
 "index": "8",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2603",
+"line": "2627",
 "col": "40"
 },
 {
 "index": "9",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "887",
+"line": "898",
 "col": "13"
 },
 {
@@ -18127,37 +20414,37 @@
 },
 {
 "index": "5",
-"call": "openPrompt()",
+"call": "openPromptSync()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "660",
+"line": "1094",
 "col": "16"
 },
 {
 "index": "6",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "837",
+"line": "1430",
 "col": "9"
 },
 {
 "index": "7",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "110",
+"line": "298",
 "col": "13"
 },
 {
 "index": "8",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2603",
+"line": "2627",
 "col": "40"
 },
 {
 "index": "9",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "887",
+"line": "898",
 "col": "13"
 },
 {
@@ -18225,37 +20512,37 @@
 },
 {
 "index": "5",
-"call": "openPrompt()",
+"call": "openPromptSync()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "660",
+"line": "1094",
 "col": "16"
 },
 {
 "index": "6",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "837",
+"line": "1430",
 "col": "9"
 },
 {
 "index": "7",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "110",
+"line": "298",
 "col": "13"
 },
 {
 "index": "8",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2603",
+"line": "2627",
 "col": "40"
 },
 {
 "index": "9",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "887",
+"line": "898",
 "col": "13"
 },
 {
@@ -18323,37 +20610,37 @@
 },
 {
 "index": "5",
-"call": "openPrompt()",
+"call": "openPromptSync()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "660",
+"line": "1094",
 "col": "16"
 },
 {
 "index": "6",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "837",
+"line": "1430",
 "col": "9"
 },
 {
 "index": "7",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "110",
+"line": "298",
 "col": "13"
 },
 {
 "index": "8",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2603",
+"line": "2627",
 "col": "40"
 },
 {
 "index": "9",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "887",
+"line": "898",
 "col": "13"
 },
 {
@@ -18421,37 +20708,37 @@
 },
 {
 "index": "5",
-"call": "openPrompt()",
+"call": "openPromptSync()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "660",
+"line": "1094",
 "col": "16"
 },
 {
 "index": "6",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "837",
+"line": "1430",
 "col": "9"
 },
 {
 "index": "7",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "110",
+"line": "298",
 "col": "13"
 },
 {
 "index": "8",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2603",
+"line": "2627",
 "col": "40"
 },
 {
 "index": "9",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "887",
+"line": "898",
 "col": "13"
 },
 {
@@ -18519,37 +20806,37 @@
 },
 {
 "index": "5",
-"call": "openPrompt()",
+"call": "openPromptSync()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "660",
+"line": "1094",
 "col": "16"
 },
 {
 "index": "6",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "837",
+"line": "1430",
 "col": "9"
 },
 {
 "index": "7",
 "call": "confirmEx()",
 "path": "resource://gre/modules/Prompter.jsm",
-"line": "110",
+"line": "298",
 "col": "13"
 },
 {
 "index": "8",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2603",
+"line": "2627",
 "col": "40"
 },
 {
 "index": "9",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "887",
+"line": "898",
 "col": "13"
 },
 {
@@ -18598,21 +20885,21 @@
 "index": "2",
 "call": "updateBookmarkPageMenuItem()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1723",
+"line": "1719",
 "col": "37"
 },
 {
 "index": "3",
 "call": "BUI_uninit()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1562",
+"line": "1558",
 "col": "9"
 },
 {
 "index": "4",
 "call": "onUnload()",
 "path": "chrome://browser/content/browser.js",
-"line": "2418",
+"line": "2423",
 "col": "18"
 },
 {
@@ -18647,21 +20934,21 @@
 "index": "2",
 "call": "updateBookmarkPageMenuItem()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1723",
+"line": "1719",
 "col": "37"
 },
 {
 "index": "3",
 "call": "BUI_uninit()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1562",
+"line": "1558",
 "col": "9"
 },
 {
 "index": "4",
 "call": "onUnload()",
 "path": "chrome://browser/content/browser.js",
-"line": "2418",
+"line": "2423",
 "col": "18"
 },
 {
