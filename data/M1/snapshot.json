@@ -1,6 +1,6 @@
 {
-"date": "2020-04-26",
-"revision": "df251f2e0320157d444a0e8e5e609f3bc1969f57",
+"date": "2020-05-03",
+"revision": "d95c612379c34bd08c24846a13f698c2f7ea3ebe",
 "data": [
 {
 "type": "dtd",
@@ -761,218 +761,6 @@
 {
 "type": "dtd",
 "id": "customizeMode.autoHideDownloadsButton.label"
-},
-{
-"type": "dtd",
-"id": "protections.etpMoreInfo.label"
-},
-{
-"type": "dtd",
-"id": "protections.etpON.header"
-},
-{
-"type": "dtd",
-"id": "protections.etpOFF.header"
-},
-{
-"type": "dtd",
-"id": "protections.etpON.header"
-},
-{
-"type": "dtd",
-"id": "protections.etpOFF.header"
-},
-{
-"type": "dtd",
-"id": "protections.siteNotWorking.label"
-},
-{
-"type": "dtd",
-"id": "protections.noTrackersFound.description"
-},
-{
-"type": "dtd",
-"id": "protections.notBlocking.why.etpOn.tooltip"
-},
-{
-"type": "dtd",
-"id": "protections.notBlocking.why.etpOff2.tooltip"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.trackingProtection4.label"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.socialblock.label"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.cryptominers.label"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.fingerprinters.label"
-},
-{
-"type": "dtd",
-"id": "protections.blocking2.label"
-},
-{
-"type": "dtd",
-"id": "protections.notBlocking2.label"
-},
-{
-"type": "dtd",
-"id": "protections.notBlocking.why.label"
-},
-{
-"type": "dtd",
-"id": "protections.notFound.label"
-},
-{
-"type": "dtd",
-"id": "protections.settings.label"
-},
-{
-"type": "dtd",
-"id": "protections.showreport.label"
-},
-{
-"type": "dtd",
-"id": "protections.siteNotWorkingView.title"
-},
-{
-"type": "dtd",
-"id": "protections.etpON.header"
-},
-{
-"type": "dtd",
-"id": "protections.etpOFF.header"
-},
-{
-"type": "dtd",
-"id": "protections.siteNotWorkingView.header"
-},
-{
-"type": "dtd",
-"id": "protections.siteNotWorkingView.issueList.logInFields"
-},
-{
-"type": "dtd",
-"id": "protections.siteNotWorkingView.issueList.forms"
-},
-{
-"type": "dtd",
-"id": "protections.siteNotWorkingView.issueList.payments"
-},
-{
-"type": "dtd",
-"id": "protections.siteNotWorkingView.issueList.comments"
-},
-{
-"type": "dtd",
-"id": "protections.siteNotWorkingView.issueList.videos"
-},
-{
-"type": "dtd",
-"id": "protections.siteNotWorkingView.sendReport.label"
-},
-{
-"type": "dtd",
-"id": "protections.trackingContent2.description"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.manageSettings2.label"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.manageSettings2.accesskey"
-},
-{
-"type": "dtd",
-"id": "protections.socialMediaTrackers.description"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.manageSettings2.label"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.manageSettings2.accesskey"
-},
-{
-"type": "dtd",
-"id": "protections.crossSiteTrackingCookies.description"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.manageSettings2.label"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.manageSettings2.accesskey"
-},
-{
-"type": "dtd",
-"id": "protections.fingerprinters.description"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.manageSettings2.label"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.manageSettings2.accesskey"
-},
-{
-"type": "dtd",
-"id": "protections.cryptominers.description"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.manageSettings2.label"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.manageSettings2.accesskey"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.breakageReportView.title"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.breakageReportView3.description"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.breakageReportView2.learnMore"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.breakageReportView.collection.url.label"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.breakageReportView.collection.url.label"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.breakageReportView2.collection.comments.label"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.breakageReportView2.collection.comments.label"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.breakageReportView.cancel.label"
-},
-{
-"type": "dtd",
-"id": "contentBlocking.breakageReportView.sendReport.label"
 },
 {
 "type": "dtd",
@@ -2400,11 +2188,199 @@
 },
 {
 "type": "ftl",
+"id": "protections-panel-etp-more-info"
+},
+{
+"type": "ftl",
+"id": "protections-panel-etp-on-header"
+},
+{
+"type": "ftl",
+"id": "protections-panel-etp-off-header"
+},
+{
+"type": "ftl",
+"id": "protections-panel-etp-on-header"
+},
+{
+"type": "ftl",
+"id": "protections-panel-etp-off-header"
+},
+{
+"type": "ftl",
+"id": "protections-panel-site-not-working"
+},
+{
+"type": "ftl",
 "id": "protections-panel-sitefixedsendreport-label"
 },
 {
 "type": "ftl",
+"id": "protections-panel-no-trackers-found"
+},
+{
+"type": "ftl",
+"id": "protections-panel-not-blocking-why-etp-on-tooltip"
+},
+{
+"type": "ftl",
+"id": "protections-panel-not-blocking-why-etp-off-tooltip"
+},
+{
+"type": "ftl",
+"id": "protections-panel-content-blocking-tracking-protection"
+},
+{
+"type": "ftl",
+"id": "protections-panel-content-blocking-socialblock"
+},
+{
+"type": "ftl",
+"id": "protections-panel-content-blocking-cryptominers-label"
+},
+{
+"type": "ftl",
+"id": "protections-panel-content-blocking-fingerprinters-label"
+},
+{
+"type": "ftl",
+"id": "protections-panel-blocking-label"
+},
+{
+"type": "ftl",
+"id": "protections-panel-not-blocking-label"
+},
+{
+"type": "ftl",
+"id": "protections-panel-not-blocking-why-label"
+},
+{
+"type": "ftl",
+"id": "protections-panel-not-found-label"
+},
+{
+"type": "ftl",
+"id": "protections-panel-settings-label"
+},
+{
+"type": "ftl",
+"id": "protections-panel-showreport-label"
+},
+{
+"type": "ftl",
+"id": "protections-panel-site-not-working-view"
+},
+{
+"type": "ftl",
+"id": "protections-panel-etp-on-header"
+},
+{
+"type": "ftl",
+"id": "protections-panel-etp-off-header"
+},
+{
+"type": "ftl",
+"id": "protections-panel-site-not-working-view-header"
+},
+{
+"type": "ftl",
+"id": "protections-panel-site-not-working-view-issue-list-login-fields"
+},
+{
+"type": "ftl",
+"id": "protections-panel-site-not-working-view-issue-list-forms"
+},
+{
+"type": "ftl",
+"id": "protections-panel-site-not-working-view-issue-list-payments"
+},
+{
+"type": "ftl",
+"id": "protections-panel-site-not-working-view-issue-list-comments"
+},
+{
+"type": "ftl",
+"id": "protections-panel-site-not-working-view-issue-list-videos"
+},
+{
+"type": "ftl",
+"id": "protections-panel-site-not-working-view-send-report"
+},
+{
+"type": "ftl",
+"id": "protections-panel-tracking-content"
+},
+{
+"type": "ftl",
+"id": "protections-panel-content-blocking-manage-settings"
+},
+{
+"type": "ftl",
+"id": "protections-panel-social-media-trackers"
+},
+{
+"type": "ftl",
+"id": "protections-panel-content-blocking-manage-settings"
+},
+{
+"type": "ftl",
+"id": "protections-panel-cross-site-tracking-cookies"
+},
+{
+"type": "ftl",
+"id": "protections-panel-content-blocking-manage-settings"
+},
+{
+"type": "ftl",
+"id": "protections-panel-fingerprinters"
+},
+{
+"type": "ftl",
+"id": "protections-panel-content-blocking-manage-settings"
+},
+{
+"type": "ftl",
+"id": "protections-panel-cryptominers"
+},
+{
+"type": "ftl",
+"id": "protections-panel-content-blocking-manage-settings"
+},
+{
+"type": "ftl",
+"id": "protections-panel-content-blocking-breakage-report-view"
+},
+{
+"type": "ftl",
+"id": "protections-panel-content-blocking-breakage-report-view-description"
+},
+{
+"type": "ftl",
+"id": "protections-panel-content-blocking-breakage-report-view-collection-url"
+},
+{
+"type": "ftl",
+"id": "protections-panel-content-blocking-breakage-report-view-collection-url-label"
+},
+{
+"type": "ftl",
+"id": "protections-panel-content-blocking-breakage-report-view-collection-comments"
+},
+{
+"type": "ftl",
+"id": "protections-panel-content-blocking-breakage-report-view-collection-comments-label"
+},
+{
+"type": "ftl",
 "id": "protections-panel-sendreportview-error"
+},
+{
+"type": "ftl",
+"id": "protections-panel-content-blocking-breakage-report-view-cancel"
+},
+{
+"type": "ftl",
+"id": "protections-panel-content-blocking-breakage-report-view-send-report"
 },
 {
 "type": "ftl",
@@ -2473,6 +2449,10 @@
 {
 "type": "ftl",
 "id": "downloads-history"
+},
+{
+"type": "ftl",
+"id": "enable-devtools-popup-description"
 },
 {
 "type": "ftl",
