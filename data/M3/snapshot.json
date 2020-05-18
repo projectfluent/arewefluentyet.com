@@ -1,6 +1,6 @@
 {
-"date": "2020-05-03",
-"revision": "d95c612379c34bd08c24846a13f698c2f7ea3ebe",
+"date": "2020-05-17",
+"revision": "b60450442a1478af27c930bb8a41eb2fe2dce013",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -76,11 +76,11 @@
 },
 {
 "file": "en-US/browser/browser/browser.ftl",
-"count": 98
+"count": 107
 },
 {
 "file": "en-US/browser/browser/browserContext.ftl",
-"count": 87
+"count": 88
 },
 {
 "file": "en-US/browser/browser/browserSets.ftl",
@@ -180,7 +180,7 @@
 },
 {
 "file": "en-US/browser/browser/preferences/preferences.ftl",
-"count": 408
+"count": 410
 },
 {
 "file": "en-US/browser/browser/preferences/selectBookmark.ftl",
@@ -196,7 +196,7 @@
 },
 {
 "file": "en-US/browser/browser/protections.ftl",
-"count": 57
+"count": 59
 },
 {
 "file": "en-US/browser/browser/protectionsPanel.ftl",
@@ -268,11 +268,11 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.dtd",
-"count": 177
+"count": 169
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
-"count": 487
+"count": 488
 },
 {
 "file": "en-US/browser/chrome/browser/customizableui/customizableWidgets.properties",
@@ -460,7 +460,7 @@
 },
 {
 "file": "en-US/devtools/client/debugger.properties",
-"count": 313
+"count": 317
 },
 {
 "file": "en-US/devtools/client/device.properties",
@@ -516,7 +516,7 @@
 },
 {
 "file": "en-US/devtools/client/netmonitor.properties",
-"count": 347
+"count": 349
 },
 {
 "file": "en-US/devtools/client/network-throttling.properties",
@@ -572,7 +572,7 @@
 },
 {
 "file": "en-US/devtools/client/toolbox.properties",
-"count": 65
+"count": 66
 },
 {
 "file": "en-US/devtools/client/tooltips.ftl",
@@ -628,7 +628,7 @@
 },
 {
 "file": "en-US/dom/chrome/accessibility/mac/accessible.properties",
-"count": 44
+"count": 45
 },
 {
 "file": "en-US/dom/chrome/accessibility/unix/accessible.properties",
@@ -644,7 +644,7 @@
 },
 {
 "file": "en-US/dom/chrome/dom/dom.properties",
-"count": 234
+"count": 233
 },
 {
 "file": "en-US/dom/chrome/global-strres.properties",
@@ -684,7 +684,7 @@
 },
 {
 "file": "en-US/dom/chrome/layout/xul.properties",
-"count": 3
+"count": 1
 },
 {
 "file": "en-US/dom/chrome/mathml/mathml.properties",
@@ -716,7 +716,7 @@
 },
 {
 "file": "en-US/dom/chrome/security/security.properties",
-"count": 87
+"count": 74
 },
 {
 "file": "en-US/dom/chrome/svg/svg.properties",
@@ -800,7 +800,7 @@
 },
 {
 "file": "en-US/toolkit/chrome/global/aboutReader.properties",
-"count": 26
+"count": 28
 },
 {
 "file": "en-US/toolkit/chrome/global/aboutStudies.properties",
@@ -948,7 +948,7 @@
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/downloads/unknownContentType.properties",
-"count": 12
+"count": 13
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/extensions/extensions.dtd",
@@ -976,7 +976,7 @@
 },
 {
 "file": "en-US/toolkit/chrome/passwordmgr/passwordmgr.properties",
-"count": 38
+"count": 40
 },
 {
 "file": "en-US/toolkit/chrome/places/places.properties",
@@ -1089,6 +1089,10 @@
 {
 "file": "en-US/toolkit/toolkit/global/textActions.ftl",
 "count": 13
+},
+{
+"file": "en-US/toolkit/toolkit/global/unknownContentType.ftl",
+"count": 1
 },
 {
 "file": "en-US/toolkit/toolkit/global/wizard.ftl",

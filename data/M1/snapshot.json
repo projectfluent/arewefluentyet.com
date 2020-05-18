@@ -1,6 +1,6 @@
 {
-"date": "2020-05-03",
-"revision": "d95c612379c34bd08c24846a13f698c2f7ea3ebe",
+"date": "2020-05-17",
+"revision": "b60450442a1478af27c930bb8a41eb2fe2dce013",
 "data": [
 {
 "type": "dtd",
@@ -373,6 +373,10 @@
 {
 "type": "dtd",
 "id": "customizeMenu.addMoreItems.label"
+},
+{
+"type": "dtd",
+"id": "customizeMode.autoHideDownloadsButton.label"
 },
 {
 "type": "dtd",
@@ -760,10 +764,6 @@
 },
 {
 "type": "dtd",
-"id": "customizeMode.autoHideDownloadsButton.label"
-},
-{
-"type": "dtd",
 "id": "menubarCmd.label"
 },
 {
@@ -865,46 +865,6 @@
 {
 "type": "dtd",
 "id": "homeButton.defaultPage.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.placeholder2"
-},
-{
-"type": "dtd",
-"id": "urlbar.permissionsGranted.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.remoteControlNotificationAnchor.tooltip"
-},
-{
-"type": "dtd",
-"id": "urlbar.switchToTab.label"
-},
-{
-"type": "dtd",
-"id": "urlbar.extension.label"
-},
-{
-"type": "dtd",
-"id": "urlbar.placeholder2"
-},
-{
-"type": "dtd",
-"id": "goEndCap.tooltip"
-},
-{
-"type": "dtd",
-"id": "pageActionButton.tooltip"
-},
-{
-"type": "dtd",
-"id": "pocketButton.tooltiptext"
-},
-{
-"type": "dtd",
-"id": "pocketButton.tooltiptext"
 },
 {
 "type": "dtd",
@@ -2044,6 +2004,10 @@
 },
 {
 "type": "ftl",
+"id": "cfr-whatsnew-panel-footer-checkbox"
+},
+{
+"type": "ftl",
 "id": "appmenu-new-tab-controlled"
 },
 {
@@ -2948,7 +2912,15 @@
 },
 {
 "type": "ftl",
+"id": "urlbar-default-placeholder"
+},
+{
+"type": "ftl",
 "id": "urlbar-identity-button"
+},
+{
+"type": "ftl",
+"id": "urlbar-permissions-granted"
 },
 {
 "type": "ftl",
@@ -3081,6 +3053,34 @@
 {
 "type": "ftl",
 "id": "urlbar-storage-access-anchor"
+},
+{
+"type": "ftl",
+"id": "urlbar-remote-control-notification-anchor"
+},
+{
+"type": "ftl",
+"id": "urlbar-switch-to-tab"
+},
+{
+"type": "ftl",
+"id": "urlbar-extension"
+},
+{
+"type": "ftl",
+"id": "urlbar-placeholder"
+},
+{
+"type": "ftl",
+"id": "urlbar-go-button"
+},
+{
+"type": "ftl",
+"id": "urlbar-page-action-button"
+},
+{
+"type": "ftl",
+"id": "urlbar-pocket-button"
 },
 {
 "type": "ftl",
