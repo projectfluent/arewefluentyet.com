@@ -1,6 +1,6 @@
 {
-"date": "2020-05-17",
-"revision": "b60450442a1478af27c930bb8a41eb2fe2dce013",
+"date": "2020-05-24",
+"revision": "3334d8dff757051c7a359818e0ceb5ad7852fdbc",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -76,11 +76,11 @@
 },
 {
 "file": "en-US/browser/browser/browser.ftl",
-"count": 107
+"count": 115
 },
 {
 "file": "en-US/browser/browser/browserContext.ftl",
-"count": 88
+"count": 87
 },
 {
 "file": "en-US/browser/browser/browserSets.ftl",
@@ -112,7 +112,7 @@
 },
 {
 "file": "en-US/browser/browser/newtab/newtab.ftl",
-"count": 85
+"count": 87
 },
 {
 "file": "en-US/browser/browser/newtab/onboarding.ftl",
@@ -136,7 +136,7 @@
 },
 {
 "file": "en-US/browser/browser/policies/policies-descriptions.ftl",
-"count": 79
+"count": 80
 },
 {
 "file": "en-US/browser/browser/preferences/applicationManager.ftl",
@@ -196,7 +196,7 @@
 },
 {
 "file": "en-US/browser/browser/protections.ftl",
-"count": 59
+"count": 61
 },
 {
 "file": "en-US/browser/browser/protectionsPanel.ftl",
@@ -245,6 +245,10 @@
 {
 "file": "en-US/browser/browser/touchbar/touchbar.ftl",
 "count": 21
+},
+{
+"file": "en-US/browser/browser/webrtcIndicator.ftl",
+"count": 8
 },
 {
 "file": "en-US/browser/chrome/browser-region/region.properties",
@@ -516,7 +520,7 @@
 },
 {
 "file": "en-US/devtools/client/netmonitor.properties",
-"count": 349
+"count": 353
 },
 {
 "file": "en-US/devtools/client/network-throttling.properties",
@@ -555,8 +559,12 @@
 "count": 4
 },
 {
+"file": "en-US/devtools/client/storage.ftl",
+"count": 7
+},
+{
 "file": "en-US/devtools/client/storage.properties",
-"count": 40
+"count": 39
 },
 {
 "file": "en-US/devtools/client/styleeditor.ftl",
@@ -644,7 +652,7 @@
 },
 {
 "file": "en-US/dom/chrome/dom/dom.properties",
-"count": 233
+"count": 234
 },
 {
 "file": "en-US/dom/chrome/global-strres.properties",
@@ -1020,7 +1028,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutNetworking.ftl",
-"count": 57
+"count": 58
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutPerformance.ftl",
@@ -1044,7 +1052,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutSupport.ftl",
-"count": 231
+"count": 229
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutTelemetry.ftl",

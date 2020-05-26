@@ -1,6 +1,6 @@
 {
-"date": "2020-05-17",
-"revision": "b60450442a1478af27c930bb8a41eb2fe2dce013",
+"date": "2020-05-24",
+"revision": "3334d8dff757051c7a359818e0ceb5ad7852fdbc",
 "data": [
 {
 "type": "dtd",
@@ -1788,11 +1788,11 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-inspect-element"
+"id": "main-context-menu-inspect-a11y-properties"
 },
 {
 "type": "ftl",
-"id": "main-context-menu-inspect-a11y-properties"
+"id": "main-context-menu-inspect-element"
 },
 {
 "type": "ftl",
@@ -1968,11 +1968,7 @@
 },
 {
 "type": "ftl",
-"id": "appmenuitem-protection-report-tooltip"
-},
-{
-"type": "ftl",
-"id": "appmenuitem-protection-report-title"
+"id": "appmenuitem-protection-dashboard-title"
 },
 {
 "type": "ftl",
@@ -2004,7 +2000,7 @@
 },
 {
 "type": "ftl",
-"id": "cfr-whatsnew-panel-footer-checkbox"
+"id": "whatsnew-panel-footer-checkbox"
 },
 {
 "type": "ftl",
@@ -2228,7 +2224,7 @@
 },
 {
 "type": "ftl",
-"id": "protections-panel-showreport-label"
+"id": "protections-panel-showdashboard-label"
 },
 {
 "type": "ftl",
@@ -2501,6 +2497,22 @@
 {
 "type": "ftl",
 "id": "synced-tabs-context-sync-now"
+},
+{
+"type": "ftl",
+"id": "sharing-warning-window"
+},
+{
+"type": "ftl",
+"id": "sharing-warning-screen"
+},
+{
+"type": "ftl",
+"id": "sharing-warning-proceed-to-tab"
+},
+{
+"type": "ftl",
+"id": "sharing-warning-disable-for-session"
 },
 {
 "type": "ftl",
