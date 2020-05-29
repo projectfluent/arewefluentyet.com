@@ -5,6 +5,7 @@ from datetime import date
 from milestone import Milestone
 from functools import partial
 
+HTML_ENTITIES = ["quot", "amp", "nbsp", "lt", "gt"]
 
 class Milestone1(Milestone):
     name = "M1"
@@ -40,7 +41,8 @@ class Milestone1(Milestone):
         re_dtd = re.compile("&([a-zA-Z][^;]+);")
         matches = re_dtd.findall(raw_data)
         for match in matches:
-            entries.append({"type": "dtd", "id": match})
+            if match not in HTML_ENTITIES:
+                entries.append({"type": "dtd", "id": match})
 
         re_ftl = re.compile("data(?:-lazy)?-l10n-id=\"([^\"]+)\"")
         matches = re_ftl.findall(raw_data)
