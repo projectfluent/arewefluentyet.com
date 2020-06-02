@@ -1,122 +1,10 @@
 {
-"date": "2020-05-24",
-"revision": "3334d8dff757051c7a359818e0ceb5ad7852fdbc",
+"date": "2020-05-31",
+"revision": "e4b11f027efc1f8c2710ae3f52487a8f10a8fb39",
 "data": [
 {
 "type": "dtd",
-"id": "mainWindow.title"
-},
-{
-"type": "dtd",
-"id": "mainWindow.title"
-},
-{
-"type": "dtd",
-"id": "mainWindow.titlemodifiermenuseparator"
-},
-{
-"type": "dtd",
-"id": "mainWindow.titlePrivateBrowsingSuffix"
-},
-{
-"type": "dtd",
-"id": "mainWindow.title"
-},
-{
-"type": "dtd",
-"id": "mainWindow.titlePrivateBrowsingSuffix"
-},
-{
-"type": "dtd",
-"id": "mainWindow.titlemodifier"
-},
-{
-"type": "dtd",
-"id": "mainWindow.titlePrivateBrowsingSuffix"
-},
-{
-"type": "dtd",
-"id": "mainWindow.titlemodifier"
-},
-{
-"type": "dtd",
-"id": "mainWindow.titlemodifier"
-},
-{
-"type": "dtd",
-"id": "mainWindow.titlemodifier"
-},
-{
-"type": "dtd",
-"id": "mainWindow.titlePrivateBrowsingSuffix"
-},
-{
-"type": "dtd",
-"id": "mainWindow.titlemodifiermenuseparator"
-},
-{
-"type": "dtd",
-"id": "mainWindow.title"
-},
-{
-"type": "dtd",
 "id": "uiTour.infoPanel.close"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.manageExtension.accesskey"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.manageExtension.label"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.removeExtension.accesskey"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.removeExtension.label"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.reportExtension.accesskey"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.reportExtension.label"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.pinToOverflowMenu.accesskey"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.pinToOverflowMenu.label"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.autoHideDownloadsButton.accesskey"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.autoHideDownloadsButton.label"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.removeFromToolbar.accesskey"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.removeFromToolbar.label"
-},
-{
-"type": "dtd",
-"id": "viewCustomizeToolbar.label"
-},
-{
-"type": "dtd",
-"id": "viewCustomizeToolbar.accesskey"
 },
 {
 "type": "dtd",
@@ -284,59 +172,11 @@
 },
 {
 "type": "dtd",
-"id": "customizeMenu.manageExtension.accesskey"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.manageExtension.label"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.removeExtension.accesskey"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.removeExtension.label"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.reportExtension.accesskey"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.reportExtension.label"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.pinToOverflowMenu.accesskey"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.pinToOverflowMenu.label"
-},
-{
-"type": "dtd",
 "id": "customizeMenu.unpinFromOverflowMenu.accesskey"
 },
 {
 "type": "dtd",
 "id": "customizeMenu.unpinFromOverflowMenu.label"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.removeFromToolbar.accesskey"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.removeFromToolbar.label"
-},
-{
-"type": "dtd",
-"id": "viewCustomizeToolbar.accesskey"
-},
-{
-"type": "dtd",
-"id": "viewCustomizeToolbar.label"
 },
 {
 "type": "dtd",
@@ -445,10 +285,6 @@
 {
 "type": "dtd",
 "id": "preferencesCmdUnix.label"
-},
-{
-"type": "dtd",
-"id": "viewCustomizeToolbar.label"
 },
 {
 "type": "dtd",
@@ -772,14 +608,6 @@
 },
 {
 "type": "dtd",
-"id": "amp"
-},
-{
-"type": "dtd",
-"id": "amp"
-},
-{
-"type": "dtd",
 "id": "quitApplicationCmdWin2.label"
 },
 {
@@ -1021,6 +849,18 @@
 {
 "type": "dtd",
 "id": "pointerlockWarning.generic.label"
+},
+{
+"type": "ftl",
+"id": "browser-main-window-mac"
+},
+{
+"type": "ftl",
+"id": "browser-main-window"
+},
+{
+"type": "ftl",
+"id": "browser-main-window-title"
 },
 {
 "type": "ftl",
@@ -1352,6 +1192,10 @@
 },
 {
 "type": "ftl",
+"id": "tab-context-close-multiple-tabs"
+},
+{
+"type": "ftl",
 "id": "close-tabs-to-the-end"
 },
 {
@@ -1360,7 +1204,7 @@
 },
 {
 "type": "ftl",
-"id": "undo-close-tab"
+"id": "tab-context-undo-close-tabs"
 },
 {
 "type": "ftl",
@@ -1444,6 +1288,30 @@
 },
 {
 "type": "ftl",
+"id": "toolbar-context-menu-manage-extension"
+},
+{
+"type": "ftl",
+"id": "toolbar-context-menu-remove-extension"
+},
+{
+"type": "ftl",
+"id": "toolbar-context-menu-report-extension"
+},
+{
+"type": "ftl",
+"id": "toolbar-context-menu-pin-to-overflow-menu"
+},
+{
+"type": "ftl",
+"id": "toolbar-context-menu-auto-hide-downloads-button"
+},
+{
+"type": "ftl",
+"id": "toolbar-context-menu-remove-from-toolbar"
+},
+{
+"type": "ftl",
 "id": "toolbar-context-menu-reload-selected-tab"
 },
 {
@@ -1464,7 +1332,11 @@
 },
 {
 "type": "ftl",
-"id": "toolbar-context-menu-undo-close-tab"
+"id": "toolbar-context-menu-undo-close-tabs"
+},
+{
+"type": "ftl",
+"id": "toolbar-context-menu-view-customize-toolbar"
 },
 {
 "type": "ftl",
@@ -1916,6 +1788,30 @@
 },
 {
 "type": "ftl",
+"id": "toolbar-context-menu-manage-extension"
+},
+{
+"type": "ftl",
+"id": "toolbar-context-menu-remove-extension"
+},
+{
+"type": "ftl",
+"id": "toolbar-context-menu-report-extension"
+},
+{
+"type": "ftl",
+"id": "toolbar-context-menu-pin-to-overflow-menu"
+},
+{
+"type": "ftl",
+"id": "toolbar-context-menu-remove-from-toolbar"
+},
+{
+"type": "ftl",
+"id": "toolbar-context-menu-view-customize-toolbar"
+},
+{
+"type": "ftl",
 "id": "appmenu-update-available"
 },
 {
@@ -1977,6 +1873,10 @@
 {
 "type": "ftl",
 "id": "appmenuitem-zoom-enlarge"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-customize-mode"
 },
 {
 "type": "ftl",
@@ -2224,7 +2124,7 @@
 },
 {
 "type": "ftl",
-"id": "protections-panel-showdashboard-label"
+"id": "protections-panel-protectionsdashboard-label"
 },
 {
 "type": "ftl",
@@ -2416,7 +2316,7 @@
 },
 {
 "type": "ftl",
-"id": "all-tabs-menu-undo-close-tab"
+"id": "all-tabs-menu-undo-close-tabs"
 },
 {
 "type": "ftl",
