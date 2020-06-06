@@ -42,12 +42,14 @@ async function prepare_data(url) {
       }
     }
 
-    let quarter = 1000 * 60 * 60 * 24 * 30 * 3;
+    let milestone = Page.getActiveMilestone();
+    let month = 1000 * 60 * 60 * 24 * 30;
+    let interval = month * milestone.monthIntervals;
 
     if (
       i == snapshots.length ||
       (month_labels.length < 1 ||
-        month_labels[month_labels.length - 1].getTime() + quarter <=
+        month_labels[month_labels.length - 1].getTime() + interval <=
           new_label.getTime())
     ) {
       if (i === snapshots.length) {

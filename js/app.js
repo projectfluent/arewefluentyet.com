@@ -10,6 +10,7 @@ const State = {
       "categories": ["dtd", "ftl"],
       "skipInDashboard": [],
       "categoriesBar": [null, 1],
+      "monthIntervals": 3,
     },
     {
       "code": "M2",
@@ -18,6 +19,7 @@ const State = {
       "categories": ["dtd", "properties", "ftl"],
       "skipInDashboard": [],
       "categoriesBar": [0, 2],
+      "monthIntervals": 2,
     },
     {
       "code": "M3",
@@ -26,6 +28,7 @@ const State = {
       "categories": ["ini", "inc", "dtd", "properties", "ftl"],
       "skipInDashboard": ["ini", "inc"],
       "categoriesBar": [2, 4],
+      "monthIntervals": 6,
     },
   ],
   currentMilestone: "M3",
