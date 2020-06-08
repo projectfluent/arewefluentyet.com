@@ -1,6 +1,6 @@
 {
-"date": "2020-05-31",
-"revision": "e4b11f027efc1f8c2710ae3f52487a8f10a8fb39",
+"date": "2020-06-07",
+"revision": "c98948afa16b1fc3f2d4b6af4391b2e475f8416f",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -28,7 +28,7 @@
 },
 {
 "file": "en-US/browser/browser/aboutLogins.ftl",
-"count": 98
+"count": 100
 },
 {
 "file": "en-US/browser/browser/aboutPolicies.ftl",
@@ -64,7 +64,7 @@
 },
 {
 "file": "en-US/browser/browser/appmenu.ftl",
-"count": 6
+"count": 7
 },
 {
 "file": "en-US/browser/browser/branding/brandings.ftl",
@@ -103,6 +103,10 @@
 "count": 82
 },
 {
+"file": "en-US/browser/browser/migration.ftl",
+"count": 89
+},
+{
 "file": "en-US/browser/browser/newInstallPage.ftl",
 "count": 18
 },
@@ -136,7 +140,7 @@
 },
 {
 "file": "en-US/browser/browser/policies/policies-descriptions.ftl",
-"count": 81
+"count": 82
 },
 {
 "file": "en-US/browser/browser/preferences/applicationManager.ftl",
@@ -295,14 +299,6 @@
 "count": 11
 },
 {
-"file": "en-US/browser/chrome/browser/migration/migration.dtd",
-"count": 40
-},
-{
-"file": "en-US/browser/chrome/browser/migration/migration.properties",
-"count": 56
-},
-{
 "file": "en-US/browser/chrome/browser/newInstall.dtd",
 "count": 5
 },
@@ -432,7 +428,7 @@
 },
 {
 "file": "en-US/devtools/client/aboutdebugging.ftl",
-"count": 97
+"count": 98
 },
 {
 "file": "en-US/devtools/client/accessibility.ftl",
@@ -580,7 +576,7 @@
 },
 {
 "file": "en-US/devtools/client/toolbox.properties",
-"count": 66
+"count": 68
 },
 {
 "file": "en-US/devtools/client/tooltips.ftl",
@@ -724,7 +720,7 @@
 },
 {
 "file": "en-US/dom/chrome/security/security.properties",
-"count": 74
+"count": 75
 },
 {
 "file": "en-US/dom/chrome/svg/svg.properties",
@@ -740,7 +736,7 @@
 },
 {
 "file": "en-US/netwerk/necko.properties",
-"count": 39
+"count": 41
 },
 {
 "file": "en-US/security/manager/chrome/pipnss/nsserrors.properties",
@@ -748,7 +744,7 @@
 },
 {
 "file": "en-US/security/manager/chrome/pipnss/pipnss.properties",
-"count": 234
+"count": 55
 },
 {
 "file": "en-US/security/manager/chrome/pippki/pippki.properties",
@@ -756,7 +752,7 @@
 },
 {
 "file": "en-US/security/manager/security/certificates/certManager.ftl",
-"count": 124
+"count": 89
 },
 {
 "file": "en-US/security/manager/security/certificates/deviceManager.ftl",
@@ -1056,7 +1052,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutSupport.ftl",
-"count": 230
+"count": 235
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutTelemetry.ftl",
@@ -1081,6 +1077,10 @@
 {
 "file": "en-US/toolkit/toolkit/global/createProfileWizard.ftl",
 "count": 13
+},
+{
+"file": "en-US/toolkit/toolkit/global/handlerDialog.ftl",
+"count": 1
 },
 {
 "file": "en-US/toolkit/toolkit/global/processTypes.ftl",
@@ -1132,7 +1132,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/preferences/preferences.ftl",
-"count": 24
+"count": 25
 },
 {
 "file": "en-US/toolkit/toolkit/printing/printDialogs.ftl",
