@@ -1,6 +1,6 @@
 {
-"date": "2020-06-07",
-"revision": "c98948afa16b1fc3f2d4b6af4391b2e475f8416f",
+"date": "2020-06-14",
+"revision": "c68fe15a81fc2dc9fc5765f3be2573519c09b6c1",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -104,7 +104,7 @@
 },
 {
 "file": "en-US/browser/browser/migration.ftl",
-"count": 89
+"count": 55
 },
 {
 "file": "en-US/browser/browser/newInstallPage.ftl",
@@ -112,7 +112,7 @@
 },
 {
 "file": "en-US/browser/browser/newtab/asrouter.ftl",
-"count": 93
+"count": 99
 },
 {
 "file": "en-US/browser/browser/newtab/newtab.ftl",
@@ -448,7 +448,7 @@
 },
 {
 "file": "en-US/devtools/client/boxmodel.properties",
-"count": 5
+"count": 7
 },
 {
 "file": "en-US/devtools/client/changes.properties",
@@ -460,7 +460,7 @@
 },
 {
 "file": "en-US/devtools/client/debugger.properties",
-"count": 317
+"count": 319
 },
 {
 "file": "en-US/devtools/client/device.properties",
@@ -500,7 +500,7 @@
 },
 {
 "file": "en-US/devtools/client/layout.properties",
-"count": 28
+"count": 29
 },
 {
 "file": "en-US/devtools/client/markers.properties",
@@ -516,7 +516,7 @@
 },
 {
 "file": "en-US/devtools/client/netmonitor.properties",
-"count": 353
+"count": 356
 },
 {
 "file": "en-US/devtools/client/network-throttling.properties",
@@ -536,7 +536,7 @@
 },
 {
 "file": "en-US/devtools/client/shared.properties",
-"count": 1
+"count": 4
 },
 {
 "file": "en-US/devtools/client/sourceeditor.dtd",
@@ -584,7 +584,7 @@
 },
 {
 "file": "en-US/devtools/client/webconsole.properties",
-"count": 126
+"count": 127
 },
 {
 "file": "en-US/devtools/shared/accessibility.properties",
@@ -612,7 +612,7 @@
 },
 {
 "file": "en-US/devtools/shared/styleinspector.properties",
-"count": 52
+"count": 54
 },
 {
 "file": "en-US/devtools/startup/aboutDevTools.ftl",
@@ -812,7 +812,7 @@
 },
 {
 "file": "en-US/toolkit/chrome/global/aboutWebrtc.properties",
-"count": 65
+"count": 79
 },
 {
 "file": "en-US/toolkit/chrome/global/appPicker.dtd",
@@ -1028,7 +1028,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutNetworking.ftl",
-"count": 58
+"count": 59
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutPerformance.ftl",
@@ -1125,6 +1125,10 @@
 {
 "file": "en-US/toolkit/toolkit/main-window/findbar.ftl",
 "count": 7
+},
+{
+"file": "en-US/toolkit/toolkit/payments/payments.ftl",
+"count": 5
 },
 {
 "file": "en-US/toolkit/toolkit/pictureinpicture/pictureinpicture.ftl",
