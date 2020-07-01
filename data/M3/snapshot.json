@@ -1,6 +1,6 @@
 {
-"date": "2020-06-21",
-"revision": "afec89d2f51fb6b0001c718929bcbeedea3a0019",
+"date": "2020-06-28",
+"revision": "66013e166aa82f864889f51062944e5509f94b7c",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -64,7 +64,7 @@
 },
 {
 "file": "en-US/browser/browser/appmenu.ftl",
-"count": 7
+"count": 8
 },
 {
 "file": "en-US/browser/browser/branding/brandings.ftl",
@@ -112,7 +112,7 @@
 },
 {
 "file": "en-US/browser/browser/newtab/asrouter.ftl",
-"count": 99
+"count": 103
 },
 {
 "file": "en-US/browser/browser/newtab/newtab.ftl",
@@ -120,7 +120,7 @@
 },
 {
 "file": "en-US/browser/browser/newtab/onboarding.ftl",
-"count": 77
+"count": 78
 },
 {
 "file": "en-US/browser/browser/nsserrors.ftl",
@@ -184,7 +184,7 @@
 },
 {
 "file": "en-US/browser/browser/preferences/preferences.ftl",
-"count": 415
+"count": 416
 },
 {
 "file": "en-US/browser/browser/preferences/selectBookmark.ftl",
@@ -388,7 +388,7 @@
 },
 {
 "file": "en-US/browser/extensions/formautofill/formautofill.properties",
-"count": 117
+"count": 123
 },
 {
 "file": "en-US/browser/extensions/report-site-issue/webcompat.properties",
@@ -455,6 +455,10 @@
 "count": 14
 },
 {
+"file": "en-US/devtools/client/compatibility.ftl",
+"count": 14
+},
+{
 "file": "en-US/devtools/client/components.properties",
 "count": 4
 },
@@ -488,7 +492,7 @@
 },
 {
 "file": "en-US/devtools/client/inspector.properties",
-"count": 121
+"count": 122
 },
 {
 "file": "en-US/devtools/client/jit-optimizations.properties",
@@ -516,7 +520,7 @@
 },
 {
 "file": "en-US/devtools/client/netmonitor.properties",
-"count": 356
+"count": 358
 },
 {
 "file": "en-US/devtools/client/network-throttling.properties",
@@ -628,7 +632,7 @@
 },
 {
 "file": "en-US/dom/chrome/accessibility/AccessFu.properties",
-"count": 295
+"count": 293
 },
 {
 "file": "en-US/dom/chrome/accessibility/mac/accessible.properties",
@@ -648,7 +652,7 @@
 },
 {
 "file": "en-US/dom/chrome/dom/dom.properties",
-"count": 232
+"count": 234
 },
 {
 "file": "en-US/dom/chrome/global-strres.properties",
@@ -736,7 +740,7 @@
 },
 {
 "file": "en-US/netwerk/necko.properties",
-"count": 41
+"count": 42
 },
 {
 "file": "en-US/security/manager/chrome/pipnss/nsserrors.properties",
@@ -1024,7 +1028,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutHttpsOnlyError.ftl",
-"count": 6
+"count": 7
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutNetworking.ftl",
@@ -1052,7 +1056,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutSupport.ftl",
-"count": 235
+"count": 239
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutTelemetry.ftl",
@@ -1073,6 +1077,10 @@
 {
 "file": "en-US/toolkit/toolkit/extensions/blocklist.ftl",
 "count": 9
+},
+{
+"file": "en-US/toolkit/toolkit/featuregates/features.ftl",
+"count": 6
 },
 {
 "file": "en-US/toolkit/toolkit/global/createProfileWizard.ftl",
