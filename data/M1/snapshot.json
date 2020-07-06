@@ -1,6 +1,6 @@
 {
-"date": "2020-06-28",
-"revision": "66013e166aa82f864889f51062944e5509f94b7c",
+"date": "2020-07-05",
+"revision": "6087e976924f95018479c6f5881878c95b8bd8e2",
 "data": [
 {
 "type": "dtd",
@@ -324,38 +324,6 @@
 },
 {
 "type": "dtd",
-"id": "appMenuHistory.viewSidebar.label"
-},
-{
-"type": "dtd",
-"id": "appMenuHistory.hideSidebar.label"
-},
-{
-"type": "dtd",
-"id": "appMenuHistory.viewSidebar.label"
-},
-{
-"type": "dtd",
-"id": "appMenuHistory.clearRecent.label"
-},
-{
-"type": "dtd",
-"id": "historyUndoMenu.label"
-},
-{
-"type": "dtd",
-"id": "historyUndoWindowMenu.label"
-},
-{
-"type": "dtd",
-"id": "appMenuHistory.recentHistory.label"
-},
-{
-"type": "dtd",
-"id": "appMenuHistory.showAll.label"
-},
-{
-"type": "dtd",
 "id": "appMenuRemoteTabs.sidebar.label"
 },
 {
@@ -440,22 +408,6 @@
 },
 {
 "type": "dtd",
-"id": "bookmarkingTools.label"
-},
-{
-"type": "dtd",
-"id": "searchBookmarks.label"
-},
-{
-"type": "dtd",
-"id": "recentBookmarks.label"
-},
-{
-"type": "dtd",
-"id": "showAllBookmarks2.label"
-},
-{
-"type": "dtd",
 "id": "moreMenu.label"
 },
 {
@@ -465,30 +417,6 @@
 {
 "type": "dtd",
 "id": "charsetMenu2.label"
-},
-{
-"type": "dtd",
-"id": "bookmarksSubview.label"
-},
-{
-"type": "dtd",
-"id": "pocketMenuitem.label"
-},
-{
-"type": "dtd",
-"id": "historyMenu.label"
-},
-{
-"type": "dtd",
-"id": "libraryDownloads.label"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.label"
-},
-{
-"type": "dtd",
-"id": "appMenuRecentHighlights.label"
 },
 {
 "type": "dtd",
@@ -573,6 +501,78 @@
 {
 "type": "dtd",
 "id": "appMenuRemoteTabs.connectdevice.label"
+},
+{
+"type": "dtd",
+"id": "appMenuHistory.viewSidebar.label"
+},
+{
+"type": "dtd",
+"id": "appMenuHistory.hideSidebar.label"
+},
+{
+"type": "dtd",
+"id": "appMenuHistory.viewSidebar.label"
+},
+{
+"type": "dtd",
+"id": "appMenuHistory.clearRecent.label"
+},
+{
+"type": "dtd",
+"id": "historyUndoMenu.label"
+},
+{
+"type": "dtd",
+"id": "historyUndoWindowMenu.label"
+},
+{
+"type": "dtd",
+"id": "appMenuHistory.recentHistory.label"
+},
+{
+"type": "dtd",
+"id": "appMenuHistory.showAll.label"
+},
+{
+"type": "dtd",
+"id": "bookmarkingTools.label"
+},
+{
+"type": "dtd",
+"id": "searchBookmarks.label"
+},
+{
+"type": "dtd",
+"id": "recentBookmarks.label"
+},
+{
+"type": "dtd",
+"id": "showAllBookmarks2.label"
+},
+{
+"type": "dtd",
+"id": "bookmarksSubview.label"
+},
+{
+"type": "dtd",
+"id": "pocketMenuitem.label"
+},
+{
+"type": "dtd",
+"id": "historyMenu.label"
+},
+{
+"type": "dtd",
+"id": "libraryDownloads.label"
+},
+{
+"type": "dtd",
+"id": "appMenuRemoteTabs.label"
+},
+{
+"type": "dtd",
+"id": "appMenuRecentHighlights.label"
 },
 {
 "type": "dtd",
@@ -1892,10 +1892,6 @@
 },
 {
 "type": "ftl",
-"id": "menu-bookmark-this-page"
-},
-{
-"type": "ftl",
 "id": "menu-file-go-offline"
 },
 {
@@ -2429,6 +2425,10 @@
 {
 "type": "ftl",
 "id": "sharing-warning-disable-for-session"
+},
+{
+"type": "ftl",
+"id": "menu-bookmark-this-page"
 },
 {
 "type": "ftl",
