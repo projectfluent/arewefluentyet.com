@@ -1,6 +1,6 @@
 {
-"date": "2020-07-05",
-"revision": "6087e976924f95018479c6f5881878c95b8bd8e2",
+"date": "2020-07-12",
+"revision": "22f5f7e914449bde3bee21a322d67248cd5e0254",
 "data": [
 {
 "type": "dtd",
@@ -408,18 +408,6 @@
 },
 {
 "type": "dtd",
-"id": "moreMenu.label"
-},
-{
-"type": "dtd",
-"id": "taskManagerCmd.label"
-},
-{
-"type": "dtd",
-"id": "charsetMenu2.label"
-},
-{
-"type": "dtd",
 "id": "fxa.menu.account.label"
 },
 {
@@ -549,6 +537,18 @@
 {
 "type": "dtd",
 "id": "showAllBookmarks2.label"
+},
+{
+"type": "dtd",
+"id": "moreMenu.label"
+},
+{
+"type": "dtd",
+"id": "taskManagerCmd.label"
+},
+{
+"type": "dtd",
+"id": "charsetMenu2.label"
 },
 {
 "type": "dtd",
@@ -1892,19 +1892,7 @@
 },
 {
 "type": "ftl",
-"id": "menu-file-go-offline"
-},
-{
-"type": "ftl",
 "id": "fxa-toolbar-sync-now"
-},
-{
-"type": "ftl",
-"id": "whatsnew-panel-header"
-},
-{
-"type": "ftl",
-"id": "whatsnew-panel-footer-checkbox"
 },
 {
 "type": "ftl",
@@ -2429,6 +2417,62 @@
 {
 "type": "ftl",
 "id": "menu-bookmark-this-page"
+},
+{
+"type": "ftl",
+"id": "panic-main-timeframe-desc"
+},
+{
+"type": "ftl",
+"id": "panic-button-5min"
+},
+{
+"type": "ftl",
+"id": "panic-button-2hr"
+},
+{
+"type": "ftl",
+"id": "panic-button-day"
+},
+{
+"type": "ftl",
+"id": "panic-button-action-desc"
+},
+{
+"type": "ftl",
+"id": "panic-button-delete-tabs-and-windows"
+},
+{
+"type": "ftl",
+"id": "panic-button-delete-cookies"
+},
+{
+"type": "ftl",
+"id": "panic-button-delete-history"
+},
+{
+"type": "ftl",
+"id": "panic-button-open-new-window"
+},
+{
+"type": "ftl",
+"id": "panic-button-undo-warning"
+},
+{
+"type": "ftl",
+"id": "panic-button-forget-button"
+},
+{
+"type": "ftl",
+"id": "menu-file-go-offline"
+},
+{
+"type": "ftl",
+"id": "whatsnew-panel-header"
+},
+{
+"type": "ftl",
+"id": "whatsnew-panel-footer-checkbox"
 },
 {
 "type": "ftl",
