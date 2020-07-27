@@ -1,6 +1,6 @@
 {
-"date": "2020-07-19",
-"revision": "015515bcba1f358432cad988600672d027fd125d",
+"date": "2020-07-26",
+"revision": "56082fc4acfacba40993e47ef8302993c59e264e",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -28,7 +28,7 @@
 },
 {
 "file": "en-US/browser/browser/aboutLogins.ftl",
-"count": 104
+"count": 105
 },
 {
 "file": "en-US/browser/browser/aboutPolicies.ftl",
@@ -84,7 +84,7 @@
 },
 {
 "file": "en-US/browser/browser/browserSets.ftl",
-"count": 51
+"count": 52
 },
 {
 "file": "en-US/browser/browser/customizeMode.ftl",
@@ -120,7 +120,7 @@
 },
 {
 "file": "en-US/browser/browser/newtab/onboarding.ftl",
-"count": 95
+"count": 101
 },
 {
 "file": "en-US/browser/browser/nsserrors.ftl",
@@ -184,7 +184,7 @@
 },
 {
 "file": "en-US/browser/browser/preferences/preferences.ftl",
-"count": 423
+"count": 425
 },
 {
 "file": "en-US/browser/browser/preferences/selectBookmark.ftl",
@@ -240,7 +240,7 @@
 },
 {
 "file": "en-US/browser/browser/tabContextMenu.ftl",
-"count": 23
+"count": 21
 },
 {
 "file": "en-US/browser/browser/toolbarContextMenu.ftl",
@@ -280,7 +280,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
-"count": 488
+"count": 489
 },
 {
 "file": "en-US/browser/chrome/browser/customizableui/customizableWidgets.properties",
@@ -444,7 +444,7 @@
 },
 {
 "file": "en-US/devtools/client/application.ftl",
-"count": 36
+"count": 35
 },
 {
 "file": "en-US/devtools/client/boxmodel.properties",
@@ -740,7 +740,7 @@
 },
 {
 "file": "en-US/netwerk/necko.properties",
-"count": 42
+"count": 53
 },
 {
 "file": "en-US/security/manager/chrome/pipnss/nsserrors.properties",
@@ -899,10 +899,6 @@
 "count": 33
 },
 {
-"file": "en-US/toolkit/chrome/global/mozilla.dtd",
-"count": 3
-},
-{
 "file": "en-US/toolkit/chrome/global/narrate.properties",
 "count": 9
 },
@@ -932,7 +928,7 @@
 },
 {
 "file": "en-US/toolkit/chrome/global/videocontrols.dtd",
-"count": 18
+"count": 21
 },
 {
 "file": "en-US/toolkit/chrome/global/viewSource.properties",
@@ -1031,6 +1027,10 @@
 "count": 7
 },
 {
+"file": "en-US/toolkit/toolkit/about/aboutMozilla.ftl",
+"count": 3
+},
+{
 "file": "en-US/toolkit/toolkit/about/aboutNetworking.ftl",
 "count": 59
 },
@@ -1080,7 +1080,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/featuregates/features.ftl",
-"count": 16
+"count": 36
 },
 {
 "file": "en-US/toolkit/toolkit/global/createProfileWizard.ftl",
@@ -1153,6 +1153,10 @@
 {
 "file": "en-US/toolkit/toolkit/printing/printPreview.ftl",
 "count": 18
+},
+{
+"file": "en-US/toolkit/toolkit/printing/printUI.ftl",
+"count": 20
 },
 {
 "file": "en-US/toolkit/toolkit/updates/elevation.ftl",
