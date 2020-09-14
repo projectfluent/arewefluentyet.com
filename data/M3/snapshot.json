@@ -1,6 +1,6 @@
 {
-"date": "2020-09-07",
-"revision": "80ac8d8c74d53bba7cac84f38951e6e9c5efc5e5",
+"date": "2020-09-14",
+"revision": "b21d31971a86ac9338116fc897b4791e7961e933",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -76,7 +76,7 @@
 },
 {
 "file": "en-US/browser/browser/browser.ftl",
-"count": 130
+"count": 136
 },
 {
 "file": "en-US/browser/browser/browserContext.ftl",
@@ -84,7 +84,7 @@
 },
 {
 "file": "en-US/browser/browser/browserSets.ftl",
-"count": 53
+"count": 55
 },
 {
 "file": "en-US/browser/browser/customizeMode.ftl",
@@ -124,7 +124,7 @@
 },
 {
 "file": "en-US/browser/browser/newtab/onboarding.ftl",
-"count": 104
+"count": 66
 },
 {
 "file": "en-US/browser/browser/nsserrors.ftl",
@@ -140,11 +140,11 @@
 },
 {
 "file": "en-US/browser/browser/places.ftl",
-"count": 20
+"count": 22
 },
 {
 "file": "en-US/browser/browser/policies/policies-descriptions.ftl",
-"count": 82
+"count": 83
 },
 {
 "file": "en-US/browser/browser/preferences/addEngine.ftl",
@@ -180,7 +180,7 @@
 },
 {
 "file": "en-US/browser/browser/preferences/fxaPairDevice.ftl",
-"count": 5
+"count": 7
 },
 {
 "file": "en-US/browser/browser/preferences/languages.ftl",
@@ -229,6 +229,10 @@
 {
 "file": "en-US/browser/browser/screenshots.ftl",
 "count": 28
+},
+{
+"file": "en-US/browser/browser/search.ftl",
+"count": 6
 },
 {
 "file": "en-US/browser/browser/setDesktopBackground.ftl",
@@ -284,7 +288,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.dtd",
-"count": 153
+"count": 145
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
@@ -708,7 +712,7 @@
 },
 {
 "file": "en-US/dom/chrome/mathml/mathml.properties",
-"count": 9
+"count": 8
 },
 {
 "file": "en-US/dom/chrome/netError.dtd",
@@ -736,7 +740,7 @@
 },
 {
 "file": "en-US/dom/chrome/security/security.properties",
-"count": 77
+"count": 79
 },
 {
 "file": "en-US/dom/chrome/svg/svg.properties",
@@ -768,7 +772,7 @@
 },
 {
 "file": "en-US/security/manager/security/certificates/certManager.ftl",
-"count": 90
+"count": 93
 },
 {
 "file": "en-US/security/manager/security/certificates/deviceManager.ftl",
@@ -1001,10 +1005,6 @@
 {
 "file": "en-US/toolkit/chrome/pluginproblem/pluginproblem.dtd",
 "count": 21
-},
-{
-"file": "en-US/toolkit/chrome/search/search.properties",
-"count": 6
 },
 {
 "file": "en-US/toolkit/crashreporter/aboutcrashes.ftl",

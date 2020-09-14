@@ -1,6 +1,6 @@
 {
-"date": "2020-09-07",
-"revision": "80ac8d8c74d53bba7cac84f38951e6e9c5efc5e5",
+"date": "2020-09-14",
+"revision": "b21d31971a86ac9338116fc897b4791e7961e933",
 "data": [
 {
 "type": "dtd",
@@ -819,38 +819,6 @@
 "id": "sidebarCloseButton.tooltip"
 },
 {
-"type": "dtd",
-"id": "fullscreenWarning.beforeDomain.label"
-},
-{
-"type": "dtd",
-"id": "fullscreenWarning.afterDomain.label"
-},
-{
-"type": "dtd",
-"id": "fullscreenWarning.generic.label"
-},
-{
-"type": "dtd",
-"id": "exitDOMFullscreenMac.button"
-},
-{
-"type": "dtd",
-"id": "exitDOMFullscreen.button"
-},
-{
-"type": "dtd",
-"id": "pointerlockWarning.beforeDomain.label"
-},
-{
-"type": "dtd",
-"id": "pointerlockWarning.afterDomain.label"
-},
-{
-"type": "dtd",
-"id": "pointerlockWarning.generic.label"
-},
-{
 "type": "ftl",
 "id": "browser-main-window-mac"
 },
@@ -997,6 +965,14 @@
 {
 "type": "ftl",
 "id": "picture-in-picture-toggle-shortcut-alt"
+},
+{
+"type": "ftl",
+"id": "picture-in-picture-toggle-shortcut-mac"
+},
+{
+"type": "ftl",
+"id": "picture-in-picture-toggle-shortcut-mac-alt"
 },
 {
 "type": "ftl",
@@ -1745,6 +1721,26 @@
 {
 "type": "ftl",
 "id": "places-properties"
+},
+{
+"type": "ftl",
+"id": "places-open-tab"
+},
+{
+"type": "ftl",
+"id": "places-open-all-in-tabs"
+},
+{
+"type": "ftl",
+"id": "places-open-window"
+},
+{
+"type": "ftl",
+"id": "places-open-private-window"
+},
+{
+"type": "ftl",
+"id": "text-action-copy"
 },
 {
 "type": "ftl",
@@ -3076,6 +3072,10 @@
 },
 {
 "type": "ftl",
+"id": "managed-bookmarks"
+},
+{
+"type": "ftl",
 "id": "customize-mode-menu-and-toolbars-header"
 },
 {
@@ -3149,6 +3149,22 @@
 {
 "type": "ftl",
 "id": "customize-mode-done"
+},
+{
+"type": "ftl",
+"id": "fullscreen-warning-no-domain"
+},
+{
+"type": "ftl",
+"id": "fullscreen-exit-mac-button"
+},
+{
+"type": "ftl",
+"id": "fullscreen-exit-button"
+},
+{
+"type": "ftl",
+"id": "pointerlock-warning-no-domain"
 }
 ]
 }
