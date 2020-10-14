@@ -1,6 +1,6 @@
 {
-"date": "2020-10-05",
-"revision": "7ba9ec4d39f320689e4fdb2b42e4a311ae882438",
+"date": "2020-10-12",
+"revision": "c19042d45111972cf29075ee1155b99a02d180bf",
 "data": [
 {
 "type": "dtd",
@@ -1600,6 +1600,10 @@
 },
 {
 "type": "ftl",
+"id": "main-context-menu-print-selection"
+},
+{
+"type": "ftl",
 "id": "main-context-menu-view-selection-source"
 },
 {
@@ -1693,26 +1697,6 @@
 {
 "type": "ftl",
 "id": "places-properties"
-},
-{
-"type": "ftl",
-"id": "places-open-tab"
-},
-{
-"type": "ftl",
-"id": "places-open-all-in-tabs"
-},
-{
-"type": "ftl",
-"id": "places-open-window"
-},
-{
-"type": "ftl",
-"id": "places-open-private-window"
-},
-{
-"type": "ftl",
-"id": "text-action-copy"
 },
 {
 "type": "ftl",
@@ -1876,6 +1860,10 @@
 },
 {
 "type": "ftl",
+"id": "identity-https-only-connection-upgraded"
+},
+{
+"type": "ftl",
 "id": "identity-active-blocked"
 },
 {
@@ -1893,6 +1881,34 @@
 {
 "type": "ftl",
 "id": "identity-weak-encryption"
+},
+{
+"type": "ftl",
+"id": "identity-https-only-label"
+},
+{
+"type": "ftl",
+"id": "identity-https-only-dropdown-on"
+},
+{
+"type": "ftl",
+"id": "identity-https-only-dropdown-off"
+},
+{
+"type": "ftl",
+"id": "identity-https-only-dropdown-off-temporarily"
+},
+{
+"type": "ftl",
+"id": "identity-https-only-info-turn-on"
+},
+{
+"type": "ftl",
+"id": "identity-https-only-info-turn-off"
+},
+{
+"type": "ftl",
+"id": "identity-https-only-info-no-upgrade"
 },
 {
 "type": "ftl",
@@ -3041,10 +3057,6 @@
 {
 "type": "ftl",
 "id": "browser-window-close-button"
-},
-{
-"type": "ftl",
-"id": "managed-bookmarks"
 },
 {
 "type": "ftl",
