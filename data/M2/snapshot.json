@@ -1,6 +1,6 @@
 {
-"date": "2020-10-26",
-"revision": "b1a74943bc51bd3e62ea52242ec5e403ea3760bb",
+"date": "2020-11-02",
+"revision": "43e0f933ad51ba77e5528a7125a958cee7bf4612",
 "data": [
 {
 "type": "properties",
@@ -666,14 +666,14 @@
 "index": "1",
 "call": "BG__beforeUIStartup()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1418",
+"line": "1417",
 "col": "4"
 },
 {
 "index": "2",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1042",
+"line": "1041",
 "col": "13"
 }
 ],
@@ -694,14 +694,14 @@
 "index": "1",
 "call": "BG__beforeUIStartup()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1418",
+"line": "1417",
 "col": "4"
 },
 {
 "index": "2",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1042",
+"line": "1041",
 "col": "13"
 }
 ],
@@ -2057,6 +2057,12 @@
 {
 "type": "dtd",
 "id": "bookmarksToolbarChevron.tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "dtd",
+"id": "bookmarksMenuButton.other.label",
 "stack": null,
 "file": null
 },
@@ -5311,7 +5317,7 @@
 "index": "2",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6870",
+"line": "6879",
 "col": "32"
 },
 {
@@ -5367,7 +5373,7 @@
 "index": "2",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6870",
+"line": "6879",
 "col": "32"
 },
 {
@@ -5416,7 +5422,7 @@
 "index": "1",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6875",
+"line": "6884",
 "col": "23"
 },
 {
@@ -5465,7 +5471,7 @@
 "index": "1",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6875",
+"line": "6884",
 "col": "23"
 },
 {
@@ -5563,7 +5569,7 @@
 "index": "8",
 "call": "construct()",
 "path": "chrome://global/content/elements/browser-custom-element.js",
-"line": "1020",
+"line": "1006",
 "col": "0"
 },
 {
@@ -5668,7 +5674,7 @@
 "index": "8",
 "call": "construct()",
 "path": "chrome://global/content/elements/browser-custom-element.js",
-"line": "1020",
+"line": "1006",
 "col": "0"
 },
 {
@@ -5773,7 +5779,7 @@
 "index": "8",
 "call": "construct()",
 "path": "chrome://global/content/elements/browser-custom-element.js",
-"line": "1020",
+"line": "1006",
 "col": "0"
 },
 {
@@ -5878,7 +5884,7 @@
 "index": "8",
 "call": "construct()",
 "path": "chrome://global/content/elements/browser-custom-element.js",
-"line": "1020",
+"line": "1006",
 "col": "0"
 },
 {
@@ -6053,14 +6059,14 @@
 "index": "0",
 "call": "_initPasteAndGo()",
 "path": "resource:///modules/UrlbarInput.jsm",
-"line": "2459",
+"line": "2482",
 "col": "7"
 },
 {
 "index": "1",
 "call": "UrlbarInput()",
 "path": "resource:///modules/UrlbarInput.jsm",
-"line": "257",
+"line": "256",
 "col": "9"
 },
 {
@@ -6124,6 +6130,12 @@
 {
 "type": "properties",
 "id": "brandShortName",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "brandShortName",
 "stack": [
 {
 "index": "0",
@@ -6140,12 +6152,6 @@
 "col": "25"
 }
 ],
-"file": null
-},
-{
-"type": "properties",
-"id": "brandShortName",
-"stack": null,
 "file": null
 },
 {
@@ -7346,6 +7352,12 @@
 },
 {
 "type": "properties",
+"id": "brandShortName",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
 "id": "readerView.enter",
 "stack": [
 {
@@ -7388,7 +7400,7 @@
 },
 {
 "type": "ftl",
-"id": "onboarding-welcome-header",
+"id": "newtab-page-title",
 "stack": null,
 "file": null
 },
@@ -7505,39 +7517,147 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "onboarding-multistage-welcome-secondary-button-text",
+"type": "properties",
+"id": "brandShortName",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "onboarding-multistage-welcome-secondary-button-label",
+"id": "screenshots-context-menu",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "onboarding-multistage-welcome-header",
+"id": "newtab-page-title",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "onboarding-multistage-welcome-subtitle",
-"stack": null,
+"type": "properties",
+"id": "wc-reporter.label2",
+"stack": [
+{
+"index": "0",
+"call": "getMessage()",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/browser/features/webcompat-reporter@mozilla.org/experimentalAPIs/l10n.js",
+"line": "49",
+"col": "47"
+},
+{
+"index": "1",
+"call": "getMessage()",
+"path": "self-hosted",
+"line": "1161",
+"col": "25"
+},
+{
+"index": "2",
+"call": "recvAPICall/result</<()",
+"path": "resource://gre/modules/ExtensionParent.jsm",
+"line": "958",
+"col": "67"
+},
+{
+"index": "3",
+"call": "withPendingBrowser()",
+"path": "resource://gre/modules/ExtensionParent.jsm",
+"line": "489",
+"col": "25"
+},
+{
+"index": "4",
+"call": "recvAPICall/result<()",
+"path": "resource://gre/modules/ExtensionParent.jsm",
+"line": "958",
+"col": "23"
+},
+{
+"index": "5",
+"call": "callAndLog()",
+"path": "resource://gre/modules/ExtensionParent.jsm",
+"line": "920",
+"col": "13"
+},
+{
+"index": "6",
+"call": "recvAPICall()",
+"path": "resource://gre/modules/ExtensionParent.jsm",
+"line": "957",
+"col": "24"
+},
+{
+"index": "7",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "674",
+"col": "26"
+}
+],
 "file": null
 },
 {
-"type": "ftl",
-"id": "onboarding-multistage-welcome-primary-button-label",
-"stack": null,
-"file": null
+"type": "properties",
+"id": "wc-reporter.tooltip",
+"stack": [
+{
+"index": "0",
+"call": "getMessage()",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/browser/features/webcompat-reporter@mozilla.org/experimentalAPIs/l10n.js",
+"line": "49",
+"col": "47"
 },
 {
-"type": "ftl",
-"id": "onboarding-welcome-steps-indicator",
-"stack": null,
+"index": "1",
+"call": "getMessage()",
+"path": "self-hosted",
+"line": "1161",
+"col": "25"
+},
+{
+"index": "2",
+"call": "recvAPICall/result</<()",
+"path": "resource://gre/modules/ExtensionParent.jsm",
+"line": "958",
+"col": "67"
+},
+{
+"index": "3",
+"call": "withPendingBrowser()",
+"path": "resource://gre/modules/ExtensionParent.jsm",
+"line": "489",
+"col": "25"
+},
+{
+"index": "4",
+"call": "recvAPICall/result<()",
+"path": "resource://gre/modules/ExtensionParent.jsm",
+"line": "958",
+"col": "23"
+},
+{
+"index": "5",
+"call": "callAndLog()",
+"path": "resource://gre/modules/ExtensionParent.jsm",
+"line": "920",
+"col": "13"
+},
+{
+"index": "6",
+"call": "recvAPICall()",
+"path": "resource://gre/modules/ExtensionParent.jsm",
+"line": "957",
+"col": "24"
+},
+{
+"index": "7",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "674",
+"col": "26"
+}
+],
 "file": null
 },
 {
@@ -7562,14 +7682,14 @@
 "index": "2",
 "call": "BUI__updateStar()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1832",
+"line": "1852",
 "col": "30"
 },
 {
 "index": "3",
 "call": "BUI_updateStarState/<()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1774",
+"line": "1794",
 "col": "13"
 }
 ],
@@ -7597,14 +7717,14 @@
 "index": "2",
 "call": "BUI__updateStar()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1832",
+"line": "1852",
 "col": "30"
 },
 {
 "index": "3",
 "call": "BUI_updateStarState/<()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1774",
+"line": "1794",
 "col": "13"
 }
 ],
@@ -7632,21 +7752,21 @@
 "index": "2",
 "call": "updateBookmarkPageMenuItem()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1883",
+"line": "1903",
 "col": "37"
 },
 {
 "index": "3",
 "call": "BUI__updateStar()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1841",
+"line": "1861",
 "col": "9"
 },
 {
 "index": "4",
 "call": "BUI_updateStarState/<()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1774",
+"line": "1794",
 "col": "13"
 }
 ],
@@ -7674,21 +7794,21 @@
 "index": "2",
 "call": "updateBookmarkPageMenuItem()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1883",
+"line": "1903",
 "col": "37"
 },
 {
 "index": "3",
 "call": "BUI__updateStar()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1841",
+"line": "1861",
 "col": "9"
 },
 {
 "index": "4",
 "call": "BUI_updateStarState/<()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1774",
+"line": "1794",
 "col": "13"
 }
 ],
@@ -7713,87 +7833,123 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": [
-{
-"index": "0",
-"call": "fetchFlowParams()",
-"path": "resource://activity-stream/aboutwelcome/aboutwelcome.bundle.js",
-"line": "872",
-"col": "29"
+"type": "ftl",
+"id": "newtab-search-box-search-the-web-input",
+"stack": null,
+"file": null
 },
 {
-"index": "1",
-"call": "MultiStageAboutWelcome/</<()",
-"path": "resource://activity-stream/aboutwelcome/aboutwelcome.bundle.js",
-"line": "375",
-"col": "103"
+"type": "ftl",
+"id": "newtab-search-box-search-the-web-text",
+"stack": null,
+"file": null
 },
 {
-"index": "2",
-"call": "MultiStageAboutWelcome/<()",
-"path": "resource://activity-stream/aboutwelcome/aboutwelcome.bundle.js",
-"line": "377",
-"col": "6"
+"type": "ftl",
+"id": "newtab-settings-button",
+"stack": null,
+"file": null
 },
 {
-"index": "3",
-"call": "Bh()",
-"path": "resource://activity-stream/vendor/react-dom.js",
-"line": "126",
-"col": "455"
+"type": "ftl",
+"id": "newtab-search-box-search-the-web-input",
+"stack": null,
+"file": null
 },
 {
-"index": "4",
-"call": "Dj()",
-"path": "resource://activity-stream/vendor/react-dom.js",
-"line": "162",
-"col": "475"
+"type": "ftl",
+"id": "newtab-search-box-search-the-web-text",
+"stack": null,
+"file": null
 },
 {
-"index": "5",
-"call": "unstable_runWithPriority()",
-"path": "resource://activity-stream/vendor/react.js",
-"line": "25",
-"col": "259"
+"type": "ftl",
+"id": "newtab-settings-button",
+"stack": null,
+"file": null
 },
 {
-"index": "6",
-"call": "Da()",
-"path": "resource://activity-stream/vendor/react-dom.js",
-"line": "60",
-"col": "279"
+"type": "ftl",
+"id": "newtab-section-header-topsites",
+"stack": null,
+"file": null
 },
 {
-"index": "7",
-"call": "xb()",
-"path": "resource://activity-stream/vendor/react-dom.js",
-"line": "162",
-"col": "230"
+"type": "ftl",
+"id": "newtab-menu-section-tooltip",
+"stack": null,
+"file": null
 },
 {
-"index": "8",
-"call": "Bj/<()",
-"path": "resource://activity-stream/vendor/react-dom.js",
-"line": "162",
-"col": "137"
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
 },
 {
-"index": "9",
-"call": "U()",
-"path": "resource://activity-stream/vendor/react.js",
-"line": "16",
-"col": "398"
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
 },
 {
-"index": "10",
-"call": "B.port1.onmessage()",
-"path": "resource://activity-stream/vendor/react.js",
-"line": "24",
-"col": "129"
-}
-],
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-pocket",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-collapse-section-label",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-pocket-learn-more",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-section-tooltip",
+"stack": null,
 "file": null
 },
 {
@@ -7867,172 +8023,122 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "brandShortName",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "wc-reporter.label2",
-"stack": [
-{
-"index": "0",
-"call": "getMessage()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/browser/features/webcompat-reporter@mozilla.org/experimentalAPIs/l10n.js",
-"line": "49",
-"col": "47"
-},
-{
-"index": "1",
-"call": "getMessage()",
-"path": "self-hosted",
-"line": "1161",
-"col": "25"
-},
-{
-"index": "2",
-"call": "recvAPICall/result</<()",
-"path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "958",
-"col": "67"
-},
-{
-"index": "3",
-"call": "withPendingBrowser()",
-"path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "489",
-"col": "25"
-},
-{
-"index": "4",
-"call": "recvAPICall/result<()",
-"path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "958",
-"col": "23"
-},
-{
-"index": "5",
-"call": "callAndLog()",
-"path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "920",
-"col": "13"
-},
-{
-"index": "6",
-"call": "recvAPICall()",
-"path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "957",
-"col": "24"
-},
-{
-"index": "7",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1468",
-"col": "33"
-},
-{
-"index": "8",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "674",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "wc-reporter.tooltip",
-"stack": [
-{
-"index": "0",
-"call": "getMessage()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/browser/features/webcompat-reporter@mozilla.org/experimentalAPIs/l10n.js",
-"line": "49",
-"col": "47"
-},
-{
-"index": "1",
-"call": "getMessage()",
-"path": "self-hosted",
-"line": "1161",
-"col": "25"
-},
-{
-"index": "2",
-"call": "recvAPICall/result</<()",
-"path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "958",
-"col": "67"
-},
-{
-"index": "3",
-"call": "withPendingBrowser()",
-"path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "489",
-"col": "25"
-},
-{
-"index": "4",
-"call": "recvAPICall/result<()",
-"path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "958",
-"col": "23"
-},
-{
-"index": "5",
-"call": "callAndLog()",
-"path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "920",
-"col": "13"
-},
-{
-"index": "6",
-"call": "recvAPICall()",
-"path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "957",
-"col": "24"
-},
-{
-"index": "7",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1468",
-"col": "33"
-},
-{
-"index": "8",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "674",
-"col": "26"
-}
-],
-"file": null
-},
-{
 "type": "ftl",
-"id": "screenshots-context-menu",
+"id": "newtab-section-header-topsites",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-page-title",
+"id": "newtab-menu-section-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "brandShortName",
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "intl.accept_languages",
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-pocket",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-collapse-section-label",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-pocket-learn-more",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-section-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-highlights",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-collapse-section-label",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-section-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-highlights",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-collapse-section-label",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-section-tooltip",
 "stack": null,
 "file": null
 },
@@ -8093,14 +8199,14 @@
 "index": "7",
 "call": "task()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2519",
+"line": "2518",
 "col": "12"
 },
 {
 "index": "8",
 "call": "_scheduleStartupIdleTasks/<()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2724",
+"line": "2714",
 "col": "19"
 }
 ],
@@ -8163,29 +8269,17 @@
 "index": "7",
 "call": "task()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2519",
+"line": "2518",
 "col": "12"
 },
 {
 "index": "8",
 "call": "_scheduleStartupIdleTasks/<()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2724",
+"line": "2714",
 "col": "19"
 }
 ],
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
 "file": null
 },
 {
@@ -8228,126 +8322,6 @@
 "col": "20"
 }
 ],
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
 "file": null
 },
 {
@@ -8357,21 +8331,21 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "98",
 "col": "51"
 },
 {
 "index": "1",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "2",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -8385,28 +8359,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -8420,28 +8394,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -8455,28 +8429,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -8490,28 +8464,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -8525,28 +8499,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -8560,28 +8534,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -8595,28 +8569,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -8630,28 +8604,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -8665,28 +8639,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -8700,28 +8674,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -8735,28 +8709,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -8770,28 +8744,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -8805,28 +8779,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -8840,28 +8814,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -8875,28 +8849,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -8910,28 +8884,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -8945,28 +8919,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -8980,28 +8954,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -9015,28 +8989,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -9050,28 +9024,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -9085,28 +9059,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -9120,28 +9094,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -9155,28 +9129,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -9190,28 +9164,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -9225,28 +9199,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -9260,28 +9234,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -9295,28 +9269,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -9330,28 +9304,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -9365,28 +9339,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -9400,28 +9374,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -9435,28 +9409,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -9470,28 +9444,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "145",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "120",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "74",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/mozilla/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/mozilla/projects/mozilla-central/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
 "line": "323",
 "col": "17"
 }
@@ -9500,7 +9474,139 @@
 },
 {
 "type": "properties",
+"id": "intl.accept_languages",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-collapse-section-label",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-empty-section-highlights",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
 "id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "browser-import-button",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.ellipsis",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-collapse-section-label",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-empty-section-highlights",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
 "stack": null,
 "file": null
 },
@@ -9518,7 +9624,115 @@
 },
 {
 "type": "properties",
-"id": "6",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-pocket-read-more",
 "stack": null,
 "file": null
 },
@@ -9565,86 +9779,104 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "12",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "12",
-"stack": null,
-"file": null
-},
-{
 "type": "ftl",
-"id": "browser-import-button",
+"id": "newtab-pocket-read-more",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "intl.ellipsis",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "13",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "13",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "10",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "10",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -9667,614 +9899,26 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "CookieLaxForced2",
-"stack": [
-{
-"index": "0",
-"call": "enabled()",
-"path": "https://www.mozilla.org/media/js/BUNDLES/site.c3a28476932c.js",
-"line": "1",
-"col": "4060"
-},
-{
-"index": "1",
-"call": "u.meetsRequirements()",
-"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
-"line": "1",
-"col": "2875"
-},
-{
-"index": "2",
-"call": "u.init()",
-"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
-"line": "1",
-"col": "2975"
-},
-{
-"index": "3",
-"call": "anonymous()",
-"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
-"line": "1",
-"col": "3245"
-},
-{
-"index": "4",
-"call": "<TOP LEVEL>",
-"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
-"line": "1",
-"col": "3252"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "CookieLaxForced2",
-"stack": [
-{
-"index": "0",
-"call": "enabled()",
-"path": "https://www.mozilla.org/media/js/BUNDLES/site.c3a28476932c.js",
-"line": "1",
-"col": "4060"
-},
-{
-"index": "1",
-"call": "u.meetsRequirements()",
-"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
-"line": "1",
-"col": "2875"
-},
-{
-"index": "2",
-"call": "u.init()",
-"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
-"line": "1",
-"col": "2975"
-},
-{
-"index": "3",
-"call": "anonymous()",
-"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
-"line": "1",
-"col": "3245"
-},
-{
-"index": "4",
-"call": "<TOP LEVEL>",
-"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
-"line": "1",
-"col": "3252"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "CookieLaxForced2",
-"stack": [
-{
-"index": "0",
-"call": "enabled()",
-"path": "https://www.mozilla.org/media/js/BUNDLES/site.c3a28476932c.js",
-"line": "1",
-"col": "4148"
-},
-{
-"index": "1",
-"call": "u.meetsRequirements()",
-"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
-"line": "1",
-"col": "2875"
-},
-{
-"index": "2",
-"call": "u.init()",
-"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
-"line": "1",
-"col": "2975"
-},
-{
-"index": "3",
-"call": "anonymous()",
-"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
-"line": "1",
-"col": "3245"
-},
-{
-"index": "4",
-"call": "<TOP LEVEL>",
-"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
-"line": "1",
-"col": "3252"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "CookieLaxForced2",
-"stack": [
-{
-"index": "0",
-"call": "enabled()",
-"path": "https://www.mozilla.org/media/js/BUNDLES/site.c3a28476932c.js",
-"line": "1",
-"col": "4148"
-},
-{
-"index": "1",
-"call": "u.meetsRequirements()",
-"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
-"line": "1",
-"col": "2875"
-},
-{
-"index": "2",
-"call": "u.init()",
-"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
-"line": "1",
-"col": "2975"
-},
-{
-"index": "3",
-"call": "anonymous()",
-"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
-"line": "1",
-"col": "3245"
-},
-{
-"index": "4",
-"call": "<TOP LEVEL>",
-"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
-"line": "1",
-"col": "3252"
-}
-],
-"file": null
-},
-{
 "type": "ftl",
-"id": "newtab-search-box-search-the-web-input",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-search-box-search-the-web-text",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
@@ -10345,6 +9989,686 @@
 "file": null
 },
 {
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-topsites",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-collapse-section-label",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-section-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.accept_languages",
+"stack": [
+{
+"index": "0",
+"call": "Sentry</an.prototype.Lt()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/sentry.7385fb5d7601.js",
+"line": "1",
+"col": "49213"
+},
+{
+"index": "1",
+"call": "()",
+"path": "self-hosted",
+"line": "1161",
+"col": "25"
+},
+{
+"index": "2",
+"call": "forEach()",
+"path": "self-hosted",
+"line": "206",
+"col": "21"
+},
+{
+"index": "3",
+"call": "Sentry</an.prototype.setupOnce()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/sentry.7385fb5d7601.js",
+"line": "1",
+"col": "50686"
+},
+{
+"index": "4",
+"call": "e/<()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/sentry.7385fb5d7601.js",
+"line": "1",
+"col": "30550"
+},
+{
+"index": "5",
+"call": "forEach()",
+"path": "self-hosted",
+"line": "206",
+"col": "21"
+},
+{
+"index": "6",
+"call": "e()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/sentry.7385fb5d7601.js",
+"line": "1",
+"col": "30480"
+},
+{
+"index": "7",
+"call": "Sentry</re.prototype.setupIntegrations()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/sentry.7385fb5d7601.js",
+"line": "1",
+"col": "30629"
+},
+{
+"index": "8",
+"call": "Sentry</Lt.prototype.bindClient()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/sentry.7385fb5d7601.js",
+"line": "1",
+"col": "22840"
+},
+{
+"index": "9",
+"call": "Sentry</c.init/<()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/sentry.7385fb5d7601.js",
+"line": "1",
+"col": "56632"
+},
+{
+"index": "10",
+"call": "Sentry</c.init()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/sentry.7385fb5d7601.js",
+"line": "1",
+"col": "56646"
+},
+{
+"index": "11",
+"call": "anonymous()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/sentry.7385fb5d7601.js",
+"line": "1",
+"col": "57491"
+},
+{
+"index": "12",
+"call": "<TOP LEVEL>",
+"path": "https://www.mozilla.org/media/js/BUNDLES/sentry.7385fb5d7601.js",
+"line": "1",
+"col": "57603"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "CookieLaxForced2",
+"stack": [
+{
+"index": "0",
+"call": "enabled()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/site.c3a28476932c.js",
+"line": "1",
+"col": "4060"
+},
+{
+"index": "1",
+"call": "u.meetsRequirements()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
+"line": "1",
+"col": "2875"
+},
+{
+"index": "2",
+"call": "u.init()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
+"line": "1",
+"col": "2975"
+},
+{
+"index": "3",
+"call": "anonymous()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
+"line": "1",
+"col": "3245"
+},
+{
+"index": "4",
+"call": "<TOP LEVEL>",
+"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
+"line": "1",
+"col": "3252"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "CookieLaxForced2",
+"stack": [
+{
+"index": "0",
+"call": "enabled()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/site.c3a28476932c.js",
+"line": "1",
+"col": "4060"
+},
+{
+"index": "1",
+"call": "u.meetsRequirements()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
+"line": "1",
+"col": "2875"
+},
+{
+"index": "2",
+"call": "u.init()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
+"line": "1",
+"col": "2975"
+},
+{
+"index": "3",
+"call": "anonymous()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
+"line": "1",
+"col": "3245"
+},
+{
+"index": "4",
+"call": "<TOP LEVEL>",
+"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
+"line": "1",
+"col": "3252"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "CookieLaxForced2",
+"stack": [
+{
+"index": "0",
+"call": "enabled()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/site.c3a28476932c.js",
+"line": "1",
+"col": "4148"
+},
+{
+"index": "1",
+"call": "u.meetsRequirements()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
+"line": "1",
+"col": "2875"
+},
+{
+"index": "2",
+"call": "u.init()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
+"line": "1",
+"col": "2975"
+},
+{
+"index": "3",
+"call": "anonymous()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
+"line": "1",
+"col": "3245"
+},
+{
+"index": "4",
+"call": "<TOP LEVEL>",
+"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
+"line": "1",
+"col": "3252"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "CookieLaxForced2",
+"stack": [
+{
+"index": "0",
+"call": "enabled()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/site.c3a28476932c.js",
+"line": "1",
+"col": "4148"
+},
+{
+"index": "1",
+"call": "u.meetsRequirements()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
+"line": "1",
+"col": "2875"
+},
+{
+"index": "2",
+"call": "u.init()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
+"line": "1",
+"col": "2975"
+},
+{
+"index": "3",
+"call": "anonymous()",
+"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
+"line": "1",
+"col": "3245"
+},
+{
+"index": "4",
+"call": "<TOP LEVEL>",
+"path": "https://www.mozilla.org/media/js/BUNDLES/stub-attribution.d27a6ffd686b.js",
+"line": "1",
+"col": "3252"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
 "type": "ftl",
 "id": "newtab-section-header-pocket",
 "stack": null,
@@ -10376,7 +10700,55 @@
 },
 {
 "type": "ftl",
-"id": "newtab-section-header-highlights",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-pocket",
 "stack": null,
 "file": null
 },
@@ -10388,19 +10760,49 @@
 },
 {
 "type": "ftl",
+"id": "newtab-pocket-learn-more",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
 "id": "newtab-menu-section-tooltip",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-empty-section-highlights",
+"id": "newtab-pocket-read-more",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.accept_languages",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-settings-button",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
 },
@@ -10436,6 +10838,30 @@
 },
 {
 "type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
 "id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
@@ -10443,6 +10869,60 @@
 {
 "type": "ftl",
 "id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
 },
@@ -13734,622 +14214,6 @@
 "type": "properties",
 "id": "WinConflict2",
 "stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.doh-rollout@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.doh-rollout@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.formautofill@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.formautofill@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.screenshots@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.screenshots@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat-reporter@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat-reporter@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.google@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.google@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.amazondotcom@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.amazondotcom@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.wikipedia@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.wikipedia@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.bing@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.bing@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.ddg@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.ddg@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.ebay@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.ebay@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
-"col": "14"
-}
-],
 "file": null
 },
 {
@@ -14360,14 +14224,14 @@
 "index": "0",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2949",
+"line": "2939",
 "col": "41"
 },
 {
 "index": "1",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1060",
+"line": "1059",
 "col": "13"
 },
 {
@@ -14416,14 +14280,14 @@
 "index": "2",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2950",
+"line": "2940",
 "col": "6"
 },
 {
 "index": "3",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1060",
+"line": "1059",
 "col": "13"
 },
 {
@@ -14458,14 +14322,14 @@
 "index": "0",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2966",
+"line": "2956",
 "col": "26"
 },
 {
 "index": "1",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1060",
+"line": "1059",
 "col": "13"
 },
 {
@@ -14500,14 +14364,14 @@
 "index": "0",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2972",
+"line": "2962",
 "col": "24"
 },
 {
 "index": "1",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1060",
+"line": "1059",
 "col": "13"
 },
 {
@@ -14542,14 +14406,14 @@
 "index": "0",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2975",
+"line": "2965",
 "col": "24"
 },
 {
 "index": "1",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1060",
+"line": "1059",
 "col": "13"
 },
 {
@@ -14612,14 +14476,14 @@
 "index": "4",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2970",
+"line": "2960",
 "col": "40"
 },
 {
 "index": "5",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1060",
+"line": "1059",
 "col": "13"
 },
 {
@@ -14696,14 +14560,14 @@
 "index": "6",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2970",
+"line": "2960",
 "col": "40"
 },
 {
 "index": "7",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1060",
+"line": "1059",
 "col": "13"
 },
 {
@@ -14844,14 +14708,14 @@
 "index": "10",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2970",
+"line": "2960",
 "col": "40"
 },
 {
 "index": "11",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1060",
+"line": "1059",
 "col": "13"
 },
 {
@@ -14956,14 +14820,14 @@
 "index": "10",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2970",
+"line": "2960",
 "col": "40"
 },
 {
 "index": "11",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1060",
+"line": "1059",
 "col": "13"
 },
 {
@@ -15067,14 +14931,14 @@
 "index": "9",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2970",
+"line": "2960",
 "col": "40"
 },
 {
 "index": "10",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1060",
+"line": "1059",
 "col": "13"
 },
 {
@@ -15172,14 +15036,14 @@
 "index": "9",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2970",
+"line": "2960",
 "col": "40"
 },
 {
 "index": "10",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1060",
+"line": "1059",
 "col": "13"
 },
 {
@@ -15277,14 +15141,14 @@
 "index": "9",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2970",
+"line": "2960",
 "col": "40"
 },
 {
 "index": "10",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1060",
+"line": "1059",
 "col": "13"
 },
 {
@@ -15382,14 +15246,14 @@
 "index": "9",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2970",
+"line": "2960",
 "col": "40"
 },
 {
 "index": "10",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1060",
+"line": "1059",
 "col": "13"
 },
 {
@@ -15487,14 +15351,14 @@
 "index": "9",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2970",
+"line": "2960",
 "col": "40"
 },
 {
 "index": "10",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1060",
+"line": "1059",
 "col": "13"
 },
 {
@@ -15592,14 +15456,14 @@
 "index": "9",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2970",
+"line": "2960",
 "col": "40"
 },
 {
 "index": "10",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1060",
+"line": "1059",
 "col": "13"
 },
 {
@@ -15697,14 +15561,14 @@
 "index": "9",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2970",
+"line": "2960",
 "col": "40"
 },
 {
 "index": "10",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1060",
+"line": "1059",
 "col": "13"
 },
 {
@@ -15802,14 +15666,14 @@
 "index": "9",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2970",
+"line": "2960",
 "col": "40"
 },
 {
 "index": "10",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1060",
+"line": "1059",
 "col": "13"
 },
 {
@@ -15907,14 +15771,14 @@
 "index": "9",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2970",
+"line": "2960",
 "col": "40"
 },
 {
 "index": "10",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1060",
+"line": "1059",
 "col": "13"
 },
 {
@@ -16068,14 +15932,14 @@
 "index": "2",
 "call": "updateBookmarkPageMenuItem()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1883",
+"line": "1903",
 "col": "37"
 },
 {
 "index": "3",
 "call": "BUI_uninit()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1721",
+"line": "1741",
 "col": "9"
 },
 {
@@ -16117,14 +15981,14 @@
 "index": "2",
 "call": "updateBookmarkPageMenuItem()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1883",
+"line": "1903",
 "col": "37"
 },
 {
 "index": "3",
 "call": "BUI_uninit()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1721",
+"line": "1741",
 "col": "9"
 },
 {
