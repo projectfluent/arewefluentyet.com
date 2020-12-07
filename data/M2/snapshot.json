@@ -1,6 +1,6 @@
 {
-"date": "2020-11-30",
-"revision": "99aa3dc8e18594112bbe6581d37ed83623a48efa",
+"date": "2020-12-07",
+"revision": "7167ab3f6e8d7b77439ac1cc7d9356bbaff02510",
 "data": [
 {
 "type": "properties",
@@ -30,7 +30,7 @@
 "index": "2",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 },
 {
@@ -121,7 +121,7 @@
 "index": "2",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 },
 {
@@ -212,7 +212,7 @@
 "index": "2",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 },
 {
@@ -386,7 +386,7 @@
 "index": "13",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 },
 {
@@ -568,7 +568,7 @@
 "index": "13",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 },
 {
@@ -757,14 +757,14 @@
 "index": "3",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -799,14 +799,14 @@
 "index": "3",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -841,14 +841,14 @@
 "index": "3",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -883,14 +883,14 @@
 "index": "3",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -925,14 +925,14 @@
 "index": "3",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -967,56 +967,14 @@
 "index": "3",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.formautofill@mozilla.org.description",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1335",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1451",
-"col": "33"
-},
-{
-"index": "2",
-"call": "_getActiveAddons()",
-"path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "782",
-"col": "0"
-},
-{
-"index": "3",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1468",
-"col": "33"
-},
-{
-"index": "4",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -1051,14 +1009,56 @@
 "index": "3",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.formautofill@mozilla.org.description",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1335",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1451",
+"col": "33"
+},
+{
+"index": "2",
+"call": "_getActiveAddons()",
+"path": "resource://gre/modules/TelemetryEnvironment.jsm",
+"line": "782",
+"col": "0"
+},
+{
+"index": "3",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1483",
+"col": "33"
+},
+{
+"index": "4",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "689",
 "col": "26"
 }
 ],
@@ -1093,14 +1093,14 @@
 "index": "3",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -1135,14 +1135,14 @@
 "index": "3",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -1177,14 +1177,14 @@
 "index": "3",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -1219,14 +1219,14 @@
 "index": "3",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -1261,14 +1261,14 @@
 "index": "3",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -1303,14 +1303,14 @@
 "index": "3",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -1345,14 +1345,14 @@
 "index": "3",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -1387,14 +1387,14 @@
 "index": "3",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -1429,14 +1429,14 @@
 "index": "3",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -1471,14 +1471,14 @@
 "index": "3",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -1513,14 +1513,14 @@
 "index": "3",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -1555,14 +1555,14 @@
 "index": "3",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -1597,14 +1597,14 @@
 "index": "3",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -1639,14 +1639,14 @@
 "index": "3",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "4",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -1757,7 +1757,7 @@
 "index": "13",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -1862,7 +1862,7 @@
 "index": "13",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -5253,14 +5253,14 @@
 "index": "1",
 "call": "onBeforeInitialXULLayout()",
 "path": "chrome://browser/content/browser.js",
-"line": "1656",
+"line": "1666",
 "col": "28"
 },
 {
 "index": "2",
 "call": "onBeforeInitialXULLayout()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -5288,14 +5288,14 @@
 "index": "2",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1715",
+"line": "1727",
 "col": "13"
 },
 {
 "index": "3",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -5323,7 +5323,7 @@
 "index": "2",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6763",
+"line": "6766",
 "col": "32"
 },
 {
@@ -5344,14 +5344,14 @@
 "index": "5",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1715",
+"line": "1727",
 "col": "13"
 },
 {
 "index": "6",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -5379,7 +5379,7 @@
 "index": "2",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6763",
+"line": "6766",
 "col": "32"
 },
 {
@@ -5400,14 +5400,14 @@
 "index": "5",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1715",
+"line": "1727",
 "col": "13"
 },
 {
 "index": "6",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -5421,14 +5421,14 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "664",
+"line": "674",
 "col": "26"
 },
 {
 "index": "1",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6768",
+"line": "6771",
 "col": "23"
 },
 {
@@ -5449,14 +5449,14 @@
 "index": "4",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1715",
+"line": "1727",
 "col": "13"
 },
 {
 "index": "5",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -5470,14 +5470,14 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "664",
+"line": "674",
 "col": "26"
 },
 {
 "index": "1",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6768",
+"line": "6771",
 "col": "23"
 },
 {
@@ -5498,14 +5498,14 @@
 "index": "4",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1715",
+"line": "1727",
 "col": "13"
 },
 {
 "index": "5",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -5603,14 +5603,14 @@
 "index": "12",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1715",
+"line": "1727",
 "col": "13"
 },
 {
 "index": "13",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -5708,14 +5708,14 @@
 "index": "12",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1715",
+"line": "1727",
 "col": "13"
 },
 {
 "index": "13",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -5813,14 +5813,14 @@
 "index": "12",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1715",
+"line": "1727",
 "col": "13"
 },
 {
 "index": "13",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -5918,14 +5918,14 @@
 "index": "12",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1715",
+"line": "1727",
 "col": "13"
 },
 {
 "index": "13",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -5981,14 +5981,14 @@
 "index": "6",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1726",
+"line": "1738",
 "col": "21"
 },
 {
 "index": "7",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -6044,14 +6044,14 @@
 "index": "6",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1726",
+"line": "1738",
 "col": "21"
 },
 {
 "index": "7",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -6065,7 +6065,7 @@
 "index": "0",
 "call": "_initPasteAndGo()",
 "path": "resource:///modules/UrlbarInput.jsm",
-"line": "2488",
+"line": "2497",
 "col": "7"
 },
 {
@@ -6093,35 +6093,35 @@
 "index": "4",
 "call": "_setInitialFocus/<()",
 "path": "chrome://browser/content/browser.js",
-"line": "2143",
+"line": "2155",
 "col": "8"
 },
 {
 "index": "5",
 "call": "_callWithURIToLoad()",
 "path": "chrome://browser/content/browser.js",
-"line": "2420",
+"line": "2432",
 "col": "14"
 },
 {
 "index": "6",
 "call": "_setInitialFocus()",
 "path": "chrome://browser/content/browser.js",
-"line": "2141",
+"line": "2153",
 "col": "9"
 },
 {
 "index": "7",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1745",
+"line": "1757",
 "col": "9"
 },
 {
 "index": "8",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -6147,23 +6147,17 @@
 "index": "0",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1869",
+"line": "1881",
 "col": "4"
 },
 {
 "index": "1",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
-"file": null
-},
-{
-"type": "properties",
-"id": "brandShortName",
-"stack": null,
 "file": null
 },
 {
@@ -6172,72 +6166,107 @@
 "stack": [
 {
 "index": "0",
-"call": "URLFetcher()",
-"path": "resource://gre/modules/CaptiveDetect.jsm",
-"line": "29",
-"col": "6"
+"call": "_fetchTimeout()",
+"path": "resource://gre/modules/Region.jsm",
+"line": "754",
+"col": "25"
 },
 {
 "index": "1",
-"call": "_startDetection()",
-"path": "resource://gre/modules/CaptiveDetect.jsm",
-"line": "372",
-"col": "21"
+"call": "_getRegion()",
+"path": "resource://gre/modules/Region.jsm",
+"line": "415",
+"col": "27"
 },
 {
 "index": "2",
-"call": "finishPreparation()",
-"path": "resource://gre/modules/CaptiveDetect.jsm",
-"line": "332",
-"col": "9"
+"call": "_fetchRegion()",
+"path": "resource://gre/modules/Region.jsm",
+"line": "215",
+"col": "26"
 },
 {
 "index": "3",
-"call": "_applyDetection()",
-"path": "resource://gre/modules/CaptiveDetect.jsm",
-"line": "354",
-"col": "36"
+"call": "init/<()",
+"path": "resource://gre/modules/Region.jsm",
+"line": "172",
+"col": "50"
 },
 {
 "index": "4",
-"call": "_runNextRequest()",
-"path": "resource://gre/modules/CaptiveDetect.jsm",
-"line": "476",
-"col": "11"
+"call": "_idleDispatch/<()",
+"path": "resource://gre/modules/Region.jsm",
+"line": "812",
+"col": "43"
 },
 {
 "index": "5",
-"call": "_addRequest()",
-"path": "resource://gre/modules/CaptiveDetect.jsm",
-"line": "484",
+"call": "_idleDispatch()",
+"path": "resource://gre/modules/Region.jsm",
+"line": "811",
 "col": "11"
 },
 {
 "index": "6",
-"call": "checkCaptivePortal()",
-"path": "resource://gre/modules/CaptiveDetect.jsm",
-"line": "312",
-"col": "9"
-},
-{
-"index": "7",
-"call": "delayedStartup()",
-"path": "chrome://browser/content/browser-captivePortal.js",
-"line": "93",
-"col": "16"
-},
-{
-"index": "8",
-"call": "_delayedStartup()",
-"path": "chrome://browser/content/browser.js",
-"line": "2109",
+"call": "init()",
+"path": "resource://gre/modules/Region.jsm",
+"line": "172",
 "col": "25"
 },
 {
+"index": "7",
+"call": "<TOP LEVEL>",
+"path": "resource://gre/modules/Region.jsm",
+"line": "885",
+"col": "7"
+},
+{
+"index": "8",
+"call": "_init()",
+"path": "resource://gre/modules/SearchService.jsm",
+"line": "249",
+"col": "4"
+},
+{
 "index": "9",
+"call": "init()",
+"path": "resource://gre/modules/SearchService.jsm",
+"line": "1275",
+"col": "17"
+},
+{
+"index": "10",
+"call": "getDefault()",
+"path": "resource://gre/modules/SearchService.jsm",
+"line": "2218",
+"col": "15"
+},
+{
+"index": "11",
+"call": "_updateURLBarPlaceholderFromDefaultEngine()",
+"path": "chrome://browser/content/browser.js",
+"line": "4110",
+"col": "30"
+},
+{
+"index": "12",
+"call": "delayedStartupInit()",
+"path": "chrome://browser/content/browser.js",
+"line": "3970",
+"col": "9"
+},
+{
+"index": "13",
+"call": "_delayedStartup()",
+"path": "chrome://browser/content/browser.js",
+"line": "1936",
+"col": "18"
+},
+{
+"index": "14",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -6293,21 +6322,21 @@
 "index": "6",
 "call": "onWindowReady()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 },
 {
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2118",
+"line": "2130",
 "col": "17"
 },
 {
 "index": "8",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -6363,21 +6392,21 @@
 "index": "6",
 "call": "onWindowReady()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 },
 {
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2118",
+"line": "2130",
 "col": "17"
 },
 {
 "index": "8",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -6433,21 +6462,21 @@
 "index": "6",
 "call": "onWindowReady()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 },
 {
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2118",
+"line": "2130",
 "col": "17"
 },
 {
 "index": "8",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -6503,21 +6532,21 @@
 "index": "6",
 "call": "onWindowReady()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 },
 {
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2118",
+"line": "2130",
 "col": "17"
 },
 {
 "index": "8",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -6573,21 +6602,21 @@
 "index": "6",
 "call": "onWindowReady()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 },
 {
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2118",
+"line": "2130",
 "col": "17"
 },
 {
 "index": "8",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -6643,21 +6672,21 @@
 "index": "6",
 "call": "onWindowReady()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 },
 {
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2118",
+"line": "2130",
 "col": "17"
 },
 {
 "index": "8",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -6713,21 +6742,21 @@
 "index": "6",
 "call": "onWindowReady()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 },
 {
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2118",
+"line": "2130",
 "col": "17"
 },
 {
 "index": "8",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -6783,21 +6812,21 @@
 "index": "6",
 "call": "onWindowReady()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 },
 {
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2118",
+"line": "2130",
 "col": "17"
 },
 {
 "index": "8",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -6853,21 +6882,21 @@
 "index": "6",
 "call": "onWindowReady()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 },
 {
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2118",
+"line": "2130",
 "col": "17"
 },
 {
 "index": "8",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -6923,21 +6952,21 @@
 "index": "6",
 "call": "onWindowReady()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 },
 {
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2118",
+"line": "2130",
 "col": "17"
 },
 {
 "index": "8",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -6993,21 +7022,21 @@
 "index": "6",
 "call": "onWindowReady()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 },
 {
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2118",
+"line": "2130",
 "col": "17"
 },
 {
 "index": "8",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -7063,21 +7092,21 @@
 "index": "6",
 "call": "onWindowReady()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 },
 {
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2118",
+"line": "2130",
 "col": "17"
 },
 {
 "index": "8",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -7133,21 +7162,21 @@
 "index": "6",
 "call": "onWindowReady()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 },
 {
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2118",
+"line": "2130",
 "col": "17"
 },
 {
 "index": "8",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -7203,21 +7232,21 @@
 "index": "6",
 "call": "onWindowReady()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 },
 {
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2118",
+"line": "2130",
 "col": "17"
 },
 {
 "index": "8",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -7252,21 +7281,21 @@
 "index": "3",
 "call": "onWindowReady()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 },
 {
 "index": "4",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2118",
+"line": "2130",
 "col": "17"
 },
 {
 "index": "5",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -7301,21 +7330,21 @@
 "index": "3",
 "call": "onWindowReady()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 },
 {
 "index": "4",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2118",
+"line": "2130",
 "col": "17"
 },
 {
 "index": "5",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -7343,14 +7372,14 @@
 "index": "2",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -7406,7 +7435,7 @@
 },
 {
 "type": "ftl",
-"id": "screenshots-context-menu",
+"id": "newtab-page-title",
 "stack": null,
 "file": null
 },
@@ -7432,7 +7461,7 @@
 "index": "2",
 "call": "onLocationChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5326",
+"line": "5338",
 "col": "22"
 },
 {
@@ -7488,7 +7517,7 @@
 "index": "2",
 "call": "onLocationChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5326",
+"line": "5338",
 "col": "22"
 },
 {
@@ -7523,138 +7552,6 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-page-title",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "wc-reporter.label2",
-"stack": [
-{
-"index": "0",
-"call": "getMessage()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/browser/features/webcompat-reporter@mozilla.org/experimentalAPIs/l10n.js",
-"line": "49",
-"col": "47"
-},
-{
-"index": "1",
-"call": "getMessage()",
-"path": "self-hosted",
-"line": "1161",
-"col": "25"
-},
-{
-"index": "2",
-"call": "recvAPICall/result</<()",
-"path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "958",
-"col": "67"
-},
-{
-"index": "3",
-"call": "withPendingBrowser()",
-"path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "489",
-"col": "25"
-},
-{
-"index": "4",
-"call": "recvAPICall/result<()",
-"path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "958",
-"col": "23"
-},
-{
-"index": "5",
-"call": "callAndLog()",
-"path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "920",
-"col": "13"
-},
-{
-"index": "6",
-"call": "recvAPICall()",
-"path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "957",
-"col": "24"
-},
-{
-"index": "7",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "674",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "wc-reporter.tooltip",
-"stack": [
-{
-"index": "0",
-"call": "getMessage()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/browser/features/webcompat-reporter@mozilla.org/experimentalAPIs/l10n.js",
-"line": "49",
-"col": "47"
-},
-{
-"index": "1",
-"call": "getMessage()",
-"path": "self-hosted",
-"line": "1161",
-"col": "25"
-},
-{
-"index": "2",
-"call": "recvAPICall/result</<()",
-"path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "958",
-"col": "67"
-},
-{
-"index": "3",
-"call": "withPendingBrowser()",
-"path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "489",
-"col": "25"
-},
-{
-"index": "4",
-"call": "recvAPICall/result<()",
-"path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "958",
-"col": "23"
-},
-{
-"index": "5",
-"call": "callAndLog()",
-"path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "920",
-"col": "13"
-},
-{
-"index": "6",
-"call": "recvAPICall()",
-"path": "resource://gre/modules/ExtensionParent.jsm",
-"line": "957",
-"col": "24"
-},
-{
-"index": "7",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "674",
-"col": "26"
-}
-],
-"file": null
-},
-{
 "type": "properties",
 "id": "VK_CONTROL",
 "stack": [
@@ -7676,14 +7573,14 @@
 "index": "2",
 "call": "BUI__updateStar()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1996",
+"line": "2007",
 "col": "30"
 },
 {
 "index": "3",
 "call": "BUI_updateStarState/<()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1938",
+"line": "1949",
 "col": "13"
 }
 ],
@@ -7711,14 +7608,14 @@
 "index": "2",
 "call": "BUI__updateStar()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1996",
+"line": "2007",
 "col": "30"
 },
 {
 "index": "3",
 "call": "BUI_updateStarState/<()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1938",
+"line": "1949",
 "col": "13"
 }
 ],
@@ -7746,21 +7643,21 @@
 "index": "2",
 "call": "updateBookmarkPageMenuItem()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "2047",
+"line": "2058",
 "col": "37"
 },
 {
 "index": "3",
 "call": "BUI__updateStar()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "2005",
+"line": "2016",
 "col": "9"
 },
 {
 "index": "4",
 "call": "BUI_updateStarState/<()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1938",
+"line": "1949",
 "col": "13"
 }
 ],
@@ -7788,21 +7685,21 @@
 "index": "2",
 "call": "updateBookmarkPageMenuItem()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "2047",
+"line": "2058",
 "col": "37"
 },
 {
 "index": "3",
 "call": "BUI__updateStar()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "2005",
+"line": "2016",
 "col": "9"
 },
 {
 "index": "4",
 "call": "BUI_updateStarState/<()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1938",
+"line": "1949",
 "col": "13"
 }
 ],
@@ -7827,12 +7724,6 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-page-title",
-"stack": null,
-"file": null
-},
-{
 "type": "properties",
 "id": "zoom-button.label",
 "stack": [
@@ -7840,7 +7731,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "664",
+"line": "674",
 "col": "26"
 },
 {
@@ -7854,14 +7745,14 @@
 "index": "2",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -7875,7 +7766,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "664",
+"line": "674",
 "col": "26"
 },
 {
@@ -7889,14 +7780,14 @@
 "index": "2",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -7910,13 +7801,159 @@
 },
 {
 "type": "ftl",
-"id": "newtab-search-box-search-the-web-input",
+"id": "newtab-page-title",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "wc-reporter.label2",
+"stack": [
+{
+"index": "0",
+"call": "getMessage()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/browser/features/webcompat-reporter@mozilla.org/experimentalAPIs/l10n.js",
+"line": "49",
+"col": "47"
+},
+{
+"index": "1",
+"call": "getMessage()",
+"path": "self-hosted",
+"line": "1176",
+"col": "25"
+},
+{
+"index": "2",
+"call": "recvAPICall/result</<()",
+"path": "resource://gre/modules/ExtensionParent.jsm",
+"line": "958",
+"col": "67"
+},
+{
+"index": "3",
+"call": "withPendingBrowser()",
+"path": "resource://gre/modules/ExtensionParent.jsm",
+"line": "489",
+"col": "25"
+},
+{
+"index": "4",
+"call": "recvAPICall/result<()",
+"path": "resource://gre/modules/ExtensionParent.jsm",
+"line": "958",
+"col": "23"
+},
+{
+"index": "5",
+"call": "callAndLog()",
+"path": "resource://gre/modules/ExtensionParent.jsm",
+"line": "920",
+"col": "13"
+},
+{
+"index": "6",
+"call": "recvAPICall()",
+"path": "resource://gre/modules/ExtensionParent.jsm",
+"line": "957",
+"col": "24"
+},
+{
+"index": "7",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1483",
+"col": "33"
+},
+{
+"index": "8",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "689",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "wc-reporter.tooltip",
+"stack": [
+{
+"index": "0",
+"call": "getMessage()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/browser/features/webcompat-reporter@mozilla.org/experimentalAPIs/l10n.js",
+"line": "49",
+"col": "47"
+},
+{
+"index": "1",
+"call": "getMessage()",
+"path": "self-hosted",
+"line": "1176",
+"col": "25"
+},
+{
+"index": "2",
+"call": "recvAPICall/result</<()",
+"path": "resource://gre/modules/ExtensionParent.jsm",
+"line": "958",
+"col": "67"
+},
+{
+"index": "3",
+"call": "withPendingBrowser()",
+"path": "resource://gre/modules/ExtensionParent.jsm",
+"line": "489",
+"col": "25"
+},
+{
+"index": "4",
+"call": "recvAPICall/result<()",
+"path": "resource://gre/modules/ExtensionParent.jsm",
+"line": "958",
+"col": "23"
+},
+{
+"index": "5",
+"call": "callAndLog()",
+"path": "resource://gre/modules/ExtensionParent.jsm",
+"line": "920",
+"col": "13"
+},
+{
+"index": "6",
+"call": "recvAPICall()",
+"path": "resource://gre/modules/ExtensionParent.jsm",
+"line": "957",
+"col": "24"
+},
+{
+"index": "7",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1483",
+"col": "33"
+},
+{
+"index": "8",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "689",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "brandShortName",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-search-box-search-the-web-text",
+"id": "screenshots-context-menu",
 "stack": null,
 "file": null
 },
@@ -7941,6 +7978,1570 @@
 {
 "type": "ftl",
 "id": "newtab-settings-button",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-search-box-search-the-web-input",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-search-box-search-the-web-text",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-topsites",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-section-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "PrivateTokenDescription",
+"stack": [
+{
+"index": "0",
+"call": "init()",
+"path": "resource://gre/modules/crypto-SDR.js",
+"line": "58",
+"col": "24"
+},
+{
+"index": "1",
+"call": "LoginManagerCrypto_SDR()",
+"path": "resource://gre/modules/crypto-SDR.js",
+"line": "17",
+"col": "7"
+},
+{
+"index": "2",
+"call": "get _crypto()",
+"path": "resource://gre/modules/storage-json.js",
+"line": "64",
+"col": "68"
+},
+{
+"index": "3",
+"call": "initialize()",
+"path": "resource://gre/modules/storage-json.js",
+"line": "92",
+"col": "6"
+},
+{
+"index": "4",
+"call": "_initStorage()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "97",
+"col": "47"
+},
+{
+"index": "5",
+"call": "init()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "88",
+"col": "9"
+},
+{
+"index": "6",
+"call": "LoginManager()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "43",
+"col": "7"
+},
+{
+"index": "7",
+"call": "task()",
+"path": "resource:///modules/BrowserGlue.jsm",
+"line": "2472",
+"col": "12"
+},
+{
+"index": "8",
+"call": "_scheduleStartupIdleTasks/<()",
+"path": "resource:///modules/BrowserGlue.jsm",
+"line": "2672",
+"col": "19"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "ManufacturerID",
+"stack": [
+{
+"index": "0",
+"call": "init()",
+"path": "resource://gre/modules/crypto-SDR.js",
+"line": "58",
+"col": "24"
+},
+{
+"index": "1",
+"call": "LoginManagerCrypto_SDR()",
+"path": "resource://gre/modules/crypto-SDR.js",
+"line": "17",
+"col": "7"
+},
+{
+"index": "2",
+"call": "get _crypto()",
+"path": "resource://gre/modules/storage-json.js",
+"line": "64",
+"col": "68"
+},
+{
+"index": "3",
+"call": "initialize()",
+"path": "resource://gre/modules/storage-json.js",
+"line": "92",
+"col": "6"
+},
+{
+"index": "4",
+"call": "_initStorage()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "97",
+"col": "47"
+},
+{
+"index": "5",
+"call": "init()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "88",
+"col": "9"
+},
+{
+"index": "6",
+"call": "LoginManager()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "43",
+"col": "7"
+},
+{
+"index": "7",
+"call": "task()",
+"path": "resource:///modules/BrowserGlue.jsm",
+"line": "2472",
+"col": "12"
+},
+{
+"index": "8",
+"call": "_scheduleStartupIdleTasks/<()",
+"path": "resource:///modules/BrowserGlue.jsm",
+"line": "2672",
+"col": "19"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.defaultHandlersVersion",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "100",
+"col": "51"
+},
+{
+"index": "1",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "2",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.irc.0.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.irc.0.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.irc.1.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.irc.1.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.irc.2.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.irc.2.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.irc.3.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.irc.3.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.ircs.0.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.ircs.0.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.ircs.1.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.ircs.1.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.ircs.2.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.ircs.2.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.ircs.3.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.ircs.3.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.mailto.0.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.mailto.0.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.mailto.1.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.mailto.1.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.mailto.2.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.mailto.2.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.mailto.3.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.mailto.3.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.webcal.0.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.webcal.0.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.webcal.1.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.webcal.1.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.webcal.2.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.webcal.2.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.webcal.3.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.webcal.3.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "328",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "PrivateTokenDescription",
+"stack": [
+{
+"index": "0",
+"call": "isMasterPasswordSet()",
+"path": "resource://gre/modules/LoginHelper.jsm",
+"line": "1222",
+"col": "24"
+},
+{
+"index": "1",
+"call": "_initStorage/<()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "104",
+"col": "20"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "ManufacturerID",
+"stack": [
+{
+"index": "0",
+"call": "isMasterPasswordSet()",
+"path": "resource://gre/modules/LoginHelper.jsm",
+"line": "1222",
+"col": "24"
+},
+{
+"index": "1",
+"call": "_initStorage/<()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "104",
+"col": "20"
+}
+],
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-topsites",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-section-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "browser-import-button2",
 "stack": null,
 "file": null
 },
@@ -8288,1332 +9889,56 @@
 },
 {
 "type": "properties",
-"id": "PrivateTokenDescription",
-"stack": [
-{
-"index": "0",
-"call": "init()",
-"path": "resource://gre/modules/crypto-SDR.js",
-"line": "58",
-"col": "24"
-},
-{
-"index": "1",
-"call": "LoginManagerCrypto_SDR()",
-"path": "resource://gre/modules/crypto-SDR.js",
-"line": "17",
-"col": "7"
-},
-{
-"index": "2",
-"call": "get _crypto()",
-"path": "resource://gre/modules/storage-json.js",
-"line": "65",
-"col": "68"
-},
-{
-"index": "3",
-"call": "initialize()",
-"path": "resource://gre/modules/storage-json.js",
-"line": "93",
-"col": "6"
-},
-{
-"index": "4",
-"call": "_initStorage()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "97",
-"col": "47"
-},
-{
-"index": "5",
-"call": "init()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "88",
-"col": "9"
-},
-{
-"index": "6",
-"call": "LoginManager()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "43",
-"col": "7"
-},
-{
-"index": "7",
-"call": "task()",
-"path": "resource:///modules/BrowserGlue.jsm",
-"line": "2472",
-"col": "12"
-},
-{
-"index": "8",
-"call": "_scheduleStartupIdleTasks/<()",
-"path": "resource:///modules/BrowserGlue.jsm",
-"line": "2668",
-"col": "19"
-}
-],
+"id": "6",
+"stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "ManufacturerID",
-"stack": [
-{
-"index": "0",
-"call": "init()",
-"path": "resource://gre/modules/crypto-SDR.js",
-"line": "58",
-"col": "24"
-},
-{
-"index": "1",
-"call": "LoginManagerCrypto_SDR()",
-"path": "resource://gre/modules/crypto-SDR.js",
-"line": "17",
-"col": "7"
-},
-{
-"index": "2",
-"call": "get _crypto()",
-"path": "resource://gre/modules/storage-json.js",
-"line": "65",
-"col": "68"
-},
-{
-"index": "3",
-"call": "initialize()",
-"path": "resource://gre/modules/storage-json.js",
-"line": "93",
-"col": "6"
-},
-{
-"index": "4",
-"call": "_initStorage()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "97",
-"col": "47"
-},
-{
-"index": "5",
-"call": "init()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "88",
-"col": "9"
-},
-{
-"index": "6",
-"call": "LoginManager()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "43",
-"col": "7"
-},
-{
-"index": "7",
-"call": "task()",
-"path": "resource:///modules/BrowserGlue.jsm",
-"line": "2472",
-"col": "12"
-},
-{
-"index": "8",
-"call": "_scheduleStartupIdleTasks/<()",
-"path": "resource:///modules/BrowserGlue.jsm",
-"line": "2668",
-"col": "19"
-}
-],
+"id": "6",
+"stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "PrivateTokenDescription",
-"stack": [
-{
-"index": "0",
-"call": "isMasterPasswordSet()",
-"path": "resource://gre/modules/LoginHelper.jsm",
-"line": "1222",
-"col": "24"
-},
-{
-"index": "1",
-"call": "_initStorage/<()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "104",
-"col": "20"
-}
-],
+"id": "6",
+"stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "ManufacturerID",
-"stack": [
-{
-"index": "0",
-"call": "isMasterPasswordSet()",
-"path": "resource://gre/modules/LoginHelper.jsm",
-"line": "1222",
-"col": "24"
-},
-{
-"index": "1",
-"call": "_initStorage/<()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "104",
-"col": "20"
-}
-],
+"id": "6",
+"stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "gecko.handlerService.defaultHandlersVersion",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "98",
-"col": "51"
-},
-{
-"index": "1",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "2",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
+"id": "6",
+"stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "gecko.handlerService.schemes.irc.0.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
+"id": "6",
+"stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "gecko.handlerService.schemes.irc.0.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
+"id": "6",
+"stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "gecko.handlerService.schemes.irc.1.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
+"id": "6",
+"stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "gecko.handlerService.schemes.irc.1.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.irc.2.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.irc.2.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.irc.3.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.irc.3.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.0.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.0.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.1.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.1.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.2.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.2.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.3.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.3.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.0.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.0.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.1.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.1.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.2.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.2.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.3.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.3.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.0.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.0.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.1.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.1.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.2.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.2.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.3.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.3.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "145",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "120",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "74",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
-"line": "323",
-"col": "17"
-}
-],
+"id": "6",
+"stack": null,
 "file": null
 },
 {
@@ -9673,6 +9998,18 @@
 {
 "type": "properties",
 "id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "brandShortName",
 "stack": null,
 "file": null
 },
@@ -9684,187 +10021,13 @@
 },
 {
 "type": "properties",
-"id": "6",
+"id": "12",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "browser-import-button2",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
+"id": "12",
 "stack": null,
 "file": null
 },
@@ -9883,7 +10046,7 @@
 "index": "1",
 "call": "()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 },
 {
@@ -9967,132 +10130,6 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "12",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "12",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "brandShortName",
-"stack": null,
-"file": null
-},
-{
 "type": "ftl",
 "id": "newtab-section-collapse-section-label",
 "stack": null,
@@ -10262,6 +10299,90 @@
 },
 {
 "type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
 "id": "10",
 "stack": null,
 "file": null
@@ -10310,265 +10431,13 @@
 },
 {
 "type": "properties",
-"id": "6",
+"id": "10",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
+"id": "10",
 "stack": null,
 "file": null
 },
@@ -10597,314 +10466,206 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-header-topsites",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-collapse-section-label",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-section-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "12",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "12",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-header-topsites",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-collapse-section-label",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-section-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "13",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "13",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "10",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "10",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -10981,6 +10742,54 @@
 "file": null
 },
 {
+"type": "properties",
+"id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
 "type": "ftl",
 "id": "newtab-menu-content-tooltip",
 "stack": null,
@@ -11031,42 +10840,6 @@
 {
 "type": "ftl",
 "id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
 },
@@ -11084,7 +10857,7 @@
 },
 {
 "type": "ftl",
-"id": "newtab-label-sponsored-by",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
@@ -11096,19 +10869,13 @@
 },
 {
 "type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-label-sponsored-by",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
@@ -11121,36 +10888,6 @@
 {
 "type": "ftl",
 "id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
@@ -11221,14 +10958,26 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
+"type": "properties",
+"id": "13",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "13",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
 "stack": null,
 "file": null
 },
@@ -11275,14 +11024,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -11331,14 +11080,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -11387,14 +11136,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -11443,14 +11192,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -11499,14 +11248,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -11555,14 +11304,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -11611,14 +11360,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -11667,14 +11416,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -11723,14 +11472,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -11779,14 +11528,126 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.firefox-alpenglow@mozilla.org.name",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1335",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1442",
+"col": "46"
+},
+{
+"index": "2",
+"call": "get addons/<()",
+"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
+"line": "157",
+"col": "12"
+},
+{
+"index": "3",
+"call": "reduce()",
+"path": "self-hosted",
+"line": "257",
+"col": "20"
+},
+{
+"index": "4",
+"call": "get addons/<()",
+"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
+"line": "149",
+"col": "20"
+},
+{
+"index": "5",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1483",
+"col": "33"
+},
+{
+"index": "6",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "689",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.firefox-alpenglow@mozilla.org.name",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1335",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1442",
+"col": "46"
+},
+{
+"index": "2",
+"call": "get addons/<()",
+"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
+"line": "157",
+"col": "12"
+},
+{
+"index": "3",
+"call": "reduce()",
+"path": "self-hosted",
+"line": "257",
+"col": "20"
+},
+{
+"index": "4",
+"call": "get addons/<()",
+"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
+"line": "149",
+"col": "20"
+},
+{
+"index": "5",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1483",
+"col": "33"
+},
+{
+"index": "6",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "689",
 "col": "26"
 }
 ],
@@ -11835,14 +11696,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -11891,14 +11752,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -11947,14 +11808,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -12003,14 +11864,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -12059,126 +11920,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.firefox-alpenglow@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1335",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1442",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1468",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "674",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.firefox-alpenglow@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1335",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1442",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1468",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -12227,14 +11976,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -12283,14 +12032,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -12339,14 +12088,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -12395,14 +12144,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -12451,14 +12200,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -12507,14 +12256,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -12563,14 +12312,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -12619,14 +12368,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -12675,14 +12424,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -12731,14 +12480,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -12787,14 +12536,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -12843,14 +12592,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -12899,14 +12648,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -12955,14 +12704,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -13011,14 +12760,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -13067,14 +12816,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -13123,14 +12872,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -13179,14 +12928,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -13235,14 +12984,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -13291,14 +13040,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -13347,14 +13096,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -13403,14 +13152,126 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.firefox-alpenglow@mozilla.org.name",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1335",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1442",
+"col": "46"
+},
+{
+"index": "2",
+"call": "get addons/<()",
+"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
+"line": "157",
+"col": "12"
+},
+{
+"index": "3",
+"call": "reduce()",
+"path": "self-hosted",
+"line": "257",
+"col": "20"
+},
+{
+"index": "4",
+"call": "get addons/<()",
+"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
+"line": "149",
+"col": "20"
+},
+{
+"index": "5",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1483",
+"col": "33"
+},
+{
+"index": "6",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "689",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.firefox-alpenglow@mozilla.org.name",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1335",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1442",
+"col": "46"
+},
+{
+"index": "2",
+"call": "get addons/<()",
+"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
+"line": "157",
+"col": "12"
+},
+{
+"index": "3",
+"call": "reduce()",
+"path": "self-hosted",
+"line": "257",
+"col": "20"
+},
+{
+"index": "4",
+"call": "get addons/<()",
+"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
+"line": "149",
+"col": "20"
+},
+{
+"index": "5",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1483",
+"col": "33"
+},
+{
+"index": "6",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "689",
 "col": "26"
 }
 ],
@@ -13459,14 +13320,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -13515,14 +13376,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -13571,14 +13432,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -13627,14 +13488,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -13683,126 +13544,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.firefox-alpenglow@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1335",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1442",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1468",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "674",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.firefox-alpenglow@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1335",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1442",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1468",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -13851,14 +13600,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -13907,14 +13656,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -13963,14 +13712,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -14019,14 +13768,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -14075,14 +13824,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -14131,14 +13880,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -14187,14 +13936,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -14243,14 +13992,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -14299,14 +14048,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -14355,14 +14104,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -14411,14 +14160,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -14467,14 +14216,14 @@
 "index": "5",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "6",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -14482,37 +14231,13 @@
 },
 {
 "type": "properties",
-"id": "WinConflict2",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "WinConflict2",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "WinConflict2",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "WinConflict2",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "WinConflict2",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "WinConflict2",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -14538,7 +14263,7 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
@@ -14566,7 +14291,7 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
@@ -14594,7 +14319,7 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
@@ -14622,7 +14347,7 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
@@ -14650,7 +14375,7 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
@@ -14678,7 +14403,7 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
@@ -14706,7 +14431,7 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
@@ -14734,7 +14459,7 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
@@ -14762,7 +14487,7 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
@@ -14790,7 +14515,7 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
@@ -14818,7 +14543,7 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
@@ -14846,7 +14571,7 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
@@ -14874,7 +14599,7 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
@@ -14902,7 +14627,7 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
@@ -14930,7 +14655,7 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
@@ -14958,7 +14683,7 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
@@ -14986,7 +14711,7 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
@@ -15014,7 +14739,7 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
@@ -15042,7 +14767,7 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
@@ -15070,7 +14795,7 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
@@ -15098,7 +14823,7 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
@@ -15126,10 +14851,52 @@
 "index": "2",
 "call": "get addonsInfo/<()",
 "path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "450",
+"line": "447",
 "col": "14"
 }
 ],
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "WinConflict2",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "WinConflict2",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "WinConflict2",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "WinConflict2",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "WinConflict2",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "WinConflict2",
+"stack": null,
 "file": null
 },
 {
@@ -15140,7 +14907,7 @@
 "index": "0",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2893",
+"line": "2897",
 "col": "41"
 },
 {
@@ -15196,7 +14963,7 @@
 "index": "2",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2894",
+"line": "2898",
 "col": "6"
 },
 {
@@ -15238,7 +15005,7 @@
 "index": "0",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2910",
+"line": "2914",
 "col": "26"
 },
 {
@@ -15280,7 +15047,7 @@
 "index": "0",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2916",
+"line": "2920",
 "col": "24"
 },
 {
@@ -15322,7 +15089,7 @@
 "index": "0",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2919",
+"line": "2923",
 "col": "24"
 },
 {
@@ -15392,7 +15159,7 @@
 "index": "4",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2914",
+"line": "2918",
 "col": "40"
 },
 {
@@ -15476,7 +15243,7 @@
 "index": "6",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2914",
+"line": "2918",
 "col": "40"
 },
 {
@@ -15624,7 +15391,7 @@
 "index": "10",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2914",
+"line": "2918",
 "col": "40"
 },
 {
@@ -15736,7 +15503,7 @@
 "index": "10",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2914",
+"line": "2918",
 "col": "40"
 },
 {
@@ -15847,7 +15614,7 @@
 "index": "9",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2914",
+"line": "2918",
 "col": "40"
 },
 {
@@ -15952,7 +15719,7 @@
 "index": "9",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2914",
+"line": "2918",
 "col": "40"
 },
 {
@@ -16057,7 +15824,7 @@
 "index": "9",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2914",
+"line": "2918",
 "col": "40"
 },
 {
@@ -16162,7 +15929,7 @@
 "index": "9",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2914",
+"line": "2918",
 "col": "40"
 },
 {
@@ -16267,7 +16034,7 @@
 "index": "9",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2914",
+"line": "2918",
 "col": "40"
 },
 {
@@ -16372,7 +16139,7 @@
 "index": "9",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2914",
+"line": "2918",
 "col": "40"
 },
 {
@@ -16477,7 +16244,7 @@
 "index": "9",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2914",
+"line": "2918",
 "col": "40"
 },
 {
@@ -16582,7 +16349,7 @@
 "index": "9",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2914",
+"line": "2918",
 "col": "40"
 },
 {
@@ -16687,7 +16454,7 @@
 "index": "9",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2914",
+"line": "2918",
 "col": "40"
 },
 {
@@ -16743,14 +16510,14 @@
 "index": "2",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -16778,14 +16545,14 @@
 "index": "2",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
@@ -16813,17 +16580,29 @@
 "index": "2",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1468",
+"line": "1483",
 "col": "33"
 },
 {
 "index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "674",
+"line": "689",
 "col": "26"
 }
 ],
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
 "file": null
 },
 {
@@ -16848,28 +16627,28 @@
 "index": "2",
 "call": "updateBookmarkPageMenuItem()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "2047",
+"line": "2058",
 "col": "37"
 },
 {
 "index": "3",
 "call": "BUI_uninit()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1885",
+"line": "1896",
 "col": "9"
 },
 {
 "index": "4",
 "call": "onUnload()",
 "path": "chrome://browser/content/browser.js",
-"line": "2460",
+"line": "2472",
 "col": "18"
 },
 {
 "index": "5",
 "call": "onUnload()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
@@ -16897,28 +16676,28 @@
 "index": "2",
 "call": "updateBookmarkPageMenuItem()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "2047",
+"line": "2058",
 "col": "37"
 },
 {
 "index": "3",
 "call": "BUI_uninit()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1885",
+"line": "1896",
 "col": "9"
 },
 {
 "index": "4",
 "call": "onUnload()",
 "path": "chrome://browser/content/browser.js",
-"line": "2460",
+"line": "2472",
 "col": "18"
 },
 {
 "index": "5",
 "call": "onUnload()",
 "path": "self-hosted",
-"line": "1161",
+"line": "1176",
 "col": "25"
 }
 ],
