@@ -1,6 +1,6 @@
 {
-"date": "2020-12-14",
-"revision": "8c4e9bba69eabce48600c6872cf3032229591fa3",
+"date": "2020-12-21",
+"revision": "2c9db4cd3d8981442afa9cbdebd37304d3e56025",
 "data": [
 {
 "type": "dtd",
@@ -324,22 +324,6 @@
 },
 {
 "type": "dtd",
-"id": "bookmarkingTools.label"
-},
-{
-"type": "dtd",
-"id": "searchBookmarks.label"
-},
-{
-"type": "dtd",
-"id": "recentBookmarks.label"
-},
-{
-"type": "dtd",
-"id": "showAllBookmarks2.label"
-},
-{
-"type": "dtd",
 "id": "moreMenu.label"
 },
 {
@@ -520,10 +504,6 @@
 },
 {
 "type": "dtd",
-"id": "bookmarksSubview.label"
-},
-{
-"type": "dtd",
 "id": "pocketMenuitem.label"
 },
 {
@@ -541,30 +521,6 @@
 {
 "type": "dtd",
 "id": "appMenuRecentHighlights.label"
-},
-{
-"type": "dtd",
-"id": "addBookmarksMenu.label"
-},
-{
-"type": "dtd",
-"id": "removeBookmarksMenu.label"
-},
-{
-"type": "dtd",
-"id": "viewBookmarksSidebar2.label"
-},
-{
-"type": "dtd",
-"id": "hideBookmarksSidebar.label"
-},
-{
-"type": "dtd",
-"id": "viewBookmarksToolbar.label"
-},
-{
-"type": "dtd",
-"id": "hideBookmarksToolbar.label"
 },
 {
 "type": "dtd",
@@ -696,38 +652,6 @@
 },
 {
 "type": "dtd",
-"id": "personalbarCmd.label"
-},
-{
-"type": "dtd",
-"id": "personalbarCmd.accesskey"
-},
-{
-"type": "dtd",
-"id": "personalbar.accessibleLabel"
-},
-{
-"type": "dtd",
-"id": "bookmarksToolbarItem.label"
-},
-{
-"type": "dtd",
-"id": "bookmarksToolbarItem.label"
-},
-{
-"type": "dtd",
-"id": "bookmarksToolbarItem.label"
-},
-{
-"type": "dtd",
-"id": "bookmarksToolbarChevron.tooltip"
-},
-{
-"type": "dtd",
-"id": "bookmarksMenuButton.other.label"
-},
-{
-"type": "dtd",
 "id": "printButton.tooltip"
 },
 {
@@ -741,46 +665,6 @@
 {
 "type": "dtd",
 "id": "fullScreenCmd.label"
-},
-{
-"type": "dtd",
-"id": "bookmarksMenuButton2.label"
-},
-{
-"type": "dtd",
-"id": "viewBookmarksSidebar2.label"
-},
-{
-"type": "dtd",
-"id": "hideBookmarksSidebar.label"
-},
-{
-"type": "dtd",
-"id": "showAllBookmarks2.label"
-},
-{
-"type": "dtd",
-"id": "personalbarCmd.label"
-},
-{
-"type": "dtd",
-"id": "viewBookmarksToolbar.label"
-},
-{
-"type": "dtd",
-"id": "hideBookmarksToolbar.label"
-},
-{
-"type": "dtd",
-"id": "bookmarksMenuButton.other.label"
-},
-{
-"type": "dtd",
-"id": "bookmarksMenuButton.mobile.label"
-},
-{
-"type": "dtd",
-"id": "showAllBookmarks2.label"
 },
 {
 "type": "dtd",
@@ -1820,6 +1704,14 @@
 },
 {
 "type": "ftl",
+"id": "appmenu-update-other-instance"
+},
+{
+"type": "ftl",
+"id": "appmenu-update-other-instance-message"
+},
+{
+"type": "ftl",
 "id": "appmenu-addon-private-browsing-installed"
 },
 {
@@ -2420,6 +2312,22 @@
 },
 {
 "type": "ftl",
+"id": "bookmarks-tools"
+},
+{
+"type": "ftl",
+"id": "bookmarks-search"
+},
+{
+"type": "ftl",
+"id": "bookmarks-recent-bookmarks"
+},
+{
+"type": "ftl",
+"id": "bookmarks-show-all-bookmarks"
+},
+{
+"type": "ftl",
 "id": "panic-main-timeframe-desc"
 },
 {
@@ -2464,7 +2372,7 @@
 },
 {
 "type": "ftl",
-"id": "menu-file-go-offline"
+"id": "more-menu-go-offline"
 },
 {
 "type": "ftl",
@@ -2473,6 +2381,22 @@
 {
 "type": "ftl",
 "id": "fxa-toolbar-sync-now"
+},
+{
+"type": "ftl",
+"id": "library-bookmarks-menu"
+},
+{
+"type": "ftl",
+"id": "bookmarks-tools-menu-button-visibility"
+},
+{
+"type": "ftl",
+"id": "bookmarks-tools-sidebar-visibility"
+},
+{
+"type": "ftl",
+"id": "bookmarks-tools-toolbar-visibility"
 },
 {
 "type": "ftl",
@@ -3072,11 +2996,63 @@
 },
 {
 "type": "ftl",
+"id": "bookmarks-toolbar"
+},
+{
+"type": "ftl",
 "id": "bookmarks-toolbar-empty-message"
 },
 {
 "type": "ftl",
+"id": "bookmarks-toolbar-placeholder"
+},
+{
+"type": "ftl",
+"id": "bookmarks-toolbar-placeholder-button"
+},
+{
+"type": "ftl",
+"id": "bookmarks-toolbar-placeholder-button"
+},
+{
+"type": "ftl",
+"id": "bookmarks-toolbar-chevron"
+},
+{
+"type": "ftl",
 "id": "browser-import-button2"
+},
+{
+"type": "ftl",
+"id": "bookmarks-menu-button"
+},
+{
+"type": "ftl",
+"id": "bookmarks-tools-sidebar-visibility"
+},
+{
+"type": "ftl",
+"id": "bookmarks-show-all-bookmarks"
+},
+{
+"type": "ftl",
+"id": "bookmarks-toolbar-menu"
+},
+{
+"type": "ftl",
+"id": "bookmarks-tools-toolbar-visibility"
+},
+{
+"type": "ftl",
+"id": "bookmarks-other-bookmarks-menu"
+},
+{
+"type": "ftl",
+"id": "bookmarks-mobile-bookmarks-menu"
+},
+{
+"type": "ftl",
+"id": "bookmarks-show-all-bookmarks"
 },
 {
 "type": "ftl",
