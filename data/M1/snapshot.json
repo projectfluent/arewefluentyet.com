@@ -1,6 +1,6 @@
 {
-"date": "2021-01-18",
-"revision": "10e78dae989ced84fe490c435f82278402b7eb78",
+"date": "2021-01-25",
+"revision": "17f61493037d1a0acacadf7a4350238d0320190f",
 "data": [
 {
 "type": "dtd",
@@ -280,15 +280,11 @@
 },
 {
 "type": "dtd",
-"id": "quitApplicationCmdWin2.label"
+"id": "newNavigatorCmd.label"
 },
 {
 "type": "dtd",
-"id": "quitApplicationCmdWin2.tooltip"
-},
-{
-"type": "dtd",
-"id": "quitApplicationCmd.label"
+"id": "places.library.title"
 },
 {
 "type": "dtd",
@@ -529,58 +525,6 @@
 {
 "type": "dtd",
 "id": "menubarCmd.accesskey"
-},
-{
-"type": "dtd",
-"id": "quitApplicationCmdWin2.label"
-},
-{
-"type": "dtd",
-"id": "quitApplicationCmdWin2.accesskey"
-},
-{
-"type": "dtd",
-"id": "quitApplicationCmdMac2.label"
-},
-{
-"type": "dtd",
-"id": "quitApplicationCmd.label"
-},
-{
-"type": "dtd",
-"id": "quitApplicationCmd.accesskey"
-},
-{
-"type": "dtd",
-"id": "preferencesCmdMac.label"
-},
-{
-"type": "dtd",
-"id": "servicesMenuMac.label"
-},
-{
-"type": "dtd",
-"id": "hideThisAppCmdMac2.label"
-},
-{
-"type": "dtd",
-"id": "hideOtherAppsCmdMac.label"
-},
-{
-"type": "dtd",
-"id": "showAllAppsCmdMac.label"
-},
-{
-"type": "dtd",
-"id": "touchBarCmdMac.label"
-},
-{
-"type": "dtd",
-"id": "aboutProduct2.accesskey"
-},
-{
-"type": "dtd",
-"id": "aboutProduct2.label"
 },
 {
 "type": "dtd",
@@ -2308,6 +2252,22 @@
 },
 {
 "type": "ftl",
+"id": "menu-quit-button-win"
+},
+{
+"type": "ftl",
+"id": "menu-quit-button"
+},
+{
+"type": "ftl",
+"id": "menu-quit-button-win"
+},
+{
+"type": "ftl",
+"id": "menu-quit-button"
+},
+{
+"type": "ftl",
 "id": "menu-bookmark-this-page"
 },
 {
@@ -2325,6 +2285,70 @@
 {
 "type": "ftl",
 "id": "bookmarks-show-all-bookmarks"
+},
+{
+"type": "ftl",
+"id": "profiler-popup-title"
+},
+{
+"type": "ftl",
+"id": "profiler-popup-reveal-description-button"
+},
+{
+"type": "ftl",
+"id": "profiler-popup-description-title"
+},
+{
+"type": "ftl",
+"id": "profiler-popup-description"
+},
+{
+"type": "ftl",
+"id": "profiler-popup-learn-more"
+},
+{
+"type": "ftl",
+"id": "profiler-popup-settings"
+},
+{
+"type": "ftl",
+"id": "profiler-popup-presets-custom"
+},
+{
+"type": "ftl",
+"id": "profiler-popup-edit-settings"
+},
+{
+"type": "ftl",
+"id": "profiler-popup-recording-screen"
+},
+{
+"type": "ftl",
+"id": "profiler-popup-disabled"
+},
+{
+"type": "ftl",
+"id": "profiler-popup-start-recording-button"
+},
+{
+"type": "ftl",
+"id": "profiler-popup-start-shortcut"
+},
+{
+"type": "ftl",
+"id": "profiler-popup-discard-button"
+},
+{
+"type": "ftl",
+"id": "profiler-popup-start-shortcut"
+},
+{
+"type": "ftl",
+"id": "profiler-popup-capture-button"
+},
+{
+"type": "ftl",
+"id": "profiler-popup-capture-shortcut"
 },
 {
 "type": "ftl",
@@ -2469,6 +2493,14 @@
 {
 "type": "ftl",
 "id": "menu-file-go-offline"
+},
+{
+"type": "ftl",
+"id": "menu-quit-mac"
+},
+{
+"type": "ftl",
+"id": "menu-quit"
 },
 {
 "type": "ftl",
@@ -2716,6 +2748,30 @@
 },
 {
 "type": "ftl",
+"id": "menu-preferences"
+},
+{
+"type": "ftl",
+"id": "menu-application-services"
+},
+{
+"type": "ftl",
+"id": "menu-application-hide-this"
+},
+{
+"type": "ftl",
+"id": "menu-application-hide-other"
+},
+{
+"type": "ftl",
+"id": "menu-application-show-all"
+},
+{
+"type": "ftl",
+"id": "menu-application-touch-bar"
+},
+{
+"type": "ftl",
 "id": "menu-window-menu"
 },
 {
@@ -2732,7 +2788,15 @@
 },
 {
 "type": "ftl",
+"id": "appmenu-help-check-for-update"
+},
+{
+"type": "ftl",
 "id": "menu-help-product"
+},
+{
+"type": "ftl",
+"id": "appmenu-help-product"
 },
 {
 "type": "ftl",
@@ -2740,7 +2804,15 @@
 },
 {
 "type": "ftl",
+"id": "appmenu-help-show-tour"
+},
+{
+"type": "ftl",
 "id": "menu-help-import-from-another-browser"
+},
+{
+"type": "ftl",
+"id": "appmenu-help-import-from-another-browser"
 },
 {
 "type": "ftl",
@@ -2748,7 +2820,15 @@
 },
 {
 "type": "ftl",
+"id": "appmenu-help-keyboard-shortcuts"
+},
+{
+"type": "ftl",
 "id": "menu-help-troubleshooting-info"
+},
+{
+"type": "ftl",
+"id": "appmenu-help-troubleshooting-info"
 },
 {
 "type": "ftl",
@@ -2756,7 +2836,15 @@
 },
 {
 "type": "ftl",
+"id": "appmenu-help-feedback-page"
+},
+{
+"type": "ftl",
 "id": "menu-help-safe-mode-without-addons"
+},
+{
+"type": "ftl",
+"id": "appmenu-help-safe-mode-without-addons"
 },
 {
 "type": "ftl",
@@ -2764,7 +2852,23 @@
 },
 {
 "type": "ftl",
+"id": "appmenu-help-report-deceptive-site"
+},
+{
+"type": "ftl",
 "id": "menu-help-not-deceptive"
+},
+{
+"type": "ftl",
+"id": "appmenu-help-not-deceptive"
+},
+{
+"type": "ftl",
+"id": "menu-about"
+},
+{
+"type": "ftl",
+"id": "appmenu-about"
 },
 {
 "type": "ftl",

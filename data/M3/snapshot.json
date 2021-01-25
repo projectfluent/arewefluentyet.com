@@ -1,6 +1,6 @@
 {
-"date": "2021-01-18",
-"revision": "10e78dae989ced84fe490c435f82278402b7eb78",
+"date": "2021-01-25",
+"revision": "17f61493037d1a0acacadf7a4350238d0320190f",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -28,7 +28,7 @@
 },
 {
 "file": "en-US/browser/browser/aboutLogins.ftl",
-"count": 115
+"count": 129
 },
 {
 "file": "en-US/browser/browser/aboutPolicies.ftl",
@@ -64,11 +64,11 @@
 },
 {
 "file": "en-US/browser/browser/appmenu.ftl",
-"count": 12
+"count": 39
 },
 {
 "file": "en-US/browser/browser/branding/brandings.ftl",
-"count": 9
+"count": 10
 },
 {
 "file": "en-US/browser/browser/branding/sync-brand.ftl",
@@ -76,7 +76,7 @@
 },
 {
 "file": "en-US/browser/browser/browser.ftl",
-"count": 198
+"count": 203
 },
 {
 "file": "en-US/browser/browser/browserContext.ftl",
@@ -104,7 +104,7 @@
 },
 {
 "file": "en-US/browser/browser/menubar.ftl",
-"count": 83
+"count": 93
 },
 {
 "file": "en-US/browser/browser/migration.ftl",
@@ -279,16 +279,12 @@
 "count": 6
 },
 {
-"file": "en-US/browser/chrome/browser/baseMenuOverlay.dtd",
-"count": 8
-},
-{
 "file": "en-US/browser/chrome/browser/brandings.dtd",
 "count": 2
 },
 {
 "file": "en-US/browser/chrome/browser/browser.dtd",
-"count": 118
+"count": 112
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
@@ -547,6 +543,10 @@
 "count": 37
 },
 {
+"file": "en-US/devtools/client/perftools.ftl",
+"count": 46
+},
+{
 "file": "en-US/devtools/client/responsive.properties",
 "count": 37
 },
@@ -600,7 +600,7 @@
 },
 {
 "file": "en-US/devtools/client/webconsole.properties",
-"count": 131
+"count": 130
 },
 {
 "file": "en-US/devtools/shared/accessibility.properties",
@@ -1060,7 +1060,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutSupport.ftl",
-"count": 269
+"count": 273
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutTelemetry.ftl",
@@ -1164,7 +1164,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/printing/printUI.ftl",
-"count": 68
+"count": 69
 },
 {
 "file": "en-US/toolkit/toolkit/updates/elevation.ftl",
