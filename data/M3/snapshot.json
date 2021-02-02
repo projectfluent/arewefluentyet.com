@@ -1,6 +1,6 @@
 {
-"date": "2021-01-25",
-"revision": "17f61493037d1a0acacadf7a4350238d0320190f",
+"date": "2021-02-01",
+"revision": "babdc3b3a30001ae014cc9180992549c5e4d5045",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -19,16 +19,12 @@
 "count": 59
 },
 {
-"file": "en-US/browser/browser/aboutConfig.ftl",
-"count": 19
-},
-{
 "file": "en-US/browser/browser/aboutDialog.ftl",
 "count": 28
 },
 {
 "file": "en-US/browser/browser/aboutLogins.ftl",
-"count": 129
+"count": 130
 },
 {
 "file": "en-US/browser/browser/aboutPolicies.ftl",
@@ -64,7 +60,7 @@
 },
 {
 "file": "en-US/browser/browser/appmenu.ftl",
-"count": 39
+"count": 41
 },
 {
 "file": "en-US/browser/browser/branding/brandings.ftl",
@@ -104,7 +100,7 @@
 },
 {
 "file": "en-US/browser/browser/menubar.ftl",
-"count": 93
+"count": 88
 },
 {
 "file": "en-US/browser/browser/migration.ftl",
@@ -116,7 +112,7 @@
 },
 {
 "file": "en-US/browser/browser/newtab/asrouter.ftl",
-"count": 91
+"count": 94
 },
 {
 "file": "en-US/browser/browser/newtab/newtab.ftl",
@@ -144,7 +140,7 @@
 },
 {
 "file": "en-US/browser/browser/policies/policies-descriptions.ftl",
-"count": 83
+"count": 84
 },
 {
 "file": "en-US/browser/browser/preferences/addEngine.ftl",
@@ -284,7 +280,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.dtd",
-"count": 112
+"count": 110
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
@@ -596,7 +592,7 @@
 },
 {
 "file": "en-US/devtools/client/tooltips.ftl",
-"count": 41
+"count": 43
 },
 {
 "file": "en-US/devtools/client/webconsole.properties",
@@ -620,7 +616,7 @@
 },
 {
 "file": "en-US/devtools/shared/screenshot.properties",
-"count": 24
+"count": 25
 },
 {
 "file": "en-US/devtools/shared/shared.properties",
@@ -831,10 +827,6 @@
 "count": 13
 },
 {
-"file": "en-US/toolkit/chrome/global/aboutWebrtc.properties",
-"count": 91
-},
-{
 "file": "en-US/toolkit/chrome/global/appPicker.dtd",
 "count": 3
 },
@@ -1015,10 +1007,6 @@
 "count": 9
 },
 {
-"file": "en-US/toolkit/toolkit/about/aboutConfig.ftl",
-"count": 35
-},
-{
 "file": "en-US/toolkit/toolkit/about/aboutGlean.ftl",
 "count": 7
 },
@@ -1067,12 +1055,20 @@
 "count": 81
 },
 {
+"file": "en-US/toolkit/toolkit/about/aboutWebrtc.ftl",
+"count": 90
+},
+{
 "file": "en-US/toolkit/toolkit/about/abuseReports.ftl",
 "count": 47
 },
 {
 "file": "en-US/toolkit/toolkit/about/certviewer.ftl",
 "count": 80
+},
+{
+"file": "en-US/toolkit/toolkit/about/config.ftl",
+"count": 19
 },
 {
 "file": "en-US/toolkit/toolkit/about/url-classifier.ftl",
@@ -1084,7 +1080,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/featuregates/features.ftl",
-"count": 44
+"count": 40
 },
 {
 "file": "en-US/toolkit/toolkit/global/createProfileWizard.ftl",

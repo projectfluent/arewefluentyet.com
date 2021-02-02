@@ -1,6 +1,6 @@
 {
-"date": "2021-01-25",
-"revision": "17f61493037d1a0acacadf7a4350238d0320190f",
+"date": "2021-02-01",
+"revision": "babdc3b3a30001ae014cc9180992549c5e4d5045",
 "data": [
 {
 "type": "dtd",
@@ -280,11 +280,31 @@
 },
 {
 "type": "dtd",
-"id": "newNavigatorCmd.label"
+"id": "tabCmd.label"
 },
 {
 "type": "dtd",
-"id": "places.library.title"
+"id": "historyMenu.label"
+},
+{
+"type": "dtd",
+"id": "libraryDownloads.label"
+},
+{
+"type": "dtd",
+"id": "printCmd.label"
+},
+{
+"type": "dtd",
+"id": "fullZoom.label"
+},
+{
+"type": "dtd",
+"id": "fullScreenCmd.label"
+},
+{
+"type": "dtd",
+"id": "appMenuHelp.label"
 },
 {
 "type": "dtd",
@@ -500,23 +520,11 @@
 },
 {
 "type": "dtd",
-"id": "pocketMenuitem.label"
-},
-{
-"type": "dtd",
 "id": "historyMenu.label"
 },
 {
 "type": "dtd",
 "id": "libraryDownloads.label"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.label"
-},
-{
-"type": "dtd",
-"id": "appMenuRecentHighlights.label"
 },
 {
 "type": "dtd",
@@ -1140,11 +1148,11 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-back"
+"id": "main-context-menu-back-2"
 },
 {
 "type": "ftl",
-"id": "main-context-menu-forward"
+"id": "main-context-menu-forward-2"
 },
 {
 "type": "ftl",
@@ -1556,15 +1564,7 @@
 },
 {
 "type": "ftl",
-"id": "navbar-tooltip-back"
-},
-{
-"type": "ftl",
 "id": "navbar-tooltip-instruction"
-},
-{
-"type": "ftl",
-"id": "navbar-tooltip-forward"
 },
 {
 "type": "ftl",
@@ -2116,14 +2116,6 @@
 },
 {
 "type": "ftl",
-"id": "downloads-cmd-show-downloads"
-},
-{
-"type": "ftl",
-"id": "downloads-history"
-},
-{
-"type": "ftl",
 "id": "enable-devtools-popup-description"
 },
 {
@@ -2260,11 +2252,55 @@
 },
 {
 "type": "ftl",
-"id": "menu-quit-button-win"
+"id": "appmenuitem-new-window"
 },
 {
 "type": "ftl",
-"id": "menu-quit-button"
+"id": "appmenuitem-new-private-window"
+},
+{
+"type": "ftl",
+"id": "library-bookmarks-menu"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-passwords"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-extensions-and-themes"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-save-page"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-find-in-page"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-zoom-reduce"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-zoom-enlarge"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-settings"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-more-tools"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-exit"
+},
+{
+"type": "ftl",
+"id": "appmenu-help-header"
 },
 {
 "type": "ftl",
@@ -2792,43 +2828,11 @@
 },
 {
 "type": "ftl",
-"id": "menu-help-product"
+"id": "menu-get-help"
 },
 {
 "type": "ftl",
-"id": "appmenu-help-product"
-},
-{
-"type": "ftl",
-"id": "menu-help-show-tour"
-},
-{
-"type": "ftl",
-"id": "appmenu-help-show-tour"
-},
-{
-"type": "ftl",
-"id": "menu-help-import-from-another-browser"
-},
-{
-"type": "ftl",
-"id": "appmenu-help-import-from-another-browser"
-},
-{
-"type": "ftl",
-"id": "menu-help-keyboard-shortcuts"
-},
-{
-"type": "ftl",
-"id": "appmenu-help-keyboard-shortcuts"
-},
-{
-"type": "ftl",
-"id": "menu-help-troubleshooting-info"
-},
-{
-"type": "ftl",
-"id": "appmenu-help-troubleshooting-info"
+"id": "appmenu-get-help"
 },
 {
 "type": "ftl",
@@ -2840,11 +2844,11 @@
 },
 {
 "type": "ftl",
-"id": "menu-help-safe-mode-without-addons"
+"id": "menu-help-troubleshooting-info"
 },
 {
 "type": "ftl",
-"id": "appmenu-help-safe-mode-without-addons"
+"id": "appmenu-help-troubleshooting-info"
 },
 {
 "type": "ftl",
@@ -2904,11 +2908,11 @@
 },
 {
 "type": "ftl",
-"id": "toolbar-button-back"
+"id": "toolbar-button-back-2"
 },
 {
 "type": "ftl",
-"id": "toolbar-button-forward"
+"id": "toolbar-button-forward-2"
 },
 {
 "type": "ftl",
