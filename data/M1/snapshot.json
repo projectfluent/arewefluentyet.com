@@ -1,6 +1,6 @@
 {
-"date": "2021-02-01",
-"revision": "babdc3b3a30001ae014cc9180992549c5e4d5045",
+"date": "2021-02-08",
+"revision": "9ab10a81eb56099cf471400400fa827a2359f201",
 "data": [
 {
 "type": "dtd",
@@ -308,19 +308,11 @@
 },
 {
 "type": "dtd",
-"id": "appMenuHistory.viewSidebar.label"
-},
-{
-"type": "dtd",
-"id": "appMenuHistory.hideSidebar.label"
-},
-{
-"type": "dtd",
-"id": "appMenuHistory.viewSidebar.label"
-},
-{
-"type": "dtd",
 "id": "appMenuHistory.clearRecent.label"
+},
+{
+"type": "dtd",
+"id": "appMenuHistory.recentHistory.label"
 },
 {
 "type": "dtd",
@@ -332,19 +324,7 @@
 },
 {
 "type": "dtd",
-"id": "appMenuHistory.recentHistory.label"
-},
-{
-"type": "dtd",
-"id": "appMenuHistory.showAll.label"
-},
-{
-"type": "dtd",
 "id": "moreMenu.label"
-},
-{
-"type": "dtd",
-"id": "taskManagerCmd.label"
 },
 {
 "type": "dtd",
@@ -1284,6 +1264,22 @@
 },
 {
 "type": "ftl",
+"id": "main-context-menu-image-save-as"
+},
+{
+"type": "ftl",
+"id": "main-context-menu-video-save-as"
+},
+{
+"type": "ftl",
+"id": "main-context-menu-audio-save-as"
+},
+{
+"type": "ftl",
+"id": "main-context-menu-video-image-save-as"
+},
+{
+"type": "ftl",
 "id": "main-context-menu-image-copy"
 },
 {
@@ -1300,35 +1296,7 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-image-save-as"
-},
-{
-"type": "ftl",
 "id": "main-context-menu-image-email"
-},
-{
-"type": "ftl",
-"id": "main-context-menu-image-set-as-background"
-},
-{
-"type": "ftl",
-"id": "main-context-menu-image-info"
-},
-{
-"type": "ftl",
-"id": "main-context-menu-image-desc"
-},
-{
-"type": "ftl",
-"id": "main-context-menu-video-save-as"
-},
-{
-"type": "ftl",
-"id": "main-context-menu-audio-save-as"
-},
-{
-"type": "ftl",
-"id": "main-context-menu-video-image-save-as"
 },
 {
 "type": "ftl",
@@ -1337,6 +1305,14 @@
 {
 "type": "ftl",
 "id": "main-context-menu-audio-email"
+},
+{
+"type": "ftl",
+"id": "main-context-menu-image-desc"
+},
+{
+"type": "ftl",
+"id": "main-context-menu-image-set-as-background"
 },
 {
 "type": "ftl",
@@ -1752,26 +1728,6 @@
 },
 {
 "type": "ftl",
-"id": "identity-permissions"
-},
-{
-"type": "ftl",
-"id": "identity-permissions-storage-access-header"
-},
-{
-"type": "ftl",
-"id": "identity-permissions-storage-access-hint"
-},
-{
-"type": "ftl",
-"id": "identity-permissions-reload-hint"
-},
-{
-"type": "ftl",
-"id": "identity-permissions-empty"
-},
-{
-"type": "ftl",
 "id": "identity-clear-site-data"
 },
 {
@@ -1849,6 +1805,18 @@
 {
 "type": "ftl",
 "id": "identity-more-info-link-text"
+},
+{
+"type": "ftl",
+"id": "identity-permissions-storage-access-header"
+},
+{
+"type": "ftl",
+"id": "identity-permissions-storage-access-hint"
+},
+{
+"type": "ftl",
+"id": "identity-permissions-reload-hint"
 },
 {
 "type": "ftl",
@@ -2300,15 +2268,11 @@
 },
 {
 "type": "ftl",
+"id": "appmenu-manage-history"
+},
+{
+"type": "ftl",
 "id": "appmenu-help-header"
-},
-{
-"type": "ftl",
-"id": "menu-bookmark-this-page"
-},
-{
-"type": "ftl",
-"id": "bookmarks-tools"
 },
 {
 "type": "ftl",
@@ -2316,11 +2280,15 @@
 },
 {
 "type": "ftl",
-"id": "bookmarks-recent-bookmarks"
+"id": "bookmarks-tools-toolbar-visibility-panel"
 },
 {
 "type": "ftl",
-"id": "bookmarks-show-all-bookmarks"
+"id": "bookmarks-recent-bookmarks-panel"
+},
+{
+"type": "ftl",
+"id": "bookmarks-manage-bookmarks"
 },
 {
 "type": "ftl",
@@ -2445,18 +2413,6 @@
 {
 "type": "ftl",
 "id": "library-bookmarks-menu"
-},
-{
-"type": "ftl",
-"id": "bookmarks-tools-menu-button-visibility"
-},
-{
-"type": "ftl",
-"id": "bookmarks-tools-sidebar-visibility"
-},
-{
-"type": "ftl",
-"id": "bookmarks-tools-toolbar-visibility"
 },
 {
 "type": "ftl",
@@ -2852,6 +2808,14 @@
 },
 {
 "type": "ftl",
+"id": "menu-help-taskmanager"
+},
+{
+"type": "ftl",
+"id": "appmenu-help-taskmanager"
+},
+{
+"type": "ftl",
 "id": "menu-help-report-deceptive-site"
 },
 {
@@ -2929,6 +2893,10 @@
 {
 "type": "ftl",
 "id": "urlbar-identity-button"
+},
+{
+"type": "ftl",
+"id": "urlbar-remote-control-notification-anchor"
 },
 {
 "type": "ftl",
@@ -3068,10 +3036,6 @@
 },
 {
 "type": "ftl",
-"id": "urlbar-remote-control-notification-anchor"
-},
-{
-"type": "ftl",
 "id": "urlbar-switch-to-tab"
 },
 {
@@ -3152,7 +3116,7 @@
 },
 {
 "type": "ftl",
-"id": "bookmarks-tools-toolbar-visibility"
+"id": "bookmarks-tools-toolbar-visibility-menuitem"
 },
 {
 "type": "ftl",
