@@ -1,6 +1,6 @@
 {
-"date": "2021-02-08",
-"revision": "9ab10a81eb56099cf471400400fa827a2359f201",
+"date": "2021-02-15",
+"revision": "07ba7d02d00b8b3fbab5752b86d1d7b67533d104",
 "data": [
 {
 "type": "dtd",
@@ -280,6 +280,22 @@
 },
 {
 "type": "dtd",
+"id": "updateAvailable.panelUI.label"
+},
+{
+"type": "dtd",
+"id": "updateManual.panelUI.label"
+},
+{
+"type": "dtd",
+"id": "updateUnsupported.panelUI.label"
+},
+{
+"type": "dtd",
+"id": "updateRestart.panelUI.label2"
+},
+{
+"type": "dtd",
 "id": "tabCmd.label"
 },
 {
@@ -308,19 +324,19 @@
 },
 {
 "type": "dtd",
-"id": "appMenuHistory.clearRecent.label"
-},
-{
-"type": "dtd",
-"id": "appMenuHistory.recentHistory.label"
-},
-{
-"type": "dtd",
 "id": "historyUndoMenu.label"
 },
 {
 "type": "dtd",
 "id": "historyUndoWindowMenu.label"
+},
+{
+"type": "dtd",
+"id": "appMenuHistory.clearRecent.label"
+},
+{
+"type": "dtd",
+"id": "appMenuHistory.recentHistory.label"
 },
 {
 "type": "dtd",
@@ -2204,7 +2220,7 @@
 },
 {
 "type": "ftl",
-"id": "appmenuitem-customize-mode"
+"id": "appmenu-customizetoolbar"
 },
 {
 "type": "ftl",
@@ -2217,6 +2233,10 @@
 {
 "type": "ftl",
 "id": "menu-quit-button"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-update-banner"
 },
 {
 "type": "ftl",
@@ -2401,6 +2421,14 @@
 {
 "type": "ftl",
 "id": "more-menu-go-offline"
+},
+{
+"type": "ftl",
+"id": "appmenu-customizetoolbar"
+},
+{
+"type": "ftl",
+"id": "appmenu-developer-tools-subheader"
 },
 {
 "type": "ftl",
@@ -2773,14 +2801,6 @@
 {
 "type": "ftl",
 "id": "menu-help"
-},
-{
-"type": "ftl",
-"id": "menu-help-check-for-update"
-},
-{
-"type": "ftl",
-"id": "appmenu-help-check-for-update"
 },
 {
 "type": "ftl",
