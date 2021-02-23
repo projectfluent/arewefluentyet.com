@@ -1,6 +1,6 @@
 {
-"date": "2021-02-15",
-"revision": "07ba7d02d00b8b3fbab5752b86d1d7b67533d104",
+"date": "2021-02-22",
+"revision": "42fef53a48551158a2fb2eb72788e131062246f8",
 "data": [
 {
 "type": "properties",
@@ -4616,12 +4616,6 @@
 },
 {
 "type": "ftl",
-"id": "menu-tools-layout-debugger",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "menu-help",
 "stack": null,
 "file": null
@@ -4641,6 +4635,12 @@
 {
 "type": "ftl",
 "id": "menu-help-troubleshooting-info",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "menu-help-safe-mode-without-addons",
 "stack": null,
 "file": null
 },
@@ -5145,7 +5145,7 @@
 "index": "1",
 "call": "onBeforeInitialXULLayout()",
 "path": "chrome://browser/content/browser.js",
-"line": "1687",
+"line": "1695",
 "col": "28"
 },
 {
@@ -5180,7 +5180,7 @@
 "index": "2",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1748",
+"line": "1756",
 "col": "13"
 },
 {
@@ -5215,7 +5215,7 @@
 "index": "2",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6660",
+"line": "6693",
 "col": "32"
 },
 {
@@ -5236,7 +5236,7 @@
 "index": "5",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1748",
+"line": "1756",
 "col": "13"
 },
 {
@@ -5271,7 +5271,7 @@
 "index": "2",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6660",
+"line": "6693",
 "col": "32"
 },
 {
@@ -5292,7 +5292,7 @@
 "index": "5",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1748",
+"line": "1756",
 "col": "13"
 },
 {
@@ -5313,14 +5313,14 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "695",
+"line": "703",
 "col": "26"
 },
 {
 "index": "1",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6665",
+"line": "6698",
 "col": "23"
 },
 {
@@ -5341,7 +5341,7 @@
 "index": "4",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1748",
+"line": "1756",
 "col": "13"
 },
 {
@@ -5362,14 +5362,14 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "695",
+"line": "703",
 "col": "26"
 },
 {
 "index": "1",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6665",
+"line": "6698",
 "col": "23"
 },
 {
@@ -5390,7 +5390,7 @@
 "index": "4",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1748",
+"line": "1756",
 "col": "13"
 },
 {
@@ -5495,7 +5495,7 @@
 "index": "12",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1748",
+"line": "1756",
 "col": "13"
 },
 {
@@ -5600,7 +5600,7 @@
 "index": "12",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1748",
+"line": "1756",
 "col": "13"
 },
 {
@@ -5705,7 +5705,7 @@
 "index": "12",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1748",
+"line": "1756",
 "col": "13"
 },
 {
@@ -5810,7 +5810,7 @@
 "index": "12",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1748",
+"line": "1756",
 "col": "13"
 },
 {
@@ -5831,49 +5831,49 @@
 "index": "0",
 "call": "getLocalizedProperty()",
 "path": "resource:///modules/CustomizableUI.jsm",
-"line": "1925",
+"line": "1943",
 "col": "28"
 },
 {
 "index": "1",
 "call": "buildWidget()",
 "path": "resource:///modules/CustomizableUI.jsm",
-"line": "1798",
+"line": "1816",
 "col": "38"
 },
 {
 "index": "2",
 "call": "getWidgetNode()",
 "path": "resource:///modules/CustomizableUI.jsm",
-"line": "1225",
+"line": "1243",
 "col": "48"
 },
 {
 "index": "3",
 "call": "buildArea()",
 "path": "resource:///modules/CustomizableUI.jsm",
-"line": "1035",
+"line": "1053",
 "col": "36"
 },
 {
 "index": "4",
 "call": "registerToolbarNode()",
 "path": "resource:///modules/CustomizableUI.jsm",
-"line": "949",
+"line": "967",
 "col": "13"
 },
 {
 "index": "5",
 "call": "registerToolbarNode()",
 "path": "resource:///modules/CustomizableUI.jsm",
-"line": "3729",
+"line": "3747",
 "col": "27"
 },
 {
 "index": "6",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1759",
+"line": "1767",
 "col": "21"
 },
 {
@@ -5894,49 +5894,49 @@
 "index": "0",
 "call": "getLocalizedProperty()",
 "path": "resource:///modules/CustomizableUI.jsm",
-"line": "1925",
+"line": "1943",
 "col": "28"
 },
 {
 "index": "1",
 "call": "buildWidget()",
 "path": "resource:///modules/CustomizableUI.jsm",
-"line": "1821",
+"line": "1839",
 "col": "25"
 },
 {
 "index": "2",
 "call": "getWidgetNode()",
 "path": "resource:///modules/CustomizableUI.jsm",
-"line": "1225",
+"line": "1243",
 "col": "48"
 },
 {
 "index": "3",
 "call": "buildArea()",
 "path": "resource:///modules/CustomizableUI.jsm",
-"line": "1035",
+"line": "1053",
 "col": "36"
 },
 {
 "index": "4",
 "call": "registerToolbarNode()",
 "path": "resource:///modules/CustomizableUI.jsm",
-"line": "949",
+"line": "967",
 "col": "13"
 },
 {
 "index": "5",
 "call": "registerToolbarNode()",
 "path": "resource:///modules/CustomizableUI.jsm",
-"line": "3729",
+"line": "3747",
 "col": "27"
 },
 {
 "index": "6",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1759",
+"line": "1767",
 "col": "21"
 },
 {
@@ -5957,7 +5957,7 @@
 "index": "0",
 "call": "_initPasteAndGo()",
 "path": "resource:///modules/UrlbarInput.jsm",
-"line": "2454",
+"line": "2468",
 "col": "7"
 },
 {
@@ -5971,7 +5971,7 @@
 "index": "2",
 "call": "anonymous()",
 "path": "chrome://browser/content/browser.js",
-"line": "331",
+"line": "333",
 "col": "15"
 },
 {
@@ -5985,28 +5985,28 @@
 "index": "4",
 "call": "_setInitialFocus/<()",
 "path": "chrome://browser/content/browser.js",
-"line": "2198",
+"line": "2221",
 "col": "8"
 },
 {
 "index": "5",
 "call": "_callWithURIToLoad()",
 "path": "chrome://browser/content/browser.js",
-"line": "2471",
+"line": "2494",
 "col": "14"
 },
 {
 "index": "6",
 "call": "_setInitialFocus()",
 "path": "chrome://browser/content/browser.js",
-"line": "2196",
+"line": "2210",
 "col": "9"
 },
 {
 "index": "7",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1778",
+"line": "1786",
 "col": "9"
 },
 {
@@ -6033,7 +6033,7 @@
 "index": "0",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1911",
+"line": "1919",
 "col": "4"
 },
 {
@@ -6131,21 +6131,21 @@
 "index": "11",
 "call": "_updateURLBarPlaceholderFromDefaultEngine()",
 "path": "chrome://browser/content/browser.js",
-"line": "4030",
+"line": "4054",
 "col": "30"
 },
 {
 "index": "12",
 "call": "delayedStartupInit()",
 "path": "chrome://browser/content/browser.js",
-"line": "3890",
+"line": "3914",
 "col": "9"
 },
 {
 "index": "13",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1964",
+"line": "1973",
 "col": "18"
 },
 {
@@ -6180,14 +6180,14 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1985",
+"line": "1999",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1991",
+"line": "2005",
 "col": "32"
 },
 {
@@ -6222,14 +6222,14 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1985",
+"line": "1999",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1991",
+"line": "2005",
 "col": "32"
 },
 {
@@ -6264,14 +6264,14 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1985",
+"line": "1999",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1991",
+"line": "2005",
 "col": "32"
 },
 {
@@ -6306,14 +6306,14 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1985",
+"line": "1999",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1997",
+"line": "2011",
 "col": "32"
 },
 {
@@ -6348,14 +6348,14 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1985",
+"line": "1999",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1997",
+"line": "2011",
 "col": "32"
 },
 {
@@ -6390,14 +6390,14 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1985",
+"line": "1999",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1997",
+"line": "2011",
 "col": "32"
 },
 {
@@ -6408,6 +6408,12 @@
 "col": "25"
 }
 ],
+"file": null
+},
+{
+"type": "properties",
+"id": "brandShortName",
+"stack": null,
 "file": null
 },
 {
@@ -6439,7 +6445,7 @@
 "index": "3",
 "call": "hookKeyShortcuts()",
 "path": "resource:///modules/DevToolsStartup.jsm",
-"line": "801",
+"line": "793",
 "col": "4"
 },
 {
@@ -6467,7 +6473,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2173",
+"line": "2187",
 "col": "17"
 },
 {
@@ -6509,7 +6515,7 @@
 "index": "3",
 "call": "hookKeyShortcuts()",
 "path": "resource:///modules/DevToolsStartup.jsm",
-"line": "801",
+"line": "793",
 "col": "4"
 },
 {
@@ -6537,7 +6543,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2173",
+"line": "2187",
 "col": "17"
 },
 {
@@ -6579,7 +6585,7 @@
 "index": "3",
 "call": "hookKeyShortcuts()",
 "path": "resource:///modules/DevToolsStartup.jsm",
-"line": "801",
+"line": "793",
 "col": "4"
 },
 {
@@ -6607,7 +6613,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2173",
+"line": "2187",
 "col": "17"
 },
 {
@@ -6649,7 +6655,7 @@
 "index": "3",
 "call": "hookKeyShortcuts()",
 "path": "resource:///modules/DevToolsStartup.jsm",
-"line": "801",
+"line": "793",
 "col": "4"
 },
 {
@@ -6677,7 +6683,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2173",
+"line": "2187",
 "col": "17"
 },
 {
@@ -6719,7 +6725,7 @@
 "index": "3",
 "call": "hookKeyShortcuts()",
 "path": "resource:///modules/DevToolsStartup.jsm",
-"line": "801",
+"line": "793",
 "col": "4"
 },
 {
@@ -6747,7 +6753,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2173",
+"line": "2187",
 "col": "17"
 },
 {
@@ -6789,7 +6795,7 @@
 "index": "3",
 "call": "hookKeyShortcuts()",
 "path": "resource:///modules/DevToolsStartup.jsm",
-"line": "801",
+"line": "793",
 "col": "4"
 },
 {
@@ -6817,7 +6823,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2173",
+"line": "2187",
 "col": "17"
 },
 {
@@ -6859,7 +6865,7 @@
 "index": "3",
 "call": "hookKeyShortcuts()",
 "path": "resource:///modules/DevToolsStartup.jsm",
-"line": "801",
+"line": "793",
 "col": "4"
 },
 {
@@ -6887,7 +6893,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2173",
+"line": "2187",
 "col": "17"
 },
 {
@@ -6929,7 +6935,7 @@
 "index": "3",
 "call": "hookKeyShortcuts()",
 "path": "resource:///modules/DevToolsStartup.jsm",
-"line": "801",
+"line": "793",
 "col": "4"
 },
 {
@@ -6957,7 +6963,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2173",
+"line": "2187",
 "col": "17"
 },
 {
@@ -6999,7 +7005,7 @@
 "index": "3",
 "call": "hookKeyShortcuts()",
 "path": "resource:///modules/DevToolsStartup.jsm",
-"line": "801",
+"line": "793",
 "col": "4"
 },
 {
@@ -7027,7 +7033,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2173",
+"line": "2187",
 "col": "17"
 },
 {
@@ -7069,7 +7075,7 @@
 "index": "3",
 "call": "hookKeyShortcuts()",
 "path": "resource:///modules/DevToolsStartup.jsm",
-"line": "801",
+"line": "793",
 "col": "4"
 },
 {
@@ -7097,7 +7103,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2173",
+"line": "2187",
 "col": "17"
 },
 {
@@ -7139,7 +7145,7 @@
 "index": "3",
 "call": "hookKeyShortcuts()",
 "path": "resource:///modules/DevToolsStartup.jsm",
-"line": "801",
+"line": "793",
 "col": "4"
 },
 {
@@ -7167,7 +7173,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2173",
+"line": "2187",
 "col": "17"
 },
 {
@@ -7209,7 +7215,7 @@
 "index": "3",
 "call": "hookKeyShortcuts()",
 "path": "resource:///modules/DevToolsStartup.jsm",
-"line": "801",
+"line": "793",
 "col": "4"
 },
 {
@@ -7237,7 +7243,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2173",
+"line": "2187",
 "col": "17"
 },
 {
@@ -7279,7 +7285,7 @@
 "index": "3",
 "call": "hookKeyShortcuts()",
 "path": "resource:///modules/DevToolsStartup.jsm",
-"line": "801",
+"line": "793",
 "col": "4"
 },
 {
@@ -7307,7 +7313,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2173",
+"line": "2187",
 "col": "17"
 },
 {
@@ -7349,7 +7355,7 @@
 "index": "3",
 "call": "hookKeyShortcuts()",
 "path": "resource:///modules/DevToolsStartup.jsm",
-"line": "801",
+"line": "793",
 "col": "4"
 },
 {
@@ -7377,7 +7383,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2173",
+"line": "2187",
 "col": "17"
 },
 {
@@ -7398,7 +7404,7 @@
 "index": "0",
 "call": "createDevToolsEnableMenuItem()",
 "path": "resource:///modules/DevToolsStartup.jsm",
-"line": "741",
+"line": "733",
 "col": "20"
 },
 {
@@ -7426,7 +7432,7 @@
 "index": "4",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2173",
+"line": "2187",
 "col": "17"
 },
 {
@@ -7447,7 +7453,7 @@
 "index": "0",
 "call": "createDevToolsEnableMenuItem()",
 "path": "resource:///modules/DevToolsStartup.jsm",
-"line": "745",
+"line": "737",
 "col": "20"
 },
 {
@@ -7475,7 +7481,7 @@
 "index": "4",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2173",
+"line": "2187",
 "col": "17"
 },
 {
@@ -7584,6 +7590,12 @@
 "file": null
 },
 {
+"type": "ftl",
+"id": "newtab-page-title",
+"stack": null,
+"file": null
+},
+{
 "type": "properties",
 "id": "readerView.enter",
 "stack": [
@@ -7605,7 +7617,7 @@
 "index": "2",
 "call": "onLocationChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5224",
+"line": "5248",
 "col": "22"
 },
 {
@@ -7661,7 +7673,7 @@
 "index": "2",
 "call": "onLocationChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5224",
+"line": "5248",
 "col": "22"
 },
 {
@@ -7693,18 +7705,6 @@
 "col": "13"
 }
 ],
-"file": null
-},
-{
-"type": "properties",
-"id": "brandShortName",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-page-title",
-"stack": null,
 "file": null
 },
 {
@@ -7880,49 +7880,13 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "browser-tab-audio-playing2",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "browser-tab-audio-muted2",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "browser-tab-audio-blocked",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "browser-tab-audio-pip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "screenshots-context-menu",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "brandShortName",
-"stack": null,
-"file": null
-},
-{
 "type": "properties",
 "id": "wc-reporter.label2",
 "stack": [
 {
 "index": "0",
 "call": "getMessage()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/browser/features/webcompat-reporter@mozilla.org/experimentalAPIs/l10n.js",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/browser/features/webcompat-reporter@mozilla.org/experimentalAPIs/l10n.js",
 "line": "49",
 "col": "47"
 },
@@ -7985,7 +7949,7 @@
 {
 "index": "0",
 "call": "getMessage()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/browser/features/webcompat-reporter@mozilla.org/experimentalAPIs/l10n.js",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/browser/features/webcompat-reporter@mozilla.org/experimentalAPIs/l10n.js",
 "line": "49",
 "col": "47"
 },
@@ -8042,6 +8006,36 @@
 "file": null
 },
 {
+"type": "ftl",
+"id": "screenshots-context-menu",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "browser-tab-audio-playing2",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "browser-tab-audio-muted2",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "browser-tab-audio-blocked",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "browser-tab-audio-pip",
+"stack": null,
+"file": null
+},
+{
 "type": "properties",
 "id": "zoom-button.label",
 "stack": [
@@ -8049,7 +8043,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "695",
+"line": "703",
 "col": "26"
 },
 {
@@ -8084,7 +8078,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "695",
+"line": "703",
 "col": "26"
 },
 {
@@ -8118,20 +8112,8 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-settings-button",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-search-box-search-the-web-input",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-search-box-search-the-web-text",
+"type": "properties",
+"id": "brandShortName",
 "stack": null,
 "file": null
 },
@@ -8155,253 +8137,19 @@
 },
 {
 "type": "ftl",
-"id": "newtab-section-header-topsites",
+"id": "newtab-settings-button",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-menu-section-tooltip",
+"id": "newtab-search-box-search-the-web-input",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-header-topsites",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-section-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-header-highlights",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-collapse-section-label",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-section-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-header-highlights",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-collapse-section-label",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-section-tooltip",
+"id": "newtab-search-box-search-the-web-text",
 "stack": null,
 "file": null
 },
@@ -8412,6 +8160,114 @@
 "file": null
 },
 {
+"type": "ftl",
+"id": "newtab-section-header-topsites",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-section-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
 "type": "properties",
 "id": "6",
 "stack": null,
@@ -8532,80 +8388,14 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
+"type": "ftl",
+"id": "newtab-section-header-highlights",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-section-header-topsites",
+"id": "newtab-section-collapse-section-label",
 "stack": null,
 "file": null
 },
@@ -8616,61 +8406,13 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
+"type": "properties",
+"id": "10",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
+"type": "properties",
 "id": "10",
 "stack": null,
 "file": null
@@ -8682,7 +8424,85 @@
 "file": null
 },
 {
-"type": "ftl",
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
 "id": "10",
 "stack": null,
 "file": null
@@ -8695,37 +8515,19 @@
 },
 {
 "type": "ftl",
-"id": null,
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
+"id": "newtab-section-header-highlights",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-topsite-sponsored",
+"id": "newtab-section-collapse-section-label",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
+"id": "newtab-menu-section-tooltip",
 "stack": null,
 "file": null
 },
@@ -8767,55 +8569,1409 @@
 },
 {
 "type": "properties",
-"id": "6",
-"stack": null,
+"id": "PrivateTokenDescription",
+"stack": [
+{
+"index": "0",
+"call": "init()",
+"path": "resource://gre/modules/crypto-SDR.js",
+"line": "58",
+"col": "24"
+},
+{
+"index": "1",
+"call": "LoginManagerCrypto_SDR()",
+"path": "resource://gre/modules/crypto-SDR.js",
+"line": "17",
+"col": "7"
+},
+{
+"index": "2",
+"call": "get _crypto()",
+"path": "resource://gre/modules/storage-json.js",
+"line": "64",
+"col": "68"
+},
+{
+"index": "3",
+"call": "initialize()",
+"path": "resource://gre/modules/storage-json.js",
+"line": "92",
+"col": "6"
+},
+{
+"index": "4",
+"call": "_initStorage()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "97",
+"col": "47"
+},
+{
+"index": "5",
+"call": "init()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "88",
+"col": "9"
+},
+{
+"index": "6",
+"call": "LoginManager()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "43",
+"col": "7"
+},
+{
+"index": "7",
+"call": "task()",
+"path": "resource:///modules/BrowserGlue.jsm",
+"line": "2320",
+"col": "12"
+},
+{
+"index": "8",
+"call": "_scheduleStartupIdleTasks/<()",
+"path": "resource:///modules/BrowserGlue.jsm",
+"line": "2526",
+"col": "19"
+}
+],
 "file": null
 },
 {
 "type": "properties",
-"id": "6",
-"stack": null,
-"file": null
+"id": "ManufacturerID",
+"stack": [
+{
+"index": "0",
+"call": "init()",
+"path": "resource://gre/modules/crypto-SDR.js",
+"line": "58",
+"col": "24"
 },
 {
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
+"index": "1",
+"call": "LoginManagerCrypto_SDR()",
+"path": "resource://gre/modules/crypto-SDR.js",
+"line": "17",
+"col": "7"
 },
 {
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
+"index": "2",
+"call": "get _crypto()",
+"path": "resource://gre/modules/storage-json.js",
+"line": "64",
+"col": "68"
 },
 {
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
+"index": "3",
+"call": "initialize()",
+"path": "resource://gre/modules/storage-json.js",
+"line": "92",
+"col": "6"
 },
 {
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
+"index": "4",
+"call": "_initStorage()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "97",
+"col": "47"
 },
 {
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
+"index": "5",
+"call": "init()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "88",
+"col": "9"
 },
 {
-"type": "properties",
-"id": "6",
-"stack": null,
+"index": "6",
+"call": "LoginManager()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "43",
+"col": "7"
+},
+{
+"index": "7",
+"call": "task()",
+"path": "resource:///modules/BrowserGlue.jsm",
+"line": "2320",
+"col": "12"
+},
+{
+"index": "8",
+"call": "_scheduleStartupIdleTasks/<()",
+"path": "resource:///modules/BrowserGlue.jsm",
+"line": "2526",
+"col": "19"
+}
+],
 "file": null
 },
 {
 "type": "properties",
 "id": "ZoomPropertyWarning",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.defaultHandlersVersion",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "100",
+"col": "51"
+},
+{
+"index": "1",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "2",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.irc.0.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.irc.0.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.irc.1.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.irc.1.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.irc.2.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.irc.2.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.irc.3.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.irc.3.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.ircs.0.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.ircs.0.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.ircs.1.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.ircs.1.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.ircs.2.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.ircs.2.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.ircs.3.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.ircs.3.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.mailto.0.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.mailto.0.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.mailto.1.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.mailto.1.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.mailto.2.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.mailto.2.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.mailto.3.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.mailto.3.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.webcal.0.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.webcal.0.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.webcal.1.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.webcal.1.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.webcal.2.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.webcal.2.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.webcal.3.name",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "gecko.handlerService.schemes.webcal.3.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "147",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "122",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "76",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"line": "386",
+"col": "17"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "PrivateTokenDescription",
+"stack": [
+{
+"index": "0",
+"call": "isMasterPasswordSet()",
+"path": "resource://gre/modules/LoginHelper.jsm",
+"line": "1398",
+"col": "24"
+},
+{
+"index": "1",
+"call": "_initStorage/<()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "104",
+"col": "20"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "ManufacturerID",
+"stack": [
+{
+"index": "0",
+"call": "isMasterPasswordSet()",
+"path": "resource://gre/modules/LoginHelper.jsm",
+"line": "1398",
+"col": "24"
+},
+{
+"index": "1",
+"call": "_initStorage/<()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "104",
+"col": "20"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -8942,6 +10098,12 @@
 "file": null
 },
 {
+"type": "ftl",
+"id": "browser-import-button2",
+"stack": null,
+"file": null
+},
+{
 "type": "properties",
 "id": "intl.accept_languages",
 "stack": [
@@ -8964,6 +10126,270 @@
 },
 {
 "type": "properties",
+"id": "brandShortName",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-collapse-section-label",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-collapse-section-label",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-empty-section-highlights",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
 "id": "12",
 "stack": null,
 "file": null
@@ -9036,6 +10462,24 @@
 },
 {
 "type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-empty-section-highlights",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
 "id": "6",
 "stack": null,
 "file": null
@@ -9048,61 +10492,25 @@
 },
 {
 "type": "properties",
-"id": "10",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "10",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "10",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -9312,24 +10720,6 @@
 },
 {
 "type": "ftl",
-"id": "newtab-pocket-read-more",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "12",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "12",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "newtab-section-header-pocket",
 "stack": null,
 "file": null
@@ -9353,6 +10743,24 @@
 "file": null
 },
 {
+"type": "properties",
+"id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-pocket-read-more",
+"stack": null,
+"file": null
+},
+{
 "type": "ftl",
 "id": "newtab-pocket-read-more",
 "stack": null,
@@ -9366,54 +10774,6 @@
 },
 {
 "type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
@@ -9445,6 +10805,54 @@
 {
 "type": "ftl",
 "id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
@@ -9462,103 +10870,13 @@
 },
 {
 "type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "13",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "13",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
 },
@@ -9583,36 +10901,6 @@
 {
 "type": "ftl",
 "id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
@@ -9673,5558 +10961,6 @@
 {
 "type": "ftl",
 "id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "PrivateTokenDescription",
-"stack": [
-{
-"index": "0",
-"call": "init()",
-"path": "resource://gre/modules/crypto-SDR.js",
-"line": "58",
-"col": "24"
-},
-{
-"index": "1",
-"call": "LoginManagerCrypto_SDR()",
-"path": "resource://gre/modules/crypto-SDR.js",
-"line": "17",
-"col": "7"
-},
-{
-"index": "2",
-"call": "get _crypto()",
-"path": "resource://gre/modules/storage-json.js",
-"line": "64",
-"col": "68"
-},
-{
-"index": "3",
-"call": "initialize()",
-"path": "resource://gre/modules/storage-json.js",
-"line": "92",
-"col": "6"
-},
-{
-"index": "4",
-"call": "_initStorage()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "97",
-"col": "47"
-},
-{
-"index": "5",
-"call": "init()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "88",
-"col": "9"
-},
-{
-"index": "6",
-"call": "LoginManager()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "43",
-"col": "7"
-},
-{
-"index": "7",
-"call": "task()",
-"path": "resource:///modules/BrowserGlue.jsm",
-"line": "2484",
-"col": "12"
-},
-{
-"index": "8",
-"call": "_scheduleStartupIdleTasks/<()",
-"path": "resource:///modules/BrowserGlue.jsm",
-"line": "2690",
-"col": "19"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "ManufacturerID",
-"stack": [
-{
-"index": "0",
-"call": "init()",
-"path": "resource://gre/modules/crypto-SDR.js",
-"line": "58",
-"col": "24"
-},
-{
-"index": "1",
-"call": "LoginManagerCrypto_SDR()",
-"path": "resource://gre/modules/crypto-SDR.js",
-"line": "17",
-"col": "7"
-},
-{
-"index": "2",
-"call": "get _crypto()",
-"path": "resource://gre/modules/storage-json.js",
-"line": "64",
-"col": "68"
-},
-{
-"index": "3",
-"call": "initialize()",
-"path": "resource://gre/modules/storage-json.js",
-"line": "92",
-"col": "6"
-},
-{
-"index": "4",
-"call": "_initStorage()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "97",
-"col": "47"
-},
-{
-"index": "5",
-"call": "init()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "88",
-"col": "9"
-},
-{
-"index": "6",
-"call": "LoginManager()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "43",
-"col": "7"
-},
-{
-"index": "7",
-"call": "task()",
-"path": "resource:///modules/BrowserGlue.jsm",
-"line": "2484",
-"col": "12"
-},
-{
-"index": "8",
-"call": "_scheduleStartupIdleTasks/<()",
-"path": "resource:///modules/BrowserGlue.jsm",
-"line": "2690",
-"col": "19"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "brandShortName",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.defaultHandlersVersion",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "100",
-"col": "51"
-},
-{
-"index": "1",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "2",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.irc.0.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.irc.0.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.irc.1.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.irc.1.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.irc.2.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.irc.2.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.irc.3.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.irc.3.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.0.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.0.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.1.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.1.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.2.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.2.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.3.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.3.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.0.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.0.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.1.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.1.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.2.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.2.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.3.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.3.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.0.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.0.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.1.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.1.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.2.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.2.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.3.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.3.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "147",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "122",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "76",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///projects/mozilla-unified/obj-x86_64-pc-linux-gnu-dbg/dist/bin/components/HandlerService.js",
-"line": "328",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "PrivateTokenDescription",
-"stack": [
-{
-"index": "0",
-"call": "isMasterPasswordSet()",
-"path": "resource://gre/modules/LoginHelper.jsm",
-"line": "1398",
-"col": "24"
-},
-{
-"index": "1",
-"call": "_initStorage/<()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "104",
-"col": "20"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "ManufacturerID",
-"stack": [
-{
-"index": "0",
-"call": "isMasterPasswordSet()",
-"path": "resource://gre/modules/LoginHelper.jsm",
-"line": "1398",
-"col": "24"
-},
-{
-"index": "1",
-"call": "_initStorage/<()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "104",
-"col": "20"
-}
-],
-"file": null
-},
-{
-"type": "ftl",
-"id": "browser-import-button2",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-collapse-section-label",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-collapse-section-label",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.menuitems.insertseparatorbeforeaccesskeys",
-"stack": [
-{
-"index": "0",
-"call": "<TOP LEVEL>",
-"path": "chrome://global/content/elements/text.js",
-"line": "27",
-"col": "31"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "chrome://global/content/customElements.js",
-"line": "834",
-"col": "28"
-},
-{
-"index": "2",
-"call": "<TOP LEVEL>",
-"path": "chrome://global/content/customElements.js",
-"line": "861",
-"col": "2"
-},
-{
-"index": "3",
-"call": "observe()",
-"path": "resource://gre/modules/CustomElementsListener.jsm",
-"line": "24",
-"col": "30"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.menuitems.alwaysappendaccesskeys",
-"stack": [
-{
-"index": "0",
-"call": "<TOP LEVEL>",
-"path": "chrome://global/content/elements/text.js",
-"line": "33",
-"col": "27"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "chrome://global/content/customElements.js",
-"line": "834",
-"col": "28"
-},
-{
-"index": "2",
-"call": "<TOP LEVEL>",
-"path": "chrome://global/content/customElements.js",
-"line": "861",
-"col": "2"
-},
-{
-"index": "3",
-"call": "observe()",
-"path": "resource://gre/modules/CustomElementsListener.jsm",
-"line": "24",
-"col": "30"
-}
-],
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-visited",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-visited",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "BothAllowTopNavigationAndUserActivationPresent",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "ImageTitleWithDimensions2AndFile",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "ImageTitleWithDimensions2AndFile",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "ImageTitleWithDimensions2AndFile",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "ImageTitleWithDimensions2AndFile",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "ImageTitleWithDimensions2AndFile",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "ImageTitleWithDimensions2AndFile",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "brandShortName",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.doh-rollout@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.doh-rollout@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.formautofill@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.formautofill@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.screenshots@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.screenshots@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat-reporter@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat-reporter@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.firefox-compact-light@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.firefox-compact-light@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.default-theme@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.firefox-compact-dark@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.firefox-compact-dark@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.firefox-alpenglow@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.firefox-alpenglow@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.google@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.google@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.amazondotcom@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.amazondotcom@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.wikipedia@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.wikipedia@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.bing@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.bing@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.ddg@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.ddg@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.ebay@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.ebay@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.doh-rollout@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.doh-rollout@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.formautofill@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.formautofill@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.screenshots@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.screenshots@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat-reporter@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat-reporter@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.firefox-compact-light@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.firefox-compact-light@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.default-theme@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.firefox-compact-dark@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.firefox-compact-dark@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.firefox-alpenglow@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.firefox-alpenglow@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.google@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.google@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.amazondotcom@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.amazondotcom@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.wikipedia@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.wikipedia@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.bing@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.bing@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.ddg@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.ddg@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.ebay@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.ebay@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "257",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1480",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "690",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.doh-rollout@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.doh-rollout@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.formautofill@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.formautofill@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.screenshots@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.screenshots@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat-reporter@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat-reporter@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.webcompat@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.google@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.google@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.amazondotcom@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.amazondotcom@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.wikipedia@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.wikipedia@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.bing@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.bing@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.ddg@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.ddg@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.ebay@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.ebay@search.mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1333",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1440",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addonsInfo/<()",
-"path": "resource://activity-stream/lib/ASRouterTargeting.jsm",
-"line": "448",
-"col": "14"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "BothAllowTopNavigationAndUserActivationPresent",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
@@ -15278,7 +11014,7 @@
 "index": "0",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2913",
+"line": "2749",
 "col": "41"
 },
 {
@@ -15334,7 +11070,7 @@
 "index": "2",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2914",
+"line": "2750",
 "col": "6"
 },
 {
@@ -15376,7 +11112,7 @@
 "index": "0",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2930",
+"line": "2766",
 "col": "26"
 },
 {
@@ -15418,7 +11154,7 @@
 "index": "0",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2936",
+"line": "2772",
 "col": "24"
 },
 {
@@ -15460,7 +11196,7 @@
 "index": "0",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2939",
+"line": "2775",
 "col": "24"
 },
 {
@@ -15530,7 +11266,7 @@
 "index": "4",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2934",
+"line": "2770",
 "col": "40"
 },
 {
@@ -15657,7 +11393,7 @@
 "index": "7",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2934",
+"line": "2770",
 "col": "40"
 },
 {
@@ -15748,7 +11484,7 @@
 "index": "7",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2934",
+"line": "2770",
 "col": "40"
 },
 {
@@ -15838,7 +11574,7 @@
 "index": "6",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2934",
+"line": "2770",
 "col": "40"
 },
 {
@@ -15922,7 +11658,7 @@
 "index": "6",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2934",
+"line": "2770",
 "col": "40"
 },
 {
@@ -16006,7 +11742,7 @@
 "index": "6",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2934",
+"line": "2770",
 "col": "40"
 },
 {
@@ -16090,7 +11826,7 @@
 "index": "6",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2934",
+"line": "2770",
 "col": "40"
 },
 {
@@ -16174,7 +11910,7 @@
 "index": "6",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2934",
+"line": "2770",
 "col": "40"
 },
 {
@@ -16258,7 +11994,7 @@
 "index": "6",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2934",
+"line": "2770",
 "col": "40"
 },
 {
@@ -16342,7 +12078,7 @@
 "index": "6",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2934",
+"line": "2770",
 "col": "40"
 },
 {
@@ -16426,7 +12162,7 @@
 "index": "6",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2934",
+"line": "2770",
 "col": "40"
 },
 {
@@ -16510,7 +12246,7 @@
 "index": "6",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2934",
+"line": "2770",
 "col": "40"
 },
 {
@@ -16545,12 +12281,6 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
 "type": "properties",
 "id": "intl.accept_languages",
 "stack": [
@@ -16570,6 +12300,13 @@
 },
 {
 "index": "2",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1480",
+"col": "33"
+},
+{
+"index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
 "line": "690",
@@ -16598,6 +12335,13 @@
 },
 {
 "index": "2",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1480",
+"col": "33"
+},
+{
+"index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
 "line": "690",
@@ -16626,6 +12370,13 @@
 },
 {
 "index": "2",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1480",
+"col": "33"
+},
+{
+"index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
 "line": "690",
@@ -16670,7 +12421,7 @@
 "index": "4",
 "call": "onUnload()",
 "path": "chrome://browser/content/browser.js",
-"line": "2511",
+"line": "2534",
 "col": "18"
 },
 {
@@ -16719,7 +12470,7 @@
 "index": "4",
 "call": "onUnload()",
 "path": "chrome://browser/content/browser.js",
-"line": "2511",
+"line": "2534",
 "col": "18"
 },
 {
