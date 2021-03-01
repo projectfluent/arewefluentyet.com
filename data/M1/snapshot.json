@@ -1,6 +1,6 @@
 {
-"date": "2021-02-22",
-"revision": "42fef53a48551158a2fb2eb72788e131062246f8",
+"date": "2021-03-01",
+"revision": "c2a11810933e52b8b527bb277e11f877aec6379a",
 "data": [
 {
 "type": "dtd",
@@ -25,10 +25,6 @@
 {
 "type": "dtd",
 "id": "dontShowMessage.accesskey"
-},
-{
-"type": "dtd",
-"id": "spellNoSuggestions.label"
 },
 {
 "type": "dtd",
@@ -432,10 +428,6 @@
 },
 {
 "type": "dtd",
-"id": "fxa.menu.account.label"
-},
-{
-"type": "dtd",
 "id": "fxa.menu.signin.label"
 },
 {
@@ -456,43 +448,31 @@
 },
 {
 "type": "dtd",
-"id": "fxa.menu.setupSync.label"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.label"
-},
-{
-"type": "dtd",
 "id": "fxa.menu.syncSettings2.label"
 },
 {
 "type": "dtd",
-"id": "logins.label"
-},
-{
-"type": "dtd",
-"id": "fxa.menu.firefoxServices.label"
-},
-{
-"type": "dtd",
-"id": "monitorFullName"
-},
-{
-"type": "dtd",
-"id": "sendFullName"
-},
-{
-"type": "dtd",
-"id": "fxa.menu.accountSettings.label"
-},
-{
-"type": "dtd",
-"id": "fxa.menu.manageAccount2.label"
-},
-{
-"type": "dtd",
 "id": "fxa.menu.signOut.label"
+},
+{
+"type": "dtd",
+"id": "appMenuRemoteTabs.showAll.label"
+},
+{
+"type": "dtd",
+"id": "appMenuRemoteTabs.showAll.tooltip"
+},
+{
+"type": "dtd",
+"id": "appMenuRemoteTabs.showMore.label"
+},
+{
+"type": "dtd",
+"id": "appMenuRemoteTabs.showMore.tooltip"
+},
+{
+"type": "dtd",
+"id": "appMenuRemoteTabs.notabs.label"
 },
 {
 "type": "dtd",
@@ -992,6 +972,10 @@
 },
 {
 "type": "ftl",
+"id": "close-tabs-to-the-start"
+},
+{
+"type": "ftl",
 "id": "close-tabs-to-the-end"
 },
 {
@@ -1100,7 +1084,7 @@
 },
 {
 "type": "ftl",
-"id": "toolbar-context-menu-auto-hide-downloads-button"
+"id": "toolbar-context-menu-auto-hide-downloads-button-2"
 },
 {
 "type": "ftl",
@@ -1132,7 +1116,7 @@
 },
 {
 "type": "ftl",
-"id": "toolbar-context-menu-view-customize-toolbar"
+"id": "toolbar-context-menu-view-customize-toolbar-2"
 },
 {
 "type": "ftl",
@@ -1164,6 +1148,10 @@
 },
 {
 "type": "ftl",
+"id": "text-action-spell-no-suggestions"
+},
+{
+"type": "ftl",
 "id": "main-context-menu-open-link"
 },
 {
@@ -1172,7 +1160,7 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-open-link-container-tab"
+"id": "main-context-menu-open-link-container"
 },
 {
 "type": "ftl",
@@ -1184,7 +1172,7 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-bookmark-this-link"
+"id": "main-context-menu-bookmark-link"
 },
 {
 "type": "ftl",
@@ -1200,7 +1188,7 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-copy-link"
+"id": "main-context-menu-copy-link-simple"
 },
 {
 "type": "ftl",
@@ -1300,15 +1288,15 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-image-copy-location"
+"id": "main-context-menu-image-copy-link"
 },
 {
 "type": "ftl",
-"id": "main-context-menu-video-copy-location"
+"id": "main-context-menu-video-copy-link"
 },
 {
 "type": "ftl",
-"id": "main-context-menu-audio-copy-location"
+"id": "main-context-menu-audio-copy-link"
 },
 {
 "type": "ftl",
@@ -1328,7 +1316,7 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-image-set-as-background"
+"id": "main-context-menu-image-set-image-as-background"
 },
 {
 "type": "ftl",
@@ -1361,6 +1349,10 @@
 {
 "type": "ftl",
 "id": "text-action-undo"
+},
+{
+"type": "ftl",
+"id": "text-action-redo"
 },
 {
 "type": "ftl",
@@ -1444,10 +1436,6 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-view-page-info"
-},
-{
-"type": "ftl",
 "id": "main-context-menu-bidi-switch-text"
 },
 {
@@ -1460,7 +1448,7 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-inspect-element"
+"id": "main-context-menu-inspect"
 },
 {
 "type": "ftl",
@@ -2240,6 +2228,10 @@
 },
 {
 "type": "ftl",
+"id": "appmenu-fxa-sync-and-save-data"
+},
+{
+"type": "ftl",
 "id": "appmenuitem-new-window"
 },
 {
@@ -2304,7 +2296,7 @@
 },
 {
 "type": "ftl",
-"id": "bookmarks-recent-bookmarks-panel"
+"id": "bookmarks-recent-bookmarks-panel-subheader"
 },
 {
 "type": "ftl",
@@ -2432,11 +2424,15 @@
 },
 {
 "type": "ftl",
-"id": "fxa-toolbar-sync-now"
+"id": "appmenuitem-fxa-toolbar-sync-now"
 },
 {
 "type": "ftl",
-"id": "fxa-toolbar-sync-now"
+"id": "appmenu-fxa-header"
+},
+{
+"type": "ftl",
+"id": "appmenu-fxa-setup-sync"
 },
 {
 "type": "ftl",
@@ -2841,6 +2837,14 @@
 {
 "type": "ftl",
 "id": "appmenu-help-taskmanager"
+},
+{
+"type": "ftl",
+"id": "menu-help-report-site-issue"
+},
+{
+"type": "ftl",
+"id": "appmenu-help-report-site-issue"
 },
 {
 "type": "ftl",
