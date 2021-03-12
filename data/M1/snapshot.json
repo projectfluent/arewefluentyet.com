@@ -1,6 +1,6 @@
 {
-"date": "2021-03-01",
-"revision": "c2a11810933e52b8b527bb277e11f877aec6379a",
+"date": "2021-03-08",
+"revision": "419bc25a914812f1f3a828b04a61507fa459a114",
 "data": [
 {
 "type": "dtd",
@@ -81,10 +81,6 @@
 {
 "type": "dtd",
 "id": "noLoginSuggestions.label"
-},
-{
-"type": "dtd",
-"id": "viewSavedLogins.label"
 },
 {
 "type": "dtd",
@@ -368,10 +364,6 @@
 },
 {
 "type": "dtd",
-"id": "appMenuRemoteTabs.showMore.label"
-},
-{
-"type": "dtd",
 "id": "appMenuRemoteTabs.showMore.tooltip"
 },
 {
@@ -461,10 +453,6 @@
 {
 "type": "dtd",
 "id": "appMenuRemoteTabs.showAll.tooltip"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.showMore.label"
 },
 {
 "type": "dtd",
@@ -569,14 +557,6 @@
 {
 "type": "dtd",
 "id": "navbarOverflow.label"
-},
-{
-"type": "dtd",
-"id": "brandShortName"
-},
-{
-"type": "dtd",
-"id": "appmenu.tooltip"
 },
 {
 "type": "dtd",
@@ -936,19 +916,11 @@
 },
 {
 "type": "ftl",
-"id": "select-all-tabs"
-},
-{
-"type": "ftl",
 "id": "bookmark-selected-tabs"
 },
 {
 "type": "ftl",
 "id": "bookmark-tab"
-},
-{
-"type": "ftl",
-"id": "reopen-in-container"
 },
 {
 "type": "ftl",
@@ -968,6 +940,18 @@
 },
 {
 "type": "ftl",
+"id": "tab-context-open-in-container"
+},
+{
+"type": "ftl",
+"id": "select-all-tabs"
+},
+{
+"type": "ftl",
+"id": "tab-context-close-tabs"
+},
+{
+"type": "ftl",
 "id": "tab-context-close-multiple-tabs"
 },
 {
@@ -984,11 +968,7 @@
 },
 {
 "type": "ftl",
-"id": "tab-context-undo-close-tabs"
-},
-{
-"type": "ftl",
-"id": "tab-context-close-tabs"
+"id": "tab-context-reopen-closed-tabs"
 },
 {
 "type": "ftl",
@@ -1112,7 +1092,7 @@
 },
 {
 "type": "ftl",
-"id": "toolbar-context-menu-undo-close-tabs"
+"id": "toolbar-context-menu-reopen-closed-tabs"
 },
 {
 "type": "ftl",
@@ -1340,11 +1320,11 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-view-background-image"
+"id": "main-context-menu-generate-new-password"
 },
 {
 "type": "ftl",
-"id": "main-context-menu-generate-new-password"
+"id": "main-context-menu-manage-logins"
 },
 {
 "type": "ftl",
@@ -1428,19 +1408,19 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-view-selection-source"
-},
-{
-"type": "ftl",
-"id": "main-context-menu-view-page-source"
-},
-{
-"type": "ftl",
 "id": "main-context-menu-bidi-switch-text"
 },
 {
 "type": "ftl",
 "id": "main-context-menu-bidi-switch-page"
+},
+{
+"type": "ftl",
+"id": "main-context-menu-view-selection-source"
+},
+{
+"type": "ftl",
+"id": "main-context-menu-view-page-source"
 },
 {
 "type": "ftl",
@@ -1460,7 +1440,11 @@
 },
 {
 "type": "ftl",
-"id": "places-open-tab"
+"id": "places-open-all-bookmarks"
+},
+{
+"type": "ftl",
+"id": "places-open-in-tab"
 },
 {
 "type": "ftl",
@@ -1472,23 +1456,31 @@
 },
 {
 "type": "ftl",
-"id": "places-open-window"
+"id": "places-open-in-window"
 },
 {
 "type": "ftl",
-"id": "places-open-private-window"
+"id": "places-open-in-private-window"
 },
 {
 "type": "ftl",
-"id": "places-new-bookmark"
+"id": "places-edit-bookmark"
 },
 {
 "type": "ftl",
-"id": "places-new-folder-contextmenu"
+"id": "places-edit-generic"
 },
 {
 "type": "ftl",
-"id": "places-new-separator"
+"id": "places-remove-bookmark"
+},
+{
+"type": "ftl",
+"id": "text-action-delete"
+},
+{
+"type": "ftl",
+"id": "places-delete-domain-data"
 },
 {
 "type": "ftl",
@@ -1504,11 +1496,19 @@
 },
 {
 "type": "ftl",
-"id": "text-action-delete"
+"id": "places-add-bookmark"
 },
 {
 "type": "ftl",
-"id": "places-delete-domain-data"
+"id": "places-add-folder-contextmenu"
+},
+{
+"type": "ftl",
+"id": "places-add-separator"
+},
+{
+"type": "ftl",
+"id": "text-action-paste"
 },
 {
 "type": "ftl",
@@ -1516,7 +1516,7 @@
 },
 {
 "type": "ftl",
-"id": "places-properties"
+"id": "places-manage-bookmarks"
 },
 {
 "type": "ftl",
@@ -2816,19 +2816,19 @@
 },
 {
 "type": "ftl",
-"id": "menu-help-troubleshooting-info"
+"id": "menu-help-enter-troubleshoot-mode"
 },
 {
 "type": "ftl",
-"id": "appmenu-help-troubleshooting-info"
+"id": "appmenu-help-enter-troubleshoot-mode"
 },
 {
 "type": "ftl",
-"id": "menu-help-safe-mode-without-addons"
+"id": "menu-help-more-troubleshooting-info"
 },
 {
 "type": "ftl",
-"id": "appmenu-help-safe-mode-without-addons"
+"id": "appmenu-help-more-troubleshooting-info"
 },
 {
 "type": "ftl",
@@ -3089,6 +3089,10 @@
 {
 "type": "ftl",
 "id": "urlbar-pocket-button"
+},
+{
+"type": "ftl",
+"id": "appmenu-menu-button-closed"
 },
 {
 "type": "ftl",
