@@ -1,6 +1,6 @@
 {
-"date": "2021-03-08",
-"revision": "419bc25a914812f1f3a828b04a61507fa459a114",
+"date": "2021-03-15",
+"revision": "e8346137ae4ebf136fb69dd07a5d34e1d35d00c7",
 "data": [
 {
 "type": "dtd",
@@ -45,42 +45,6 @@
 {
 "type": "dtd",
 "id": "openLinkCmdInTab.accesskey"
-},
-{
-"type": "dtd",
-"id": "fillLoginMenu.label"
-},
-{
-"type": "dtd",
-"id": "fillLoginMenu.label"
-},
-{
-"type": "dtd",
-"id": "fillPasswordMenu.label"
-},
-{
-"type": "dtd",
-"id": "fillUsernameMenu.label"
-},
-{
-"type": "dtd",
-"id": "fillLoginMenu.accesskey"
-},
-{
-"type": "dtd",
-"id": "fillLoginMenu.accesskey"
-},
-{
-"type": "dtd",
-"id": "fillPasswordMenu.accesskey"
-},
-{
-"type": "dtd",
-"id": "fillUsernameMenu.accesskey"
-},
-{
-"type": "dtd",
-"id": "noLoginSuggestions.label"
 },
 {
 "type": "dtd",
@@ -940,7 +904,7 @@
 },
 {
 "type": "ftl",
-"id": "tab-context-open-in-container"
+"id": "tab-context-open-in-new-container-tab"
 },
 {
 "type": "ftl",
@@ -1140,7 +1104,7 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-open-link-container"
+"id": "main-context-menu-open-link-container-tab"
 },
 {
 "type": "ftl",
@@ -1188,27 +1152,27 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-media-play-speed"
+"id": "main-context-menu-media-play-speed-2"
 },
 {
 "type": "ftl",
-"id": "main-context-menu-media-play-speed-slow"
+"id": "main-context-menu-media-play-speed-slow-2"
 },
 {
 "type": "ftl",
-"id": "main-context-menu-media-play-speed-normal"
+"id": "main-context-menu-media-play-speed-normal-2"
 },
 {
 "type": "ftl",
-"id": "main-context-menu-media-play-speed-fast"
+"id": "main-context-menu-media-play-speed-fast-2"
 },
 {
 "type": "ftl",
-"id": "main-context-menu-media-play-speed-faster"
+"id": "main-context-menu-media-play-speed-faster-2"
 },
 {
 "type": "ftl",
-"id": "main-context-menu-media-play-speed-fastest"
+"id": "main-context-menu-media-play-speed-fastest-2"
 },
 {
 "type": "ftl",
@@ -1216,11 +1180,7 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-media-show-controls"
-},
-{
-"type": "ftl",
-"id": "main-context-menu-media-hide-controls"
+"id": "main-context-menu-media-video-leave-fullscreen"
 },
 {
 "type": "ftl",
@@ -1228,11 +1188,19 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-media-video-leave-fullscreen"
+"id": "main-context-menu-media-hide-controls"
 },
 {
 "type": "ftl",
-"id": "main-context-menu-media-pip"
+"id": "main-context-menu-media-show-controls"
+},
+{
+"type": "ftl",
+"id": "main-context-menu-video-view-new-tab"
+},
+{
+"type": "ftl",
+"id": "main-context-menu-media-watch-pip"
 },
 {
 "type": "ftl",
@@ -1240,15 +1208,15 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-image-view"
-},
-{
-"type": "ftl",
-"id": "main-context-menu-video-view"
+"id": "main-context-menu-image-view-new-tab"
 },
 {
 "type": "ftl",
 "id": "main-context-menu-image-save-as"
+},
+{
+"type": "ftl",
+"id": "main-context-menu-video-take-snapshot"
 },
 {
 "type": "ftl",
@@ -1257,10 +1225,6 @@
 {
 "type": "ftl",
 "id": "main-context-menu-audio-save-as"
-},
-{
-"type": "ftl",
-"id": "main-context-menu-video-image-save-as"
 },
 {
 "type": "ftl",
@@ -1320,7 +1284,7 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-generate-new-password"
+"id": "main-context-menu-suggest-strong-password"
 },
 {
 "type": "ftl",
@@ -1356,11 +1320,15 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-keyword"
+"id": "main-context-menu-print-selection"
 },
 {
 "type": "ftl",
 "id": "main-context-menu-link-send-to-device"
+},
+{
+"type": "ftl",
+"id": "main-context-menu-keyword"
 },
 {
 "type": "ftl",
@@ -1404,7 +1372,7 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-print-selection"
+"id": "main-context-menu-take-screenshot"
 },
 {
 "type": "ftl",
@@ -1552,7 +1520,11 @@
 },
 {
 "type": "ftl",
-"id": "popup-select-camera"
+"id": "popup-select-camera-device"
+},
+{
+"type": "ftl",
+"id": "popup-select-camera-icon"
 },
 {
 "type": "ftl",
@@ -1560,7 +1532,19 @@
 },
 {
 "type": "ftl",
-"id": "popup-select-microphone"
+"id": "popup-select-microphone-device"
+},
+{
+"type": "ftl",
+"id": "popup-select-microphone-icon"
+},
+{
+"type": "ftl",
+"id": "panel-save-update-username"
+},
+{
+"type": "ftl",
+"id": "panel-save-update-password"
 },
 {
 "type": "ftl",
@@ -2424,11 +2408,15 @@
 },
 {
 "type": "ftl",
-"id": "appmenuitem-fxa-toolbar-sync-now"
+"id": "appmenuitem-fxa-toolbar-sync-now2"
 },
 {
 "type": "ftl",
 "id": "appmenu-fxa-header"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-fxa-toolbar-sync-now2"
 },
 {
 "type": "ftl",
@@ -2552,7 +2540,7 @@
 },
 {
 "type": "ftl",
-"id": "menu-edit-find-on"
+"id": "menu-edit-find-in-page"
 },
 {
 "type": "ftl",
@@ -2564,7 +2552,7 @@
 },
 {
 "type": "ftl",
-"id": "menu-preferences"
+"id": "menu-settings"
 },
 {
 "type": "ftl",
@@ -2576,7 +2564,7 @@
 },
 {
 "type": "ftl",
-"id": "menu-view-customize-toolbar"
+"id": "menu-view-customize-toolbar2"
 },
 {
 "type": "ftl",
@@ -2692,7 +2680,7 @@
 },
 {
 "type": "ftl",
-"id": "menu-bookmark-this-page"
+"id": "menu-bookmark-current-tab"
 },
 {
 "type": "ftl",
@@ -2720,11 +2708,11 @@
 },
 {
 "type": "ftl",
-"id": "menu-tools-addons"
+"id": "menu-tools-extensions"
 },
 {
 "type": "ftl",
-"id": "menu-tools-fxa-sign-in"
+"id": "menu-tools-fxa-sign-in2"
 },
 {
 "type": "ftl",
@@ -2732,7 +2720,7 @@
 },
 {
 "type": "ftl",
-"id": "menu-tools-fxa-sign-in"
+"id": "menu-tools-fxa-sign-in2"
 },
 {
 "type": "ftl",
@@ -2756,7 +2744,7 @@
 },
 {
 "type": "ftl",
-"id": "menu-preferences"
+"id": "menu-settings"
 },
 {
 "type": "ftl",
@@ -2764,7 +2752,7 @@
 },
 {
 "type": "ftl",
-"id": "menu-preferences"
+"id": "menu-settings"
 },
 {
 "type": "ftl",
