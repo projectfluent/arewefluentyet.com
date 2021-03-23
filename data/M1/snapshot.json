@@ -1,6 +1,6 @@
 {
-"date": "2021-03-15",
-"revision": "e8346137ae4ebf136fb69dd07a5d34e1d35d00c7",
+"date": "2021-03-22",
+"revision": "2434210a78248243e1216d8be699d3f40f48b74f",
 "data": [
 {
 "type": "dtd",
@@ -144,22 +144,6 @@
 },
 {
 "type": "dtd",
-"id": "updateAvailable.panelUI.label"
-},
-{
-"type": "dtd",
-"id": "updateManual.panelUI.label"
-},
-{
-"type": "dtd",
-"id": "updateUnsupported.panelUI.label"
-},
-{
-"type": "dtd",
-"id": "updateRestart.panelUI.label2"
-},
-{
-"type": "dtd",
 "id": "fxa.menu.signin.label"
 },
 {
@@ -200,10 +184,6 @@
 },
 {
 "type": "dtd",
-"id": "addons.label"
-},
-{
-"type": "dtd",
 "id": "preferencesCmd2.label"
 },
 {
@@ -233,22 +213,6 @@
 {
 "type": "dtd",
 "id": "appMenuHelp.label"
-},
-{
-"type": "dtd",
-"id": "updateAvailable.panelUI.label"
-},
-{
-"type": "dtd",
-"id": "updateManual.panelUI.label"
-},
-{
-"type": "dtd",
-"id": "updateUnsupported.panelUI.label"
-},
-{
-"type": "dtd",
-"id": "updateRestart.panelUI.label2"
 },
 {
 "type": "dtd",
@@ -1072,6 +1036,22 @@
 },
 {
 "type": "ftl",
+"id": "main-context-menu-back-mac"
+},
+{
+"type": "ftl",
+"id": "main-context-menu-forward-mac"
+},
+{
+"type": "ftl",
+"id": "main-context-menu-reload-mac"
+},
+{
+"type": "ftl",
+"id": "main-context-menu-stop-mac"
+},
+{
+"type": "ftl",
 "id": "main-context-menu-back-2"
 },
 {
@@ -1269,6 +1249,10 @@
 {
 "type": "ftl",
 "id": "main-context-menu-plugin-hide"
+},
+{
+"type": "ftl",
+"id": "main-context-menu-bookmark-add-mac"
 },
 {
 "type": "ftl",
@@ -1620,11 +1604,11 @@
 },
 {
 "type": "ftl",
-"id": "appmenu-addon-private-browsing-installed"
+"id": "appmenu-addon-private-browsing-installed2"
 },
 {
 "type": "ftl",
-"id": "appmenu-addon-post-install-message"
+"id": "appmenu-addon-post-install-message2"
 },
 {
 "type": "ftl",
@@ -2076,10 +2060,6 @@
 },
 {
 "type": "ftl",
-"id": "all-tabs-menu-undo-close-tabs"
-},
-{
-"type": "ftl",
 "id": "all-tabs-menu-search-tabs"
 },
 {
@@ -2176,7 +2156,7 @@
 },
 {
 "type": "ftl",
-"id": "appmenuitem-update-banner"
+"id": "appmenuitem-update-banner2"
 },
 {
 "type": "ftl",
@@ -2189,6 +2169,10 @@
 {
 "type": "ftl",
 "id": "appmenuitem-zoom-enlarge"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-addons-and-themes"
 },
 {
 "type": "ftl",
@@ -2208,7 +2192,7 @@
 },
 {
 "type": "ftl",
-"id": "appmenuitem-update-banner"
+"id": "appmenuitem-update-banner2"
 },
 {
 "type": "ftl",
@@ -2232,7 +2216,7 @@
 },
 {
 "type": "ftl",
-"id": "appmenuitem-extensions-and-themes"
+"id": "appmenuitem-addons-and-themes"
 },
 {
 "type": "ftl",
@@ -2396,6 +2380,10 @@
 },
 {
 "type": "ftl",
+"id": "appmenu-taskmanager"
+},
+{
+"type": "ftl",
 "id": "more-menu-go-offline"
 },
 {
@@ -2412,11 +2400,27 @@
 },
 {
 "type": "ftl",
+"id": "appmenuitem-fxa-toolbar-sync-now2"
+},
+{
+"type": "ftl",
+"id": "fxa-toolbar-sync-syncing2"
+},
+{
+"type": "ftl",
 "id": "appmenu-fxa-header"
 },
 {
 "type": "ftl",
 "id": "appmenuitem-fxa-toolbar-sync-now2"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-fxa-toolbar-sync-now2"
+},
+{
+"type": "ftl",
+"id": "fxa-toolbar-sync-syncing2"
 },
 {
 "type": "ftl",
@@ -2553,6 +2557,10 @@
 {
 "type": "ftl",
 "id": "menu-settings"
+},
+{
+"type": "ftl",
+"id": "menu-preferences"
 },
 {
 "type": "ftl",
@@ -2708,7 +2716,7 @@
 },
 {
 "type": "ftl",
-"id": "menu-tools-extensions"
+"id": "menu-tools-addons-and-themes"
 },
 {
 "type": "ftl",
@@ -2732,7 +2740,11 @@
 },
 {
 "type": "ftl",
-"id": "menu-tools-web-developer"
+"id": "menu-tools-browser-tools"
+},
+{
+"type": "ftl",
+"id": "menu-tools-task-manager"
 },
 {
 "type": "ftl",
@@ -2748,11 +2760,15 @@
 },
 {
 "type": "ftl",
+"id": "menu-preferences"
+},
+{
+"type": "ftl",
 "id": "menu-tools-layout-debugger"
 },
 {
 "type": "ftl",
-"id": "menu-settings"
+"id": "menu-application-preferences"
 },
 {
 "type": "ftl",
@@ -2804,11 +2820,11 @@
 },
 {
 "type": "ftl",
-"id": "menu-help-enter-troubleshoot-mode"
+"id": "menu-help-enter-troubleshoot-mode2"
 },
 {
 "type": "ftl",
-"id": "appmenu-help-enter-troubleshoot-mode"
+"id": "appmenu-help-enter-troubleshoot-mode2"
 },
 {
 "type": "ftl",
@@ -2817,14 +2833,6 @@
 {
 "type": "ftl",
 "id": "appmenu-help-more-troubleshooting-info"
-},
-{
-"type": "ftl",
-"id": "menu-help-taskmanager"
-},
-{
-"type": "ftl",
-"id": "appmenu-help-taskmanager"
 },
 {
 "type": "ftl",
