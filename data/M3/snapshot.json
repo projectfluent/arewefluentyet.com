@@ -1,6 +1,6 @@
 {
-"date": "2021-04-03",
-"revision": "ab7decc3020866de71069e01557f9d3c5fe7da59",
+"date": "2021-04-10",
+"revision": "0ea49daf534fcd9a49708717b3864a4ebc73c20d",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -72,11 +72,11 @@
 },
 {
 "file": "en-US/browser/browser/branding/sync-brand.ftl",
-"count": 2
+"count": 1
 },
 {
 "file": "en-US/browser/browser/browser.ftl",
-"count": 222
+"count": 226
 },
 {
 "file": "en-US/browser/browser/browserContext.ftl",
@@ -92,7 +92,7 @@
 },
 {
 "file": "en-US/browser/browser/defaultBrowserNotification.ftl",
-"count": 2
+"count": 10
 },
 {
 "file": "en-US/browser/browser/downloads.ftl",
@@ -116,7 +116,7 @@
 },
 {
 "file": "en-US/browser/browser/newtab/asrouter.ftl",
-"count": 93
+"count": 87
 },
 {
 "file": "en-US/browser/browser/newtab/newtab.ftl",
@@ -216,7 +216,7 @@
 },
 {
 "file": "en-US/browser/browser/safeMode.ftl",
-"count": 7
+"count": 6
 },
 {
 "file": "en-US/browser/browser/safebrowsing/blockedSite.ftl",
@@ -255,6 +255,10 @@
 "count": 24
 },
 {
+"file": "en-US/browser/browser/tabbrowser.ftl",
+"count": 1
+},
+{
 "file": "en-US/browser/browser/toolbarContextMenu.ftl",
 "count": 18
 },
@@ -284,7 +288,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
-"count": 475
+"count": 469
 },
 {
 "file": "en-US/browser/chrome/browser/customizableui/customizableWidgets.properties",
@@ -352,7 +356,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/tabbrowser.properties",
-"count": 29
+"count": 28
 },
 {
 "file": "en-US/browser/chrome/browser/taskbar.properties",
@@ -660,7 +664,7 @@
 },
 {
 "file": "en-US/dom/chrome/dom/dom.properties",
-"count": 249
+"count": 248
 },
 {
 "file": "en-US/dom/chrome/global-strres.properties",
@@ -852,7 +856,7 @@
 },
 {
 "file": "en-US/toolkit/chrome/global/commonDialogs.properties",
-"count": 24
+"count": 26
 },
 {
 "file": "en-US/toolkit/chrome/global/contentAreaCommands.properties",
@@ -1000,7 +1004,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutAddons.ftl",
-"count": 179
+"count": 178
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutCompat.ftl",
@@ -1075,10 +1079,6 @@
 "count": 49
 },
 {
-"file": "en-US/toolkit/toolkit/extensions/blocklist.ftl",
-"count": 9
-},
-{
 "file": "en-US/toolkit/toolkit/featuregates/features.ftl",
 "count": 38
 },
@@ -1096,7 +1096,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/global/notification.ftl",
-"count": 1
+"count": 2
 },
 {
 "file": "en-US/toolkit/toolkit/global/processTypes.ftl",
