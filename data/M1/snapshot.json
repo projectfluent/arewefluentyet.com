@@ -1,6 +1,6 @@
 {
-"date": "2021-04-10",
-"revision": "0ea49daf534fcd9a49708717b3864a4ebc73c20d",
+"date": "2021-04-17",
+"revision": "60929718b9c062b337966d72a224af767b7f5681",
 "data": [
 {
 "type": "dtd",
@@ -137,10 +137,6 @@
 {
 "type": "dtd",
 "id": "customizeMenu.addMoreItems.label"
-},
-{
-"type": "dtd",
-"id": "customizeMode.autoHideDownloadsButton.label"
 },
 {
 "type": "dtd",
@@ -760,6 +756,10 @@
 },
 {
 "type": "ftl",
+"id": "tab-context-new-tab"
+},
+{
+"type": "ftl",
 "id": "reload-tab"
 },
 {
@@ -896,7 +896,7 @@
 },
 {
 "type": "ftl",
-"id": "bookmark-overlay-keyword-caption-label"
+"id": "bookmark-overlay-keyword-caption-label-2"
 },
 {
 "type": "ftl",
@@ -953,6 +953,10 @@
 {
 "type": "ftl",
 "id": "toolbar-context-menu-remove-from-toolbar"
+},
+{
+"type": "ftl",
+"id": "toolbar-context-menu-new-tab"
 },
 {
 "type": "ftl",
@@ -1196,6 +1200,10 @@
 },
 {
 "type": "ftl",
+"id": "main-context-menu-image-info"
+},
+{
+"type": "ftl",
 "id": "main-context-menu-image-desc"
 },
 {
@@ -1268,6 +1276,10 @@
 },
 {
 "type": "ftl",
+"id": "main-context-menu-take-screenshot"
+},
+{
+"type": "ftl",
 "id": "main-context-menu-keyword"
 },
 {
@@ -1309,10 +1321,6 @@
 {
 "type": "ftl",
 "id": "main-context-menu-frame-view-info"
-},
-{
-"type": "ftl",
-"id": "main-context-menu-take-screenshot"
 },
 {
 "type": "ftl",
@@ -1384,7 +1392,15 @@
 },
 {
 "type": "ftl",
+"id": "places-edit-folder"
+},
+{
+"type": "ftl",
 "id": "places-remove-bookmark"
+},
+{
+"type": "ftl",
+"id": "places-remove-folder"
 },
 {
 "type": "ftl",
@@ -1393,6 +1409,10 @@
 {
 "type": "ftl",
 "id": "places-delete-domain-data"
+},
+{
+"type": "ftl",
+"id": "places-sortby-name"
 },
 {
 "type": "ftl",
@@ -1424,27 +1444,7 @@
 },
 {
 "type": "ftl",
-"id": "places-sortby-name"
-},
-{
-"type": "ftl",
 "id": "places-manage-bookmarks"
-},
-{
-"type": "ftl",
-"id": "page-action-add-to-urlbar"
-},
-{
-"type": "ftl",
-"id": "page-action-remove-from-urlbar"
-},
-{
-"type": "ftl",
-"id": "page-action-add-to-urlbar"
-},
-{
-"type": "ftl",
-"id": "page-action-remove-from-urlbar"
 },
 {
 "type": "ftl",
@@ -1565,6 +1565,10 @@
 {
 "type": "ftl",
 "id": "appmenu-addon-post-install-incognito-checkbox"
+},
+{
+"type": "ftl",
+"id": "customize-mode-downloads-button-autohide"
 },
 {
 "type": "ftl",
@@ -1740,6 +1744,10 @@
 },
 {
 "type": "ftl",
+"id": "identity-permissions-storage-access-learn-more"
+},
+{
+"type": "ftl",
 "id": "identity-permissions-reload-hint"
 },
 {
@@ -1868,11 +1876,27 @@
 },
 {
 "type": "ftl",
+"id": "protections-panel-description-shim-allowed"
+},
+{
+"type": "ftl",
+"id": "protections-panel-description-shim-allowed-learn-more"
+},
+{
+"type": "ftl",
 "id": "protections-panel-content-blocking-manage-settings"
 },
 {
 "type": "ftl",
 "id": "protections-panel-social-media-trackers"
+},
+{
+"type": "ftl",
+"id": "protections-panel-description-shim-allowed"
+},
+{
+"type": "ftl",
+"id": "protections-panel-description-shim-allowed-learn-more"
 },
 {
 "type": "ftl",
@@ -1892,11 +1916,27 @@
 },
 {
 "type": "ftl",
+"id": "protections-panel-description-shim-allowed"
+},
+{
+"type": "ftl",
+"id": "protections-panel-description-shim-allowed-learn-more"
+},
+{
+"type": "ftl",
 "id": "protections-panel-content-blocking-manage-settings"
 },
 {
 "type": "ftl",
 "id": "protections-panel-cryptominers"
+},
+{
+"type": "ftl",
+"id": "protections-panel-description-shim-allowed"
+},
+{
+"type": "ftl",
+"id": "protections-panel-description-shim-allowed-learn-more"
 },
 {
 "type": "ftl",
@@ -3149,10 +3189,6 @@
 {
 "type": "ftl",
 "id": "customize-mode-titlebar"
-},
-{
-"type": "ftl",
-"id": "customize-mode-extra-drag-space"
 },
 {
 "type": "ftl",
