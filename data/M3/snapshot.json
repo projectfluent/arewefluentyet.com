@@ -1,6 +1,6 @@
 {
-"date": "2021-05-28",
-"revision": "98e96a91bbe49eb79be67dea28a46779364d9ecd",
+"date": "2021-06-06",
+"revision": "b8840fca4819c88bbad851f4c2cf76e448d970d3",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -25,6 +25,10 @@
 {
 "file": "en-US/browser/browser/aboutLogins.ftl",
 "count": 140
+},
+{
+"file": "en-US/browser/browser/aboutPocket.ftl",
+"count": 31
 },
 {
 "file": "en-US/browser/browser/aboutPolicies.ftl",
@@ -112,7 +116,7 @@
 },
 {
 "file": "en-US/browser/browser/newtab/asrouter.ftl",
-"count": 44
+"count": 38
 },
 {
 "file": "en-US/browser/browser/newtab/newtab.ftl",
@@ -296,7 +300,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/customizableui/customizableWidgets.properties",
-"count": 42
+"count": 40
 },
 {
 "file": "en-US/browser/chrome/browser/downloads/downloads.properties",
@@ -321,10 +325,6 @@
 {
 "file": "en-US/browser/chrome/browser/places/places.properties",
 "count": 41
-},
-{
-"file": "en-US/browser/chrome/browser/pocket.properties",
-"count": 32
 },
 {
 "file": "en-US/browser/chrome/browser/safebrowsing/safebrowsing.properties",
@@ -752,7 +752,7 @@
 },
 {
 "file": "en-US/netwerk/necko.properties",
-"count": 53
+"count": 51
 },
 {
 "file": "en-US/security/manager/chrome/pipnss/nsserrors.properties",
@@ -1055,6 +1055,10 @@
 "count": 81
 },
 {
+"file": "en-US/toolkit/toolkit/about/aboutThirdParty.ftl",
+"count": 27
+},
+{
 "file": "en-US/toolkit/toolkit/about/aboutWebrtc.ftl",
 "count": 90
 },
@@ -1096,7 +1100,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/global/processTypes.ftl",
-"count": 10
+"count": 14
 },
 {
 "file": "en-US/toolkit/toolkit/global/profileDowngrade.ftl",
@@ -1128,7 +1132,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/intl/languageNames.ftl",
-"count": 209
+"count": 210
 },
 {
 "file": "en-US/toolkit/toolkit/intl/regionNames.ftl",
