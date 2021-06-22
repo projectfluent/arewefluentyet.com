@@ -1,6 +1,6 @@
 {
-"date": "2021-06-06",
-"revision": "b8840fca4819c88bbad851f4c2cf76e448d970d3",
+"date": "2021-06-20",
+"revision": "95970359b68e4d468d903493f36471838502a088",
 "data": [
 {
 "type": "dtd",
@@ -148,23 +148,7 @@
 },
 {
 "type": "dtd",
-"id": "newNavigatorCmd.label"
-},
-{
-"type": "dtd",
-"id": "newPrivateWindow.label"
-},
-{
-"type": "dtd",
-"id": "appMenuHistory.restoreSession.label"
-},
-{
-"type": "dtd",
 "id": "fullZoom.label"
-},
-{
-"type": "dtd",
-"id": "fullScreenCmd.label"
 },
 {
 "type": "dtd",
@@ -212,10 +196,6 @@
 },
 {
 "type": "dtd",
-"id": "tabCmd.label"
-},
-{
-"type": "dtd",
 "id": "historyMenu.label"
 },
 {
@@ -232,31 +212,7 @@
 },
 {
 "type": "dtd",
-"id": "fullScreenCmd.label"
-},
-{
-"type": "dtd",
 "id": "appMenuHelp.label"
-},
-{
-"type": "dtd",
-"id": "historyUndoMenu.label"
-},
-{
-"type": "dtd",
-"id": "historyUndoWindowMenu.label"
-},
-{
-"type": "dtd",
-"id": "appMenuHistory.restoreSession.label"
-},
-{
-"type": "dtd",
-"id": "appMenuHistory.clearRecent.label"
-},
-{
-"type": "dtd",
-"id": "appMenuHistory.recentHistory.label"
 },
 {
 "type": "dtd",
@@ -1316,6 +1272,10 @@
 },
 {
 "type": "ftl",
+"id": "main-context-menu-take-frame-screenshot"
+},
+{
+"type": "ftl",
 "id": "main-context-menu-frame-view-source"
 },
 {
@@ -1481,6 +1441,10 @@
 {
 "type": "ftl",
 "id": "popup-select-microphone-icon"
+},
+{
+"type": "ftl",
+"id": "popup-select-speaker-icon"
 },
 {
 "type": "ftl",
@@ -2160,11 +2124,27 @@
 },
 {
 "type": "ftl",
+"id": "appmenuitem-new-window"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-new-private-window"
+},
+{
+"type": "ftl",
+"id": "appmenu-restore-session"
+},
+{
+"type": "ftl",
 "id": "appmenuitem-zoom-reduce"
 },
 {
 "type": "ftl",
 "id": "appmenuitem-zoom-enlarge"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-fullscreen"
 },
 {
 "type": "ftl",
@@ -2193,6 +2173,10 @@
 {
 "type": "ftl",
 "id": "appmenu-fxa-sync-and-save-data2"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-new-tab"
 },
 {
 "type": "ftl",
@@ -2232,6 +2216,10 @@
 },
 {
 "type": "ftl",
+"id": "appmenuitem-fullscreen"
+},
+{
+"type": "ftl",
 "id": "appmenuitem-settings"
 },
 {
@@ -2241,6 +2229,26 @@
 {
 "type": "ftl",
 "id": "appmenuitem-exit2"
+},
+{
+"type": "ftl",
+"id": "appmenu-recently-closed-tabs"
+},
+{
+"type": "ftl",
+"id": "appmenu-recently-closed-windows"
+},
+{
+"type": "ftl",
+"id": "appmenu-restore-session"
+},
+{
+"type": "ftl",
+"id": "appmenu-clear-history"
+},
+{
+"type": "ftl",
+"id": "appmenu-recent-history-subheader"
 },
 {
 "type": "ftl",
@@ -2704,7 +2712,7 @@
 },
 {
 "type": "ftl",
-"id": "menu-bookmarks-show-all"
+"id": "menu-bookmarks-manage"
 },
 {
 "type": "ftl",
