@@ -1,6 +1,6 @@
 {
-"date": "2021-08-06",
-"revision": "fb65320b1106817252bedf17fb42bb843ee0b73b",
+"date": "2021-08-13",
+"revision": "df4b218d495a2b4e86b913ca571e3d2d28f2245d",
 "data": [
 {
 "type": "dtd",
@@ -88,14 +88,6 @@
 },
 {
 "type": "dtd",
-"id": "overflowCustomizeToolbar.accesskey"
-},
-{
-"type": "dtd",
-"id": "overflowCustomizeToolbar.label"
-},
-{
-"type": "dtd",
 "id": "customizeMenu.unpinFromOverflowMenu.accesskey"
 },
 {
@@ -140,58 +132,6 @@
 },
 {
 "type": "dtd",
-"id": "fxa.menu.signin.label"
-},
-{
-"type": "dtd",
-"id": "fullZoom.label"
-},
-{
-"type": "dtd",
-"id": "editMenu.label"
-},
-{
-"type": "dtd",
-"id": "places.library.title"
-},
-{
-"type": "dtd",
-"id": "logins.label"
-},
-{
-"type": "dtd",
-"id": "preferencesCmd2.label"
-},
-{
-"type": "dtd",
-"id": "preferencesCmdUnix.label"
-},
-{
-"type": "dtd",
-"id": "openFileCmd.label"
-},
-{
-"type": "dtd",
-"id": "printCmd.label"
-},
-{
-"type": "dtd",
-"id": "findOnCmd.label"
-},
-{
-"type": "dtd",
-"id": "moreMenu.label"
-},
-{
-"type": "dtd",
-"id": "webDeveloperMenu.label"
-},
-{
-"type": "dtd",
-"id": "appMenuHelp.label"
-},
-{
-"type": "dtd",
 "id": "historyMenu.label"
 },
 {
@@ -209,10 +149,6 @@
 {
 "type": "dtd",
 "id": "appMenuHelp.label"
-},
-{
-"type": "dtd",
-"id": "moreMenu.label"
 },
 {
 "type": "dtd",
@@ -1448,6 +1384,10 @@
 },
 {
 "type": "ftl",
+"id": "toolbar-overflow-customize-button"
+},
+{
+"type": "ftl",
 "id": "toolbar-context-menu-manage-extension"
 },
 {
@@ -2112,58 +2052,6 @@
 },
 {
 "type": "ftl",
-"id": "appmenuitem-protection-dashboard-title"
-},
-{
-"type": "ftl",
-"id": "appmenuitem-new-window"
-},
-{
-"type": "ftl",
-"id": "appmenuitem-new-private-window"
-},
-{
-"type": "ftl",
-"id": "appmenu-restore-session"
-},
-{
-"type": "ftl",
-"id": "appmenuitem-zoom-reduce"
-},
-{
-"type": "ftl",
-"id": "appmenuitem-zoom-enlarge"
-},
-{
-"type": "ftl",
-"id": "appmenuitem-fullscreen"
-},
-{
-"type": "ftl",
-"id": "appmenuitem-addons-and-themes"
-},
-{
-"type": "ftl",
-"id": "appmenu-customizetoolbar"
-},
-{
-"type": "ftl",
-"id": "appmenuitem-save-page"
-},
-{
-"type": "ftl",
-"id": "menu-quit-button-win"
-},
-{
-"type": "ftl",
-"id": "menu-quit-button"
-},
-{
-"type": "ftl",
-"id": "appmenuitem-update-banner3"
-},
-{
-"type": "ftl",
 "id": "appmenu-fxa-sync-and-save-data2"
 },
 {
@@ -2373,14 +2261,6 @@
 {
 "type": "ftl",
 "id": "panic-button-forget-button"
-},
-{
-"type": "ftl",
-"id": "appmenu-taskmanager"
-},
-{
-"type": "ftl",
-"id": "more-menu-go-offline"
 },
 {
 "type": "ftl",
