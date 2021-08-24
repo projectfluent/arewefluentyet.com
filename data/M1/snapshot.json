@@ -1,15 +1,7 @@
 {
-"date": "2021-08-13",
-"revision": "df4b218d495a2b4e86b913ca571e3d2d28f2245d",
+"date": "2021-08-20",
+"revision": "fe930f350465cb4e75a3940f6f58fb5d85757914",
 "data": [
-{
-"type": "dtd",
-"id": "uiTour.infoPanel.close"
-},
-{
-"type": "dtd",
-"id": "allowPopups.accesskey"
-},
 {
 "type": "dtd",
 "id": "editPopupSettings.label"
@@ -21,10 +13,6 @@
 {
 "type": "dtd",
 "id": "editPopupSettings.accesskey"
-},
-{
-"type": "dtd",
-"id": "dontShowMessage.accesskey"
 },
 {
 "type": "dtd",
@@ -77,14 +65,6 @@
 {
 "type": "dtd",
 "id": "spellAddDictionaries.accesskey"
-},
-{
-"type": "dtd",
-"id": "pictureInPictureHideToggle.label"
-},
-{
-"type": "dtd",
-"id": "pictureInPictureHideToggle.accesskey"
 },
 {
 "type": "dtd",
@@ -800,6 +780,10 @@
 },
 {
 "type": "ftl",
+"id": "ui-tour-info-panel-close"
+},
+{
+"type": "ftl",
 "id": "sidebar-menu-bookmarks"
 },
 {
@@ -869,6 +853,10 @@
 {
 "type": "ftl",
 "id": "toolbar-context-menu-view-customize-toolbar-2"
+},
+{
+"type": "ftl",
+"id": "popups-infobar-dont-show-message"
 },
 {
 "type": "ftl",
@@ -1237,6 +1225,10 @@
 {
 "type": "ftl",
 "id": "main-context-menu-eme-learn-more"
+},
+{
+"type": "ftl",
+"id": "picture-in-picture-hide-toggle"
 },
 {
 "type": "ftl",

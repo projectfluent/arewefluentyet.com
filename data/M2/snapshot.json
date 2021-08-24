@@ -1,6 +1,6 @@
 {
-"date": "2021-08-13",
-"revision": "df4b218d495a2b4e86b913ca571e3d2d28f2245d",
+"date": "2021-08-20",
+"revision": "fe930f350465cb4e75a3940f6f58fb5d85757914",
 "data": [
 {
 "type": "properties",
@@ -708,7 +708,7 @@
 "index": "1",
 "call": "BG__beforeUIStartup()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1381",
+"line": "1412",
 "col": "4"
 },
 {
@@ -736,7 +736,7 @@
 "index": "1",
 "call": "BG__beforeUIStartup()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1381",
+"line": "1412",
 "col": "4"
 },
 {
@@ -764,7 +764,7 @@
 "index": "1",
 "call": "dch_handle()",
 "path": "resource:///modules/BrowserContentHandler.jsm",
-"line": "1026",
+"line": "1042",
 "col": "23"
 }
 ],
@@ -2070,18 +2070,6 @@
 "col": "26"
 }
 ],
-"file": null
-},
-{
-"type": "dtd",
-"id": "uiTour.infoPanel.close",
-"stack": null,
-"file": null
-},
-{
-"type": "dtd",
-"id": "allowPopups.accesskey",
-"stack": null,
 "file": null
 },
 {
@@ -2093,12 +2081,6 @@
 {
 "type": "dtd",
 "id": "editPopupSettings.accesskey",
-"stack": null,
-"file": null
-},
-{
-"type": "dtd",
-"id": "dontShowMessage.accesskey",
 "stack": null,
 "file": null
 },
@@ -2177,18 +2159,6 @@
 {
 "type": "dtd",
 "id": "spellAddDictionaries.accesskey",
-"stack": null,
-"file": null
-},
-{
-"type": "dtd",
-"id": "pictureInPictureHideToggle.label",
-"stack": null,
-"file": null
-},
-{
-"type": "dtd",
-"id": "pictureInPictureHideToggle.accesskey",
 "stack": null,
 "file": null
 },
@@ -3020,6 +2990,12 @@
 },
 {
 "type": "ftl",
+"id": "popups-infobar-dont-show-message",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
 "id": "full-screen-autohide",
 "stack": null,
 "file": null
@@ -3537,6 +3513,12 @@
 {
 "type": "ftl",
 "id": "main-context-menu-eme-learn-more",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "picture-in-picture-hide-toggle",
 "stack": null,
 "file": null
 },
@@ -4881,7 +4863,7 @@
 "index": "1",
 "call": "onBeforeInitialXULLayout()",
 "path": "chrome://browser/content/browser.js",
-"line": "1633",
+"line": "1631",
 "col": "28"
 },
 {
@@ -4916,7 +4898,7 @@
 "index": "2",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1692",
+"line": "1690",
 "col": "13"
 },
 {
@@ -4951,7 +4933,7 @@
 "index": "2",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6922",
+"line": "6920",
 "col": "32"
 },
 {
@@ -4972,7 +4954,7 @@
 "index": "5",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1692",
+"line": "1690",
 "col": "13"
 },
 {
@@ -5007,7 +4989,7 @@
 "index": "2",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6922",
+"line": "6920",
 "col": "32"
 },
 {
@@ -5028,7 +5010,7 @@
 "index": "5",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1692",
+"line": "1690",
 "col": "13"
 },
 {
@@ -5056,7 +5038,7 @@
 "index": "1",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6927",
+"line": "6925",
 "col": "23"
 },
 {
@@ -5077,7 +5059,7 @@
 "index": "4",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1692",
+"line": "1690",
 "col": "13"
 },
 {
@@ -5105,7 +5087,7 @@
 "index": "1",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6927",
+"line": "6925",
 "col": "23"
 },
 {
@@ -5126,7 +5108,7 @@
 "index": "4",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1692",
+"line": "1690",
 "col": "13"
 },
 {
@@ -5231,7 +5213,7 @@
 "index": "12",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1692",
+"line": "1690",
 "col": "13"
 },
 {
@@ -5336,7 +5318,7 @@
 "index": "12",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1692",
+"line": "1690",
 "col": "13"
 },
 {
@@ -5441,7 +5423,7 @@
 "index": "12",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1692",
+"line": "1690",
 "col": "13"
 },
 {
@@ -5546,7 +5528,7 @@
 "index": "12",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1692",
+"line": "1690",
 "col": "13"
 },
 {
@@ -5595,28 +5577,28 @@
 "index": "4",
 "call": "_setInitialFocus/<()",
 "path": "chrome://browser/content/browser.js",
-"line": "2162",
+"line": "2160",
 "col": "8"
 },
 {
 "index": "5",
 "call": "_callWithURIToLoad()",
 "path": "chrome://browser/content/browser.js",
-"line": "2435",
+"line": "2433",
 "col": "14"
 },
 {
 "index": "6",
 "call": "_setInitialFocus()",
 "path": "chrome://browser/content/browser.js",
-"line": "2150",
+"line": "2148",
 "col": "9"
 },
 {
 "index": "7",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1726",
+"line": "1724",
 "col": "9"
 },
 {
@@ -5718,7 +5700,7 @@
 "index": "0",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1858",
+"line": "1856",
 "col": "4"
 },
 {
@@ -5753,14 +5735,14 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1943",
+"line": "1941",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1949",
+"line": "1947",
 "col": "32"
 },
 {
@@ -5795,14 +5777,14 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1943",
+"line": "1941",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1949",
+"line": "1947",
 "col": "32"
 },
 {
@@ -5837,14 +5819,14 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1943",
+"line": "1941",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1949",
+"line": "1947",
 "col": "32"
 },
 {
@@ -5879,14 +5861,14 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1943",
+"line": "1941",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1955",
+"line": "1953",
 "col": "32"
 },
 {
@@ -5921,14 +5903,14 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1943",
+"line": "1941",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1955",
+"line": "1953",
 "col": "32"
 },
 {
@@ -5963,14 +5945,14 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1943",
+"line": "1941",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1955",
+"line": "1953",
 "col": "32"
 },
 {
@@ -6040,7 +6022,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2127",
+"line": "2125",
 "col": "17"
 },
 {
@@ -6110,7 +6092,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2127",
+"line": "2125",
 "col": "17"
 },
 {
@@ -6180,7 +6162,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2127",
+"line": "2125",
 "col": "17"
 },
 {
@@ -6250,7 +6232,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2127",
+"line": "2125",
 "col": "17"
 },
 {
@@ -6320,7 +6302,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2127",
+"line": "2125",
 "col": "17"
 },
 {
@@ -6390,7 +6372,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2127",
+"line": "2125",
 "col": "17"
 },
 {
@@ -6460,7 +6442,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2127",
+"line": "2125",
 "col": "17"
 },
 {
@@ -6530,7 +6512,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2127",
+"line": "2125",
 "col": "17"
 },
 {
@@ -6600,7 +6582,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2127",
+"line": "2125",
 "col": "17"
 },
 {
@@ -6670,7 +6652,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2127",
+"line": "2125",
 "col": "17"
 },
 {
@@ -6740,7 +6722,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2127",
+"line": "2125",
 "col": "17"
 },
 {
@@ -6810,7 +6792,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2127",
+"line": "2125",
 "col": "17"
 },
 {
@@ -6880,7 +6862,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2127",
+"line": "2125",
 "col": "17"
 },
 {
@@ -6950,7 +6932,7 @@
 "index": "7",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2127",
+"line": "2125",
 "col": "17"
 },
 {
@@ -6999,7 +6981,7 @@
 "index": "4",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2127",
+"line": "2125",
 "col": "17"
 },
 {
@@ -7048,7 +7030,7 @@
 "index": "4",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2127",
+"line": "2125",
 "col": "17"
 },
 {
@@ -7094,6 +7076,12 @@
 "col": "26"
 }
 ],
+"file": null
+},
+{
+"type": "properties",
+"id": "brandShortName",
+"stack": null,
 "file": null
 },
 {
@@ -7178,7 +7166,7 @@
 "index": "2",
 "call": "onLocationChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5482",
+"line": "5480",
 "col": "22"
 },
 {
@@ -7234,7 +7222,7 @@
 "index": "2",
 "call": "onLocationChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5482",
+"line": "5480",
 "col": "22"
 },
 {
@@ -7300,6 +7288,178 @@
 },
 {
 "type": "properties",
+"id": "VK_CONTROL",
+"stack": [
+{
+"index": "0",
+"call": "getModifierString()",
+"path": "resource://gre/modules/ShortcutUtils.jsm",
+"line": "72",
+"col": "23"
+},
+{
+"index": "1",
+"call": "prettifyShortcut()",
+"path": "resource://gre/modules/ShortcutUtils.jsm",
+"line": "55",
+"col": "26"
+},
+{
+"index": "2",
+"call": "BUI__updateStar()",
+"path": "chrome://browser/content/browser-places.js",
+"line": "1892",
+"col": "30"
+},
+{
+"index": "3",
+"call": "BUI_updateStarState/<()",
+"path": "chrome://browser/content/browser-places.js",
+"line": "1837",
+"col": "13"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "MODIFIER_SEPARATOR",
+"stack": [
+{
+"index": "0",
+"call": "getModifierString()",
+"path": "resource://gre/modules/ShortcutUtils.jsm",
+"line": "73",
+"col": "23"
+},
+{
+"index": "1",
+"call": "prettifyShortcut()",
+"path": "resource://gre/modules/ShortcutUtils.jsm",
+"line": "55",
+"col": "26"
+},
+{
+"index": "2",
+"call": "BUI__updateStar()",
+"path": "chrome://browser/content/browser-places.js",
+"line": "1892",
+"col": "30"
+},
+{
+"index": "3",
+"call": "BUI_updateStarState/<()",
+"path": "chrome://browser/content/browser-places.js",
+"line": "1837",
+"col": "13"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "VK_CONTROL",
+"stack": [
+{
+"index": "0",
+"call": "getModifierString()",
+"path": "resource://gre/modules/ShortcutUtils.jsm",
+"line": "72",
+"col": "23"
+},
+{
+"index": "1",
+"call": "prettifyShortcut()",
+"path": "resource://gre/modules/ShortcutUtils.jsm",
+"line": "55",
+"col": "26"
+},
+{
+"index": "2",
+"call": "updateBookmarkPageMenuItem()",
+"path": "chrome://browser/content/browser-places.js",
+"line": "1955",
+"col": "39"
+},
+{
+"index": "3",
+"call": "BUI__updateStar()",
+"path": "chrome://browser/content/browser-places.js",
+"line": "1901",
+"col": "9"
+},
+{
+"index": "4",
+"call": "BUI_updateStarState/<()",
+"path": "chrome://browser/content/browser-places.js",
+"line": "1837",
+"col": "13"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "MODIFIER_SEPARATOR",
+"stack": [
+{
+"index": "0",
+"call": "getModifierString()",
+"path": "resource://gre/modules/ShortcutUtils.jsm",
+"line": "73",
+"col": "23"
+},
+{
+"index": "1",
+"call": "prettifyShortcut()",
+"path": "resource://gre/modules/ShortcutUtils.jsm",
+"line": "55",
+"col": "26"
+},
+{
+"index": "2",
+"call": "updateBookmarkPageMenuItem()",
+"path": "chrome://browser/content/browser-places.js",
+"line": "1955",
+"col": "39"
+},
+{
+"index": "3",
+"call": "BUI__updateStar()",
+"path": "chrome://browser/content/browser-places.js",
+"line": "1901",
+"col": "9"
+},
+{
+"index": "4",
+"call": "BUI_updateStarState/<()",
+"path": "chrome://browser/content/browser-places.js",
+"line": "1837",
+"col": "13"
+}
+],
+"file": null
+},
+{
+"type": "ftl",
+"id": "menu-bookmark-current-tab",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "urlbar-star-add-bookmark",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "main-context-menu-bookmark-add-with-shortcut",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
 "id": "brandShortName",
 "stack": null,
 "file": null
@@ -7325,178 +7485,6 @@
 {
 "type": "ftl",
 "id": "browser-tab-audio-pip",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "VK_CONTROL",
-"stack": [
-{
-"index": "0",
-"call": "getModifierString()",
-"path": "resource://gre/modules/ShortcutUtils.jsm",
-"line": "72",
-"col": "23"
-},
-{
-"index": "1",
-"call": "prettifyShortcut()",
-"path": "resource://gre/modules/ShortcutUtils.jsm",
-"line": "55",
-"col": "26"
-},
-{
-"index": "2",
-"call": "BUI__updateStar()",
-"path": "chrome://browser/content/browser-places.js",
-"line": "1918",
-"col": "30"
-},
-{
-"index": "3",
-"call": "BUI_updateStarState/<()",
-"path": "chrome://browser/content/browser-places.js",
-"line": "1863",
-"col": "13"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "MODIFIER_SEPARATOR",
-"stack": [
-{
-"index": "0",
-"call": "getModifierString()",
-"path": "resource://gre/modules/ShortcutUtils.jsm",
-"line": "73",
-"col": "23"
-},
-{
-"index": "1",
-"call": "prettifyShortcut()",
-"path": "resource://gre/modules/ShortcutUtils.jsm",
-"line": "55",
-"col": "26"
-},
-{
-"index": "2",
-"call": "BUI__updateStar()",
-"path": "chrome://browser/content/browser-places.js",
-"line": "1918",
-"col": "30"
-},
-{
-"index": "3",
-"call": "BUI_updateStarState/<()",
-"path": "chrome://browser/content/browser-places.js",
-"line": "1863",
-"col": "13"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "VK_CONTROL",
-"stack": [
-{
-"index": "0",
-"call": "getModifierString()",
-"path": "resource://gre/modules/ShortcutUtils.jsm",
-"line": "72",
-"col": "23"
-},
-{
-"index": "1",
-"call": "prettifyShortcut()",
-"path": "resource://gre/modules/ShortcutUtils.jsm",
-"line": "55",
-"col": "26"
-},
-{
-"index": "2",
-"call": "updateBookmarkPageMenuItem()",
-"path": "chrome://browser/content/browser-places.js",
-"line": "1981",
-"col": "39"
-},
-{
-"index": "3",
-"call": "BUI__updateStar()",
-"path": "chrome://browser/content/browser-places.js",
-"line": "1927",
-"col": "9"
-},
-{
-"index": "4",
-"call": "BUI_updateStarState/<()",
-"path": "chrome://browser/content/browser-places.js",
-"line": "1863",
-"col": "13"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "MODIFIER_SEPARATOR",
-"stack": [
-{
-"index": "0",
-"call": "getModifierString()",
-"path": "resource://gre/modules/ShortcutUtils.jsm",
-"line": "73",
-"col": "23"
-},
-{
-"index": "1",
-"call": "prettifyShortcut()",
-"path": "resource://gre/modules/ShortcutUtils.jsm",
-"line": "55",
-"col": "26"
-},
-{
-"index": "2",
-"call": "updateBookmarkPageMenuItem()",
-"path": "chrome://browser/content/browser-places.js",
-"line": "1981",
-"col": "39"
-},
-{
-"index": "3",
-"call": "BUI__updateStar()",
-"path": "chrome://browser/content/browser-places.js",
-"line": "1927",
-"col": "9"
-},
-{
-"index": "4",
-"call": "BUI_updateStarState/<()",
-"path": "chrome://browser/content/browser-places.js",
-"line": "1863",
-"col": "13"
-}
-],
-"file": null
-},
-{
-"type": "ftl",
-"id": "menu-bookmark-current-tab",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "urlbar-star-add-bookmark",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "main-context-menu-bookmark-add-with-shortcut",
 "stack": null,
 "file": null
 },
@@ -7638,6 +7626,24 @@
 },
 {
 "type": "ftl",
+"id": "newtab-custom-pocket-title",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-custom-pocket-subtitle",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-custom-pocket-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
 "id": "newtab-custom-recent-title",
 "stack": null,
 "file": null
@@ -7728,6 +7734,24 @@
 },
 {
 "type": "ftl",
+"id": "newtab-custom-pocket-title",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-custom-pocket-subtitle",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-custom-pocket-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
 "id": "newtab-custom-recent-title",
 "stack": null,
 "file": null
@@ -7860,6 +7884,24 @@
 },
 {
 "type": "ftl",
+"id": "newtab-section-header-pocket",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-pocket-learn-more",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.accept_languages",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
 "id": "newtab-section-header-topsites",
 "stack": null,
 "file": null
@@ -7961,8 +8003,14 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "intl.accept_languages",
+"type": "ftl",
+"id": "newtab-section-header-pocket",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-pocket-learn-more",
 "stack": null,
 "file": null
 },
@@ -8051,36 +8099,6 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-custom-pocket-title",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-custom-pocket-subtitle",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-custom-pocket-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-header-pocket",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-pocket-learn-more",
-"stack": null,
-"file": null
-},
-{
 "type": "properties",
 "id": "10",
 "stack": null,
@@ -8141,32 +8159,74 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-custom-pocket-title",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-custom-pocket-subtitle",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-custom-pocket-sponsored",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-section-header-pocket",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-pocket-learn-more",
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -8238,313 +8298,13 @@
 },
 {
 "type": "properties",
-"id": "6",
+"id": "12",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-header-topsites",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-header-pocket",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-pocket-learn-more",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-header-topsites",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-header-pocket",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-pocket-learn-more",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
+"id": "12",
 "stack": null,
 "file": null
 },
@@ -8605,14 +8365,14 @@
 "index": "7",
 "call": "task()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2314",
+"line": "2345",
 "col": "12"
 },
 {
 "index": "8",
 "call": "_scheduleStartupIdleTasks/<()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2617",
+"line": "2648",
 "col": "19"
 }
 ],
@@ -8675,14 +8435,14 @@
 "index": "7",
 "call": "task()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2314",
+"line": "2345",
 "col": "12"
 },
 {
 "index": "8",
 "call": "_scheduleStartupIdleTasks/<()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2617",
+"line": "2648",
 "col": "19"
 }
 ],
@@ -8732,13 +8492,25 @@
 },
 {
 "type": "properties",
-"id": "12",
+"id": "13",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "12",
+"id": "13",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
 "stack": null,
 "file": null
 },
@@ -8749,21 +8521,21 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "103",
 "col": "51"
 },
 {
 "index": "1",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "2",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -8777,28 +8549,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -8812,28 +8584,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -8847,28 +8619,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -8882,28 +8654,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -8917,28 +8689,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -8952,28 +8724,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -8987,28 +8759,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9022,28 +8794,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9057,28 +8829,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9092,28 +8864,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9127,28 +8899,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9162,28 +8934,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9197,28 +8969,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9232,28 +9004,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9267,28 +9039,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9302,28 +9074,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9337,28 +9109,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9372,28 +9144,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9407,28 +9179,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9442,28 +9214,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9477,28 +9249,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9512,28 +9284,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9547,28 +9319,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9582,28 +9354,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9617,28 +9389,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9652,28 +9424,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9687,28 +9459,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9722,28 +9494,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9757,28 +9529,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9792,28 +9564,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9827,28 +9599,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9862,28 +9634,28 @@
 {
 "index": "0",
 "call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "150",
 "col": "41"
 },
 {
 "index": "1",
 "call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "125",
 "col": "13"
 },
 {
 "index": "2",
 "call": "_ensureStoreInitialized()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "79",
 "col": "11"
 },
 {
 "index": "3",
 "call": "asyncInit/<()",
-"path": "file:///home/zbraniecki/projects/mozilla-unified/obj-x86_64-pc-linux-gnu-opt/dist/bin/components/HandlerService.js",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
 "line": "389",
 "col": "17"
 }
@@ -9899,30 +9671,6 @@
 {
 "type": "ftl",
 "id": "appmenu-fxa-sync-and-save-data2",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "13",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "13",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
 "stack": null,
 "file": null
 },
@@ -9953,180 +9701,6 @@
 {
 "type": "ftl",
 "id": "newtab-search-box-handoff-text",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
@@ -10229,26 +9803,86 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "12",
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "12",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "12",
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "12",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
@@ -10259,74 +9893,116 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-pocket-read-more",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-menu-privacy-notice",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "10",
+"id": "intl.accept_languages",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "6",
+"type": "ftl",
+"id": "newtab-pocket-read-more",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
+"type": "ftl",
+"id": "newtab-section-menu-privacy-notice",
 "stack": null,
 "file": null
 },
@@ -10337,6 +10013,126 @@
 "file": null
 },
 {
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
 "type": "properties",
 "id": "10",
 "stack": null,
@@ -10405,6 +10201,234 @@
 {
 "type": "properties",
 "id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -10422,493 +10446,13 @@
 },
 {
 "type": "properties",
-"id": "6",
+"id": "12",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-pocket-read-more",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-menu-privacy-notice",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "13",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "13",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-pocket-read-more",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-menu-privacy-notice",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"id": "12",
 "stack": null,
 "file": null
 },
@@ -10961,78 +10505,6 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
 "type": "ftl",
 "id": "newtab-menu-content-tooltip",
 "stack": null,
@@ -11047,6 +10519,66 @@
 {
 "type": "ftl",
 "id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -11117,74 +10649,26 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -12048,118 +11532,6 @@
 },
 {
 "type": "properties",
-"id": "extension.firefox-alpenglow@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1331",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1438",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "258",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1482",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "692",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "extension.firefox-alpenglow@mozilla.org.name",
-"stack": [
-{
-"index": "0",
-"call": "chooseValue()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1331",
-"col": "21"
-},
-{
-"index": "1",
-"call": "anonymous()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "1438",
-"col": "46"
-},
-{
-"index": "2",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "157",
-"col": "12"
-},
-{
-"index": "3",
-"call": "reduce()",
-"path": "self-hosted",
-"line": "258",
-"col": "20"
-},
-{
-"index": "4",
-"call": "get addons/<()",
-"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
-"line": "149",
-"col": "20"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1482",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "692",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
 "id": "extension.firefox-compact-dark@mozilla.org.name",
 "stack": [
 {
@@ -12217,6 +11589,118 @@
 {
 "type": "properties",
 "id": "extension.firefox-compact-dark@mozilla.org.name",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1331",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1438",
+"col": "46"
+},
+{
+"index": "2",
+"call": "get addons/<()",
+"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
+"line": "157",
+"col": "12"
+},
+{
+"index": "3",
+"call": "reduce()",
+"path": "self-hosted",
+"line": "258",
+"col": "20"
+},
+{
+"index": "4",
+"call": "get addons/<()",
+"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
+"line": "149",
+"col": "20"
+},
+{
+"index": "5",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1482",
+"col": "33"
+},
+{
+"index": "6",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "692",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.firefox-alpenglow@mozilla.org.name",
+"stack": [
+{
+"index": "0",
+"call": "chooseValue()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1331",
+"col": "21"
+},
+{
+"index": "1",
+"call": "anonymous()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "1438",
+"col": "46"
+},
+{
+"index": "2",
+"call": "get addons/<()",
+"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
+"line": "157",
+"col": "12"
+},
+{
+"index": "3",
+"call": "reduce()",
+"path": "self-hosted",
+"line": "258",
+"col": "20"
+},
+{
+"index": "4",
+"call": "get addons/<()",
+"path": "resource://gre/modules/components-utils/ClientEnvironment.jsm",
+"line": "149",
+"col": "20"
+},
+{
+"index": "5",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1482",
+"col": "33"
+},
+{
+"index": "6",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "692",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "extension.firefox-alpenglow@mozilla.org.name",
 "stack": [
 {
 "index": "0",
@@ -12940,6 +12424,192 @@
 "col": "26"
 }
 ],
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "13",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "13",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "tab-context-new-tab",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "reload-tab",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "reload-tabs",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "pin-tab",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "unpin-tab",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "pin-selected-tabs",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "unpin-selected-tabs",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "duplicate-tab",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "duplicate-tabs",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "bookmark-selected-tabs",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "bookmark-tab",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "tab-context-move-tabs",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "move-to-start",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "move-to-end",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "move-to-new-window",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "tab-context-open-in-new-container-tab",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "select-all-tabs",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "tab-context-close-n-tabs",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "tab-context-close-multiple-tabs",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "close-tabs-to-the-start",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "close-tabs-to-the-end",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "close-other-tabs",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "tab-context-reopen-closed-tabs",
+"stack": null,
 "file": null
 },
 {
@@ -12986,7 +12656,7 @@
 "index": "0",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2850",
+"line": "2881",
 "col": "41"
 },
 {
@@ -13005,17 +12675,17 @@
 },
 {
 "index": "3",
-"call": "goQuitApplication()",
+"call": "closeWindow()",
 "path": "chrome://global/content/globalOverlay.js",
-"line": "93",
-"col": "7"
+"line": "23",
+"col": "29"
 },
 {
 "index": "4",
-"call": "oncommand()",
-"path": "chrome://browser/content/browser.xhtml",
-"line": "1",
-"col": "17"
+"call": "WindowIsClosing()",
+"path": "chrome://browser/content/browser.js",
+"line": "8039",
+"col": "7"
 }
 ],
 "file": null
@@ -13042,7 +12712,7 @@
 "index": "2",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2851",
+"line": "2882",
 "col": "6"
 },
 {
@@ -13061,17 +12731,17 @@
 },
 {
 "index": "5",
-"call": "goQuitApplication()",
+"call": "closeWindow()",
 "path": "chrome://global/content/globalOverlay.js",
-"line": "93",
-"col": "7"
+"line": "23",
+"col": "29"
 },
 {
 "index": "6",
-"call": "oncommand()",
-"path": "chrome://browser/content/browser.xhtml",
-"line": "1",
-"col": "17"
+"call": "WindowIsClosing()",
+"path": "chrome://browser/content/browser.js",
+"line": "8039",
+"col": "7"
 }
 ],
 "file": null
@@ -13084,7 +12754,7 @@
 "index": "0",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2867",
+"line": "2898",
 "col": "26"
 },
 {
@@ -13103,17 +12773,17 @@
 },
 {
 "index": "3",
-"call": "goQuitApplication()",
+"call": "closeWindow()",
 "path": "chrome://global/content/globalOverlay.js",
-"line": "93",
-"col": "7"
+"line": "23",
+"col": "29"
 },
 {
 "index": "4",
-"call": "oncommand()",
-"path": "chrome://browser/content/browser.xhtml",
-"line": "1",
-"col": "17"
+"call": "WindowIsClosing()",
+"path": "chrome://browser/content/browser.js",
+"line": "8039",
+"col": "7"
 }
 ],
 "file": null
@@ -13126,7 +12796,7 @@
 "index": "0",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2873",
+"line": "2904",
 "col": "24"
 },
 {
@@ -13145,17 +12815,17 @@
 },
 {
 "index": "3",
-"call": "goQuitApplication()",
+"call": "closeWindow()",
 "path": "chrome://global/content/globalOverlay.js",
-"line": "93",
-"col": "7"
+"line": "23",
+"col": "29"
 },
 {
 "index": "4",
-"call": "oncommand()",
-"path": "chrome://browser/content/browser.xhtml",
-"line": "1",
-"col": "17"
+"call": "WindowIsClosing()",
+"path": "chrome://browser/content/browser.js",
+"line": "8039",
+"col": "7"
 }
 ],
 "file": null
@@ -13168,7 +12838,7 @@
 "index": "0",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2876",
+"line": "2907",
 "col": "24"
 },
 {
@@ -13187,17 +12857,17 @@
 },
 {
 "index": "3",
-"call": "goQuitApplication()",
+"call": "closeWindow()",
 "path": "chrome://global/content/globalOverlay.js",
-"line": "93",
-"col": "7"
+"line": "23",
+"col": "29"
 },
 {
 "index": "4",
-"call": "oncommand()",
-"path": "chrome://browser/content/browser.xhtml",
-"line": "1",
-"col": "17"
+"call": "WindowIsClosing()",
+"path": "chrome://browser/content/browser.js",
+"line": "8039",
+"col": "7"
 }
 ],
 "file": null
@@ -13238,7 +12908,7 @@
 "index": "4",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2871",
+"line": "2902",
 "col": "40"
 },
 {
@@ -13257,17 +12927,17 @@
 },
 {
 "index": "7",
-"call": "goQuitApplication()",
+"call": "closeWindow()",
 "path": "chrome://global/content/globalOverlay.js",
-"line": "93",
-"col": "7"
+"line": "23",
+"col": "29"
 },
 {
 "index": "8",
-"call": "oncommand()",
-"path": "chrome://browser/content/browser.xhtml",
-"line": "1",
-"col": "17"
+"call": "WindowIsClosing()",
+"path": "chrome://browser/content/browser.js",
+"line": "8039",
+"col": "7"
 }
 ],
 "file": null
@@ -13353,7 +13023,7 @@
 "index": "7",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2871",
+"line": "2902",
 "col": "40"
 },
 {
@@ -13372,17 +13042,17 @@
 },
 {
 "index": "10",
-"call": "goQuitApplication()",
+"call": "closeWindow()",
 "path": "chrome://global/content/globalOverlay.js",
-"line": "93",
-"col": "7"
+"line": "23",
+"col": "29"
 },
 {
 "index": "11",
-"call": "oncommand()",
-"path": "chrome://browser/content/browser.xhtml",
-"line": "1",
-"col": "17"
+"call": "WindowIsClosing()",
+"path": "chrome://browser/content/browser.js",
+"line": "8039",
+"col": "7"
 }
 ],
 "file": null
@@ -13444,7 +13114,7 @@
 "index": "7",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2871",
+"line": "2902",
 "col": "40"
 },
 {
@@ -13463,17 +13133,17 @@
 },
 {
 "index": "10",
-"call": "goQuitApplication()",
+"call": "closeWindow()",
 "path": "chrome://global/content/globalOverlay.js",
-"line": "93",
-"col": "7"
+"line": "23",
+"col": "29"
 },
 {
 "index": "11",
-"call": "oncommand()",
-"path": "chrome://browser/content/browser.xhtml",
-"line": "1",
-"col": "17"
+"call": "WindowIsClosing()",
+"path": "chrome://browser/content/browser.js",
+"line": "8039",
+"col": "7"
 }
 ],
 "file": null
@@ -13546,7 +13216,7 @@
 "index": "6",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2871",
+"line": "2902",
 "col": "40"
 },
 {
@@ -13565,17 +13235,17 @@
 },
 {
 "index": "9",
-"call": "goQuitApplication()",
+"call": "closeWindow()",
 "path": "chrome://global/content/globalOverlay.js",
-"line": "93",
-"col": "7"
+"line": "23",
+"col": "29"
 },
 {
 "index": "10",
-"call": "oncommand()",
-"path": "chrome://browser/content/browser.xhtml",
-"line": "1",
-"col": "17"
+"call": "WindowIsClosing()",
+"path": "chrome://browser/content/browser.js",
+"line": "8039",
+"col": "7"
 }
 ],
 "file": null
@@ -13630,7 +13300,7 @@
 "index": "6",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2871",
+"line": "2902",
 "col": "40"
 },
 {
@@ -13649,17 +13319,17 @@
 },
 {
 "index": "9",
-"call": "goQuitApplication()",
+"call": "closeWindow()",
 "path": "chrome://global/content/globalOverlay.js",
-"line": "93",
-"col": "7"
+"line": "23",
+"col": "29"
 },
 {
 "index": "10",
-"call": "oncommand()",
-"path": "chrome://browser/content/browser.xhtml",
-"line": "1",
-"col": "17"
+"call": "WindowIsClosing()",
+"path": "chrome://browser/content/browser.js",
+"line": "8039",
+"col": "7"
 }
 ],
 "file": null
@@ -13714,7 +13384,7 @@
 "index": "6",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2871",
+"line": "2902",
 "col": "40"
 },
 {
@@ -13733,17 +13403,17 @@
 },
 {
 "index": "9",
-"call": "goQuitApplication()",
+"call": "closeWindow()",
 "path": "chrome://global/content/globalOverlay.js",
-"line": "93",
-"col": "7"
+"line": "23",
+"col": "29"
 },
 {
 "index": "10",
-"call": "oncommand()",
-"path": "chrome://browser/content/browser.xhtml",
-"line": "1",
-"col": "17"
+"call": "WindowIsClosing()",
+"path": "chrome://browser/content/browser.js",
+"line": "8039",
+"col": "7"
 }
 ],
 "file": null
@@ -13798,7 +13468,7 @@
 "index": "6",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2871",
+"line": "2902",
 "col": "40"
 },
 {
@@ -13817,17 +13487,17 @@
 },
 {
 "index": "9",
-"call": "goQuitApplication()",
+"call": "closeWindow()",
 "path": "chrome://global/content/globalOverlay.js",
-"line": "93",
-"col": "7"
+"line": "23",
+"col": "29"
 },
 {
 "index": "10",
-"call": "oncommand()",
-"path": "chrome://browser/content/browser.xhtml",
-"line": "1",
-"col": "17"
+"call": "WindowIsClosing()",
+"path": "chrome://browser/content/browser.js",
+"line": "8039",
+"col": "7"
 }
 ],
 "file": null
@@ -13882,7 +13552,7 @@
 "index": "6",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2871",
+"line": "2902",
 "col": "40"
 },
 {
@@ -13901,17 +13571,17 @@
 },
 {
 "index": "9",
-"call": "goQuitApplication()",
+"call": "closeWindow()",
 "path": "chrome://global/content/globalOverlay.js",
-"line": "93",
-"col": "7"
+"line": "23",
+"col": "29"
 },
 {
 "index": "10",
-"call": "oncommand()",
-"path": "chrome://browser/content/browser.xhtml",
-"line": "1",
-"col": "17"
+"call": "WindowIsClosing()",
+"path": "chrome://browser/content/browser.js",
+"line": "8039",
+"col": "7"
 }
 ],
 "file": null
@@ -13966,7 +13636,7 @@
 "index": "6",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2871",
+"line": "2902",
 "col": "40"
 },
 {
@@ -13985,17 +13655,17 @@
 },
 {
 "index": "9",
-"call": "goQuitApplication()",
+"call": "closeWindow()",
 "path": "chrome://global/content/globalOverlay.js",
-"line": "93",
-"col": "7"
+"line": "23",
+"col": "29"
 },
 {
 "index": "10",
-"call": "oncommand()",
-"path": "chrome://browser/content/browser.xhtml",
-"line": "1",
-"col": "17"
+"call": "WindowIsClosing()",
+"path": "chrome://browser/content/browser.js",
+"line": "8039",
+"col": "7"
 }
 ],
 "file": null
@@ -14050,7 +13720,7 @@
 "index": "6",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2871",
+"line": "2902",
 "col": "40"
 },
 {
@@ -14069,17 +13739,17 @@
 },
 {
 "index": "9",
-"call": "goQuitApplication()",
+"call": "closeWindow()",
 "path": "chrome://global/content/globalOverlay.js",
-"line": "93",
-"col": "7"
+"line": "23",
+"col": "29"
 },
 {
 "index": "10",
-"call": "oncommand()",
-"path": "chrome://browser/content/browser.xhtml",
-"line": "1",
-"col": "17"
+"call": "WindowIsClosing()",
+"path": "chrome://browser/content/browser.js",
+"line": "8039",
+"col": "7"
 }
 ],
 "file": null
@@ -14134,7 +13804,7 @@
 "index": "6",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2871",
+"line": "2902",
 "col": "40"
 },
 {
@@ -14153,17 +13823,17 @@
 },
 {
 "index": "9",
-"call": "goQuitApplication()",
+"call": "closeWindow()",
 "path": "chrome://global/content/globalOverlay.js",
-"line": "93",
-"col": "7"
+"line": "23",
+"col": "29"
 },
 {
 "index": "10",
-"call": "oncommand()",
-"path": "chrome://browser/content/browser.xhtml",
-"line": "1",
-"col": "17"
+"call": "WindowIsClosing()",
+"path": "chrome://browser/content/browser.js",
+"line": "8039",
+"col": "7"
 }
 ],
 "file": null
@@ -14218,7 +13888,7 @@
 "index": "6",
 "call": "BG__onQuitRequest()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2871",
+"line": "2902",
 "col": "40"
 },
 {
@@ -14237,17 +13907,17 @@
 },
 {
 "index": "9",
-"call": "goQuitApplication()",
+"call": "closeWindow()",
 "path": "chrome://global/content/globalOverlay.js",
-"line": "93",
-"col": "7"
+"line": "23",
+"col": "29"
 },
 {
 "index": "10",
-"call": "oncommand()",
-"path": "chrome://browser/content/browser.xhtml",
-"line": "1",
-"col": "17"
+"call": "WindowIsClosing()",
+"path": "chrome://browser/content/browser.js",
+"line": "8039",
+"col": "7"
 }
 ],
 "file": null
@@ -14358,21 +14028,21 @@
 "index": "2",
 "call": "updateBookmarkPageMenuItem()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1981",
+"line": "1955",
 "col": "39"
 },
 {
 "index": "3",
 "call": "BUI_uninit()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1812",
+"line": "1786",
 "col": "9"
 },
 {
 "index": "4",
 "call": "onUnload()",
 "path": "chrome://browser/content/browser.js",
-"line": "2475",
+"line": "2473",
 "col": "18"
 },
 {
@@ -14407,21 +14077,21 @@
 "index": "2",
 "call": "updateBookmarkPageMenuItem()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1981",
+"line": "1955",
 "col": "39"
 },
 {
 "index": "3",
 "call": "BUI_uninit()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1812",
+"line": "1786",
 "col": "9"
 },
 {
 "index": "4",
 "call": "onUnload()",
 "path": "chrome://browser/content/browser.js",
-"line": "2475",
+"line": "2473",
 "col": "18"
 },
 {
