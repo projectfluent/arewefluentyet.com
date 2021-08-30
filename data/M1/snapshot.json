@@ -1,6 +1,6 @@
 {
-"date": "2021-08-20",
-"revision": "fe930f350465cb4e75a3940f6f58fb5d85757914",
+"date": "2021-08-27",
+"revision": "98019dadfffe3a9ee936622e7c40724b241d5605",
 "data": [
 {
 "type": "dtd",
@@ -13,58 +13,6 @@
 {
 "type": "dtd",
 "id": "editPopupSettings.accesskey"
-},
-{
-"type": "dtd",
-"id": "spellAddToDictionary.label"
-},
-{
-"type": "dtd",
-"id": "spellAddToDictionary.accesskey"
-},
-{
-"type": "dtd",
-"id": "spellUndoAddToDictionary.label"
-},
-{
-"type": "dtd",
-"id": "spellUndoAddToDictionary.accesskey"
-},
-{
-"type": "dtd",
-"id": "openLinkCmdInTab.accesskey"
-},
-{
-"type": "dtd",
-"id": "spellCheckToggle.label"
-},
-{
-"type": "dtd",
-"id": "spellCheckToggle.accesskey"
-},
-{
-"type": "dtd",
-"id": "spellAddDictionaries.label"
-},
-{
-"type": "dtd",
-"id": "spellAddDictionaries.accesskey"
-},
-{
-"type": "dtd",
-"id": "spellDictionaries.label"
-},
-{
-"type": "dtd",
-"id": "spellDictionaries.accesskey"
-},
-{
-"type": "dtd",
-"id": "spellAddDictionaries.label"
-},
-{
-"type": "dtd",
-"id": "spellAddDictionaries.accesskey"
 },
 {
 "type": "dtd",
@@ -908,7 +856,19 @@
 },
 {
 "type": "ftl",
+"id": "text-action-spell-add-to-dictionary"
+},
+{
+"type": "ftl",
+"id": "text-action-spell-undo-add-to-dictionary"
+},
+{
+"type": "ftl",
 "id": "main-context-menu-open-link"
+},
+{
+"type": "ftl",
+"id": "main-context-menu-open-link-in-container-tab"
 },
 {
 "type": "ftl",
@@ -1197,6 +1157,22 @@
 {
 "type": "ftl",
 "id": "main-context-menu-frame-view-info"
+},
+{
+"type": "ftl",
+"id": "text-action-spell-check-toggle"
+},
+{
+"type": "ftl",
+"id": "text-action-spell-add-dictionaries"
+},
+{
+"type": "ftl",
+"id": "text-action-spell-dictionaries"
+},
+{
+"type": "ftl",
+"id": "text-action-spell-add-dictionaries"
 },
 {
 "type": "ftl",
