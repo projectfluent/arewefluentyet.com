@@ -1,63 +1,7 @@
 {
-"date": "2021-08-27",
-"revision": "98019dadfffe3a9ee936622e7c40724b241d5605",
+"date": "2021-09-03",
+"revision": "ff8d4b53a61249dce1b7c6e77c87e156ea9610fc",
 "data": [
-{
-"type": "dtd",
-"id": "editPopupSettings.label"
-},
-{
-"type": "dtd",
-"id": "editPopupSettingsUnix.label"
-},
-{
-"type": "dtd",
-"id": "editPopupSettings.accesskey"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.unpinFromOverflowMenu.accesskey"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.unpinFromOverflowMenu.label"
-},
-{
-"type": "dtd",
-"id": "panicButton.thankyou.msg1"
-},
-{
-"type": "dtd",
-"id": "panicButton.thankyou.msg2"
-},
-{
-"type": "dtd",
-"id": "panicButton.thankyou.buttonlabel"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.addToToolbar.accesskey"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.addToToolbar.label"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.addToOverflowMenu.accesskey"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.addToOverflowMenu.label"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.addMoreItems.accesskey"
-},
-{
-"type": "dtd",
-"id": "customizeMenu.addMoreItems.label"
-},
 {
 "type": "dtd",
 "id": "historyMenu.label"
@@ -76,83 +20,11 @@
 },
 {
 "type": "dtd",
-"id": "appMenuHelp.label"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.showAll.label"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.showAll.tooltip"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.showMore.tooltip"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.notabs.label"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.tabsnotsyncing.label"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.opensyncprefs.label"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.noclients.subtitle"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.connectdevice.label"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.welcome.label"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.welcome.label"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.welcome.label"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.unverified.label"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.opensyncprefs.label"
-},
-{
-"type": "dtd",
 "id": "fxa.menu.signin.label"
 },
 {
 "type": "dtd",
 "id": "fxa.menu.signin.label"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.showAll.label"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.showAll.tooltip"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.showMore.tooltip"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.notabs.label"
 },
 {
 "type": "dtd",
@@ -169,10 +41,6 @@
 {
 "type": "dtd",
 "id": "fxa.service.sendTab.description"
-},
-{
-"type": "dtd",
-"id": "appMenuRemoteTabs.connectdevice.label"
 },
 {
 "type": "dtd",
@@ -261,10 +129,6 @@
 {
 "type": "dtd",
 "id": "places.library.title"
-},
-{
-"type": "dtd",
-"id": "sidebarCloseButton.tooltip"
 },
 {
 "type": "ftl",
@@ -628,6 +492,10 @@
 },
 {
 "type": "ftl",
+"id": "tab-context-send-tabs-to-device"
+},
+{
+"type": "ftl",
 "id": "tab-context-open-in-new-container-tab"
 },
 {
@@ -801,6 +669,10 @@
 {
 "type": "ftl",
 "id": "toolbar-context-menu-view-customize-toolbar-2"
+},
+{
+"type": "ftl",
+"id": "edit-popup-settings"
 },
 {
 "type": "ftl",
@@ -1248,15 +1120,15 @@
 },
 {
 "type": "ftl",
-"id": "places-edit-folder"
+"id": "places-edit-folder2"
 },
 {
 "type": "ftl",
-"id": "places-remove-bookmark"
+"id": "places-delete-bookmark"
 },
 {
 "type": "ftl",
-"id": "places-remove-folder"
+"id": "places-delete-folder"
 },
 {
 "type": "ftl",
@@ -1372,11 +1244,27 @@
 },
 {
 "type": "ftl",
+"id": "customize-menu-unpin-from-overflowmenu"
+},
+{
+"type": "ftl",
 "id": "toolbar-context-menu-remove-from-toolbar"
 },
 {
 "type": "ftl",
 "id": "toolbar-context-menu-view-customize-toolbar"
+},
+{
+"type": "ftl",
+"id": "panic-button-thankyou-msg1"
+},
+{
+"type": "ftl",
+"id": "panic-button-thankyou-msg2"
+},
+{
+"type": "ftl",
+"id": "panic-button-thankyou-button"
 },
 {
 "type": "ftl",
@@ -1429,6 +1317,14 @@
 {
 "type": "ftl",
 "id": "appmenu-addon-post-install-incognito-checkbox"
+},
+{
+"type": "ftl",
+"id": "customize-menu-add-to-toolbar"
+},
+{
+"type": "ftl",
+"id": "customize-menu-add-to-overflowmenu"
 },
 {
 "type": "ftl",
@@ -1900,7 +1796,7 @@
 },
 {
 "type": "ftl",
-"id": "downloads-panel-list"
+"id": "downloads-panel-items"
 },
 {
 "type": "ftl",
@@ -2073,6 +1969,10 @@
 {
 "type": "ftl",
 "id": "appmenuitem-more-tools"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-help"
 },
 {
 "type": "ftl",
@@ -2256,7 +2156,31 @@
 },
 {
 "type": "ftl",
+"id": "appmenu-remote-tabs-tabsnotsyncing"
+},
+{
+"type": "ftl",
+"id": "appmenu-remote-tabs-opensettings"
+},
+{
+"type": "ftl",
+"id": "appmenu-remote-tabs-noclients"
+},
+{
+"type": "ftl",
+"id": "appmenu-remote-tabs-connectdevice"
+},
+{
+"type": "ftl",
+"id": "appmenu-remote-tabs-welcome"
+},
+{
+"type": "ftl",
 "id": "appmenu-remote-tabs-sign-into-sync"
+},
+{
+"type": "ftl",
+"id": "appmenu-remote-tabs-welcome"
 },
 {
 "type": "ftl",
@@ -2264,7 +2188,19 @@
 },
 {
 "type": "ftl",
+"id": "appmenu-remote-tabs-welcome"
+},
+{
+"type": "ftl",
 "id": "appmenu-remote-tabs-sign-into-sync"
+},
+{
+"type": "ftl",
+"id": "appmenu-remote-tabs-unverified"
+},
+{
+"type": "ftl",
+"id": "appmenu-remote-tabs-opensettings"
 },
 {
 "type": "ftl",
@@ -2297,6 +2233,10 @@
 {
 "type": "ftl",
 "id": "fxa-menu-sign-out"
+},
+{
+"type": "ftl",
+"id": "appmenu-remote-tabs-connectdevice"
 },
 {
 "type": "ftl",
@@ -3025,6 +2965,10 @@
 {
 "type": "ftl",
 "id": "bookmarks-manage-bookmarks"
+},
+{
+"type": "ftl",
+"id": "sidebar-close-button"
 },
 {
 "type": "ftl",
