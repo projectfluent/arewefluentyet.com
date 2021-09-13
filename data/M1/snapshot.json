@@ -1,55 +1,7 @@
 {
-"date": "2021-09-03",
-"revision": "ff8d4b53a61249dce1b7c6e77c87e156ea9610fc",
+"date": "2021-09-10",
+"revision": "9cbf4fe3f852cede86354eb884cd33d305026b17",
 "data": [
-{
-"type": "dtd",
-"id": "historyMenu.label"
-},
-{
-"type": "dtd",
-"id": "libraryDownloads.label"
-},
-{
-"type": "dtd",
-"id": "printCmd.label"
-},
-{
-"type": "dtd",
-"id": "fullZoom.label"
-},
-{
-"type": "dtd",
-"id": "fxa.menu.signin.label"
-},
-{
-"type": "dtd",
-"id": "fxa.menu.signin.label"
-},
-{
-"type": "dtd",
-"id": "sendToDevice.syncNotReady.label"
-},
-{
-"type": "dtd",
-"id": "fxa.service.sendTab.description"
-},
-{
-"type": "dtd",
-"id": "fxa.menu.signin.label"
-},
-{
-"type": "dtd",
-"id": "fxa.service.sendTab.description"
-},
-{
-"type": "dtd",
-"id": "historyMenu.label"
-},
-{
-"type": "dtd",
-"id": "libraryDownloads.label"
-},
 {
 "type": "dtd",
 "id": "menubarCmd.label"
@@ -101,14 +53,6 @@
 {
 "type": "dtd",
 "id": "printButton.label"
-},
-{
-"type": "dtd",
-"id": "newNavigatorCmd.label"
-},
-{
-"type": "dtd",
-"id": "fullScreenCmd.label"
 },
 {
 "type": "dtd",
@@ -1936,6 +1880,14 @@
 },
 {
 "type": "ftl",
+"id": "appmenuitem-history"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-downloads"
+},
+{
+"type": "ftl",
 "id": "appmenuitem-passwords"
 },
 {
@@ -1944,11 +1896,19 @@
 },
 {
 "type": "ftl",
+"id": "appmenuitem-print"
+},
+{
+"type": "ftl",
 "id": "appmenuitem-save-page"
 },
 {
 "type": "ftl",
 "id": "appmenuitem-find-in-page"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-zoom"
 },
 {
 "type": "ftl",
@@ -2140,11 +2100,11 @@
 },
 {
 "type": "ftl",
-"id": "remote-tabs-sync-now"
+"id": "appmenuitem-fxa-toolbar-sync-now2"
 },
 {
 "type": "ftl",
-"id": "remote-tabs-sync-now"
+"id": "appmenuitem-fxa-toolbar-sync-now2"
 },
 {
 "type": "ftl",
@@ -2152,7 +2112,7 @@
 },
 {
 "type": "ftl",
-"id": "remote-tabs-manage-account"
+"id": "appmenuitem-fxa-manage-account"
 },
 {
 "type": "ftl",
@@ -2204,6 +2164,10 @@
 },
 {
 "type": "ftl",
+"id": "appmenuitem-fxa-sign-in"
+},
+{
+"type": "ftl",
 "id": "fxa-menu-turn-on-sync"
 },
 {
@@ -2236,11 +2200,35 @@
 },
 {
 "type": "ftl",
+"id": "fxa-menu-send-tab-to-device-syncnotready"
+},
+{
+"type": "ftl",
+"id": "fxa-menu-send-tab-to-device-description"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-fxa-sign-in"
+},
+{
+"type": "ftl",
+"id": "fxa-menu-send-tab-to-device-description"
+},
+{
+"type": "ftl",
 "id": "appmenu-remote-tabs-connectdevice"
 },
 {
 "type": "ftl",
 "id": "library-bookmarks-menu"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-history"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-downloads"
 },
 {
 "type": "ftl",
@@ -2933,6 +2921,14 @@
 {
 "type": "ftl",
 "id": "browser-import-button2"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-new-window"
+},
+{
+"type": "ftl",
+"id": "appmenuitem-fullscreen"
 },
 {
 "type": "ftl",

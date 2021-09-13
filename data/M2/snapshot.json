@@ -1,6 +1,6 @@
 {
-"date": "2021-09-03",
-"revision": "ff8d4b53a61249dce1b7c6e77c87e156ea9610fc",
+"date": "2021-09-10",
+"revision": "9cbf4fe3f852cede86354eb884cd33d305026b17",
 "data": [
 {
 "type": "properties",
@@ -50,7 +50,7 @@
 "index": "4",
 "call": "syncLoadManifest()",
 "path": "resource://gre/modules/addons/XPIInstall.jsm",
-"line": "761",
+"line": "754",
 "col": "21"
 },
 {
@@ -155,7 +155,7 @@
 "index": "4",
 "call": "syncLoadManifest()",
 "path": "resource://gre/modules/addons/XPIInstall.jsm",
-"line": "761",
+"line": "754",
 "col": "21"
 },
 {
@@ -260,7 +260,7 @@
 "index": "4",
 "call": "syncLoadManifest()",
 "path": "resource://gre/modules/addons/XPIInstall.jsm",
-"line": "761",
+"line": "754",
 "col": "21"
 },
 {
@@ -407,21 +407,21 @@
 "index": "10",
 "call": "normalize()",
 "path": "resource://gre/modules/Schemas.jsm",
-"line": "3749",
+"line": "3757",
 "col": "27"
 },
 {
 "index": "11",
 "call": "_getNormalizedManifest()",
 "path": "resource://gre/modules/Extension.jsm",
-"line": "961",
+"line": "960",
 "col": "19"
 },
 {
 "index": "12",
 "call": "parseManifest()",
 "path": "resource://gre/modules/Extension.jsm",
-"line": "1001",
+"line": "1000",
 "col": "32"
 },
 {
@@ -442,7 +442,7 @@
 "index": "15",
 "call": "syncLoadManifest()",
 "path": "resource://gre/modules/addons/XPIInstall.jsm",
-"line": "761",
+"line": "754",
 "col": "21"
 },
 {
@@ -589,21 +589,21 @@
 "index": "10",
 "call": "normalize()",
 "path": "resource://gre/modules/Schemas.jsm",
-"line": "3749",
+"line": "3757",
 "col": "27"
 },
 {
 "index": "11",
 "call": "_getNormalizedManifest()",
 "path": "resource://gre/modules/Extension.jsm",
-"line": "961",
+"line": "960",
 "col": "19"
 },
 {
 "index": "12",
 "call": "parseManifest()",
 "path": "resource://gre/modules/Extension.jsm",
-"line": "1001",
+"line": "1000",
 "col": "32"
 },
 {
@@ -624,7 +624,7 @@
 "index": "15",
 "call": "syncLoadManifest()",
 "path": "resource://gre/modules/addons/XPIInstall.jsm",
-"line": "761",
+"line": "754",
 "col": "21"
 },
 {
@@ -701,21 +701,21 @@
 "index": "0",
 "call": "<TOP LEVEL>",
 "path": "chrome://pocket/content/SaveToPocket.jsm",
-"line": "178",
+"line": "179",
 "col": "20"
 },
 {
 "index": "1",
 "call": "BG__beforeUIStartup()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1416",
+"line": "1420",
 "col": "4"
 },
 {
 "index": "2",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1010",
+"line": "1014",
 "col": "13"
 }
 ],
@@ -729,21 +729,21 @@
 "index": "0",
 "call": "<TOP LEVEL>",
 "path": "chrome://pocket/content/SaveToPocket.jsm",
-"line": "178",
+"line": "179",
 "col": "20"
 },
 {
 "index": "1",
 "call": "BG__beforeUIStartup()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1416",
+"line": "1420",
 "col": "4"
 },
 {
 "index": "2",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1010",
+"line": "1014",
 "col": "13"
 }
 ],
@@ -764,7 +764,7 @@
 "index": "1",
 "call": "dch_handle()",
 "path": "resource:///modules/BrowserContentHandler.jsm",
-"line": "1042",
+"line": "1041",
 "col": "23"
 }
 ],
@@ -1940,21 +1940,21 @@
 "index": "10",
 "call": "normalize()",
 "path": "resource://gre/modules/Schemas.jsm",
-"line": "3749",
+"line": "3757",
 "col": "27"
 },
 {
 "index": "11",
 "call": "_getNormalizedManifest()",
 "path": "resource://gre/modules/Extension.jsm",
-"line": "961",
+"line": "960",
 "col": "19"
 },
 {
 "index": "12",
 "call": "parseManifest()",
 "path": "resource://gre/modules/Extension.jsm",
-"line": "1001",
+"line": "1000",
 "col": "32"
 },
 {
@@ -2045,21 +2045,21 @@
 "index": "10",
 "call": "normalize()",
 "path": "resource://gre/modules/Schemas.jsm",
-"line": "3749",
+"line": "3757",
 "col": "27"
 },
 {
 "index": "11",
 "call": "_getNormalizedManifest()",
 "path": "resource://gre/modules/Extension.jsm",
-"line": "961",
+"line": "960",
 "col": "19"
 },
 {
 "index": "12",
 "call": "parseManifest()",
 "path": "resource://gre/modules/Extension.jsm",
-"line": "1001",
+"line": "1000",
 "col": "32"
 },
 {
@@ -2070,96 +2070,6 @@
 "col": "26"
 }
 ],
-"file": null
-},
-{
-"type": "dtd",
-"id": "historyMenu.label",
-"stack": null,
-"file": null
-},
-{
-"type": "dtd",
-"id": "libraryDownloads.label",
-"stack": null,
-"file": null
-},
-{
-"type": "dtd",
-"id": "printCmd.label",
-"stack": null,
-"file": null
-},
-{
-"type": "dtd",
-"id": "fullZoom.label",
-"stack": null,
-"file": null
-},
-{
-"type": "dtd",
-"id": "fxa.menu.signin.label",
-"stack": null,
-"file": null
-},
-{
-"type": "dtd",
-"id": "brandProductName",
-"stack": null,
-"file": null
-},
-{
-"type": "dtd",
-"id": "fxa.menu.signin.label",
-"stack": null,
-"file": null
-},
-{
-"type": "dtd",
-"id": "brandProductName",
-"stack": null,
-"file": null
-},
-{
-"type": "dtd",
-"id": "sendToDevice.syncNotReady.label",
-"stack": null,
-"file": null
-},
-{
-"type": "dtd",
-"id": "fxa.service.sendTab.description",
-"stack": null,
-"file": null
-},
-{
-"type": "dtd",
-"id": "fxa.menu.signin.label",
-"stack": null,
-"file": null
-},
-{
-"type": "dtd",
-"id": "brandProductName",
-"stack": null,
-"file": null
-},
-{
-"type": "dtd",
-"id": "fxa.service.sendTab.description",
-"stack": null,
-"file": null
-},
-{
-"type": "dtd",
-"id": "historyMenu.label",
-"stack": null,
-"file": null
-},
-{
-"type": "dtd",
-"id": "libraryDownloads.label",
-"stack": null,
 "file": null
 },
 {
@@ -2231,18 +2141,6 @@
 {
 "type": "dtd",
 "id": "printButton.label",
-"stack": null,
-"file": null
-},
-{
-"type": "dtd",
-"id": "newNavigatorCmd.label",
-"stack": null,
-"file": null
-},
-{
-"type": "dtd",
-"id": "fullScreenCmd.label",
 "stack": null,
 "file": null
 },
@@ -5396,14 +5294,14 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "save-to-pocket-button",
+"type": "properties",
+"id": "brandShortName",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "brandShortName",
+"type": "ftl",
+"id": "save-to-pocket-button",
 "stack": null,
 "file": null
 },
@@ -5448,7 +5346,7 @@
 "index": "3",
 "call": "fetchLatestChanges()",
 "path": "resource://services-settings/Utils.jsm",
-"line": "276",
+"line": "280",
 "col": "33"
 },
 {
@@ -6869,12 +6767,6 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "brandShortName",
-"stack": null,
-"file": null
-},
-{
 "type": "ftl",
 "id": "navbar-tooltip-back-2",
 "stack": null,
@@ -6911,51 +6803,21 @@
 "file": null
 },
 {
+"type": "properties",
+"id": "brandShortName",
+"stack": null,
+"file": null
+},
+{
 "type": "ftl",
 "id": "newtab-page-title",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "readerView.enter",
-"stack": [
-{
-"index": "0",
-"call": "updateReaderButton()",
-"path": "resource:///actors/AboutReaderParent.jsm",
-"line": "205",
-"col": "36"
-},
-{
-"index": "1",
-"call": "receiveMessage()",
-"path": "resource:///actors/AboutReaderParent.jsm",
-"line": "155",
-"col": "13"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "readerView.enter.accesskey",
-"stack": [
-{
-"index": "0",
-"call": "updateReaderButton()",
-"path": "resource:///actors/AboutReaderParent.jsm",
-"line": "215",
-"col": "22"
-},
-{
-"index": "1",
-"call": "receiveMessage()",
-"path": "resource:///actors/AboutReaderParent.jsm",
-"line": "155",
-"col": "13"
-}
-],
+"type": "ftl",
+"id": "newtab-page-title",
+"stack": null,
 "file": null
 },
 {
@@ -7068,12 +6930,6 @@
 "col": "13"
 }
 ],
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-page-title",
-"stack": null,
 "file": null
 },
 {
@@ -7664,76 +7520,6 @@
 },
 {
 "type": "properties",
-"id": "zoom-button.label",
-"stack": [
-{
-"index": "0",
-"call": "getFormattedString()",
-"path": "chrome://browser/content/browser.js",
-"line": "671",
-"col": "26"
-},
-{
-"index": "1",
-"call": "updateZoomUI()",
-"path": "resource:///modules/ZoomUI.jsm",
-"line": "173",
-"col": "35"
-},
-{
-"index": "2",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1482",
-"col": "33"
-},
-{
-"index": "3",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "692",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "zoom-button.label",
-"stack": [
-{
-"index": "0",
-"call": "getFormattedString()",
-"path": "chrome://browser/content/browser.js",
-"line": "671",
-"col": "26"
-},
-{
-"index": "1",
-"call": "updateZoomUI()",
-"path": "resource:///modules/ZoomUI.jsm",
-"line": "173",
-"col": "35"
-},
-{
-"index": "2",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1482",
-"col": "33"
-},
-{
-"index": "3",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "692",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
 "id": "intl.accept_languages",
 "stack": null,
 "file": null
@@ -7781,18 +7567,6 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
 "type": "ftl",
 "id": "newtab-custom-pocket-title",
 "stack": null,
@@ -7823,138 +7597,6 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
 "type": "ftl",
 "id": "newtab-section-header-topsites",
 "stack": null,
@@ -8184,6 +7826,220 @@
 },
 {
 "type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "zoom-button.label",
+"stack": [
+{
+"index": "0",
+"call": "getFormattedString()",
+"path": "chrome://browser/content/browser.js",
+"line": "671",
+"col": "26"
+},
+{
+"index": "1",
+"call": "updateZoomUI()",
+"path": "resource:///modules/ZoomUI.jsm",
+"line": "173",
+"col": "35"
+},
+{
+"index": "2",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1482",
+"col": "33"
+},
+{
+"index": "3",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "692",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "zoom-button.label",
+"stack": [
+{
+"index": "0",
+"call": "getFormattedString()",
+"path": "chrome://browser/content/browser.js",
+"line": "671",
+"col": "26"
+},
+{
+"index": "1",
+"call": "updateZoomUI()",
+"path": "resource:///modules/ZoomUI.jsm",
+"line": "173",
+"col": "35"
+},
+{
+"index": "2",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1482",
+"col": "33"
+},
+{
+"index": "3",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "692",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
 "id": "6",
 "stack": null,
 "file": null
@@ -8203,6 +8059,18 @@
 {
 "type": "properties",
 "id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
 "stack": null,
 "file": null
 },
@@ -8420,13 +8288,325 @@
 },
 {
 "type": "properties",
-"id": "12",
+"id": "10",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "12",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "13",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "13",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -8452,14 +8632,14 @@
 "index": "2",
 "call": "get _crypto()",
 "path": "resource://gre/modules/storage-json.js",
-"line": "64",
+"line": "57",
 "col": "68"
 },
 {
 "index": "3",
 "call": "initialize()",
 "path": "resource://gre/modules/storage-json.js",
-"line": "92",
+"line": "85",
 "col": "6"
 },
 {
@@ -8487,14 +8667,14 @@
 "index": "7",
 "call": "task()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2353",
+"line": "2372",
 "col": "12"
 },
 {
 "index": "8",
 "call": "_scheduleStartupIdleTasks/<()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2656",
+"line": "2675",
 "col": "19"
 }
 ],
@@ -8522,14 +8702,14 @@
 "index": "2",
 "call": "get _crypto()",
 "path": "resource://gre/modules/storage-json.js",
-"line": "64",
+"line": "57",
 "col": "68"
 },
 {
 "index": "3",
 "call": "initialize()",
 "path": "resource://gre/modules/storage-json.js",
-"line": "92",
+"line": "85",
 "col": "6"
 },
 {
@@ -8557,14 +8737,14 @@
 "index": "7",
 "call": "task()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2353",
+"line": "2372",
 "col": "12"
 },
 {
 "index": "8",
 "call": "_scheduleStartupIdleTasks/<()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2656",
+"line": "2675",
 "col": "19"
 }
 ],
@@ -8610,6 +8790,18 @@
 "col": "20"
 }
 ],
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-pocket-read-more",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-menu-privacy-notice",
+"stack": null,
 "file": null
 },
 {
@@ -9761,362 +9953,224 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-pocket-read-more",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-menu-privacy-notice",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "10",
+"id": "intl.accept_languages",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "6",
+"type": "ftl",
+"id": "browser-import-button2",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "6",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "6",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "6",
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "6",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "6",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "6",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "6",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "13",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "13",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
@@ -10133,38 +10187,14 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "browser-import-button2",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-search-box-handoff-input",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-search-box-handoff-text",
-"stack": null,
-"file": null
-},
-{
 "type": "properties",
-"id": "12",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "12",
+"id": "intl.ellipsis",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-topsite-sponsored",
+"id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
 },
@@ -10176,79 +10206,13 @@
 },
 {
 "type": "ftl",
-"id": "newtab-topsite-sponsored",
+"id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
 "id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
 "stack": null,
 "file": null
 },
@@ -10349,66 +10313,6 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "13",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "13",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-pocket-read-more",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-menu-privacy-notice",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
 "type": "ftl",
 "id": "newtab-label-sponsored-by",
 "stack": null,
@@ -10434,7 +10338,19 @@
 },
 {
 "type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"id": "newtab-search-box-handoff-input",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-search-box-handoff-text",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
 "stack": null,
 "file": null
 },
@@ -10446,19 +10362,7 @@
 },
 {
 "type": "ftl",
-"id": "newtab-pocket-read-more",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-menu-privacy-notice",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
+"id": "newtab-topsite-sponsored",
 "stack": null,
 "file": null
 },
@@ -10470,7 +10374,7 @@
 },
 {
 "type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"id": "newtab-topsite-sponsored",
 "stack": null,
 "file": null
 },
@@ -10482,7 +10386,7 @@
 },
 {
 "type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"id": "newtab-topsite-sponsored",
 "stack": null,
 "file": null
 },
@@ -10494,133 +10398,7 @@
 },
 {
 "type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "3",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "3",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "11",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "11",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "7",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "7",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "3",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "3",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "11",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "11",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "7",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "7",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "4",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "4",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "12",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "12",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "4",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "4",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "12",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "12",
+"id": "newtab-topsite-sponsored",
 "stack": null,
 "file": null
 },
@@ -10632,7 +10410,7 @@
 },
 {
 "type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"id": "newtab-topsite-sponsored",
 "stack": null,
 "file": null
 },
@@ -10644,7 +10422,7 @@
 },
 {
 "type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"id": "newtab-topsite-sponsored",
 "stack": null,
 "file": null
 },
@@ -10668,31 +10446,7 @@
 },
 {
 "type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
 },
@@ -10705,30 +10459,6 @@
 {
 "type": "properties",
 "id": "intl.accept_languages",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
@@ -10740,6 +10470,114 @@
 },
 {
 "type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
 "id": "13",
 "stack": null,
 "file": null
@@ -10764,78 +10602,6 @@
 },
 {
 "type": "properties",
-"id": "13",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "13",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
 "id": "6",
 "stack": null,
 "file": null
@@ -10843,90 +10609,6 @@
 {
 "type": "properties",
 "id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
@@ -12769,18 +12451,6 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
 "type": "properties",
 "id": "WinConflict2",
 "stack": null,
@@ -12813,18 +12483,6 @@
 {
 "type": "properties",
 "id": "WinConflict2",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
@@ -13869,12 +13527,6 @@
 "col": "23"
 }
 ],
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.ellipsis",
-"stack": null,
 "file": null
 },
 {

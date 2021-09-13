@@ -1,6 +1,6 @@
 {
-"date": "2021-09-03",
-"revision": "ff8d4b53a61249dce1b7c6e77c87e156ea9610fc",
+"date": "2021-09-10",
+"revision": "9cbf4fe3f852cede86354eb884cd33d305026b17",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -55,6 +55,10 @@
 "count": 17
 },
 {
+"file": "en-US/browser/browser/aboutUnloads.ftl",
+"count": 16
+},
+{
 "file": "en-US/browser/browser/accounts.ftl",
 "count": 4
 },
@@ -68,7 +72,7 @@
 },
 {
 "file": "en-US/browser/browser/appmenu.ftl",
-"count": 72
+"count": 77
 },
 {
 "file": "en-US/browser/browser/branding/brandings.ftl",
@@ -80,7 +84,7 @@
 },
 {
 "file": "en-US/browser/browser/browser.ftl",
-"count": 228
+"count": 231
 },
 {
 "file": "en-US/browser/browser/browserContext.ftl",
@@ -120,7 +124,7 @@
 },
 {
 "file": "en-US/browser/browser/newtab/newtab.ftl",
-"count": 109
+"count": 106
 },
 {
 "file": "en-US/browser/browser/newtab/onboarding.ftl",
@@ -196,7 +200,7 @@
 },
 {
 "file": "en-US/browser/browser/preferences/preferences.ftl",
-"count": 436
+"count": 430
 },
 {
 "file": "en-US/browser/browser/preferences/selectBookmark.ftl",
@@ -252,7 +256,7 @@
 },
 {
 "file": "en-US/browser/browser/sync.ftl",
-"count": 13
+"count": 15
 },
 {
 "file": "en-US/browser/browser/syncedTabs.ftl",
@@ -296,7 +300,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.dtd",
-"count": 29
+"count": 21
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
@@ -304,7 +308,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/customizableui/customizableWidgets.properties",
-"count": 40
+"count": 30
 },
 {
 "file": "en-US/browser/chrome/browser/downloads/downloads.properties",
@@ -352,7 +356,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/tabbrowser.properties",
-"count": 28
+"count": 27
 },
 {
 "file": "en-US/browser/chrome/browser/taskbar.properties",
@@ -440,7 +444,7 @@
 },
 {
 "file": "en-US/devtools/client/accessibility.properties",
-"count": 59
+"count": 58
 },
 {
 "file": "en-US/devtools/client/animationinspector.properties",
@@ -919,10 +923,6 @@
 "count": 4
 },
 {
-"file": "en-US/toolkit/chrome/global/textcontext.dtd",
-"count": 1
-},
-{
 "file": "en-US/toolkit/chrome/global/tree.dtd",
 "count": 1
 },
@@ -1072,7 +1072,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/featuregates/features.ftl",
-"count": 36
+"count": 38
 },
 {
 "file": "en-US/toolkit/toolkit/global/commonDialog.ftl",
@@ -1112,7 +1112,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/global/textActions.ftl",
-"count": 19
+"count": 20
 },
 {
 "file": "en-US/toolkit/toolkit/global/unknownContentType.ftl",
