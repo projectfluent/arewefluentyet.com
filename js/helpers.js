@@ -22,16 +22,16 @@ function getBarPosition(chart, index) {
   let y;
   if (Page.getCategoriesBar()[0] === null) {
     let meta = chart.getDatasetMeta(0);
-    x = meta.data[index]._model.x;
+    x = meta.data[index] ? meta.data[index]._model.x : 0;
     y = chart.chartArea.bottom;
   } else {
     let idx0 = Page.getCategoriesBar()[0];
     let meta = chart.getDatasetMeta(idx0);
-    x = meta.data[index]._model.x;
+    x = meta.data[index] ? meta.data[index]._model.x : 0;
     y = meta.data[index]._model.y;
   }
   let meta2 = chart.getDatasetMeta(Page.getCategoriesBar()[1]);
-  let x2 = meta2.data[index]._model.x;
+  let x2 = meta2.data[index] ? meta2.data[index]._model.x : 0;
   let y2 = meta2.data[index]._model.y;
   return [[x, y], [x2, y2]];
 }
