@@ -78,9 +78,9 @@ async function prepare_data(url) {
       for (let category of Page.getCategories()) {
         if (!inBar && !barCategories.includes(category)) {
           barStart += snapshot[category];
-          barEnd += snapshot[category];
+          barEnd += snapshot[category] || 0;
         } else if (barCategories.includes(category)) {
-          barEnd += snapshot[category];
+          barEnd += snapshot[category] || 0;
           inBar = true;
         }
       }
@@ -163,7 +163,7 @@ async function prepare_data(url) {
                   continue;
                 }
                 let label = State.theme.categories.labels[category];
-                let value = getDatasetByLabel(ctx.chart, label).data[index];
+                let value = getDatasetByLabel(ctx.chart, label).data[index] || 0;
                 values.push(`! \u2B24 ${label}|${value}`);
               }
               result += values.reverse().join("\n");
@@ -219,7 +219,7 @@ async function prepare_data(url) {
         tooltips: {
           enabled: false
         },
-        data: month_points[category],
+        data: month_points[category] || 0,
         fill: false,
         yAxisID: "background-y-axis",
         xAxisID: "main-x-axis",
@@ -275,7 +275,7 @@ async function prepare_data(url) {
               continue;
             }
             let label = State.theme.categories.labels[category];
-            let value = getDatasetByLabel(ctx.chart, `${category} Dots`).data[ctx.dataIndex];
+            let value = getDatasetByLabel(ctx.chart, `${category} Dots`).data[ctx.dataIndex] || 0;
             values.push(`! \u2B24 ${i}|${value}`);
           }
           result += values.reverse().join("\n");
