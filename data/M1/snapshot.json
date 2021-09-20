@@ -1,79 +1,7 @@
 {
-"date": "2021-09-10",
-"revision": "9cbf4fe3f852cede86354eb884cd33d305026b17",
+"date": "2021-09-17",
+"revision": "a390fbbde01870cb249380298061b9b1ec3f4df1",
 "data": [
-{
-"type": "dtd",
-"id": "menubarCmd.label"
-},
-{
-"type": "dtd",
-"id": "menubarCmd.accesskey"
-},
-{
-"type": "dtd",
-"id": "tabsToolbar.label"
-},
-{
-"type": "dtd",
-"id": "tabCmd.label"
-},
-{
-"type": "dtd",
-"id": "listAllTabs.label"
-},
-{
-"type": "dtd",
-"id": "listAllTabs.label"
-},
-{
-"type": "dtd",
-"id": "accessibilityIndicator.tooltip"
-},
-{
-"type": "dtd",
-"id": "accessibilityIndicator.tooltip"
-},
-{
-"type": "dtd",
-"id": "navbar.accessibleLabel"
-},
-{
-"type": "dtd",
-"id": "downloads.label"
-},
-{
-"type": "dtd",
-"id": "navbarOverflow.label"
-},
-{
-"type": "dtd",
-"id": "printButton.tooltip"
-},
-{
-"type": "dtd",
-"id": "printButton.label"
-},
-{
-"type": "dtd",
-"id": "searchItem.title"
-},
-{
-"type": "dtd",
-"id": "homeButton.label"
-},
-{
-"type": "dtd",
-"id": "homeButton.defaultPage.tooltip"
-},
-{
-"type": "dtd",
-"id": "libraryButton.tooltip"
-},
-{
-"type": "dtd",
-"id": "places.library.title"
-},
 {
 "type": "ftl",
 "id": "browser-main-window-mac"
@@ -2240,6 +2168,10 @@
 },
 {
 "type": "ftl",
+"id": "toolbar-context-menu-menu-bar-cmd"
+},
+{
+"type": "ftl",
 "id": "menu-file"
 },
 {
@@ -2676,6 +2608,22 @@
 },
 {
 "type": "ftl",
+"id": "tabs-toolbar"
+},
+{
+"type": "ftl",
+"id": "tabs-toolbar-new-tab"
+},
+{
+"type": "ftl",
+"id": "tabs-toolbar-list-all-tabs"
+},
+{
+"type": "ftl",
+"id": "navbar-accessibility-indicator"
+},
+{
+"type": "ftl",
 "id": "browser-window-minimize-button"
 },
 {
@@ -2689,6 +2637,14 @@
 {
 "type": "ftl",
 "id": "browser-window-close-button"
+},
+{
+"type": "ftl",
+"id": "navbar-accessibility-indicator"
+},
+{
+"type": "ftl",
+"id": "navbar-accessible"
 },
 {
 "type": "ftl",
@@ -2876,7 +2832,15 @@
 },
 {
 "type": "ftl",
+"id": "navbar-downloads"
+},
+{
+"type": "ftl",
 "id": "toolbar-button-fxaccount"
+},
+{
+"type": "ftl",
+"id": "navbar-overflow"
 },
 {
 "type": "ftl",
@@ -2961,6 +2925,18 @@
 {
 "type": "ftl",
 "id": "bookmarks-manage-bookmarks"
+},
+{
+"type": "ftl",
+"id": "navbar-search"
+},
+{
+"type": "ftl",
+"id": "navbar-home"
+},
+{
+"type": "ftl",
+"id": "navbar-library"
 },
 {
 "type": "ftl",
