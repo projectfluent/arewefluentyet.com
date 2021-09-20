@@ -213,6 +213,16 @@ const Page = {
       let tr = document.createElement("tr");
 
       {
+          let td = document.createElement("td");
+          td.innerHTML = `${String.fromCodePoint(0x1F389)}`;
+
+          if (milestonesStatus[i - 1] !== "100%") {
+            td.style.opacity = "0";
+          }
+
+          tr.appendChild(td);
+      }
+      {
         let td = document.createElement("td");
         td.innerHTML = milestone.code;
         tr.appendChild(td);
@@ -226,6 +236,16 @@ const Page = {
         let td = document.createElement("td");
         td.innerHTML = milestonesStatus[i - 1];
         tr.appendChild(td);
+      }
+      {
+          let td = document.createElement("td");
+          td.innerHTML = `${String.fromCodePoint(0x1F389)}`;
+
+          if (milestonesStatus[i - 1] !== "100%") {
+            td.style.opacity = "0";
+          }
+
+          tr.appendChild(td);
       }
       if (State.activeMilestone == milestone.code) {
         tr.classList.add("active");
