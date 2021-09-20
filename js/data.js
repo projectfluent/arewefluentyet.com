@@ -92,6 +92,19 @@ async function prepare_data(url) {
     }
   }
 
+  let len = 0;
+  for (let cat of Object.values(all_points)) {
+    if (cat.length > len) {
+      len = cat.length;
+    }
+  }
+  for (let cat of Object.values(all_points)) {
+    for (let i = 0; i < len - cat.length; i++) {
+      cat.push(0);
+    }
+  }
+
+
   // Add an artificial label on the far right to make the last data label in non-dashboard mode
   // not be clipped.
   // We'll make it ~6% of the chart.
