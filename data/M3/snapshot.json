@@ -1,10 +1,10 @@
 {
-"date": "2021-09-17",
-"revision": "a390fbbde01870cb249380298061b9b1ec3f4df1",
+"date": "2021-10-01",
+"revision": "60b737e0dbfb3a94e8178d2a77707d546c33b5e3",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
-"count": 4
+"count": 3
 },
 {
 "file": "en-US/browser/branding/official/brand.ftl",
@@ -12,7 +12,7 @@
 },
 {
 "file": "en-US/browser/branding/official/brand.properties",
-"count": 5
+"count": 4
 },
 {
 "file": "en-US/browser/browser/aboutCertError.ftl",
@@ -67,6 +67,10 @@
 "count": 4
 },
 {
+"file": "en-US/browser/browser/appExtensionFields.ftl",
+"count": 11
+},
+{
 "file": "en-US/browser/browser/appMenuNotifications.ftl",
 "count": 16
 },
@@ -84,7 +88,7 @@
 },
 {
 "file": "en-US/browser/browser/browser.ftl",
-"count": 243
+"count": 245
 },
 {
 "file": "en-US/browser/browser/browserContext.ftl",
@@ -96,7 +100,7 @@
 },
 {
 "file": "en-US/browser/browser/customizeMode.ftl",
-"count": 19
+"count": 16
 },
 {
 "file": "en-US/browser/browser/defaultBrowserNotification.ftl",
@@ -124,11 +128,11 @@
 },
 {
 "file": "en-US/browser/browser/newtab/newtab.ftl",
-"count": 107
+"count": 115
 },
 {
 "file": "en-US/browser/browser/newtab/onboarding.ftl",
-"count": 42
+"count": 60
 },
 {
 "file": "en-US/browser/browser/nsserrors.ftl",
@@ -148,7 +152,7 @@
 },
 {
 "file": "en-US/browser/browser/places.ftl",
-"count": 32
+"count": 64
 },
 {
 "file": "en-US/browser/browser/policies/policies-descriptions.ftl",
@@ -236,11 +240,11 @@
 },
 {
 "file": "en-US/browser/browser/screenshots.ftl",
-"count": 26
+"count": 27
 },
 {
 "file": "en-US/browser/browser/search.ftl",
-"count": 6
+"count": 9
 },
 {
 "file": "en-US/browser/browser/setDesktopBackground.ftl",
@@ -295,16 +299,8 @@
 "count": 28
 },
 {
-"file": "en-US/browser/chrome/browser/app-extension-fields.properties",
-"count": 6
-},
-{
-"file": "en-US/browser/chrome/browser/browser.dtd",
-"count": 6
-},
-{
 "file": "en-US/browser/chrome/browser/browser.properties",
-"count": 462
+"count": 461
 },
 {
 "file": "en-US/browser/chrome/browser/customizableui/customizableWidgets.properties",
@@ -321,10 +317,6 @@
 {
 "file": "en-US/browser/chrome/browser/places/bookmarkProperties.properties",
 "count": 18
-},
-{
-"file": "en-US/browser/chrome/browser/places/places.dtd",
-"count": 48
 },
 {
 "file": "en-US/browser/chrome/browser/places/places.properties",
@@ -468,7 +460,7 @@
 },
 {
 "file": "en-US/devtools/client/components.properties",
-"count": 4
+"count": 7
 },
 {
 "file": "en-US/devtools/client/debugger.properties",
@@ -528,7 +520,7 @@
 },
 {
 "file": "en-US/devtools/client/netmonitor.properties",
-"count": 365
+"count": 364
 },
 {
 "file": "en-US/devtools/client/network-throttling.properties",
@@ -887,10 +879,6 @@
 "count": 11
 },
 {
-"file": "en-US/toolkit/chrome/global/global-extension-fields.properties",
-"count": 2
-},
-{
 "file": "en-US/toolkit/chrome/global/globalKeys.dtd",
 "count": 2
 },
@@ -960,7 +948,7 @@
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/profile/profileSelection.properties",
-"count": 34
+"count": 33
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/update/updates.properties",
@@ -992,7 +980,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutAddons.ftl",
-"count": 179
+"count": 182
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutCompat.ftl",
@@ -1100,7 +1088,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/global/profileSelection.ftl",
-"count": 9
+"count": 10
 },
 {
 "file": "en-US/toolkit/toolkit/global/resetProfile.ftl",
