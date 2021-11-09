@@ -1,6 +1,6 @@
 {
-"date": "2021-10-15",
-"revision": "ff6d6594f7b046db57fa377eee3e8760a3ff4751",
+"date": "2021-11-05",
+"revision": "0283aba1bf2069cfff3ee77c86162fb153a55fc2",
 "data": [
 {
 "type": "ftl",
@@ -317,6 +317,14 @@
 {
 "type": "ftl",
 "id": "reload-tabs"
+},
+{
+"type": "ftl",
+"id": "tab-context-play-tab"
+},
+{
+"type": "ftl",
+"id": "tab-context-play-tabs"
 },
 {
 "type": "ftl",
@@ -953,6 +961,10 @@
 {
 "type": "ftl",
 "id": "picture-in-picture-hide-toggle"
+},
+{
+"type": "ftl",
+"id": "picture-in-picture-move-toggle-left"
 },
 {
 "type": "ftl",
@@ -1648,11 +1660,11 @@
 },
 {
 "type": "ftl",
-"id": "downloads-cmd-show-menuitem-mac"
+"id": "downloads-cmd-always-open-similar-files"
 },
 {
 "type": "ftl",
-"id": "downloads-cmd-show-menuitem"
+"id": "downloads-cmd-show-menuitem-2"
 },
 {
 "type": "ftl",
@@ -1789,10 +1801,6 @@
 {
 "type": "ftl",
 "id": "sharing-warning-disable-for-session"
-},
-{
-"type": "ftl",
-"id": "appmenuitem-update-banner3"
 },
 {
 "type": "ftl",
@@ -2208,7 +2216,7 @@
 },
 {
 "type": "ftl",
-"id": "menu-file-close"
+"id": "menu-file-close-tab"
 },
 {
 "type": "ftl",
