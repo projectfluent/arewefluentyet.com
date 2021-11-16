@@ -1,6 +1,6 @@
 {
-"date": "2021-11-05",
-"revision": "0283aba1bf2069cfff3ee77c86162fb153a55fc2",
+"date": "2021-11-12",
+"revision": "a7bc1d371c67f5c3fc062ae69e1ded8b58938afb",
 "data": [
 {
 "type": "properties",
@@ -16,360 +16,101 @@
 },
 {
 "type": "properties",
-"id": "csp.error.missing-directive",
+"id": "intl.accept_languages",
 "stack": [
 {
 "index": "0",
-"call": "contentSecurityPolicy()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "1129",
-"col": "37"
+"call": "get _worker()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "189",
+"col": "34"
 },
 {
 "index": "1",
-"call": "normalize()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "1742",
-"col": "23"
+"call": "postMessage()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "316",
+"col": "8"
 },
 {
 "index": "2",
-"call": "anonymous()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "1508",
-"col": "23"
-},
-{
-"index": "3",
-"call": "withChoices()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "601",
-"col": "19"
-},
-{
-"index": "4",
-"call": "normalize()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "1500",
-"col": "38"
-},
-{
-"index": "5",
-"call": "checkProperty/r<()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "2014",
-"col": "15"
-},
-{
-"index": "6",
-"call": "withPath()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "639",
-"col": "13"
-},
-{
-"index": "7",
-"call": "checkProperty()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "2013",
-"col": "24"
-},
-{
-"index": "8",
-"call": "normalize()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "2086",
-"col": "13"
-},
-{
-"index": "9",
-"call": "normalize()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "3559",
-"col": "22"
-},
-{
-"index": "10",
-"call": "normalize()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "3765",
-"col": "27"
-},
-{
-"index": "11",
-"call": "_getNormalizedManifest()",
-"path": "resource://gre/modules/Extension.jsm",
-"line": "964",
-"col": "19"
-},
-{
-"index": "12",
-"call": "parseManifest()",
-"path": "resource://gre/modules/Extension.jsm",
-"line": "1004",
-"col": "32"
-},
-{
-"index": "13",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
 "line": "695",
 "col": "26"
 },
 {
-"index": "14",
+"index": "3",
 "call": "awaitPromise()",
 "path": "resource://gre/modules/addons/XPIProvider.jsm",
 "line": "215",
 "col": "14"
-},
-{
-"index": "15",
-"call": "syncLoadManifest()",
-"path": "resource://gre/modules/addons/XPIInstall.jsm",
-"line": "759",
-"col": "21"
-},
-{
-"index": "16",
-"call": "addMetadata()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "2864",
-"col": "31"
-},
-{
-"index": "17",
-"call": "processFileChanges()",
-"path": "resource://gre/modules/addons/XPIDatabase.jsm",
-"line": "3329",
-"col": "25"
-},
-{
-"index": "18",
-"call": "checkForChanges()",
-"path": "resource://gre/modules/addons/XPIProvider.jsm",
-"line": "3066",
-"col": "54"
-},
-{
-"index": "19",
-"call": "startup()",
-"path": "resource://gre/modules/addons/XPIProvider.jsm",
-"line": "2471",
-"col": "11"
-},
-{
-"index": "20",
-"call": "callProvider()",
-"path": "resource://gre/modules/AddonManager.jsm",
-"line": "224",
-"col": "30"
-},
-{
-"index": "21",
-"call": "_startProvider()",
-"path": "resource://gre/modules/AddonManager.jsm",
-"line": "584",
-"col": "16"
-},
-{
-"index": "22",
-"call": "startup()",
-"path": "resource://gre/modules/AddonManager.jsm",
-"line": "811",
-"col": "13"
-},
-{
-"index": "23",
-"call": "startup()",
-"path": "resource://gre/modules/AddonManager.jsm",
-"line": "3514",
-"col": "25"
-},
-{
-"index": "24",
-"call": "observe()",
-"path": "resource://gre/modules/addonManager.js",
-"line": "81",
-"col": "28"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "csp.error.missing-directive",
-"stack": [
-{
-"index": "0",
-"call": "contentSecurityPolicy()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "1129",
-"col": "37"
-},
-{
-"index": "1",
-"call": "normalize()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "1742",
-"col": "23"
-},
-{
-"index": "2",
-"call": "anonymous()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "1508",
-"col": "23"
-},
-{
-"index": "3",
-"call": "withChoices()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "601",
-"col": "19"
 },
 {
 "index": "4",
-"call": "normalize()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "1500",
-"col": "38"
-},
-{
-"index": "5",
-"call": "checkProperty/r<()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "2014",
-"col": "15"
-},
-{
-"index": "6",
-"call": "withPath()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "639",
-"col": "13"
-},
-{
-"index": "7",
-"call": "checkProperty()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "2013",
-"col": "24"
-},
-{
-"index": "8",
-"call": "normalize()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "2086",
-"col": "13"
-},
-{
-"index": "9",
-"call": "normalize()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "3559",
-"col": "22"
-},
-{
-"index": "10",
-"call": "normalize()",
-"path": "resource://gre/modules/Schemas.jsm",
-"line": "3765",
-"col": "27"
-},
-{
-"index": "11",
-"call": "_getNormalizedManifest()",
-"path": "resource://gre/modules/Extension.jsm",
-"line": "964",
-"col": "19"
-},
-{
-"index": "12",
-"call": "parseManifest()",
-"path": "resource://gre/modules/Extension.jsm",
-"line": "1004",
-"col": "32"
-},
-{
-"index": "13",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "695",
-"col": "26"
-},
-{
-"index": "14",
-"call": "awaitPromise()",
-"path": "resource://gre/modules/addons/XPIProvider.jsm",
-"line": "215",
-"col": "14"
-},
-{
-"index": "15",
 "call": "syncLoadManifest()",
 "path": "resource://gre/modules/addons/XPIInstall.jsm",
-"line": "759",
+"line": "744",
 "col": "21"
 },
 {
-"index": "16",
+"index": "5",
 "call": "addMetadata()",
 "path": "resource://gre/modules/addons/XPIDatabase.jsm",
 "line": "2864",
 "col": "31"
 },
 {
-"index": "17",
+"index": "6",
 "call": "processFileChanges()",
 "path": "resource://gre/modules/addons/XPIDatabase.jsm",
 "line": "3329",
 "col": "25"
 },
 {
-"index": "18",
+"index": "7",
 "call": "checkForChanges()",
 "path": "resource://gre/modules/addons/XPIProvider.jsm",
-"line": "3066",
+"line": "3044",
 "col": "54"
 },
 {
-"index": "19",
+"index": "8",
 "call": "startup()",
 "path": "resource://gre/modules/addons/XPIProvider.jsm",
 "line": "2471",
 "col": "11"
 },
 {
-"index": "20",
+"index": "9",
 "call": "callProvider()",
 "path": "resource://gre/modules/AddonManager.jsm",
 "line": "224",
 "col": "30"
 },
 {
-"index": "21",
+"index": "10",
 "call": "_startProvider()",
 "path": "resource://gre/modules/AddonManager.jsm",
 "line": "584",
 "col": "16"
 },
 {
-"index": "22",
+"index": "11",
 "call": "startup()",
 "path": "resource://gre/modules/AddonManager.jsm",
 "line": "811",
 "col": "13"
 },
 {
-"index": "23",
+"index": "12",
 "call": "startup()",
 "path": "resource://gre/modules/AddonManager.jsm",
 "line": "3514",
 "col": "25"
 },
 {
-"index": "24",
+"index": "13",
 "call": "observe()",
 "path": "resource://gre/modules/addonManager.js",
 "line": "81",
@@ -384,52 +125,570 @@
 "stack": [
 {
 "index": "0",
-"call": "<TOP LEVEL>",
-"path": "resource://services-settings/IDBHelpers.jsm",
-"line": "13",
-"col": "5"
+"call": "get _worker()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "189",
+"col": "34"
 },
 {
 "index": "1",
-"call": "openIDB()",
-"path": "resource://services-settings/Database.jsm",
-"line": "317",
-"col": "4"
+"call": "postMessage()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "316",
+"col": "8"
 },
 {
 "index": "2",
-"call": "executeIDB()",
-"path": "resource://services-settings/Database.jsm",
-"line": "349",
-"col": "10"
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "695",
+"col": "26"
 },
 {
 "index": "3",
-"call": "getLastModified()",
-"path": "resource://services-settings/Database.jsm",
-"line": "166",
-"col": "12"
+"call": "awaitPromise()",
+"path": "resource://gre/modules/addons/XPIProvider.jsm",
+"line": "215",
+"col": "14"
 },
 {
 "index": "4",
-"call": "get()",
-"path": "resource://services-settings/RemoteSettingsClient.jsm",
-"line": "361",
-"col": "39"
+"call": "syncLoadManifest()",
+"path": "resource://gre/modules/addons/XPIInstall.jsm",
+"line": "744",
+"col": "21"
 },
 {
 "index": "5",
-"call": "ensureUpdated()",
-"path": "resource://gre/modules/URLDecorationAnnotationsService.jsm",
-"line": "67",
-"col": "18"
+"call": "addMetadata()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "2864",
+"col": "31"
 },
 {
 "index": "6",
-"call": "observe()",
-"path": "resource://gre/modules/URLDecorationAnnotationsService.jsm",
-"line": "47",
+"call": "processFileChanges()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "3329",
+"col": "25"
+},
+{
+"index": "7",
+"call": "checkForChanges()",
+"path": "resource://gre/modules/addons/XPIProvider.jsm",
+"line": "3044",
+"col": "54"
+},
+{
+"index": "8",
+"call": "startup()",
+"path": "resource://gre/modules/addons/XPIProvider.jsm",
+"line": "2471",
 "col": "11"
+},
+{
+"index": "9",
+"call": "callProvider()",
+"path": "resource://gre/modules/AddonManager.jsm",
+"line": "224",
+"col": "30"
+},
+{
+"index": "10",
+"call": "_startProvider()",
+"path": "resource://gre/modules/AddonManager.jsm",
+"line": "584",
+"col": "16"
+},
+{
+"index": "11",
+"call": "startup()",
+"path": "resource://gre/modules/AddonManager.jsm",
+"line": "811",
+"col": "13"
+},
+{
+"index": "12",
+"call": "startup()",
+"path": "resource://gre/modules/AddonManager.jsm",
+"line": "3514",
+"col": "25"
+},
+{
+"index": "13",
+"call": "observe()",
+"path": "resource://gre/modules/addonManager.js",
+"line": "81",
+"col": "28"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.accept_languages",
+"stack": [
+{
+"index": "0",
+"call": "get _worker()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "189",
+"col": "34"
+},
+{
+"index": "1",
+"call": "postMessage()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "316",
+"col": "8"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "695",
+"col": "26"
+},
+{
+"index": "3",
+"call": "awaitPromise()",
+"path": "resource://gre/modules/addons/XPIProvider.jsm",
+"line": "215",
+"col": "14"
+},
+{
+"index": "4",
+"call": "syncLoadManifest()",
+"path": "resource://gre/modules/addons/XPIInstall.jsm",
+"line": "744",
+"col": "21"
+},
+{
+"index": "5",
+"call": "addMetadata()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "2864",
+"col": "31"
+},
+{
+"index": "6",
+"call": "processFileChanges()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "3329",
+"col": "25"
+},
+{
+"index": "7",
+"call": "checkForChanges()",
+"path": "resource://gre/modules/addons/XPIProvider.jsm",
+"line": "3044",
+"col": "54"
+},
+{
+"index": "8",
+"call": "startup()",
+"path": "resource://gre/modules/addons/XPIProvider.jsm",
+"line": "2471",
+"col": "11"
+},
+{
+"index": "9",
+"call": "callProvider()",
+"path": "resource://gre/modules/AddonManager.jsm",
+"line": "224",
+"col": "30"
+},
+{
+"index": "10",
+"call": "_startProvider()",
+"path": "resource://gre/modules/AddonManager.jsm",
+"line": "584",
+"col": "16"
+},
+{
+"index": "11",
+"call": "startup()",
+"path": "resource://gre/modules/AddonManager.jsm",
+"line": "811",
+"col": "13"
+},
+{
+"index": "12",
+"call": "startup()",
+"path": "resource://gre/modules/AddonManager.jsm",
+"line": "3514",
+"col": "25"
+},
+{
+"index": "13",
+"call": "observe()",
+"path": "resource://gre/modules/addonManager.js",
+"line": "81",
+"col": "28"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "csp.error.missing-directive",
+"stack": [
+{
+"index": "0",
+"call": "contentSecurityPolicy()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "1129",
+"col": "37"
+},
+{
+"index": "1",
+"call": "normalize()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "1742",
+"col": "23"
+},
+{
+"index": "2",
+"call": "anonymous()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "1508",
+"col": "23"
+},
+{
+"index": "3",
+"call": "withChoices()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "601",
+"col": "19"
+},
+{
+"index": "4",
+"call": "normalize()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "1500",
+"col": "38"
+},
+{
+"index": "5",
+"call": "checkProperty/r<()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "2014",
+"col": "15"
+},
+{
+"index": "6",
+"call": "withPath()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "639",
+"col": "13"
+},
+{
+"index": "7",
+"call": "checkProperty()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "2013",
+"col": "24"
+},
+{
+"index": "8",
+"call": "normalize()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "2086",
+"col": "13"
+},
+{
+"index": "9",
+"call": "normalize()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "3559",
+"col": "22"
+},
+{
+"index": "10",
+"call": "normalize()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "3765",
+"col": "27"
+},
+{
+"index": "11",
+"call": "_getNormalizedManifest()",
+"path": "resource://gre/modules/Extension.jsm",
+"line": "967",
+"col": "19"
+},
+{
+"index": "12",
+"call": "parseManifest()",
+"path": "resource://gre/modules/Extension.jsm",
+"line": "1007",
+"col": "32"
+},
+{
+"index": "13",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "695",
+"col": "26"
+},
+{
+"index": "14",
+"call": "awaitPromise()",
+"path": "resource://gre/modules/addons/XPIProvider.jsm",
+"line": "215",
+"col": "14"
+},
+{
+"index": "15",
+"call": "syncLoadManifest()",
+"path": "resource://gre/modules/addons/XPIInstall.jsm",
+"line": "744",
+"col": "21"
+},
+{
+"index": "16",
+"call": "addMetadata()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "2864",
+"col": "31"
+},
+{
+"index": "17",
+"call": "processFileChanges()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "3329",
+"col": "25"
+},
+{
+"index": "18",
+"call": "checkForChanges()",
+"path": "resource://gre/modules/addons/XPIProvider.jsm",
+"line": "3044",
+"col": "54"
+},
+{
+"index": "19",
+"call": "startup()",
+"path": "resource://gre/modules/addons/XPIProvider.jsm",
+"line": "2471",
+"col": "11"
+},
+{
+"index": "20",
+"call": "callProvider()",
+"path": "resource://gre/modules/AddonManager.jsm",
+"line": "224",
+"col": "30"
+},
+{
+"index": "21",
+"call": "_startProvider()",
+"path": "resource://gre/modules/AddonManager.jsm",
+"line": "584",
+"col": "16"
+},
+{
+"index": "22",
+"call": "startup()",
+"path": "resource://gre/modules/AddonManager.jsm",
+"line": "811",
+"col": "13"
+},
+{
+"index": "23",
+"call": "startup()",
+"path": "resource://gre/modules/AddonManager.jsm",
+"line": "3514",
+"col": "25"
+},
+{
+"index": "24",
+"call": "observe()",
+"path": "resource://gre/modules/addonManager.js",
+"line": "81",
+"col": "28"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "csp.error.missing-directive",
+"stack": [
+{
+"index": "0",
+"call": "contentSecurityPolicy()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "1129",
+"col": "37"
+},
+{
+"index": "1",
+"call": "normalize()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "1742",
+"col": "23"
+},
+{
+"index": "2",
+"call": "anonymous()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "1508",
+"col": "23"
+},
+{
+"index": "3",
+"call": "withChoices()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "601",
+"col": "19"
+},
+{
+"index": "4",
+"call": "normalize()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "1500",
+"col": "38"
+},
+{
+"index": "5",
+"call": "checkProperty/r<()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "2014",
+"col": "15"
+},
+{
+"index": "6",
+"call": "withPath()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "639",
+"col": "13"
+},
+{
+"index": "7",
+"call": "checkProperty()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "2013",
+"col": "24"
+},
+{
+"index": "8",
+"call": "normalize()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "2086",
+"col": "13"
+},
+{
+"index": "9",
+"call": "normalize()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "3559",
+"col": "22"
+},
+{
+"index": "10",
+"call": "normalize()",
+"path": "resource://gre/modules/Schemas.jsm",
+"line": "3765",
+"col": "27"
+},
+{
+"index": "11",
+"call": "_getNormalizedManifest()",
+"path": "resource://gre/modules/Extension.jsm",
+"line": "967",
+"col": "19"
+},
+{
+"index": "12",
+"call": "parseManifest()",
+"path": "resource://gre/modules/Extension.jsm",
+"line": "1007",
+"col": "32"
+},
+{
+"index": "13",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "695",
+"col": "26"
+},
+{
+"index": "14",
+"call": "awaitPromise()",
+"path": "resource://gre/modules/addons/XPIProvider.jsm",
+"line": "215",
+"col": "14"
+},
+{
+"index": "15",
+"call": "syncLoadManifest()",
+"path": "resource://gre/modules/addons/XPIInstall.jsm",
+"line": "744",
+"col": "21"
+},
+{
+"index": "16",
+"call": "addMetadata()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "2864",
+"col": "31"
+},
+{
+"index": "17",
+"call": "processFileChanges()",
+"path": "resource://gre/modules/addons/XPIDatabase.jsm",
+"line": "3329",
+"col": "25"
+},
+{
+"index": "18",
+"call": "checkForChanges()",
+"path": "resource://gre/modules/addons/XPIProvider.jsm",
+"line": "3044",
+"col": "54"
+},
+{
+"index": "19",
+"call": "startup()",
+"path": "resource://gre/modules/addons/XPIProvider.jsm",
+"line": "2471",
+"col": "11"
+},
+{
+"index": "20",
+"call": "callProvider()",
+"path": "resource://gre/modules/AddonManager.jsm",
+"line": "224",
+"col": "30"
+},
+{
+"index": "21",
+"call": "_startProvider()",
+"path": "resource://gre/modules/AddonManager.jsm",
+"line": "584",
+"col": "16"
+},
+{
+"index": "22",
+"call": "startup()",
+"path": "resource://gre/modules/AddonManager.jsm",
+"line": "811",
+"col": "13"
+},
+{
+"index": "23",
+"call": "startup()",
+"path": "resource://gre/modules/AddonManager.jsm",
+"line": "3514",
+"col": "25"
+},
+{
+"index": "24",
+"call": "observe()",
+"path": "resource://gre/modules/addonManager.js",
+"line": "81",
+"col": "28"
 }
 ],
 "file": null
@@ -596,14 +855,14 @@
 "index": "11",
 "call": "_getNormalizedManifest()",
 "path": "resource://gre/modules/Extension.jsm",
-"line": "964",
+"line": "967",
 "col": "19"
 },
 {
 "index": "12",
 "call": "parseManifest()",
 "path": "resource://gre/modules/Extension.jsm",
-"line": "1004",
+"line": "1007",
 "col": "32"
 },
 {
@@ -701,14 +960,14 @@
 "index": "11",
 "call": "_getNormalizedManifest()",
 "path": "resource://gre/modules/Extension.jsm",
-"line": "964",
+"line": "967",
 "col": "19"
 },
 {
 "index": "12",
 "call": "parseManifest()",
 "path": "resource://gre/modules/Extension.jsm",
-"line": "1004",
+"line": "1007",
 "col": "32"
 },
 {
@@ -787,76 +1046,6 @@
 "path": "resource://gre/modules/CustomElementsListener.jsm",
 "line": "26",
 "col": "30"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": [
-{
-"index": "0",
-"call": "get _worker()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "189",
-"col": "34"
-},
-{
-"index": "1",
-"call": "postMessage()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "316",
-"col": "8"
-},
-{
-"index": "2",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1485",
-"col": "33"
-},
-{
-"index": "3",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "695",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": [
-{
-"index": "0",
-"call": "get _worker()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "189",
-"col": "34"
-},
-{
-"index": "1",
-"call": "postMessage()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "316",
-"col": "8"
-},
-{
-"index": "2",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1485",
-"col": "33"
-},
-{
-"index": "3",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "695",
-"col": "26"
 }
 ],
 "file": null
@@ -3280,7 +3469,7 @@
 "index": "2",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6970",
+"line": "6976",
 "col": "32"
 },
 {
@@ -3336,7 +3525,7 @@
 "index": "2",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6970",
+"line": "6976",
 "col": "32"
 },
 {
@@ -3385,7 +3574,7 @@
 "index": "1",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6975",
+"line": "6981",
 "col": "23"
 },
 {
@@ -3434,7 +3623,7 @@
 "index": "1",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6975",
+"line": "6981",
 "col": "23"
 },
 {
@@ -3966,6 +4155,12 @@
 },
 {
 "type": "properties",
+"id": "brandShortName",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
 "id": "intl.menuitems.alwaysappendaccesskeys",
 "stack": null,
 "file": null
@@ -3974,75 +4169,6 @@
 "type": "properties",
 "id": "brandShortName",
 "stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "brandShortName",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": [
-{
-"index": "0",
-"call": "open()",
-"path": "resource://gre/modules/ServiceRequest.jsm",
-"line": "44",
-"col": "10"
-},
-{
-"index": "1",
-"call": "fetch/<()",
-"path": "resource://services-settings/Utils.jsm",
-"line": "161",
-"col": "14"
-},
-{
-"index": "2",
-"call": "fetch()",
-"path": "resource://services-settings/Utils.jsm",
-"line": "113",
-"col": "11"
-},
-{
-"index": "3",
-"call": "fetchLatestChanges()",
-"path": "resource://services-settings/Utils.jsm",
-"line": "295",
-"col": "33"
-},
-{
-"index": "4",
-"call": "sync()",
-"path": "resource://services-settings/RemoteSettingsClient.jsm",
-"line": "494",
-"col": "36"
-},
-{
-"index": "5",
-"call": "get/this._importingPromise<()",
-"path": "resource://services-settings/RemoteSettingsClient.jsm",
-"line": "378",
-"col": "25"
-},
-{
-"index": "6",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1485",
-"col": "33"
-},
-{
-"index": "7",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "695",
-"col": "26"
-}
-],
 "file": null
 },
 {
@@ -4058,6 +4184,118 @@
 },
 {
 "index": "1",
+"call": "_delayedStartup()",
+"path": "self-hosted",
+"line": "1178",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.accept_languages",
+"stack": [
+{
+"index": "0",
+"call": "_fetchTimeout()",
+"path": "resource://gre/modules/Region.jsm",
+"line": "751",
+"col": "25"
+},
+{
+"index": "1",
+"call": "_getRegion()",
+"path": "resource://gre/modules/Region.jsm",
+"line": "412",
+"col": "27"
+},
+{
+"index": "2",
+"call": "_fetchRegion()",
+"path": "resource://gre/modules/Region.jsm",
+"line": "213",
+"col": "26"
+},
+{
+"index": "3",
+"call": "init/<()",
+"path": "resource://gre/modules/Region.jsm",
+"line": "170",
+"col": "50"
+},
+{
+"index": "4",
+"call": "_idleDispatch/<()",
+"path": "resource://gre/modules/Region.jsm",
+"line": "809",
+"col": "43"
+},
+{
+"index": "5",
+"call": "_idleDispatch()",
+"path": "resource://gre/modules/Region.jsm",
+"line": "808",
+"col": "11"
+},
+{
+"index": "6",
+"call": "init()",
+"path": "resource://gre/modules/Region.jsm",
+"line": "170",
+"col": "25"
+},
+{
+"index": "7",
+"call": "<TOP LEVEL>",
+"path": "resource://gre/modules/Region.jsm",
+"line": "882",
+"col": "7"
+},
+{
+"index": "8",
+"call": "_init()",
+"path": "resource://gre/modules/SearchService.jsm",
+"line": "239",
+"col": "4"
+},
+{
+"index": "9",
+"call": "init()",
+"path": "resource://gre/modules/SearchService.jsm",
+"line": "1248",
+"col": "17"
+},
+{
+"index": "10",
+"call": "getDefault()",
+"path": "resource://gre/modules/SearchService.jsm",
+"line": "2296",
+"col": "15"
+},
+{
+"index": "11",
+"call": "_updateURLBarPlaceholderFromDefaultEngine()",
+"path": "chrome://browser/content/browser.js",
+"line": "3995",
+"col": "30"
+},
+{
+"index": "12",
+"call": "delayedStartupInit()",
+"path": "chrome://browser/content/browser.js",
+"line": "3855",
+"col": "9"
+},
+{
+"index": "13",
+"call": "_delayedStartup()",
+"path": "chrome://browser/content/browser.js",
+"line": "1915",
+"col": "18"
+},
+{
+"index": "14",
 "call": "_delayedStartup()",
 "path": "self-hosted",
 "line": "1178",
@@ -5404,14 +5642,14 @@
 "index": "0",
 "call": "getIntlSettings()",
 "path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "452",
+"line": "459",
 "col": "7"
 },
 {
 "index": "1",
 "call": "_loadIntlData()",
 "path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "1742",
+"line": "1749",
 "col": "45"
 },
 {
@@ -6310,14 +6548,14 @@
 "index": "7",
 "call": "task()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2398",
+"line": "2426",
 "col": "12"
 },
 {
 "index": "8",
 "call": "_scheduleStartupIdleTasks/<()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2719",
+"line": "2747",
 "col": "19"
 }
 ],
@@ -6380,14 +6618,14 @@
 "index": "7",
 "call": "task()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2398",
+"line": "2426",
 "col": "12"
 },
 {
 "index": "8",
 "call": "_scheduleStartupIdleTasks/<()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2719",
+"line": "2747",
 "col": "19"
 }
 ],
@@ -6437,97 +6675,61 @@
 },
 {
 "type": "ftl",
-"id": "newtab-search-box-handoff-input",
+"id": "newtab-custom-pocket-title",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-search-box-handoff-text",
+"id": "newtab-custom-pocket-subtitle",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-topsite-sponsored",
+"id": "newtab-custom-pocket-sponsored",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"id": "newtab-section-header-pocket",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-topsite-sponsored",
+"id": "newtab-pocket-learn-more",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"id": "newtab-custom-pocket-title",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-topsite-sponsored",
+"id": "newtab-custom-pocket-subtitle",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"id": "newtab-custom-pocket-sponsored",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-topsite-sponsored",
+"id": "newtab-section-header-pocket",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-search-box-handoff-input",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-search-box-handoff-text",
+"id": "newtab-pocket-learn-more",
 "stack": null,
 "file": null
 },
@@ -6538,6 +6740,258 @@
 "file": null
 },
 {
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-topsites",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-pocket",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-pocket-learn-more",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-topsites",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-pocket",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-pocket-learn-more",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-search-box-handoff-input",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-search-box-handoff-text",
+"stack": null,
+"file": null
+},
+{
 "type": "ftl",
 "id": "newtab-topsite-sponsored",
 "stack": null,
@@ -6606,6 +7060,102 @@
 {
 "type": "ftl",
 "id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-search-box-handoff-input",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-search-box-handoff-text",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
 "stack": null,
 "file": null
 },
@@ -6674,13 +7224,42 @@
 },
 {
 "type": "properties",
-"id": "6",
-"stack": null,
+"id": "gecko.handlerService.schemes.irc.0.uriTemplate",
+"stack": [
+{
+"index": "0",
+"call": "_injectDefaultProtocolHandlers()",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
+"line": "150",
+"col": "41"
+},
+{
+"index": "1",
+"call": "_injectDefaultProtocolHandlersIfNeeded()",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
+"line": "125",
+"col": "13"
+},
+{
+"index": "2",
+"call": "_ensureStoreInitialized()",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
+"line": "79",
+"col": "11"
+},
+{
+"index": "3",
+"call": "asyncInit/<()",
+"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
+"line": "389",
+"col": "17"
+}
+],
 "file": null
 },
 {
 "type": "properties",
-"id": "6",
+"id": "gecko.handlerService.schemes.irc.1.name",
 "stack": [
 {
 "index": "0",
@@ -7849,14 +8428,8 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
+"type": "ftl",
+"id": "browser-import-button2",
 "stack": null,
 "file": null
 },
@@ -7869,120 +8442,6 @@
 {
 "type": "ftl",
 "id": "appmenu-fxa-sync-and-save-data2",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "browser-import-button2",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "brandShortName",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
 "stack": null,
 "file": null
 },
@@ -8025,6 +8484,276 @@
 {
 "type": "properties",
 "id": "ZoomPropertyWarning",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.accept_languages",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "3",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "3",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "11",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "11",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "7",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "7",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.accept_languages",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "brandShortName",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "4",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "4",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
 "stack": null,
 "file": null
 },
@@ -8147,7 +8876,13 @@
 },
 {
 "type": "properties",
-"id": "10",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -8165,7 +8900,13 @@
 },
 {
 "type": "properties",
-"id": "10",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -8182,134 +8923,26 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-custom-pocket-title",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-custom-pocket-subtitle",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-custom-pocket-sponsored",
+"type": "properties",
+"id": "10",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-section-header-pocket",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-pocket-learn-more",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-custom-pocket-title",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-custom-pocket-subtitle",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-custom-pocket-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-header-pocket",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-pocket-learn-more",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
+"type": "properties",
+"id": "10",
 "stack": null,
 "file": null
 },
@@ -8375,30 +9008,30 @@
 {
 "index": "1",
 "call": "e.getFxALinkReferralData()",
-"path": "https://www.mozilla.org/media/js/data.7dd30139eb20.js",
+"path": "https://www.mozilla.org/media/js/data.98cf22b6442e.js",
 "line": "1",
 "col": "4265"
 },
 {
 "index": "2",
 "call": "e.init()",
-"path": "https://www.mozilla.org/media/js/data.7dd30139eb20.js",
+"path": "https://www.mozilla.org/media/js/data.98cf22b6442e.js",
 "line": "1",
-"col": "7748"
+"col": "7682"
 },
 {
 "index": "3",
 "call": "anonymous()",
-"path": "https://www.mozilla.org/media/js/data.7dd30139eb20.js",
+"path": "https://www.mozilla.org/media/js/data.98cf22b6442e.js",
 "line": "1",
-"col": "8187"
+"col": "8121"
 },
 {
 "index": "4",
 "call": "<TOP LEVEL>",
-"path": "https://www.mozilla.org/media/js/data.7dd30139eb20.js",
+"path": "https://www.mozilla.org/media/js/data.98cf22b6442e.js",
 "line": "1",
-"col": "8202"
+"col": "8136"
 }
 ],
 "file": null
@@ -8417,30 +9050,30 @@
 {
 "index": "1",
 "call": "e.getFxALinkReferralData()",
-"path": "https://www.mozilla.org/media/js/data.7dd30139eb20.js",
+"path": "https://www.mozilla.org/media/js/data.98cf22b6442e.js",
 "line": "1",
 "col": "4265"
 },
 {
 "index": "2",
 "call": "e.init()",
-"path": "https://www.mozilla.org/media/js/data.7dd30139eb20.js",
+"path": "https://www.mozilla.org/media/js/data.98cf22b6442e.js",
 "line": "1",
-"col": "7748"
+"col": "7682"
 },
 {
 "index": "3",
 "call": "anonymous()",
-"path": "https://www.mozilla.org/media/js/data.7dd30139eb20.js",
+"path": "https://www.mozilla.org/media/js/data.98cf22b6442e.js",
 "line": "1",
-"col": "8187"
+"col": "8121"
 },
 {
 "index": "4",
 "call": "<TOP LEVEL>",
-"path": "https://www.mozilla.org/media/js/data.7dd30139eb20.js",
+"path": "https://www.mozilla.org/media/js/data.98cf22b6442e.js",
 "line": "1",
-"col": "8202"
+"col": "8136"
 }
 ],
 "file": null
@@ -8459,30 +9092,30 @@
 {
 "index": "1",
 "call": "e.getFxALinkReferralData()",
-"path": "https://www.mozilla.org/media/js/data.7dd30139eb20.js",
+"path": "https://www.mozilla.org/media/js/data.98cf22b6442e.js",
 "line": "1",
 "col": "4265"
 },
 {
 "index": "2",
 "call": "e.init()",
-"path": "https://www.mozilla.org/media/js/data.7dd30139eb20.js",
+"path": "https://www.mozilla.org/media/js/data.98cf22b6442e.js",
 "line": "1",
-"col": "7748"
+"col": "7682"
 },
 {
 "index": "3",
 "call": "anonymous()",
-"path": "https://www.mozilla.org/media/js/data.7dd30139eb20.js",
+"path": "https://www.mozilla.org/media/js/data.98cf22b6442e.js",
 "line": "1",
-"col": "8187"
+"col": "8121"
 },
 {
 "index": "4",
 "call": "<TOP LEVEL>",
-"path": "https://www.mozilla.org/media/js/data.7dd30139eb20.js",
+"path": "https://www.mozilla.org/media/js/data.98cf22b6442e.js",
 "line": "1",
-"col": "8202"
+"col": "8136"
 }
 ],
 "file": null
@@ -8501,701 +9134,35 @@
 {
 "index": "1",
 "call": "e.getFxALinkReferralData()",
-"path": "https://www.mozilla.org/media/js/data.7dd30139eb20.js",
+"path": "https://www.mozilla.org/media/js/data.98cf22b6442e.js",
 "line": "1",
 "col": "4265"
 },
 {
 "index": "2",
 "call": "e.init()",
-"path": "https://www.mozilla.org/media/js/data.7dd30139eb20.js",
+"path": "https://www.mozilla.org/media/js/data.98cf22b6442e.js",
 "line": "1",
-"col": "7748"
+"col": "7682"
 },
 {
 "index": "3",
 "call": "anonymous()",
-"path": "https://www.mozilla.org/media/js/data.7dd30139eb20.js",
+"path": "https://www.mozilla.org/media/js/data.98cf22b6442e.js",
 "line": "1",
-"col": "8187"
+"col": "8121"
 },
 {
 "index": "4",
 "call": "<TOP LEVEL>",
-"path": "https://www.mozilla.org/media/js/data.7dd30139eb20.js",
+"path": "https://www.mozilla.org/media/js/data.98cf22b6442e.js",
 "line": "1",
-"col": "8202"
+"col": "8136"
 }
 ],
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-header-topsites",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-header-pocket",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-pocket-learn-more",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-header-topsites",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-header-pocket",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-pocket-learn-more",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "3",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "3",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "3",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "3",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "11",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "11",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "11",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "11",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "7",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "7",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "7",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "7",
-"stack": null,
-"file": null
-},
-{
 "type": "properties",
 "id": "6",
 "stack": null,
@@ -9252,96 +9219,6 @@
 {
 "type": "properties",
 "id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "4",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "12",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "12",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "4",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "4",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "12",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "12",
 "stack": null,
 "file": null
 },
@@ -9414,6 +9291,138 @@
 {
 "type": "properties",
 "id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -9551,24 +9560,6 @@
 },
 {
 "type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
@@ -9592,116 +9583,110 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -9737,6 +9722,186 @@
 },
 {
 "type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
 "id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
@@ -9780,6 +9945,12 @@
 {
 "type": "ftl",
 "id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.ellipsis",
 "stack": null,
 "file": null
 },
@@ -9791,7 +9962,43 @@
 },
 {
 "type": "ftl",
+"id": "extension-firefox-compact-light-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
 "id": "extension-firefox-compact-dark-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-soft-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-balanced-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-bold-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-balanced-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-bold-name",
 "stack": null,
 "file": null
 },
@@ -9803,24 +10010,6 @@
 },
 {
 "type": "ftl",
-"id": "extension-colorways-balanced-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-soft-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-balanced-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "extension-colorways-soft-name",
 "stack": null,
 "file": null
@@ -9833,13 +10022,13 @@
 },
 {
 "type": "ftl",
-"id": "extension-colorways-balanced-name",
+"id": "extension-colorways-soft-name",
 "stack": null,
 "file": null
 },
 {
 "type": "ftl",
-"id": "extension-firefox-compact-light-name",
+"id": "extension-colorways-soft-name",
 "stack": null,
 "file": null
 },
@@ -9893,61 +10082,7 @@
 },
 {
 "type": "ftl",
-"id": "extension-colorways-soft-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-bold-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-soft-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-bold-name",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "WinConflict2",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "WinConflict2",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "WinConflict2",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "WinConflict2",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "WinConflict2",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "WinConflict2",
+"id": "extension-colorways-balanced-name",
 "stack": null,
 "file": null
 },
@@ -10039,6 +10174,102 @@
 "col": "26"
 }
 ],
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "WinConflict2",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "WinConflict2",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "WinConflict2",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "WinConflict2",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "WinConflict2",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "WinConflict2",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
 "file": null
 },
 {
@@ -10363,7 +10594,7 @@
 "index": "4",
 "call": "onSecurityChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5690",
+"line": "5696",
 "col": "21"
 },
 {
@@ -10517,7 +10748,7 @@
 "index": "4",
 "call": "onSecurityChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5690",
+"line": "5696",
 "col": "21"
 },
 {
@@ -10664,7 +10895,7 @@
 "index": "3",
 "call": "onContentBlockingEvent()",
 "path": "chrome://browser/content/browser.js",
-"line": "5646",
+"line": "5652",
 "col": "24"
 },
 {
@@ -10818,7 +11049,7 @@
 "index": "4",
 "call": "onContentBlockingEvent()",
 "path": "chrome://browser/content/browser.js",
-"line": "5646",
+"line": "5652",
 "col": "24"
 },
 {
@@ -10972,7 +11203,7 @@
 "index": "4",
 "call": "onContentBlockingEvent()",
 "path": "chrome://browser/content/browser.js",
-"line": "5646",
+"line": "5652",
 "col": "24"
 },
 {
@@ -11088,12 +11319,6 @@
 "col": "23"
 }
 ],
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.ellipsis",
-"stack": null,
 "file": null
 },
 {
@@ -11372,6 +11597,12 @@
 "col": "13"
 }
 ],
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
 "file": null
 },
 {
