@@ -1,6 +1,6 @@
 {
-"date": "2021-11-26",
-"revision": "d486edc7499b461100a0fc2a1f2b1b51f9380e97",
+"date": "2021-12-03",
+"revision": "04183e5ab50654ecd17bb21eb621eb022a8cf6bb",
 "data": [
 {
 "type": "properties",
@@ -3398,14 +3398,14 @@
 "index": "0",
 "call": "update()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "6814",
+"line": "6955",
 "col": "26"
 },
 {
 "index": "1",
 "call": "onBeforeInitialXULLayout()",
 "path": "chrome://browser/content/browser.js",
-"line": "1637",
+"line": "1636",
 "col": "28"
 },
 {
@@ -3440,7 +3440,7 @@
 "index": "2",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1696",
+"line": "1695",
 "col": "13"
 },
 {
@@ -3475,7 +3475,7 @@
 "index": "2",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6975",
+"line": "6974",
 "col": "32"
 },
 {
@@ -3496,7 +3496,7 @@
 "index": "5",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1696",
+"line": "1695",
 "col": "13"
 },
 {
@@ -3531,7 +3531,7 @@
 "index": "2",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6975",
+"line": "6974",
 "col": "32"
 },
 {
@@ -3552,7 +3552,7 @@
 "index": "5",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1696",
+"line": "1695",
 "col": "13"
 },
 {
@@ -3573,14 +3573,14 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "675",
+"line": "674",
 "col": "26"
 },
 {
 "index": "1",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6980",
+"line": "6979",
 "col": "23"
 },
 {
@@ -3601,7 +3601,7 @@
 "index": "4",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1696",
+"line": "1695",
 "col": "13"
 },
 {
@@ -3622,14 +3622,14 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "675",
+"line": "674",
 "col": "26"
 },
 {
 "index": "1",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6980",
+"line": "6979",
 "col": "23"
 },
 {
@@ -3650,7 +3650,7 @@
 "index": "4",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1696",
+"line": "1695",
 "col": "13"
 },
 {
@@ -3709,7 +3709,7 @@
 "index": "2",
 "call": "anonymous()",
 "path": "chrome://browser/content/browser.js",
-"line": "341",
+"line": "340",
 "col": "15"
 },
 {
@@ -3723,28 +3723,28 @@
 "index": "4",
 "call": "_setInitialFocus/<()",
 "path": "chrome://browser/content/browser.js",
-"line": "2153",
+"line": "2152",
 "col": "8"
 },
 {
 "index": "5",
 "call": "_callWithURIToLoad()",
 "path": "chrome://browser/content/browser.js",
-"line": "2426",
+"line": "2425",
 "col": "14"
 },
 {
 "index": "6",
 "call": "_setInitialFocus()",
 "path": "chrome://browser/content/browser.js",
-"line": "2141",
+"line": "2140",
 "col": "9"
 },
 {
 "index": "7",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1730",
+"line": "1729",
 "col": "9"
 },
 {
@@ -3789,7 +3789,7 @@
 "index": "0",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1859",
+"line": "1858",
 "col": "4"
 },
 {
@@ -3887,21 +3887,21 @@
 "index": "11",
 "call": "_updateURLBarPlaceholderFromDefaultEngine()",
 "path": "chrome://browser/content/browser.js",
-"line": "3994",
+"line": "3993",
 "col": "30"
 },
 {
 "index": "12",
 "call": "delayedStartupInit()",
 "path": "chrome://browser/content/browser.js",
-"line": "3854",
+"line": "3853",
 "col": "9"
 },
 {
 "index": "13",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1914",
+"line": "1913",
 "col": "18"
 },
 {
@@ -3936,14 +3936,14 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1944",
+"line": "1943",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1950",
+"line": "1949",
 "col": "32"
 },
 {
@@ -3978,14 +3978,14 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1944",
+"line": "1943",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1950",
+"line": "1949",
 "col": "32"
 },
 {
@@ -4020,14 +4020,14 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1944",
+"line": "1943",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1950",
+"line": "1949",
 "col": "32"
 },
 {
@@ -4062,14 +4062,14 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1944",
+"line": "1943",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1956",
+"line": "1955",
 "col": "32"
 },
 {
@@ -4104,14 +4104,14 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1944",
+"line": "1943",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1956",
+"line": "1955",
 "col": "32"
 },
 {
@@ -4146,14 +4146,14 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1944",
+"line": "1943",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1956",
+"line": "1955",
 "col": "32"
 },
 {
@@ -4286,7 +4286,7 @@
 "index": "4",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2118",
+"line": "2117",
 "col": "17"
 },
 {
@@ -4335,7 +4335,7 @@
 "index": "4",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2118",
+"line": "2117",
 "col": "17"
 },
 {
@@ -4356,14 +4356,14 @@
 "index": "0",
 "call": "getIntlSettings()",
 "path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "459",
+"line": "460",
 "col": "7"
 },
 {
 "index": "1",
 "call": "_loadIntlData()",
 "path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "1749",
+"line": "1750",
 "col": "45"
 },
 {
@@ -4432,6 +4432,12 @@
 "file": null
 },
 {
+"type": "ftl",
+"id": "newtab-page-title",
+"stack": null,
+"file": null
+},
+{
 "type": "properties",
 "id": "readerView.enter",
 "stack": [
@@ -4453,7 +4459,7 @@
 "index": "2",
 "call": "onLocationChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5507",
+"line": "5506",
 "col": "22"
 },
 {
@@ -4474,14 +4480,14 @@
 "index": "5",
 "call": "_callProgressListeners()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "6182",
+"line": "6323",
 "col": "45"
 },
 {
 "index": "6",
 "call": "onLocationChange()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "6594",
+"line": "6735",
 "col": "13"
 }
 ],
@@ -4509,7 +4515,7 @@
 "index": "2",
 "call": "onLocationChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5507",
+"line": "5506",
 "col": "22"
 },
 {
@@ -4530,23 +4536,17 @@
 "index": "5",
 "call": "_callProgressListeners()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "6182",
+"line": "6323",
 "col": "45"
 },
 {
 "index": "6",
 "call": "onLocationChange()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "6594",
+"line": "6735",
 "col": "13"
 }
 ],
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-page-title",
-"stack": null,
 "file": null
 },
 {
@@ -4576,6 +4576,12 @@
 {
 "type": "ftl",
 "id": "search-one-offs-context-set-as-default-private",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "errQuirkyDoctypeVerbose",
 "stack": null,
 "file": null
 },
@@ -4752,6 +4758,12 @@
 "file": null
 },
 {
+"type": "properties",
+"id": "errQuirkyDoctypeVerbose",
+"stack": null,
+"file": null
+},
+{
 "type": "ftl",
 "id": "newtab-personalize-icon-label",
 "stack": null,
@@ -5143,7 +5155,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "675",
+"line": "674",
 "col": "26"
 },
 {
@@ -5178,7 +5190,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "675",
+"line": "674",
 "col": "26"
 },
 {
@@ -6536,24 +6548,6 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
 "type": "ftl",
 "id": "newtab-search-box-handoff-input",
 "stack": null,
@@ -6567,90 +6561,6 @@
 },
 {
 "type": "ftl",
-"id": "newtab-search-box-handoff-input",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-search-box-handoff-text",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "newtab-topsite-sponsored",
 "stack": null,
 "file": null
@@ -6718,66 +6628,6 @@
 {
 "type": "ftl",
 "id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
 "stack": null,
 "file": null
 },
@@ -6790,6 +6640,18 @@
 {
 "type": "ftl",
 "id": "appmenu-fxa-sync-and-save-data2",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-search-box-handoff-input",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-search-box-handoff-text",
 "stack": null,
 "file": null
 },
@@ -6872,6 +6734,180 @@
 "file": null
 },
 {
+"type": "properties",
+"id": "intl.accept_languages",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.accept_languages",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "brandShortName",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
 "type": "ftl",
 "id": "newtab-custom-pocket-title",
 "stack": null,
@@ -6902,6 +6938,30 @@
 "file": null
 },
 {
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
 "type": "ftl",
 "id": "newtab-custom-pocket-title",
 "stack": null,
@@ -6928,174 +6988,6 @@
 {
 "type": "ftl",
 "id": "newtab-pocket-learn-more",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
 "stack": null,
 "file": null
 },
@@ -7454,18 +7346,6 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
 "type": "ftl",
 "id": "newtab-topsite-sponsored",
 "stack": null,
@@ -7582,30 +7462,6 @@
 {
 "type": "properties",
 "id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "brandShortName",
 "stack": null,
 "file": null
 },
@@ -7715,6 +7571,30 @@
 "file": null
 },
 {
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
 "type": "ftl",
 "id": "newtab-topsite-sponsored",
 "stack": null,
@@ -7770,6 +7650,30 @@
 },
 {
 "type": "properties",
+"id": "3",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "3",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "3",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "3",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
 "id": "10",
 "stack": null,
 "file": null
@@ -8034,6 +7938,66 @@
 },
 {
 "type": "properties",
+"id": "11",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "11",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "7",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "7",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "11",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "11",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "7",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "7",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
 "id": "6",
 "stack": null,
 "file": null
@@ -8053,6 +8017,54 @@
 {
 "type": "properties",
 "id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "4",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "4",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "4",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "4",
 "stack": null,
 "file": null
 },
@@ -8077,42 +8089,6 @@
 {
 "type": "properties",
 "id": "12",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "12",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "12",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
 "stack": null,
 "file": null
 },
@@ -8370,18 +8346,6 @@
 },
 {
 "type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
 "id": "13",
 "stack": null,
 "file": null
@@ -8401,6 +8365,18 @@
 {
 "type": "properties",
 "id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -8556,6 +8532,66 @@
 },
 {
 "type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
 "id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
@@ -8628,12 +8664,6 @@
 },
 {
 "type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
@@ -8706,7 +8736,7 @@
 },
 {
 "type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
 },
@@ -8718,13 +8748,7 @@
 },
 {
 "type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
 },
@@ -8760,18 +8784,6 @@
 },
 {
 "type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
@@ -8779,174 +8791,6 @@
 {
 "type": "ftl",
 "id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "tab-context-new-tab",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "reload-tab",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "reload-tabs",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "tab-context-play-tab",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "tab-context-play-tabs",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "pin-tab",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "unpin-tab",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "pin-selected-tabs",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "unpin-selected-tabs",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "duplicate-tab",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "duplicate-tabs",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "bookmark-selected-tabs",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "bookmark-tab",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "tab-context-move-tabs",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "move-to-start",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "move-to-end",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "move-to-new-window",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "tab-context-send-tabs-to-device",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "tab-context-open-in-new-container-tab",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "select-all-tabs",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "tab-context-close-n-tabs",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "tab-context-close-multiple-tabs",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "close-tabs-to-the-start",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "close-tabs-to-the-end",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "close-other-tabs",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "tab-context-reopen-closed-tabs",
 "stack": null,
 "file": null
 },
@@ -8959,6 +8803,36 @@
 {
 "type": "ftl",
 "id": "extension-firefox-compact-light-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-balanced-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-bold-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-balanced-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-bold-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-bold-name",
 "stack": null,
 "file": null
 },
@@ -8982,24 +8856,6 @@
 },
 {
 "type": "ftl",
-"id": "extension-colorways-bold-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-balanced-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-balanced-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "extension-colorways-soft-name",
 "stack": null,
 "file": null
@@ -9042,12 +8898,6 @@
 },
 {
 "type": "ftl",
-"id": "extension-colorways-bold-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "extension-colorways-soft-name",
 "stack": null,
 "file": null
@@ -9073,12 +8923,6 @@
 {
 "type": "ftl",
 "id": "extension-colorways-balanced-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-bold-name",
 "stack": null,
 "file": null
 },
@@ -9122,90 +8966,6 @@
 "type": "ftl",
 "id": "newtab-menu-content-tooltip",
 "stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": [
-{
-"index": "0",
-"call": "get _worker()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "189",
-"col": "34"
-},
-{
-"index": "1",
-"call": "postMessage()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "316",
-"col": "8"
-},
-{
-"index": "2",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "695",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": [
-{
-"index": "0",
-"call": "get _worker()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "189",
-"col": "34"
-},
-{
-"index": "1",
-"call": "postMessage()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "316",
-"col": "8"
-},
-{
-"index": "2",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "695",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": [
-{
-"index": "0",
-"call": "get _worker()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "189",
-"col": "34"
-},
-{
-"index": "1",
-"call": "postMessage()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "316",
-"col": "8"
-},
-{
-"index": "2",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "695",
-"col": "26"
-}
-],
 "file": null
 },
 {
@@ -9230,7 +8990,7 @@
 "index": "2",
 "call": "onLocationChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5507",
+"line": "5506",
 "col": "22"
 },
 {
@@ -9258,7 +9018,7 @@
 "index": "6",
 "call": "_setupEventListeners/<()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "5612",
+"line": "5753",
 "col": "15"
 },
 {
@@ -9307,35 +9067,35 @@
 "index": "13",
 "call": "_blurTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "4092",
+"line": "4233",
 "col": "30"
 },
 {
 "index": "14",
 "call": "_beginRemoveTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3734",
+"line": "3875",
 "col": "13"
 },
 {
 "index": "15",
 "call": "removeTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3602",
+"line": "3743",
 "col": "14"
 },
 {
 "index": "16",
 "call": "removeCurrentTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3557",
+"line": "3698",
 "col": "11"
 },
 {
 "index": "17",
 "call": "BrowserCloseTabOrWindow()",
 "path": "chrome://browser/content/browser.js",
-"line": "3003",
+"line": "3002",
 "col": "11"
 },
 {
@@ -9370,7 +9130,7 @@
 "index": "2",
 "call": "onLocationChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5507",
+"line": "5506",
 "col": "22"
 },
 {
@@ -9398,7 +9158,7 @@
 "index": "6",
 "call": "_setupEventListeners/<()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "5612",
+"line": "5753",
 "col": "15"
 },
 {
@@ -9447,35 +9207,35 @@
 "index": "13",
 "call": "_blurTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "4092",
+"line": "4233",
 "col": "30"
 },
 {
 "index": "14",
 "call": "_beginRemoveTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3734",
+"line": "3875",
 "col": "13"
 },
 {
 "index": "15",
 "call": "removeTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3602",
+"line": "3743",
 "col": "14"
 },
 {
 "index": "16",
 "call": "removeCurrentTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3557",
+"line": "3698",
 "col": "11"
 },
 {
 "index": "17",
 "call": "BrowserCloseTabOrWindow()",
 "path": "chrome://browser/content/browser.js",
-"line": "3003",
+"line": "3002",
 "col": "11"
 },
 {
@@ -9496,7 +9256,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "675",
+"line": "674",
 "col": "26"
 },
 {
@@ -9524,7 +9284,7 @@
 "index": "4",
 "call": "onSecurityChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5695",
+"line": "5694",
 "col": "21"
 },
 {
@@ -9552,7 +9312,7 @@
 "index": "8",
 "call": "_setupEventListeners/<()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "5612",
+"line": "5753",
 "col": "15"
 },
 {
@@ -9601,35 +9361,35 @@
 "index": "15",
 "call": "_blurTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "4092",
+"line": "4233",
 "col": "30"
 },
 {
 "index": "16",
 "call": "_beginRemoveTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3734",
+"line": "3875",
 "col": "13"
 },
 {
 "index": "17",
 "call": "removeTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3602",
+"line": "3743",
 "col": "14"
 },
 {
 "index": "18",
 "call": "removeCurrentTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3557",
+"line": "3698",
 "col": "11"
 },
 {
 "index": "19",
 "call": "BrowserCloseTabOrWindow()",
 "path": "chrome://browser/content/browser.js",
-"line": "3003",
+"line": "3002",
 "col": "11"
 },
 {
@@ -9650,7 +9410,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "675",
+"line": "674",
 "col": "26"
 },
 {
@@ -9678,7 +9438,7 @@
 "index": "4",
 "call": "onSecurityChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5695",
+"line": "5694",
 "col": "21"
 },
 {
@@ -9706,7 +9466,7 @@
 "index": "8",
 "call": "_setupEventListeners/<()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "5612",
+"line": "5753",
 "col": "15"
 },
 {
@@ -9755,35 +9515,35 @@
 "index": "15",
 "call": "_blurTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "4092",
+"line": "4233",
 "col": "30"
 },
 {
 "index": "16",
 "call": "_beginRemoveTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3734",
+"line": "3875",
 "col": "13"
 },
 {
 "index": "17",
 "call": "removeTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3602",
+"line": "3743",
 "col": "14"
 },
 {
 "index": "18",
 "call": "removeCurrentTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3557",
+"line": "3698",
 "col": "11"
 },
 {
 "index": "19",
 "call": "BrowserCloseTabOrWindow()",
 "path": "chrome://browser/content/browser.js",
-"line": "3003",
+"line": "3002",
 "col": "11"
 },
 {
@@ -9825,7 +9585,7 @@
 "index": "3",
 "call": "onContentBlockingEvent()",
 "path": "chrome://browser/content/browser.js",
-"line": "5651",
+"line": "5650",
 "col": "24"
 },
 {
@@ -9853,7 +9613,7 @@
 "index": "7",
 "call": "_setupEventListeners/<()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "5612",
+"line": "5753",
 "col": "15"
 },
 {
@@ -9902,35 +9662,35 @@
 "index": "14",
 "call": "_blurTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "4092",
+"line": "4233",
 "col": "30"
 },
 {
 "index": "15",
 "call": "_beginRemoveTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3734",
+"line": "3875",
 "col": "13"
 },
 {
 "index": "16",
 "call": "removeTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3602",
+"line": "3743",
 "col": "14"
 },
 {
 "index": "17",
 "call": "removeCurrentTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3557",
+"line": "3698",
 "col": "11"
 },
 {
 "index": "18",
 "call": "BrowserCloseTabOrWindow()",
 "path": "chrome://browser/content/browser.js",
-"line": "3003",
+"line": "3002",
 "col": "11"
 },
 {
@@ -9951,7 +9711,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "675",
+"line": "674",
 "col": "26"
 },
 {
@@ -9979,7 +9739,7 @@
 "index": "4",
 "call": "onContentBlockingEvent()",
 "path": "chrome://browser/content/browser.js",
-"line": "5651",
+"line": "5650",
 "col": "24"
 },
 {
@@ -10007,7 +9767,7 @@
 "index": "8",
 "call": "_setupEventListeners/<()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "5612",
+"line": "5753",
 "col": "15"
 },
 {
@@ -10056,35 +9816,35 @@
 "index": "15",
 "call": "_blurTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "4092",
+"line": "4233",
 "col": "30"
 },
 {
 "index": "16",
 "call": "_beginRemoveTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3734",
+"line": "3875",
 "col": "13"
 },
 {
 "index": "17",
 "call": "removeTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3602",
+"line": "3743",
 "col": "14"
 },
 {
 "index": "18",
 "call": "removeCurrentTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3557",
+"line": "3698",
 "col": "11"
 },
 {
 "index": "19",
 "call": "BrowserCloseTabOrWindow()",
 "path": "chrome://browser/content/browser.js",
-"line": "3003",
+"line": "3002",
 "col": "11"
 },
 {
@@ -10105,7 +9865,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "675",
+"line": "674",
 "col": "26"
 },
 {
@@ -10133,7 +9893,7 @@
 "index": "4",
 "call": "onContentBlockingEvent()",
 "path": "chrome://browser/content/browser.js",
-"line": "5651",
+"line": "5650",
 "col": "24"
 },
 {
@@ -10161,7 +9921,7 @@
 "index": "8",
 "call": "_setupEventListeners/<()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "5612",
+"line": "5753",
 "col": "15"
 },
 {
@@ -10210,35 +9970,35 @@
 "index": "15",
 "call": "_blurTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "4092",
+"line": "4233",
 "col": "30"
 },
 {
 "index": "16",
 "call": "_beginRemoveTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3734",
+"line": "3875",
 "col": "13"
 },
 {
 "index": "17",
 "call": "removeTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3602",
+"line": "3743",
 "col": "14"
 },
 {
 "index": "18",
 "call": "removeCurrentTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3557",
+"line": "3698",
 "col": "11"
 },
 {
 "index": "19",
 "call": "BrowserCloseTabOrWindow()",
 "path": "chrome://browser/content/browser.js",
-"line": "3003",
+"line": "3002",
 "col": "11"
 },
 {
@@ -10425,6 +10185,76 @@
 },
 {
 "type": "properties",
+"id": "zoom-button.label",
+"stack": [
+{
+"index": "0",
+"call": "getFormattedString()",
+"path": "chrome://browser/content/browser.js",
+"line": "674",
+"col": "26"
+},
+{
+"index": "1",
+"call": "updateZoomUI()",
+"path": "resource:///modules/ZoomUI.jsm",
+"line": "173",
+"col": "35"
+},
+{
+"index": "2",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1485",
+"col": "33"
+},
+{
+"index": "3",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "695",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "zoom-button.label",
+"stack": [
+{
+"index": "0",
+"call": "getFormattedString()",
+"path": "chrome://browser/content/browser.js",
+"line": "674",
+"col": "26"
+},
+{
+"index": "1",
+"call": "updateZoomUI()",
+"path": "resource:///modules/ZoomUI.jsm",
+"line": "173",
+"col": "35"
+},
+{
+"index": "2",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1485",
+"col": "33"
+},
+{
+"index": "3",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "695",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "properties",
 "id": "readerView.enter",
 "stack": [
 {
@@ -10467,31 +10297,24 @@
 },
 {
 "type": "properties",
-"id": "zoom-button.label",
+"id": "intl.accept_languages",
 "stack": [
 {
 "index": "0",
-"call": "getFormattedString()",
-"path": "chrome://browser/content/browser.js",
-"line": "675",
-"col": "26"
+"call": "get _worker()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "189",
+"col": "34"
 },
 {
 "index": "1",
-"call": "updateZoomUI()",
-"path": "resource:///modules/ZoomUI.jsm",
-"line": "173",
-"col": "35"
+"call": "postMessage()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "316",
+"col": "8"
 },
 {
 "index": "2",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1485",
-"col": "33"
-},
-{
-"index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
 "line": "695",
@@ -10502,31 +10325,52 @@
 },
 {
 "type": "properties",
-"id": "zoom-button.label",
+"id": "intl.accept_languages",
 "stack": [
 {
 "index": "0",
-"call": "getFormattedString()",
-"path": "chrome://browser/content/browser.js",
-"line": "675",
-"col": "26"
+"call": "get _worker()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "189",
+"col": "34"
 },
 {
 "index": "1",
-"call": "updateZoomUI()",
-"path": "resource:///modules/ZoomUI.jsm",
-"line": "173",
-"col": "35"
+"call": "postMessage()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "316",
+"col": "8"
 },
 {
 "index": "2",
-"call": "InterpretGeneratorResume()",
+"call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "1485",
-"col": "33"
+"line": "695",
+"col": "26"
+}
+],
+"file": null
 },
 {
-"index": "3",
+"type": "properties",
+"id": "intl.accept_languages",
+"stack": [
+{
+"index": "0",
+"call": "get _worker()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "189",
+"col": "34"
+},
+{
+"index": "1",
+"call": "postMessage()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "316",
+"col": "8"
+},
+{
+"index": "2",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
 "line": "695",
@@ -10577,7 +10421,7 @@
 "index": "4",
 "call": "onUnload()",
 "path": "chrome://browser/content/browser.js",
-"line": "2466",
+"line": "2465",
 "col": "18"
 },
 {
@@ -10626,7 +10470,7 @@
 "index": "4",
 "call": "onUnload()",
 "path": "chrome://browser/content/browser.js",
-"line": "2466",
+"line": "2465",
 "col": "18"
 },
 {
