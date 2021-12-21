@@ -1,6 +1,6 @@
 {
-"date": "2021-12-10",
-"revision": "23777ea03332e4e975f741bbd09a571976e93ee5",
+"date": "2021-12-17",
+"revision": "b1fb9a72c8dc87e0fe123f78fd50dd9dfe31b944",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -300,7 +300,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
-"count": 459
+"count": 463
 },
 {
 "file": "en-US/browser/chrome/browser/customizableui/customizableWidgets.properties",
@@ -520,7 +520,7 @@
 },
 {
 "file": "en-US/devtools/client/netmonitor.properties",
-"count": 364
+"count": 366
 },
 {
 "file": "en-US/devtools/client/network-throttling.properties",
@@ -584,7 +584,7 @@
 },
 {
 "file": "en-US/devtools/client/toolbox.properties",
-"count": 74
+"count": 76
 },
 {
 "file": "en-US/devtools/client/tooltips.ftl",
@@ -611,8 +611,8 @@
 "count": 1
 },
 {
-"file": "en-US/devtools/shared/highlighters.properties",
-"count": 7
+"file": "en-US/devtools/shared/highlighters.ftl",
+"count": 11
 },
 {
 "file": "en-US/devtools/shared/screenshot.properties",
@@ -864,7 +864,7 @@
 },
 {
 "file": "en-US/toolkit/chrome/global/extensions.properties",
-"count": 17
+"count": 11
 },
 {
 "file": "en-US/toolkit/chrome/global/fallbackMenubar.properties",
@@ -940,7 +940,7 @@
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/extensions/extensions.properties",
-"count": 55
+"count": 57
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/profile/profileSelection.properties",
@@ -976,7 +976,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutAddons.ftl",
-"count": 184
+"count": 190
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutCompat.ftl",
@@ -1024,7 +1024,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutSupport.ftl",
-"count": 261
+"count": 262
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutTelemetry.ftl",
@@ -1040,7 +1040,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/abuseReports.ftl",
-"count": 47
+"count": 53
 },
 {
 "file": "en-US/toolkit/toolkit/about/certviewer.ftl",
@@ -1056,7 +1056,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/featuregates/features.ftl",
-"count": 34
+"count": 32
 },
 {
 "file": "en-US/toolkit/toolkit/global/commonDialog.ftl",
@@ -1065,6 +1065,10 @@
 {
 "file": "en-US/toolkit/toolkit/global/createProfileWizard.ftl",
 "count": 13
+},
+{
+"file": "en-US/toolkit/toolkit/global/cspErrors.ftl",
+"count": 6
 },
 {
 "file": "en-US/toolkit/toolkit/global/handlerDialog.ftl",
