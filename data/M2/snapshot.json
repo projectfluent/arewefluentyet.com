@@ -1,6 +1,6 @@
 {
-"date": "2022-01-07",
-"revision": "4427e203c432ae8a2db310112bbc86a598ca1203",
+"date": "2022-01-14",
+"revision": "a1cc440f0d9517edf08eb991a908f27616982f52",
 "data": [
 {
 "type": "properties",
@@ -85,14 +85,14 @@
 "index": "1",
 "call": "BG__beforeUIStartup()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1341",
+"line": "1365",
 "col": "4"
 },
 {
 "index": "2",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1002",
+"line": "1026",
 "col": "13"
 }
 ],
@@ -113,14 +113,14 @@
 "index": "1",
 "call": "BG__beforeUIStartup()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1341",
+"line": "1365",
 "col": "4"
 },
 {
 "index": "2",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1002",
+"line": "1026",
 "col": "13"
 }
 ],
@@ -239,14 +239,14 @@
 "index": "2",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1485",
+"line": "1532",
 "col": "33"
 },
 {
 "index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "695",
+"line": "742",
 "col": "26"
 }
 ],
@@ -274,14 +274,14 @@
 "index": "2",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1485",
+"line": "1532",
 "col": "33"
 },
 {
 "index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "695",
+"line": "742",
 "col": "26"
 }
 ],
@@ -1543,6 +1543,12 @@
 },
 {
 "type": "ftl",
+"id": "downloads-cmd-delete-file",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
 "id": "downloads-cmd-remove-from-history",
 "stack": null,
 "file": null
@@ -2636,14 +2642,14 @@
 "index": "1",
 "call": "onBeforeInitialXULLayout()",
 "path": "chrome://browser/content/browser.js",
-"line": "1636",
+"line": "1650",
 "col": "28"
 },
 {
 "index": "2",
 "call": "onBeforeInitialXULLayout()",
 "path": "self-hosted",
-"line": "1178",
+"line": "1225",
 "col": "26"
 }
 ],
@@ -2671,14 +2677,14 @@
 "index": "2",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1695",
+"line": "1709",
 "col": "13"
 },
 {
 "index": "3",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1178",
+"line": "1225",
 "col": "26"
 }
 ],
@@ -2706,7 +2712,7 @@
 "index": "2",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6831",
+"line": "6845",
 "col": "32"
 },
 {
@@ -2727,14 +2733,14 @@
 "index": "5",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1695",
+"line": "1709",
 "col": "13"
 },
 {
 "index": "6",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1178",
+"line": "1225",
 "col": "26"
 }
 ],
@@ -2762,7 +2768,7 @@
 "index": "2",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6831",
+"line": "6845",
 "col": "32"
 },
 {
@@ -2783,14 +2789,14 @@
 "index": "5",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1695",
+"line": "1709",
 "col": "13"
 },
 {
 "index": "6",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1178",
+"line": "1225",
 "col": "26"
 }
 ],
@@ -2804,14 +2810,14 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "674",
+"line": "688",
 "col": "26"
 },
 {
 "index": "1",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6836",
+"line": "6850",
 "col": "23"
 },
 {
@@ -2832,14 +2838,14 @@
 "index": "4",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1695",
+"line": "1709",
 "col": "13"
 },
 {
 "index": "5",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1178",
+"line": "1225",
 "col": "26"
 }
 ],
@@ -2853,14 +2859,14 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "674",
+"line": "688",
 "col": "26"
 },
 {
 "index": "1",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "6836",
+"line": "6850",
 "col": "23"
 },
 {
@@ -2881,14 +2887,14 @@
 "index": "4",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1695",
+"line": "1709",
 "col": "13"
 },
 {
 "index": "5",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1178",
+"line": "1225",
 "col": "26"
 }
 ],
@@ -2940,7 +2946,7 @@
 "index": "2",
 "call": "anonymous()",
 "path": "chrome://browser/content/browser.js",
-"line": "340",
+"line": "354",
 "col": "15"
 },
 {
@@ -2954,35 +2960,35 @@
 "index": "4",
 "call": "_setInitialFocus/<()",
 "path": "chrome://browser/content/browser.js",
-"line": "2152",
+"line": "2166",
 "col": "8"
 },
 {
 "index": "5",
 "call": "_callWithURIToLoad()",
 "path": "chrome://browser/content/browser.js",
-"line": "2419",
+"line": "2433",
 "col": "14"
 },
 {
 "index": "6",
 "call": "_setInitialFocus()",
 "path": "chrome://browser/content/browser.js",
-"line": "2140",
+"line": "2154",
 "col": "9"
 },
 {
 "index": "7",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1729",
+"line": "1743",
 "col": "9"
 },
 {
 "index": "8",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1178",
+"line": "1225",
 "col": "26"
 }
 ],
@@ -3014,62 +3020,20 @@
 },
 {
 "type": "properties",
-"id": "intl.accept_languages",
+"id": "brandShortName",
 "stack": [
 {
 "index": "0",
-"call": "open()",
-"path": "resource://gre/modules/ServiceRequest.jsm",
-"line": "137",
-"col": "10"
+"call": "_delayedStartup()",
+"path": "chrome://browser/content/browser.js",
+"line": "1872",
+"col": "4"
 },
 {
 "index": "1",
-"call": "fetch/<()",
-"path": "resource://services-settings/Utils.jsm",
-"line": "162",
-"col": "14"
-},
-{
-"index": "2",
-"call": "fetch()",
-"path": "resource://services-settings/Utils.jsm",
-"line": "113",
-"col": "11"
-},
-{
-"index": "3",
-"call": "fetchLatestChanges()",
-"path": "resource://services-settings/Utils.jsm",
-"line": "296",
-"col": "33"
-},
-{
-"index": "4",
-"call": "sync()",
-"path": "resource://services-settings/RemoteSettingsClient.jsm",
-"line": "494",
-"col": "36"
-},
-{
-"index": "5",
-"call": "get/this._importingPromise<()",
-"path": "resource://services-settings/RemoteSettingsClient.jsm",
-"line": "378",
-"col": "25"
-},
-{
-"index": "6",
-"call": "InterpretGeneratorResume()",
+"call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1485",
-"col": "33"
-},
-{
-"index": "7",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "695",
+"line": "1225",
 "col": "26"
 }
 ],
@@ -3077,20 +3041,111 @@
 },
 {
 "type": "properties",
-"id": "brandShortName",
+"id": "intl.accept_languages",
 "stack": [
 {
 "index": "0",
-"call": "_delayedStartup()",
-"path": "chrome://browser/content/browser.js",
-"line": "1858",
-"col": "4"
+"call": "_fetchTimeout()",
+"path": "resource://gre/modules/Region.jsm",
+"line": "751",
+"col": "25"
 },
 {
 "index": "1",
+"call": "_getRegion()",
+"path": "resource://gre/modules/Region.jsm",
+"line": "412",
+"col": "27"
+},
+{
+"index": "2",
+"call": "_fetchRegion()",
+"path": "resource://gre/modules/Region.jsm",
+"line": "213",
+"col": "26"
+},
+{
+"index": "3",
+"call": "init/<()",
+"path": "resource://gre/modules/Region.jsm",
+"line": "170",
+"col": "50"
+},
+{
+"index": "4",
+"call": "_idleDispatch/<()",
+"path": "resource://gre/modules/Region.jsm",
+"line": "809",
+"col": "43"
+},
+{
+"index": "5",
+"call": "_idleDispatch()",
+"path": "resource://gre/modules/Region.jsm",
+"line": "808",
+"col": "11"
+},
+{
+"index": "6",
+"call": "init()",
+"path": "resource://gre/modules/Region.jsm",
+"line": "170",
+"col": "25"
+},
+{
+"index": "7",
+"call": "<TOP LEVEL>",
+"path": "resource://gre/modules/Region.jsm",
+"line": "882",
+"col": "7"
+},
+{
+"index": "8",
+"call": "_init()",
+"path": "resource://gre/modules/SearchService.jsm",
+"line": "239",
+"col": "4"
+},
+{
+"index": "9",
+"call": "init()",
+"path": "resource://gre/modules/SearchService.jsm",
+"line": "1248",
+"col": "17"
+},
+{
+"index": "10",
+"call": "getDefault()",
+"path": "resource://gre/modules/SearchService.jsm",
+"line": "2317",
+"col": "15"
+},
+{
+"index": "11",
+"call": "_updateURLBarPlaceholderFromDefaultEngine()",
+"path": "chrome://browser/content/browser.js",
+"line": "3863",
+"col": "30"
+},
+{
+"index": "12",
+"call": "delayedStartupInit()",
+"path": "chrome://browser/content/browser.js",
+"line": "3723",
+"col": "9"
+},
+{
+"index": "13",
+"call": "_delayedStartup()",
+"path": "chrome://browser/content/browser.js",
+"line": "1927",
+"col": "18"
+},
+{
+"index": "14",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1178",
+"line": "1225",
 "col": "26"
 }
 ],
@@ -3118,21 +3173,21 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1943",
+"line": "1957",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1949",
+"line": "1963",
 "col": "32"
 },
 {
 "index": "4",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1178",
+"line": "1225",
 "col": "26"
 }
 ],
@@ -3160,21 +3215,21 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1943",
+"line": "1957",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1949",
+"line": "1963",
 "col": "32"
 },
 {
 "index": "4",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1178",
+"line": "1225",
 "col": "26"
 }
 ],
@@ -3202,21 +3257,21 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1943",
+"line": "1957",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1949",
+"line": "1963",
 "col": "32"
 },
 {
 "index": "4",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1178",
+"line": "1225",
 "col": "26"
 }
 ],
@@ -3244,21 +3299,21 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1943",
+"line": "1957",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1955",
+"line": "1969",
 "col": "32"
 },
 {
 "index": "4",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1178",
+"line": "1225",
 "col": "26"
 }
 ],
@@ -3286,21 +3341,21 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1943",
+"line": "1957",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1955",
+"line": "1969",
 "col": "32"
 },
 {
 "index": "4",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1178",
+"line": "1225",
 "col": "26"
 }
 ],
@@ -3328,21 +3383,21 @@
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "1943",
+"line": "1957",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1955",
+"line": "1969",
 "col": "32"
 },
 {
 "index": "4",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1178",
+"line": "1225",
 "col": "26"
 }
 ],
@@ -3461,21 +3516,21 @@
 "index": "3",
 "call": "onWindowReady()",
 "path": "self-hosted",
-"line": "1178",
+"line": "1225",
 "col": "26"
 },
 {
 "index": "4",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2117",
+"line": "2131",
 "col": "17"
 },
 {
 "index": "5",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1178",
+"line": "1225",
 "col": "26"
 }
 ],
@@ -3510,21 +3565,21 @@
 "index": "3",
 "call": "onWindowReady()",
 "path": "self-hosted",
-"line": "1178",
+"line": "1225",
 "col": "26"
 },
 {
 "index": "4",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2117",
+"line": "2131",
 "col": "17"
 },
 {
 "index": "5",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1178",
+"line": "1225",
 "col": "26"
 }
 ],
@@ -3545,21 +3600,21 @@
 "index": "1",
 "call": "_loadIntlData()",
 "path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "1749",
+"line": "1743",
 "col": "45"
 },
 {
 "index": "2",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1485",
+"line": "1532",
 "col": "33"
 },
 {
 "index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "695",
+"line": "742",
 "col": "26"
 }
 ],
@@ -3641,7 +3696,7 @@
 "index": "2",
 "call": "onLocationChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5363",
+"line": "5377",
 "col": "22"
 },
 {
@@ -3697,7 +3752,7 @@
 "index": "2",
 "call": "onLocationChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5363",
+"line": "5377",
 "col": "22"
 },
 {
@@ -4030,12 +4085,6 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "errQuirkyDoctypeVerbose",
-"stack": null,
-"file": null
-},
-{
 "type": "ftl",
 "id": "newtab-personalize-icon-label",
 "stack": null,
@@ -4126,6 +4175,12 @@
 "file": null
 },
 {
+"type": "properties",
+"id": "errQuirkyDoctypeVerbose",
+"stack": null,
+"file": null
+},
+{
 "type": "ftl",
 "id": "newtab-section-header-topsites",
 "stack": null,
@@ -4337,7 +4392,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "674",
+"line": "688",
 "col": "26"
 },
 {
@@ -4351,14 +4406,14 @@
 "index": "2",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1485",
+"line": "1532",
 "col": "33"
 },
 {
 "index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "695",
+"line": "742",
 "col": "26"
 }
 ],
@@ -4372,7 +4427,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "674",
+"line": "688",
 "col": "26"
 },
 {
@@ -4386,14 +4441,14 @@
 "index": "2",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1485",
+"line": "1532",
 "col": "33"
 },
 {
 "index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "695",
+"line": "742",
 "col": "26"
 }
 ],
@@ -4456,14 +4511,14 @@
 "index": "7",
 "call": "task()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2427",
+"line": "2451",
 "col": "12"
 },
 {
 "index": "8",
 "call": "_scheduleStartupIdleTasks/<()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2746",
+"line": "2776",
 "col": "19"
 }
 ],
@@ -4526,14 +4581,14 @@
 "index": "7",
 "call": "task()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2427",
+"line": "2451",
 "col": "12"
 },
 {
 "index": "8",
 "call": "_scheduleStartupIdleTasks/<()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "2746",
+"line": "2776",
 "col": "19"
 }
 ],
@@ -4582,1151 +4637,9 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "gecko.handlerService.defaultHandlersVersion",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "119",
-"col": "51"
-},
-{
-"index": "1",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "2",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.irc.0.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.irc.0.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.irc.1.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.irc.1.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.irc.2.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.irc.2.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.irc.3.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.irc.3.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.0.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.0.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.1.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.1.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.2.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.2.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.3.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.ircs.3.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.0.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.0.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.1.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.1.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.2.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.2.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.3.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.mailto.3.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.0.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.0.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.1.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.1.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.2.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.2.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.3.name",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "gecko.handlerService.schemes.webcal.3.uriTemplate",
-"stack": [
-{
-"index": "0",
-"call": "_injectDefaultProtocolHandlers()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "166",
-"col": "41"
-},
-{
-"index": "1",
-"call": "_injectDefaultProtocolHandlersIfNeeded()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "141",
-"col": "13"
-},
-{
-"index": "2",
-"call": "_ensureStoreInitialized()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "89",
-"col": "11"
-},
-{
-"index": "3",
-"call": "asyncInit/<()",
-"path": "file:///home/nordzilla/src/hg/mozilla-unified/obj-x86_64-pc-linux-gnu/dist/bin/components/HandlerService.js",
-"line": "405",
-"col": "17"
-}
-],
+"type": "ftl",
+"id": "browser-import-button2",
+"stack": null,
 "file": null
 },
 {
@@ -5839,12 +4752,6 @@
 },
 {
 "type": "ftl",
-"id": "browser-import-button2",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "newtab-topsite-sponsored",
 "stack": null,
 "file": null
@@ -5912,6 +4819,24 @@
 {
 "type": "ftl",
 "id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.accept_languages",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "brandShortName",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "brandShortName",
 "stack": null,
 "file": null
 },
@@ -5941,18 +4866,6 @@
 },
 {
 "type": "properties",
-"id": "brandShortName",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
 "id": "6",
 "stack": null,
 "file": null
@@ -6108,56 +5021,14 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "10",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "intl.accept_languages",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"id": "10",
 "stack": null,
 "file": null
 },
@@ -6204,42 +5075,6 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
 "type": "ftl",
 "id": "newtab-custom-pocket-title",
 "stack": null,
@@ -6421,6 +5256,30 @@
 },
 {
 "type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
 "id": "newtab-section-header-topsites",
 "stack": null,
 "file": null
@@ -6433,7 +5292,7 @@
 },
 {
 "type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"id": "newtab-menu-topsites-placeholder-tooltip",
 "stack": null,
 "file": null
 },
@@ -6445,7 +5304,7 @@
 },
 {
 "type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"id": "newtab-menu-topsites-placeholder-tooltip",
 "stack": null,
 "file": null
 },
@@ -6547,7 +5406,7 @@
 },
 {
 "type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"id": "newtab-menu-topsites-placeholder-tooltip",
 "stack": null,
 "file": null
 },
@@ -6559,7 +5418,7 @@
 },
 {
 "type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"id": "newtab-menu-topsites-placeholder-tooltip",
 "stack": null,
 "file": null
 },
@@ -6648,38 +5507,14 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "6",
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
@@ -6804,8 +5639,14 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "6",
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
@@ -6829,25 +5670,145 @@
 },
 {
 "type": "properties",
-"id": "12",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "12",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "12",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "12",
+"id": "intl.accept_languages",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "3",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "3",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "11",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "11",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "7",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "7",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -6890,7 +5851,7 @@
 "index": "1",
 "call": "()",
 "path": "self-hosted",
-"line": "1178",
+"line": "1225",
 "col": "26"
 },
 {
@@ -6982,97 +5943,25 @@
 },
 {
 "type": "properties",
-"id": "10",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "10",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "10",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -7109,6 +5998,138 @@
 {
 "type": "properties",
 "id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "4",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "4",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
 "stack": null,
 "file": null
 },
@@ -7125,31 +6146,45 @@
 },
 {
 "index": "1",
-"call": "e.getFxALinkReferralData()",
-"path": "https://www.mozilla.org/media/js/data.4988af295796.js",
+"call": "10/r.getFxALinkReferralData()",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
 "line": "1",
-"col": "4265"
+"col": "2608"
 },
 {
 "index": "2",
-"call": "e.init()",
-"path": "https://www.mozilla.org/media/js/data.4988af295796.js",
+"call": "10/r.init()",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
 "line": "1",
-"col": "7695"
+"col": "6022"
 },
 {
 "index": "3",
-"call": "anonymous()",
-"path": "https://www.mozilla.org/media/js/data.4988af295796.js",
+"call": "596()",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
 "line": "1",
-"col": "8134"
+"col": "104"
 },
 {
 "index": "4",
-"call": "<TOP LEVEL>",
-"path": "https://www.mozilla.org/media/js/data.4988af295796.js",
+"call": "o()",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
 "line": "1",
-"col": "8149"
+"col": "6334"
+},
+{
+"index": "5",
+"call": "anonymous()",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
+"line": "1",
+"col": "6373"
+},
+{
+"index": "6",
+"call": "<TOP LEVEL>",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
+"line": "1",
+"col": "6380"
 }
 ],
 "file": null
@@ -7167,31 +6202,45 @@
 },
 {
 "index": "1",
-"call": "e.getFxALinkReferralData()",
-"path": "https://www.mozilla.org/media/js/data.4988af295796.js",
+"call": "10/r.getFxALinkReferralData()",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
 "line": "1",
-"col": "4265"
+"col": "2608"
 },
 {
 "index": "2",
-"call": "e.init()",
-"path": "https://www.mozilla.org/media/js/data.4988af295796.js",
+"call": "10/r.init()",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
 "line": "1",
-"col": "7695"
+"col": "6022"
 },
 {
 "index": "3",
-"call": "anonymous()",
-"path": "https://www.mozilla.org/media/js/data.4988af295796.js",
+"call": "596()",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
 "line": "1",
-"col": "8134"
+"col": "104"
 },
 {
 "index": "4",
-"call": "<TOP LEVEL>",
-"path": "https://www.mozilla.org/media/js/data.4988af295796.js",
+"call": "o()",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
 "line": "1",
-"col": "8149"
+"col": "6334"
+},
+{
+"index": "5",
+"call": "anonymous()",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
+"line": "1",
+"col": "6373"
+},
+{
+"index": "6",
+"call": "<TOP LEVEL>",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
+"line": "1",
+"col": "6380"
 }
 ],
 "file": null
@@ -7209,31 +6258,45 @@
 },
 {
 "index": "1",
-"call": "e.getFxALinkReferralData()",
-"path": "https://www.mozilla.org/media/js/data.4988af295796.js",
+"call": "10/r.getFxALinkReferralData()",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
 "line": "1",
-"col": "4265"
+"col": "2608"
 },
 {
 "index": "2",
-"call": "e.init()",
-"path": "https://www.mozilla.org/media/js/data.4988af295796.js",
+"call": "10/r.init()",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
 "line": "1",
-"col": "7695"
+"col": "6022"
 },
 {
 "index": "3",
-"call": "anonymous()",
-"path": "https://www.mozilla.org/media/js/data.4988af295796.js",
+"call": "596()",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
 "line": "1",
-"col": "8134"
+"col": "104"
 },
 {
 "index": "4",
-"call": "<TOP LEVEL>",
-"path": "https://www.mozilla.org/media/js/data.4988af295796.js",
+"call": "o()",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
 "line": "1",
-"col": "8149"
+"col": "6334"
+},
+{
+"index": "5",
+"call": "anonymous()",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
+"line": "1",
+"col": "6373"
+},
+{
+"index": "6",
+"call": "<TOP LEVEL>",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
+"line": "1",
+"col": "6380"
 }
 ],
 "file": null
@@ -7251,31 +6314,45 @@
 },
 {
 "index": "1",
-"call": "e.getFxALinkReferralData()",
-"path": "https://www.mozilla.org/media/js/data.4988af295796.js",
+"call": "10/r.getFxALinkReferralData()",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
 "line": "1",
-"col": "4265"
+"col": "2608"
 },
 {
 "index": "2",
-"call": "e.init()",
-"path": "https://www.mozilla.org/media/js/data.4988af295796.js",
+"call": "10/r.init()",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
 "line": "1",
-"col": "7695"
+"col": "6022"
 },
 {
 "index": "3",
-"call": "anonymous()",
-"path": "https://www.mozilla.org/media/js/data.4988af295796.js",
+"call": "596()",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
 "line": "1",
-"col": "8134"
+"col": "104"
 },
 {
 "index": "4",
-"call": "<TOP LEVEL>",
-"path": "https://www.mozilla.org/media/js/data.4988af295796.js",
+"call": "o()",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
 "line": "1",
-"col": "8149"
+"col": "6334"
+},
+{
+"index": "5",
+"call": "anonymous()",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
+"line": "1",
+"col": "6373"
+},
+{
+"index": "6",
+"call": "<TOP LEVEL>",
+"path": "https://www.mozilla.org/media/js/fxa.f920b59abbf8.js",
+"line": "1",
+"col": "6380"
 }
 ],
 "file": null
@@ -7378,6 +6455,78 @@
 },
 {
 "type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "13",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "13",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
 "id": "13",
 "stack": null,
 "file": null
@@ -7481,78 +6630,6 @@
 {
 "type": "properties",
 "id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "13",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "13",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
 "stack": null,
 "file": null
 },
@@ -7774,42 +6851,6 @@
 },
 {
 "type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
@@ -7840,12 +6881,6 @@
 },
 {
 "type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
@@ -7864,25 +6899,7 @@
 },
 {
 "type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
 },
@@ -7971,8 +6988,74 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "intl.ellipsis",
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
@@ -8056,55 +7139,7 @@
 },
 {
 "type": "ftl",
-"id": "extension-colorways-soft-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-bold-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-balanced-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-soft-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-bold-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-soft-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-balanced-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "extension-firefox-compact-light-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-firefox-compact-dark-name",
 "stack": null,
 "file": null
 },
@@ -8116,6 +7151,72 @@
 },
 {
 "type": "ftl",
+"id": "extension-colorways-bold-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-bold-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-balanced-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-soft-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-soft-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-firefox-compact-dark-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-soft-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-balanced-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-bold-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-soft-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-soft-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
 "id": "extension-colorways-balanced-name",
 "stack": null,
 "file": null
@@ -8140,12 +7241,6 @@
 },
 {
 "type": "ftl",
-"id": "extension-colorways-soft-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "extension-colorways-balanced-name",
 "stack": null,
 "file": null
@@ -8169,18 +7264,6 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "extension-colorways-soft-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-bold-name",
-"stack": null,
-"file": null
-},
-{
 "type": "properties",
 "id": "WinConflict2",
 "stack": null,
@@ -8213,12 +7296,6 @@
 {
 "type": "properties",
 "id": "WinConflict2",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
@@ -8244,7 +7321,7 @@
 "index": "2",
 "call": "onLocationChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5363",
+"line": "5377",
 "col": "22"
 },
 {
@@ -8349,7 +7426,7 @@
 "index": "17",
 "call": "BrowserCloseTabOrWindow()",
 "path": "chrome://browser/content/browser.js",
-"line": "2996",
+"line": "3010",
 "col": "11"
 },
 {
@@ -8384,7 +7461,7 @@
 "index": "2",
 "call": "onLocationChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5363",
+"line": "5377",
 "col": "22"
 },
 {
@@ -8489,7 +7566,7 @@
 "index": "17",
 "call": "BrowserCloseTabOrWindow()",
 "path": "chrome://browser/content/browser.js",
-"line": "2996",
+"line": "3010",
 "col": "11"
 },
 {
@@ -8510,7 +7587,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "674",
+"line": "688",
 "col": "26"
 },
 {
@@ -8538,7 +7615,7 @@
 "index": "4",
 "call": "onSecurityChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5551",
+"line": "5565",
 "col": "21"
 },
 {
@@ -8643,7 +7720,7 @@
 "index": "19",
 "call": "BrowserCloseTabOrWindow()",
 "path": "chrome://browser/content/browser.js",
-"line": "2996",
+"line": "3010",
 "col": "11"
 },
 {
@@ -8664,7 +7741,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "674",
+"line": "688",
 "col": "26"
 },
 {
@@ -8692,7 +7769,7 @@
 "index": "4",
 "call": "onSecurityChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5551",
+"line": "5565",
 "col": "21"
 },
 {
@@ -8797,7 +7874,7 @@
 "index": "19",
 "call": "BrowserCloseTabOrWindow()",
 "path": "chrome://browser/content/browser.js",
-"line": "2996",
+"line": "3010",
 "col": "11"
 },
 {
@@ -8839,7 +7916,7 @@
 "index": "3",
 "call": "onContentBlockingEvent()",
 "path": "chrome://browser/content/browser.js",
-"line": "5507",
+"line": "5521",
 "col": "24"
 },
 {
@@ -8944,7 +8021,7 @@
 "index": "18",
 "call": "BrowserCloseTabOrWindow()",
 "path": "chrome://browser/content/browser.js",
-"line": "2996",
+"line": "3010",
 "col": "11"
 },
 {
@@ -8965,7 +8042,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "674",
+"line": "688",
 "col": "26"
 },
 {
@@ -8993,7 +8070,7 @@
 "index": "4",
 "call": "onContentBlockingEvent()",
 "path": "chrome://browser/content/browser.js",
-"line": "5507",
+"line": "5521",
 "col": "24"
 },
 {
@@ -9098,7 +8175,7 @@
 "index": "19",
 "call": "BrowserCloseTabOrWindow()",
 "path": "chrome://browser/content/browser.js",
-"line": "2996",
+"line": "3010",
 "col": "11"
 },
 {
@@ -9119,7 +8196,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "674",
+"line": "688",
 "col": "26"
 },
 {
@@ -9147,7 +8224,7 @@
 "index": "4",
 "call": "onContentBlockingEvent()",
 "path": "chrome://browser/content/browser.js",
-"line": "5507",
+"line": "5521",
 "col": "24"
 },
 {
@@ -9252,7 +8329,7 @@
 "index": "19",
 "call": "BrowserCloseTabOrWindow()",
 "path": "chrome://browser/content/browser.js",
-"line": "2996",
+"line": "3010",
 "col": "11"
 },
 {
@@ -9263,6 +8340,12 @@
 "col": "23"
 }
 ],
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.ellipsis",
+"stack": null,
 "file": null
 },
 {
@@ -9439,7 +8522,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "674",
+"line": "688",
 "col": "26"
 },
 {
@@ -9453,14 +8536,14 @@
 "index": "2",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1485",
+"line": "1532",
 "col": "33"
 },
 {
 "index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "695",
+"line": "742",
 "col": "26"
 }
 ],
@@ -9474,7 +8557,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "674",
+"line": "688",
 "col": "26"
 },
 {
@@ -9488,14 +8571,14 @@
 "index": "2",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1485",
+"line": "1532",
 "col": "33"
 },
 {
 "index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "695",
+"line": "742",
 "col": "26"
 }
 ],
@@ -9544,12 +8627,6 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
 "type": "properties",
 "id": "VK_CONTROL",
 "stack": [
@@ -9585,14 +8662,14 @@
 "index": "4",
 "call": "onUnload()",
 "path": "chrome://browser/content/browser.js",
-"line": "2459",
+"line": "2473",
 "col": "18"
 },
 {
 "index": "5",
 "call": "onUnload()",
 "path": "self-hosted",
-"line": "1178",
+"line": "1225",
 "col": "26"
 }
 ],
@@ -9634,14 +8711,14 @@
 "index": "4",
 "call": "onUnload()",
 "path": "chrome://browser/content/browser.js",
-"line": "2459",
+"line": "2473",
 "col": "18"
 },
 {
 "index": "5",
 "call": "onUnload()",
 "path": "self-hosted",
-"line": "1178",
+"line": "1225",
 "col": "26"
 }
 ],
@@ -9675,7 +8752,7 @@
 "index": "2",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "695",
+"line": "742",
 "col": "26"
 }
 ],
@@ -9703,7 +8780,7 @@
 "index": "2",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "695",
+"line": "742",
 "col": "26"
 }
 ],
@@ -9731,7 +8808,7 @@
 "index": "2",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "695",
+"line": "742",
 "col": "26"
 }
 ],

@@ -1,6 +1,6 @@
 {
-"date": "2022-01-07",
-"revision": "4427e203c432ae8a2db310112bbc86a598ca1203",
+"date": "2022-01-14",
+"revision": "a1cc440f0d9517edf08eb991a908f27616982f52",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -108,7 +108,7 @@
 },
 {
 "file": "en-US/browser/browser/downloads.ftl",
-"count": 48
+"count": 49
 },
 {
 "file": "en-US/browser/browser/editBookmarkOverlay.ftl",
@@ -132,7 +132,7 @@
 },
 {
 "file": "en-US/browser/browser/newtab/onboarding.ftl",
-"count": 60
+"count": 61
 },
 {
 "file": "en-US/browser/browser/nsserrors.ftl",
@@ -247,6 +247,10 @@
 "count": 31
 },
 {
+"file": "en-US/browser/browser/screenshotsOverlay.ftl",
+"count": 2
+},
+{
 "file": "en-US/browser/browser/search.ftl",
 "count": 9
 },
@@ -293,10 +297,6 @@
 {
 "file": "en-US/browser/browser/webrtcIndicator.ftl",
 "count": 13
-},
-{
-"file": "en-US/browser/chrome/browser-region/region.properties",
-"count": 9
 },
 {
 "file": "en-US/browser/chrome/browser/accounts.properties",
@@ -468,7 +468,7 @@
 },
 {
 "file": "en-US/devtools/client/debugger.properties",
-"count": 305
+"count": 309
 },
 {
 "file": "en-US/devtools/client/device.properties",
@@ -587,8 +587,12 @@
 "count": 51
 },
 {
+"file": "en-US/devtools/client/toolbox.ftl",
+"count": 12
+},
+{
 "file": "en-US/devtools/client/toolbox.properties",
-"count": 76
+"count": 66
 },
 {
 "file": "en-US/devtools/client/tooltips.ftl",
@@ -752,7 +756,7 @@
 },
 {
 "file": "en-US/netwerk/necko.properties",
-"count": 52
+"count": 53
 },
 {
 "file": "en-US/security/manager/chrome/pipnss/nsserrors.properties",
@@ -1032,7 +1036,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutTelemetry.ftl",
-"count": 81
+"count": 79
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutThirdParty.ftl",
@@ -1060,7 +1064,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/featuregates/features.ftl",
-"count": 30
+"count": 28
 },
 {
 "file": "en-US/toolkit/toolkit/global/commonDialog.ftl",
@@ -1084,7 +1088,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/global/processTypes.ftl",
-"count": 15
+"count": 16
 },
 {
 "file": "en-US/toolkit/toolkit/global/profileDowngrade.ftl",
