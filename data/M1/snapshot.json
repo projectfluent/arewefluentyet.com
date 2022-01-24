@@ -1,6 +1,6 @@
 {
-"date": "2022-01-14",
-"revision": "a1cc440f0d9517edf08eb991a908f27616982f52",
+"date": "2022-01-21",
+"revision": "08992a56ad5239e4f74068f2444ea996f3cd3fcd",
 "data": [
 {
 "type": "ftl",
@@ -412,6 +412,14 @@
 },
 {
 "type": "ftl",
+"id": "full-screen-autohide"
+},
+{
+"type": "ftl",
+"id": "full-screen-exit"
+},
+{
+"type": "ftl",
 "id": "printui-loading"
 },
 {
@@ -556,19 +564,19 @@
 },
 {
 "type": "ftl",
-"id": "edit-popup-settings"
-},
-{
-"type": "ftl",
-"id": "popups-infobar-dont-show-message"
-},
-{
-"type": "ftl",
 "id": "full-screen-autohide"
 },
 {
 "type": "ftl",
 "id": "full-screen-exit"
+},
+{
+"type": "ftl",
+"id": "edit-popup-settings"
+},
+{
+"type": "ftl",
+"id": "popups-infobar-dont-show-message"
 },
 {
 "type": "ftl",
@@ -860,7 +868,7 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-toggle-show-password"
+"id": "main-context-menu-reveal-password"
 },
 {
 "type": "ftl",

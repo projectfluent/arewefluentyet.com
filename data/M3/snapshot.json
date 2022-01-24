@@ -1,6 +1,6 @@
 {
-"date": "2022-01-14",
-"revision": "a1cc440f0d9517edf08eb991a908f27616982f52",
+"date": "2022-01-21",
+"revision": "08992a56ad5239e4f74068f2444ea996f3cd3fcd",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -28,7 +28,7 @@
 },
 {
 "file": "en-US/browser/browser/aboutPocket.ftl",
-"count": 31
+"count": 33
 },
 {
 "file": "en-US/browser/browser/aboutPolicies.ftl",
@@ -108,7 +108,7 @@
 },
 {
 "file": "en-US/browser/browser/downloads.ftl",
-"count": 49
+"count": 51
 },
 {
 "file": "en-US/browser/browser/editBookmarkOverlay.ftl",
@@ -221,6 +221,10 @@
 {
 "file": "en-US/browser/browser/preferences/translation.ftl",
 "count": 11
+},
+{
+"file": "en-US/browser/browser/profile/default-bookmarks.ftl",
+"count": 17
 },
 {
 "file": "en-US/browser/browser/protections.ftl",
@@ -423,10 +427,6 @@
 "count": 157
 },
 {
-"file": "en-US/browser/profile/bookmarks.inc",
-"count": 17
-},
-{
 "file": "en-US/browser/updater/updater.ini",
 "count": 3
 },
@@ -524,7 +524,7 @@
 },
 {
 "file": "en-US/devtools/client/netmonitor.properties",
-"count": 366
+"count": 367
 },
 {
 "file": "en-US/devtools/client/network-throttling.properties",
@@ -736,7 +736,7 @@
 },
 {
 "file": "en-US/dom/chrome/security/security.properties",
-"count": 83
+"count": 82
 },
 {
 "file": "en-US/dom/chrome/svg/svg.properties",
@@ -948,7 +948,7 @@
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/extensions/extensions.properties",
-"count": 57
+"count": 48
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/profile/profileSelection.properties",
