@@ -1,6 +1,6 @@
 {
-"date": "2022-05-06",
-"revision": "b34169a126e50ccd149eed0a3a6c4e4475b98929",
+"date": "2022-05-13",
+"revision": "64cf24289e449ea3e5b97c0f18e27eaf462f822c",
 "data": [
 {
 "type": "properties",
@@ -44,7 +44,7 @@
 "index": "4",
 "call": "get()",
 "path": "resource://services-settings/RemoteSettingsClient.jsm",
-"line": "365",
+"line": "357",
 "col": "39"
 },
 {
@@ -79,14 +79,14 @@
 "index": "1",
 "call": "BG__beforeUIStartup()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1241",
+"line": "1261",
 "col": "4"
 },
 {
 "index": "2",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "903",
+"line": "923",
 "col": "13"
 }
 ],
@@ -107,14 +107,14 @@
 "index": "1",
 "call": "BG__beforeUIStartup()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "1241",
+"line": "1261",
 "col": "4"
 },
 {
 "index": "2",
 "call": "BG_observe()",
 "path": "resource:///modules/BrowserGlue.jsm",
-"line": "903",
+"line": "923",
 "col": "13"
 }
 ],
@@ -275,21 +275,21 @@
 "index": "8",
 "call": "get DEFAULT_REGION()",
 "path": "resource://autofill/FormAutofill.jsm",
-"line": "75",
+"line": "81",
 "col": "4"
 },
 {
 "index": "9",
 "call": "_isSupportedRegion()",
 "path": "resource://autofill/FormAutofill.jsm",
-"line": "99",
+"line": "105",
 "col": "0"
 },
 {
 "index": "10",
 "call": "get isAutofillAddressesAvailable()",
 "path": "resource://autofill/FormAutofill.jsm",
-"line": "128",
+"line": "134",
 "col": "16"
 },
 {
@@ -303,120 +303,8 @@
 "index": "12",
 "call": "onStartup/<()",
 "path": "resource://gre/modules/ExtensionCommon.jsm",
-"line": "1453",
+"line": "1459",
 "col": "16"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": [
-{
-"index": "0",
-"call": "_execute()",
-"path": "resource://services-settings/RemoteSettingsWorker.jsm",
-"line": "77",
-"col": "20"
-},
-{
-"index": "1",
-"call": "importJSONDump()",
-"path": "resource://services-settings/RemoteSettingsWorker.jsm",
-"line": "178",
-"col": "16"
-},
-{
-"index": "2",
-"call": "_importJSONDump()",
-"path": "resource://services-settings/RemoteSettingsClient.jsm",
-"line": "838",
-"col": "46"
-},
-{
-"index": "3",
-"call": "get/this._importingPromise<()",
-"path": "resource://services-settings/RemoteSettingsClient.jsm",
-"line": "375",
-"col": "27"
-},
-{
-"index": "4",
-"call": "get()",
-"path": "resource://services-settings/RemoteSettingsClient.jsm",
-"line": "390",
-"col": "12"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1472",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "682",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": [
-{
-"index": "0",
-"call": "_execute()",
-"path": "resource://services-settings/RemoteSettingsWorker.jsm",
-"line": "77",
-"col": "20"
-},
-{
-"index": "1",
-"call": "importJSONDump()",
-"path": "resource://services-settings/RemoteSettingsWorker.jsm",
-"line": "178",
-"col": "16"
-},
-{
-"index": "2",
-"call": "_importJSONDump()",
-"path": "resource://services-settings/RemoteSettingsClient.jsm",
-"line": "838",
-"col": "46"
-},
-{
-"index": "3",
-"call": "get/this._importingPromise<()",
-"path": "resource://services-settings/RemoteSettingsClient.jsm",
-"line": "375",
-"col": "27"
-},
-{
-"index": "4",
-"call": "get()",
-"path": "resource://services-settings/RemoteSettingsClient.jsm",
-"line": "390",
-"col": "12"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1472",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "682",
-"col": "26"
 }
 ],
 "file": null
@@ -443,6 +331,118 @@
 "type": "ftl",
 "id": "plugins-widevine-description",
 "stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.accept_languages",
+"stack": [
+{
+"index": "0",
+"call": "_execute()",
+"path": "resource://services-settings/RemoteSettingsWorker.jsm",
+"line": "77",
+"col": "20"
+},
+{
+"index": "1",
+"call": "importJSONDump()",
+"path": "resource://services-settings/RemoteSettingsWorker.jsm",
+"line": "178",
+"col": "16"
+},
+{
+"index": "2",
+"call": "_importJSONDump()",
+"path": "resource://services-settings/RemoteSettingsClient.jsm",
+"line": "818",
+"col": "46"
+},
+{
+"index": "3",
+"call": "get/this._importingPromise<()",
+"path": "resource://services-settings/RemoteSettingsClient.jsm",
+"line": "367",
+"col": "27"
+},
+{
+"index": "4",
+"call": "get()",
+"path": "resource://services-settings/RemoteSettingsClient.jsm",
+"line": "382",
+"col": "12"
+},
+{
+"index": "5",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1472",
+"col": "33"
+},
+{
+"index": "6",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "682",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.accept_languages",
+"stack": [
+{
+"index": "0",
+"call": "_execute()",
+"path": "resource://services-settings/RemoteSettingsWorker.jsm",
+"line": "77",
+"col": "20"
+},
+{
+"index": "1",
+"call": "importJSONDump()",
+"path": "resource://services-settings/RemoteSettingsWorker.jsm",
+"line": "178",
+"col": "16"
+},
+{
+"index": "2",
+"call": "_importJSONDump()",
+"path": "resource://services-settings/RemoteSettingsClient.jsm",
+"line": "818",
+"col": "46"
+},
+{
+"index": "3",
+"call": "get/this._importingPromise<()",
+"path": "resource://services-settings/RemoteSettingsClient.jsm",
+"line": "367",
+"col": "27"
+},
+{
+"index": "4",
+"call": "get()",
+"path": "resource://services-settings/RemoteSettingsClient.jsm",
+"line": "382",
+"col": "12"
+},
+{
+"index": "5",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1472",
+"col": "33"
+},
+{
+"index": "6",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "682",
+"col": "26"
+}
+],
 "file": null
 },
 {
@@ -3129,6 +3129,12 @@
 "file": null
 },
 {
+"type": "properties",
+"id": "brandShortName",
+"stack": null,
+"file": null
+},
+{
 "type": "ftl",
 "id": "toolbar-context-menu-menu-bar-cmd",
 "stack": null,
@@ -3143,12 +3149,6 @@
 {
 "type": "properties",
 "id": "intl.menuitems.alwaysappendaccesskeys",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "brandShortName",
 "stack": null,
 "file": null
 },
@@ -3517,14 +3517,14 @@
 "index": "0",
 "call": "getIntlSettings()",
 "path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "465",
+"line": "467",
 "col": "7"
 },
 {
 "index": "1",
 "call": "_loadIntlData()",
 "path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "1745",
+"line": "1747",
 "col": "45"
 },
 {
@@ -3980,24 +3980,6 @@
 },
 {
 "type": "ftl",
-"id": "newtab-custom-pocket-title",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-custom-pocket-subtitle",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-custom-pocket-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "newtab-custom-recent-title",
 "stack": null,
 "file": null
@@ -4089,24 +4071,6 @@
 {
 "type": "ftl",
 "id": "newtab-custom-sponsored-sites",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-custom-pocket-title",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-custom-pocket-subtitle",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-custom-pocket-sponsored",
 "stack": null,
 "file": null
 },
@@ -4207,6 +4171,340 @@
 "file": null
 },
 {
+"type": "ftl",
+"id": "newtab-custom-pocket-title",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-custom-pocket-subtitle",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-custom-pocket-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "zoom-button.label",
+"stack": [
+{
+"index": "0",
+"call": "getFormattedString()",
+"path": "chrome://browser/content/browser.js",
+"line": "672",
+"col": "26"
+},
+{
+"index": "1",
+"call": "updateZoomUI()",
+"path": "resource:///modules/ZoomUI.jsm",
+"line": "173",
+"col": "35"
+},
+{
+"index": "2",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1472",
+"col": "33"
+},
+{
+"index": "3",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "682",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "zoom-button.label",
+"stack": [
+{
+"index": "0",
+"call": "getFormattedString()",
+"path": "chrome://browser/content/browser.js",
+"line": "672",
+"col": "26"
+},
+{
+"index": "1",
+"call": "updateZoomUI()",
+"path": "resource:///modules/ZoomUI.jsm",
+"line": "173",
+"col": "35"
+},
+{
+"index": "2",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1472",
+"col": "33"
+},
+{
+"index": "3",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "682",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-topsites",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-pocket",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-pocket-learn-more",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-custom-pocket-title",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-custom-pocket-subtitle",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-custom-pocket-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-topsites",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-pocket",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-pocket-learn-more",
+"stack": null,
+"file": null
+},
+{
 "type": "properties",
 "id": "intl.accept_languages",
 "stack": null,
@@ -4225,6 +4523,150 @@
 "file": null
 },
 {
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
 "type": "ftl",
 "id": "newtab-section-header-topsites",
 "stack": null,
@@ -4454,220 +4896,146 @@
 },
 {
 "type": "properties",
-"id": "zoom-button.label",
+"id": "PrivateTokenDescription",
 "stack": [
 {
 "index": "0",
-"call": "getFormattedString()",
-"path": "chrome://browser/content/browser.js",
-"line": "672",
-"col": "26"
+"call": "init()",
+"path": "resource://gre/modules/crypto-SDR.js",
+"line": "58",
+"col": "24"
 },
 {
 "index": "1",
-"call": "updateZoomUI()",
-"path": "resource:///modules/ZoomUI.jsm",
-"line": "173",
-"col": "35"
+"call": "LoginManagerCrypto_SDR()",
+"path": "resource://gre/modules/crypto-SDR.js",
+"line": "17",
+"col": "7"
 },
 {
 "index": "2",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1472",
-"col": "33"
+"call": "get _crypto()",
+"path": "resource://gre/modules/storage-json.js",
+"line": "57",
+"col": "68"
 },
 {
 "index": "3",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "682",
-"col": "26"
+"call": "initialize()",
+"path": "resource://gre/modules/storage-json.js",
+"line": "85",
+"col": "6"
+},
+{
+"index": "4",
+"call": "_initStorage()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "97",
+"col": "47"
+},
+{
+"index": "5",
+"call": "init()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "88",
+"col": "9"
+},
+{
+"index": "6",
+"call": "LoginManager()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "43",
+"col": "7"
+},
+{
+"index": "7",
+"call": "task()",
+"path": "resource:///modules/BrowserGlue.jsm",
+"line": "2429",
+"col": "12"
+},
+{
+"index": "8",
+"call": "_scheduleStartupIdleTasks/<()",
+"path": "resource:///modules/BrowserGlue.jsm",
+"line": "2778",
+"col": "19"
 }
 ],
 "file": null
 },
 {
 "type": "properties",
-"id": "zoom-button.label",
+"id": "ManufacturerID",
 "stack": [
 {
 "index": "0",
-"call": "getFormattedString()",
-"path": "chrome://browser/content/browser.js",
-"line": "672",
-"col": "26"
+"call": "init()",
+"path": "resource://gre/modules/crypto-SDR.js",
+"line": "58",
+"col": "24"
 },
 {
 "index": "1",
-"call": "updateZoomUI()",
-"path": "resource:///modules/ZoomUI.jsm",
-"line": "173",
-"col": "35"
+"call": "LoginManagerCrypto_SDR()",
+"path": "resource://gre/modules/crypto-SDR.js",
+"line": "17",
+"col": "7"
 },
 {
 "index": "2",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1472",
-"col": "33"
+"call": "get _crypto()",
+"path": "resource://gre/modules/storage-json.js",
+"line": "57",
+"col": "68"
 },
 {
 "index": "3",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "682",
-"col": "26"
+"call": "initialize()",
+"path": "resource://gre/modules/storage-json.js",
+"line": "85",
+"col": "6"
+},
+{
+"index": "4",
+"call": "_initStorage()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "97",
+"col": "47"
+},
+{
+"index": "5",
+"call": "init()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "88",
+"col": "9"
+},
+{
+"index": "6",
+"call": "LoginManager()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "43",
+"col": "7"
+},
+{
+"index": "7",
+"call": "task()",
+"path": "resource:///modules/BrowserGlue.jsm",
+"line": "2429",
+"col": "12"
+},
+{
+"index": "8",
+"call": "_scheduleStartupIdleTasks/<()",
+"path": "resource:///modules/BrowserGlue.jsm",
+"line": "2778",
+"col": "19"
 }
 ],
 "file": null
 },
 {
 "type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
 "id": "6",
 "stack": null,
 "file": null
@@ -4692,38 +5060,44 @@
 },
 {
 "type": "properties",
-"id": "6",
-"stack": null,
+"id": "PrivateTokenDescription",
+"stack": [
+{
+"index": "0",
+"call": "isPrimaryPasswordSet()",
+"path": "resource://gre/modules/LoginHelper.jsm",
+"line": "1587",
+"col": "24"
+},
+{
+"index": "1",
+"call": "_initStorage/<()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "104",
+"col": "20"
+}
+],
 "file": null
 },
 {
 "type": "properties",
-"id": "6",
-"stack": null,
-"file": null
+"id": "ManufacturerID",
+"stack": [
+{
+"index": "0",
+"call": "isPrimaryPasswordSet()",
+"path": "resource://gre/modules/LoginHelper.jsm",
+"line": "1587",
+"col": "24"
 },
 {
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
+"index": "1",
+"call": "_initStorage/<()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "104",
+"col": "20"
+}
+],
 "file": null
 },
 {
@@ -4741,6 +5115,42 @@
 {
 "type": "properties",
 "id": "ZoomPropertyWarning",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -4915,50 +5325,8 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
+"type": "ftl",
+"id": "browser-import-button2",
 "stack": null,
 "file": null
 },
@@ -4985,37 +5353,13 @@
 },
 {
 "type": "properties",
-"id": "6",
+"id": "10",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
+"id": "10",
 "stack": null,
 "file": null
 },
@@ -5081,7 +5425,37 @@
 },
 {
 "type": "properties",
-"id": "6",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
 "stack": null,
 "file": null
 },
@@ -5107,247 +5481,29 @@
 "type": "properties",
 "id": "6",
 "stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "PrivateTokenDescription",
-"stack": [
-{
-"index": "0",
-"call": "init()",
-"path": "resource://gre/modules/crypto-SDR.js",
-"line": "58",
-"col": "24"
-},
-{
-"index": "1",
-"call": "LoginManagerCrypto_SDR()",
-"path": "resource://gre/modules/crypto-SDR.js",
-"line": "17",
-"col": "7"
-},
-{
-"index": "2",
-"call": "get _crypto()",
-"path": "resource://gre/modules/storage-json.js",
-"line": "57",
-"col": "68"
-},
-{
-"index": "3",
-"call": "initialize()",
-"path": "resource://gre/modules/storage-json.js",
-"line": "85",
-"col": "6"
-},
-{
-"index": "4",
-"call": "_initStorage()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "97",
-"col": "47"
-},
-{
-"index": "5",
-"call": "init()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "88",
-"col": "9"
-},
-{
-"index": "6",
-"call": "LoginManager()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "43",
-"col": "7"
-},
-{
-"index": "7",
-"call": "task()",
-"path": "resource:///modules/BrowserGlue.jsm",
-"line": "2409",
-"col": "12"
-},
-{
-"index": "8",
-"call": "_scheduleStartupIdleTasks/<()",
-"path": "resource:///modules/BrowserGlue.jsm",
-"line": "2765",
-"col": "19"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "ManufacturerID",
-"stack": [
-{
-"index": "0",
-"call": "init()",
-"path": "resource://gre/modules/crypto-SDR.js",
-"line": "58",
-"col": "24"
-},
-{
-"index": "1",
-"call": "LoginManagerCrypto_SDR()",
-"path": "resource://gre/modules/crypto-SDR.js",
-"line": "17",
-"col": "7"
-},
-{
-"index": "2",
-"call": "get _crypto()",
-"path": "resource://gre/modules/storage-json.js",
-"line": "57",
-"col": "68"
-},
-{
-"index": "3",
-"call": "initialize()",
-"path": "resource://gre/modules/storage-json.js",
-"line": "85",
-"col": "6"
-},
-{
-"index": "4",
-"call": "_initStorage()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "97",
-"col": "47"
-},
-{
-"index": "5",
-"call": "init()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "88",
-"col": "9"
-},
-{
-"index": "6",
-"call": "LoginManager()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "43",
-"col": "7"
-},
-{
-"index": "7",
-"call": "task()",
-"path": "resource:///modules/BrowserGlue.jsm",
-"line": "2409",
-"col": "12"
-},
-{
-"index": "8",
-"call": "_scheduleStartupIdleTasks/<()",
-"path": "resource:///modules/BrowserGlue.jsm",
-"line": "2765",
-"col": "19"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "PrivateTokenDescription",
-"stack": [
-{
-"index": "0",
-"call": "isPrimaryPasswordSet()",
-"path": "resource://gre/modules/LoginHelper.jsm",
-"line": "1587",
-"col": "24"
-},
-{
-"index": "1",
-"call": "_initStorage/<()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "104",
-"col": "20"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "ManufacturerID",
-"stack": [
-{
-"index": "0",
-"call": "isPrimaryPasswordSet()",
-"path": "resource://gre/modules/LoginHelper.jsm",
-"line": "1587",
-"col": "24"
-},
-{
-"index": "1",
-"call": "_initStorage/<()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "104",
-"col": "20"
-}
-],
 "file": null
 },
 {
 "type": "ftl",
-"id": "browser-import-button2",
+"id": "newtab-search-box-handoff-input",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-search-box-handoff-text",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-search-box-handoff-input",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-search-box-handoff-text",
 "stack": null,
 "file": null
 },
@@ -5365,30 +5521,6 @@
 },
 {
 "type": "ftl",
-"id": "newtab-search-box-handoff-input",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-search-box-handoff-text",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "newtab-topsite-sponsored",
 "stack": null,
 "file": null
@@ -5461,31 +5593,217 @@
 },
 {
 "type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": null,
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": null,
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
 "id": "intl.accept_languages",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-search-box-handoff-input",
+"type": "properties",
+"id": "brandShortName",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-search-box-handoff-text",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -5514,26 +5832,20 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
+"type": "properties",
+"id": "intl.accept_languages",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "intl.accept_languages",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "brandShortName",
 "stack": null,
 "file": null
 },
@@ -5558,6 +5870,42 @@
 {
 "type": "ftl",
 "id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.accept_languages",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "brandShortName",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "12",
 "stack": null,
 "file": null
 },
@@ -5575,72 +5923,6 @@
 },
 {
 "type": "ftl",
-"id": "newtab-label-source-read-time",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-source-read-time",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-source-read-time",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "newtab-pocket-read-more",
 "stack": null,
 "file": null
@@ -5652,110 +5934,8 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-source-read-time",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
 "type": "ftl",
 "id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-source-read-time",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-source-read-time",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "brandShortName",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-source-read-time",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-source-read-time",
 "stack": null,
 "file": null
 },
@@ -5839,7 +6019,19 @@
 },
 {
 "type": "ftl",
-"id": "newtab-label-source-read-time",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
 },
@@ -5862,8 +6054,26 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "intl.accept_languages",
+"type": "ftl",
+"id": "newtab-label-source-read-time",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-source-read-time",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
@@ -5893,6 +6103,216 @@
 },
 {
 "type": "ftl",
+"id": "newtab-label-source-read-time",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-source-read-time",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-source-read-time",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-source-read-time",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-source-read-time",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-source-read-time",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-source-read-time",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-source-read-time",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-source-read-time",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-source-read-time",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
 "id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
@@ -5911,19 +6331,13 @@
 },
 {
 "type": "properties",
-"id": "brandShortName",
+"id": "13",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "intl.accept_languages",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "brandShortName",
+"id": "13",
 "stack": null,
 "file": null
 },
@@ -5941,7 +6355,13 @@
 },
 {
 "type": "properties",
-"id": "10",
+"id": "13",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "13",
 "stack": null,
 "file": null
 },
@@ -5953,7 +6373,7 @@
 },
 {
 "type": "properties",
-"id": "6",
+"id": "10",
 "stack": null,
 "file": null
 },
@@ -6043,7 +6463,7 @@
 },
 {
 "type": "properties",
-"id": "6",
+"id": "intl.ellipsis",
 "stack": null,
 "file": null
 },
@@ -6061,19 +6481,13 @@
 },
 {
 "type": "ftl",
-"id": "extension-firefox-alpenglow-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
 "id": "extension-firefox-compact-dark-name",
 "stack": null,
 "file": null
 },
 {
-"type": "properties",
-"id": "WinConflict2",
+"type": "ftl",
+"id": "extension-firefox-alpenglow-name",
 "stack": null,
 "file": null
 },
@@ -6109,86 +6523,8 @@
 },
 {
 "type": "properties",
-"id": "intl.accept_languages",
-"stack": [
-{
-"index": "0",
-"call": "get _worker()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "189",
-"col": "34"
-},
-{
-"index": "1",
-"call": "postMessage()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "316",
-"col": "8"
-},
-{
-"index": "2",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "682",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": [
-{
-"index": "0",
-"call": "get _worker()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "189",
-"col": "34"
-},
-{
-"index": "1",
-"call": "postMessage()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "316",
-"col": "8"
-},
-{
-"index": "2",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "682",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": [
-{
-"index": "0",
-"call": "get _worker()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "189",
-"col": "34"
-},
-{
-"index": "1",
-"call": "postMessage()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "316",
-"col": "8"
-},
-{
-"index": "2",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "682",
-"col": "26"
-}
-],
+"id": "WinConflict2",
+"stack": null,
 "file": null
 },
 {
@@ -7235,15 +7571,51 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "intl.ellipsis",
+"type": "ftl",
+"id": "urlbar-placeholder-with-name",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "urlbar-placeholder-with-name",
-"stack": null,
+"type": "properties",
+"id": "readerView.enter",
+"stack": [
+{
+"index": "0",
+"call": "updateReaderButton()",
+"path": "resource:///actors/AboutReaderParent.jsm",
+"line": "256",
+"col": "36"
+},
+{
+"index": "1",
+"call": "receiveMessage()",
+"path": "resource:///actors/AboutReaderParent.jsm",
+"line": "199",
+"col": "13"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "readerView.enter.accesskey",
+"stack": [
+{
+"index": "0",
+"call": "updateReaderButton()",
+"path": "resource:///actors/AboutReaderParent.jsm",
+"line": "266",
+"col": "22"
+},
+{
+"index": "1",
+"call": "receiveMessage()",
+"path": "resource:///actors/AboutReaderParent.jsm",
+"line": "199",
+"col": "13"
+}
+],
 "file": null
 },
 {
@@ -7404,48 +7776,6 @@
 "type": "ftl",
 "id": "menu-bookmark-current-tab",
 "stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "readerView.enter",
-"stack": [
-{
-"index": "0",
-"call": "updateReaderButton()",
-"path": "resource:///actors/AboutReaderParent.jsm",
-"line": "256",
-"col": "36"
-},
-{
-"index": "1",
-"call": "receiveMessage()",
-"path": "resource:///actors/AboutReaderParent.jsm",
-"line": "199",
-"col": "13"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "readerView.enter.accesskey",
-"stack": [
-{
-"index": "0",
-"call": "updateReaderButton()",
-"path": "resource:///actors/AboutReaderParent.jsm",
-"line": "266",
-"col": "22"
-},
-{
-"index": "1",
-"call": "receiveMessage()",
-"path": "resource:///actors/AboutReaderParent.jsm",
-"line": "199",
-"col": "13"
-}
-],
 "file": null
 },
 {
@@ -7632,6 +7962,90 @@
 "type": "ftl",
 "id": "menu-bookmark-current-tab",
 "stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.accept_languages",
+"stack": [
+{
+"index": "0",
+"call": "get _worker()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "189",
+"col": "34"
+},
+{
+"index": "1",
+"call": "postMessage()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "316",
+"col": "8"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "682",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.accept_languages",
+"stack": [
+{
+"index": "0",
+"call": "get _worker()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "189",
+"col": "34"
+},
+{
+"index": "1",
+"call": "postMessage()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "316",
+"col": "8"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "682",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.accept_languages",
+"stack": [
+{
+"index": "0",
+"call": "get _worker()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "189",
+"col": "34"
+},
+{
+"index": "1",
+"call": "postMessage()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "316",
+"col": "8"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "682",
+"col": "26"
+}
+],
 "file": null
 }
 ]
