@@ -136,7 +136,8 @@ In order to do this, we need to patch on some special logging that this tool exp
 
 First, let's make sure we're up to date with the latest central by navigating to your `mozilla-unified` checkout and running
 ```
-hg up central
+hg pull --rebase default
+hg up default
 ```
 
 Next, we need to grab the patch with the logging changes by pulling them from this revision: https://phabricator.services.mozilla.com/D40217
