@@ -1,6 +1,6 @@
 {
-"date": "2022-07-15",
-"revision": "ca06069b6dbd7e36352c9402d5a28af509a3e390",
+"date": "2022-07-22",
+"revision": "79f657effc5d5c30a141ad8f66e20cc104124bd9",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -76,7 +76,7 @@
 },
 {
 "file": "en-US/browser/browser/appmenu.ftl",
-"count": 93
+"count": 95
 },
 {
 "file": "en-US/browser/browser/branding/brandings.ftl",
@@ -88,7 +88,7 @@
 },
 {
 "file": "en-US/browser/browser/browser.ftl",
-"count": 264
+"count": 269
 },
 {
 "file": "en-US/browser/browser/browserContext.ftl",
@@ -97,6 +97,14 @@
 {
 "file": "en-US/browser/browser/browserSets.ftl",
 "count": 56
+},
+{
+"file": "en-US/browser/browser/colorwaycloset.ftl",
+"count": 11
+},
+{
+"file": "en-US/browser/browser/colorways.ftl",
+"count": 17
 },
 {
 "file": "en-US/browser/browser/customizeMode.ftl",
@@ -121,6 +129,10 @@
 {
 "file": "en-US/browser/browser/migration.ftl",
 "count": 49
+},
+{
+"file": "en-US/browser/browser/netError.ftl",
+"count": 6
 },
 {
 "file": "en-US/browser/browser/newtab/asrouter.ftl",
@@ -384,7 +396,7 @@
 },
 {
 "file": "en-US/browser/chrome/overrides/netError.dtd",
-"count": 63
+"count": 61
 },
 {
 "file": "en-US/browser/crashreporter/crashreporter-override.ini",
@@ -520,7 +532,7 @@
 },
 {
 "file": "en-US/devtools/client/perftools.ftl",
-"count": 65
+"count": 67
 },
 {
 "file": "en-US/devtools/client/responsive.properties",
@@ -692,7 +704,7 @@
 },
 {
 "file": "en-US/dom/chrome/security/csp.properties",
-"count": 32
+"count": 31
 },
 {
 "file": "en-US/dom/chrome/security/security.properties",
@@ -1012,7 +1024,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/featuregates/features.ftl",
-"count": 26
+"count": 24
 },
 {
 "file": "en-US/toolkit/toolkit/global/browser-utils.ftl",
