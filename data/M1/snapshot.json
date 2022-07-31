@@ -1,6 +1,6 @@
 {
-"date": "2022-07-22",
-"revision": "79f657effc5d5c30a141ad8f66e20cc104124bd9",
+"date": "2022-07-29",
+"revision": "a60a32df3146b59acf72814e8bfb711f5ca3d364",
 "data": [
 {
 "type": "ftl",
@@ -1124,11 +1124,11 @@
 },
 {
 "type": "ftl",
-"id": "page-action-manage-extension"
+"id": "page-action-manage-extension2"
 },
 {
 "type": "ftl",
-"id": "page-action-remove-extension"
+"id": "page-action-remove-extension2"
 },
 {
 "type": "ftl",
@@ -2252,7 +2252,19 @@
 },
 {
 "type": "ftl",
-"id": "unified-extensions-item-open-submenu"
+"id": "unified-extensions-context-menu-manage-extension"
+},
+{
+"type": "ftl",
+"id": "unified-extensions-context-menu-remove-extension"
+},
+{
+"type": "ftl",
+"id": "unified-extensions-context-menu-report-extension"
+},
+{
+"type": "ftl",
+"id": "unified-extensions-item-open-menu"
 },
 {
 "type": "ftl",
