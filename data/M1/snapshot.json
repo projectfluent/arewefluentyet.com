@@ -1,6 +1,6 @@
 {
-"date": "2022-07-29",
-"revision": "a60a32df3146b59acf72814e8bfb711f5ca3d364",
+"date": "2022-08-05",
+"revision": "c1732dd3c7ad291d16767a6a3139efb9de164ad8",
 "data": [
 {
 "type": "ftl",
@@ -1868,6 +1868,18 @@
 },
 {
 "type": "ftl",
+"id": "unified-extensions-context-menu-manage-extension"
+},
+{
+"type": "ftl",
+"id": "unified-extensions-context-menu-remove-extension"
+},
+{
+"type": "ftl",
+"id": "unified-extensions-context-menu-report-extension"
+},
+{
+"type": "ftl",
 "id": "appmenu-fxa-sync-and-save-data2"
 },
 {
@@ -2249,18 +2261,6 @@
 {
 "type": "ftl",
 "id": "unified-extensions-manage-extensions"
-},
-{
-"type": "ftl",
-"id": "unified-extensions-context-menu-manage-extension"
-},
-{
-"type": "ftl",
-"id": "unified-extensions-context-menu-remove-extension"
-},
-{
-"type": "ftl",
-"id": "unified-extensions-context-menu-report-extension"
 },
 {
 "type": "ftl",
@@ -2713,10 +2713,6 @@
 {
 "type": "ftl",
 "id": "tabs-toolbar-list-all-tabs"
-},
-{
-"type": "ftl",
-"id": "navbar-accessibility-indicator"
 },
 {
 "type": "ftl",
