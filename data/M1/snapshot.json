@@ -1,6 +1,6 @@
 {
-"date": "2022-08-05",
-"revision": "c1732dd3c7ad291d16767a6a3139efb9de164ad8",
+"date": "2022-08-12",
+"revision": "501c39df5c3d9e576ec6b5725360a695e63a7e96",
 "data": [
 {
 "type": "ftl",
@@ -356,7 +356,7 @@
 },
 {
 "type": "ftl",
-"id": "bookmark-tab"
+"id": "tab-context-bookmark-tab"
 },
 {
 "type": "ftl",
@@ -616,7 +616,7 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-bookmark-add"
+"id": "main-context-menu-bookmark-page"
 },
 {
 "type": "ftl",
@@ -656,7 +656,7 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-bookmark-link"
+"id": "main-context-menu-bookmark-link-2"
 },
 {
 "type": "ftl",
@@ -784,10 +784,6 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-image-get-text"
-},
-{
-"type": "ftl",
 "id": "main-context-menu-video-copy-link"
 },
 {
@@ -805,6 +801,10 @@
 {
 "type": "ftl",
 "id": "main-context-menu-audio-email"
+},
+{
+"type": "ftl",
+"id": "main-context-menu-image-copy-text"
 },
 {
 "type": "ftl",
@@ -828,7 +828,7 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-bookmark-add-mac"
+"id": "main-context-menu-bookmark-page-mac"
 },
 {
 "type": "ftl",
@@ -872,6 +872,10 @@
 },
 {
 "type": "ftl",
+"id": "text-action-paste-no-formatting"
+},
+{
+"type": "ftl",
 "id": "text-action-delete"
 },
 {
@@ -884,7 +888,7 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-print-selection"
+"id": "main-context-menu-print-selection-2"
 },
 {
 "type": "ftl",
@@ -944,7 +948,7 @@
 },
 {
 "type": "ftl",
-"id": "main-context-menu-frame-bookmark"
+"id": "main-context-menu-frame-add-bookmark"
 },
 {
 "type": "ftl",
@@ -1804,7 +1808,7 @@
 },
 {
 "type": "ftl",
-"id": "synced-tabs-context-bookmark-tab"
+"id": "synced-tabs-context-bookmark"
 },
 {
 "type": "ftl",
@@ -2508,7 +2512,7 @@
 },
 {
 "type": "ftl",
-"id": "menu-bookmark-current-tab"
+"id": "menu-bookmark-tab"
 },
 {
 "type": "ftl",
