@@ -1,6 +1,6 @@
 {
-"date": "2022-08-12",
-"revision": "501c39df5c3d9e576ec6b5725360a695e63a7e96",
+"date": "2022-08-19",
+"revision": "89a8807bfec9366bfb8d390a6b348dfb00398789",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -123,8 +123,12 @@
 "count": 12
 },
 {
+"file": "en-US/browser/browser/featureCallout.ftl",
+"count": 8
+},
+{
 "file": "en-US/browser/browser/firefoxView.ftl",
-"count": 45
+"count": 49
 },
 {
 "file": "en-US/browser/browser/menubar.ftl",
@@ -148,7 +152,7 @@
 },
 {
 "file": "en-US/browser/browser/newtab/onboarding.ftl",
-"count": 74
+"count": 82
 },
 {
 "file": "en-US/browser/browser/nsserrors.ftl",
@@ -224,7 +228,7 @@
 },
 {
 "file": "en-US/browser/browser/preferences/preferences.ftl",
-"count": 454
+"count": 456
 },
 {
 "file": "en-US/browser/browser/preferences/selectBookmark.ftl",
@@ -648,7 +652,7 @@
 },
 {
 "file": "en-US/dom/chrome/dom/dom.properties",
-"count": 274
+"count": 273
 },
 {
 "file": "en-US/dom/chrome/global-strres.properties",
@@ -767,10 +771,6 @@
 "count": 2
 },
 {
-"file": "en-US/toolkit/chrome/alerts/alert.dtd",
-"count": 2
-},
-{
 "file": "en-US/toolkit/chrome/alerts/alert.properties",
 "count": 6
 },
@@ -823,10 +823,6 @@
 "count": 3
 },
 {
-"file": "en-US/toolkit/chrome/global/commonDialog.dtd",
-"count": 6
-},
-{
 "file": "en-US/toolkit/chrome/global/commonDialogs.properties",
 "count": 30
 },
@@ -841,10 +837,6 @@
 {
 "file": "en-US/toolkit/chrome/global/dialog.properties",
 "count": 8
-},
-{
-"file": "en-US/toolkit/chrome/global/dialogOverlay.dtd",
-"count": 2
 },
 {
 "file": "en-US/toolkit/chrome/global/editMenuOverlay.dtd",
@@ -891,16 +883,8 @@
 "count": 33
 },
 {
-"file": "en-US/toolkit/chrome/global/resetProfile.dtd",
-"count": 2
-},
-{
 "file": "en-US/toolkit/chrome/global/resetProfile.properties",
 "count": 4
-},
-{
-"file": "en-US/toolkit/chrome/global/tree.dtd",
-"count": 1
 },
 {
 "file": "en-US/toolkit/chrome/global/viewSource.properties",
@@ -1032,7 +1016,11 @@
 },
 {
 "file": "en-US/toolkit/toolkit/featuregates/features.ftl",
-"count": 24
+"count": 22
+},
+{
+"file": "en-US/toolkit/toolkit/global/alert.ftl",
+"count": 2
 },
 {
 "file": "en-US/toolkit/toolkit/global/browser-utils.ftl",
@@ -1040,7 +1028,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/global/commonDialog.ftl",
-"count": 5
+"count": 7
 },
 {
 "file": "en-US/toolkit/toolkit/global/createProfileWizard.ftl",
@@ -1072,15 +1060,23 @@
 },
 {
 "file": "en-US/toolkit/toolkit/global/resetProfile.ftl",
-"count": 6
+"count": 8
 },
 {
 "file": "en-US/toolkit/toolkit/global/run-from-dmg.ftl",
 "count": 10
 },
 {
+"file": "en-US/toolkit/toolkit/global/tabprompts.ftl",
+"count": 4
+},
+{
 "file": "en-US/toolkit/toolkit/global/textActions.ftl",
 "count": 21
+},
+{
+"file": "en-US/toolkit/toolkit/global/tree.ftl",
+"count": 1
 },
 {
 "file": "en-US/toolkit/toolkit/global/unknownContentType.ftl",
