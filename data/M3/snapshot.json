@@ -1,6 +1,6 @@
 {
-"date": "2022-08-26",
-"revision": "8a106238a53612453e6d9e00b75e7025993786ff",
+"date": "2022-09-02",
+"revision": "b8a14cac3acb905b9d78e4f0da82d73ce9371fc3",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.dtd",
@@ -211,6 +211,10 @@
 "count": 45
 },
 {
+"file": "en-US/browser/browser/preferences/formAutofill.ftl",
+"count": 62
+},
+{
 "file": "en-US/browser/browser/preferences/fxaPairDevice.ftl",
 "count": 7
 },
@@ -323,6 +327,10 @@
 "count": 21
 },
 {
+"file": "en-US/browser/browser/translationNotification.ftl",
+"count": 17
+},
+{
 "file": "en-US/browser/browser/webrtcIndicator.ftl",
 "count": 13
 },
@@ -391,10 +399,6 @@
 "count": 18
 },
 {
-"file": "en-US/browser/chrome/browser/translation.properties",
-"count": 2
-},
-{
 "file": "en-US/browser/chrome/browser/uiDensity.properties",
 "count": 1
 },
@@ -420,7 +424,7 @@
 },
 {
 "file": "en-US/browser/extensions/formautofill/formautofill.properties",
-"count": 123
+"count": 58
 },
 {
 "file": "en-US/browser/extensions/report-site-issue/webcompat.properties",
@@ -448,7 +452,7 @@
 },
 {
 "file": "en-US/browser/pdfviewer/viewer.properties",
-"count": 173
+"count": 171
 },
 {
 "file": "en-US/browser/updater/updater.ini",
@@ -536,7 +540,7 @@
 },
 {
 "file": "en-US/devtools/client/netmonitor.properties",
-"count": 378
+"count": 381
 },
 {
 "file": "en-US/devtools/client/network-throttling.properties",
@@ -652,7 +656,7 @@
 },
 {
 "file": "en-US/dom/chrome/dom/dom.properties",
-"count": 270
+"count": 269
 },
 {
 "file": "en-US/dom/chrome/global-strres.properties",
@@ -811,10 +815,6 @@
 "count": 13
 },
 {
-"file": "en-US/toolkit/chrome/global/appPicker.dtd",
-"count": 3
-},
-{
 "file": "en-US/toolkit/chrome/global/autocomplete.properties",
 "count": 1
 },
@@ -956,7 +956,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutProcesses.ftl",
-"count": 59
+"count": 62
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutProfiles.ftl",
@@ -1011,6 +1011,10 @@
 "count": 2
 },
 {
+"file": "en-US/toolkit/toolkit/global/appPicker.ftl",
+"count": 3
+},
+{
 "file": "en-US/toolkit/toolkit/global/browser-utils.ftl",
 "count": 1
 },
@@ -1036,7 +1040,11 @@
 },
 {
 "file": "en-US/toolkit/toolkit/global/notification.ftl",
-"count": 2
+"count": 3
+},
+{
+"file": "en-US/toolkit/toolkit/global/popupnotification.ftl",
+"count": 3
 },
 {
 "file": "en-US/toolkit/toolkit/global/processTypes.ftl",
@@ -1104,7 +1112,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/pictureinpicture/pictureinpicture.ftl",
-"count": 15
+"count": 17
 },
 {
 "file": "en-US/toolkit/toolkit/preferences/preferences.ftl",
