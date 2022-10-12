@@ -1,11 +1,7 @@
 {
-"date": "2022-09-30",
-"revision": "44f7f3ed31765eb5d39d4b74b589d5e3e4fc43ff",
+"date": "2022-10-07",
+"revision": "18f202cd3601571afe09387a4450756ef2e0b21b",
 "data": [
-{
-"file": "en-US/browser/branding/official/brand.dtd",
-"count": 1
-},
 {
 "file": "en-US/browser/branding/official/brand.ftl",
 "count": 7
@@ -13,10 +9,6 @@
 {
 "file": "en-US/browser/branding/official/brand.properties",
 "count": 3
-},
-{
-"file": "en-US/browser/browser/aboutCertError.ftl",
-"count": 59
 },
 {
 "file": "en-US/browser/browser/aboutDialog.ftl",
@@ -88,7 +80,7 @@
 },
 {
 "file": "en-US/browser/browser/browser.ftl",
-"count": 290
+"count": 286
 },
 {
 "file": "en-US/browser/browser/browserContext.ftl",
@@ -105,6 +97,10 @@
 {
 "file": "en-US/browser/browser/colorways.ftl",
 "count": 15
+},
+{
+"file": "en-US/browser/browser/contentCrash.ftl",
+"count": 8
 },
 {
 "file": "en-US/browser/browser/customizeMode.ftl",
@@ -139,10 +135,6 @@
 "count": 49
 },
 {
-"file": "en-US/browser/browser/netError.ftl",
-"count": 6
-},
-{
 "file": "en-US/browser/browser/newtab/asrouter.ftl",
 "count": 64
 },
@@ -153,10 +145,6 @@
 {
 "file": "en-US/browser/browser/newtab/onboarding.ftl",
 "count": 136
-},
-{
-"file": "en-US/browser/browser/nsserrors.ftl",
-"count": 332
 },
 {
 "file": "en-US/browser/browser/pageInfo.ftl",
@@ -340,7 +328,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
-"count": 456
+"count": 452
 },
 {
 "file": "en-US/browser/chrome/browser/customizableui/customizableWidgets.properties",
@@ -409,10 +397,6 @@
 {
 "file": "en-US/browser/chrome/overrides/appstrings.properties",
 "count": 37
-},
-{
-"file": "en-US/browser/chrome/overrides/netError.dtd",
-"count": 61
 },
 {
 "file": "en-US/browser/crashreporter/crashreporter-override.ini",
@@ -656,19 +640,15 @@
 },
 {
 "file": "en-US/dom/chrome/dom/dom.properties",
-"count": 268
+"count": 269
 },
 {
 "file": "en-US/dom/chrome/global-strres.properties",
 "count": 1
 },
 {
-"file": "en-US/dom/chrome/global.dtd",
-"count": 1
-},
-{
 "file": "en-US/dom/chrome/layout/HtmlForm.properties",
-"count": 18
+"count": 17
 },
 {
 "file": "en-US/dom/chrome/layout/MediaDocument.properties",
@@ -701,14 +681,6 @@
 {
 "file": "en-US/dom/chrome/mathml/mathml.properties",
 "count": 8
-},
-{
-"file": "en-US/dom/chrome/netError.dtd",
-"count": 57
-},
-{
-"file": "en-US/dom/chrome/netErrorApp.dtd",
-"count": 0
 },
 {
 "file": "en-US/dom/chrome/nsWebBrowserPersist.properties",
@@ -845,10 +817,6 @@
 {
 "file": "en-US/toolkit/chrome/global/filepicker.properties",
 "count": 10
-},
-{
-"file": "en-US/toolkit/chrome/global/findbar.properties",
-"count": 11
 },
 {
 "file": "en-US/toolkit/chrome/global/intl.properties",
@@ -1039,6 +1007,10 @@
 "count": 21
 },
 {
+"file": "en-US/toolkit/toolkit/global/htmlForm.ftl",
+"count": 1
+},
+{
 "file": "en-US/toolkit/toolkit/global/notification.ftl",
 "count": 3
 },
@@ -1104,7 +1076,19 @@
 },
 {
 "file": "en-US/toolkit/toolkit/main-window/findbar.ftl",
-"count": 7
+"count": 18
+},
+{
+"file": "en-US/toolkit/toolkit/neterror/certError.ftl",
+"count": 59
+},
+{
+"file": "en-US/toolkit/toolkit/neterror/netError.ftl",
+"count": 74
+},
+{
+"file": "en-US/toolkit/toolkit/neterror/nsserrors.ftl",
+"count": 332
 },
 {
 "file": "en-US/toolkit/toolkit/payments/payments.ftl",
