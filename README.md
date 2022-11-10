@@ -12,7 +12,7 @@ The data is in the `gh-pages` branch, located in `data/M[1-3]/snapshot.json` and
 
 To update the data,
 both the `main` and `gh-pages` branches of this repository need to be available as separate directories.
-Probably the easiest way to achieve that is to add the `gh-pages` branch as a separate [worktree](https://git-scm.com/docs/git-worktree)
+The easiest way to achieve that is to add the `gh-pages` branch as a separate [worktree](https://git-scm.com/docs/git-worktree)
 under your clone of this repo:
 
 ```
