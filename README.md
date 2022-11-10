@@ -10,26 +10,27 @@ The data is in the `gh-pages` branch, located in `data/M[1-3]/snapshot.json` and
 
 ## Directory Structure
 
-To update the data, you need to have two separate checkouts: one of the `main` branch for the code, and one of the `gh-pages` branch for the data.
+To update the data,
+both the `main` and `gh-pages` branches of this repository need to be available as separate directories.
+The easiest way to achieve that is to add the `gh-pages` branch as a separate [worktree](https://git-scm.com/docs/git-worktree)
+under your clone of this repo:
 
-You will also need a mercurial (`hg`) checkout of the `mozilla-unified` repository. You can follow instructions to set up `mozilla-unified` with mercurial for your operating system [here](https://firefox-source-docs.mozilla.org/setup/).
+```
+git worktree add gh-pages origin/gh-pages
+```
 
-Here is an example directory tree:
+You will also need a mercurial (`hg`) checkout of the `mozilla-unified` repository.
+You can follow instructions to set up `mozilla-unified` with mercurial
+for your operating system [here](https://firefox-source-docs.mozilla.org/setup/).
+
+Following these steps results in the following directory tree,
+but this is not required as the directory names and paths are arbitrary.
 
 ```
 .
-├── awfy-data        // a checkout of the gh-pages branch
-├── awfy-gen         // a checkout of the main branch
+├── awfy             // a checkout of the main branch
+|   └── gh-pages     // a checkout of the gh-pages branch
 └── mozilla-unified  // a mercurial checkout of mozilla-unified
-```
-
-Note: the names `awfy-data` and `awfy-gen` are arbitrary. These are just the names I chose for my two directories.
-
-You can clone them via command line:
-
-```
-$ git clone -b main https://github.com/projectfluent/arewefluentyet.com awfy-gen
-$ git clone -b gh-pages https://github.com/projectfluent/arewefluentyet.com awfy-data
 ```
 
 ## Mercurial Setup
@@ -73,17 +74,17 @@ With the proposed structure, the command will look like this:
 
 ```
 .
-├── awfy-data
-├── awfy-gen
+├── awfy
+|   └── gh-pages
 └── mozilla-unified
 
-$ python3 awfy-gen/src/arewefluentyet/aggregate.py -m M1 -m M3 --mc mozilla-unified --gh-pages-data awfy-data/data
+$ python3 awfy/src/arewefluentyet/aggregate.py -m M1 -m M3 --mc mozilla-unified --gh-pages-data awfy/gh-pages/data
 ```
 
-* Similarly, passing `-m M2` will enable the `M2` milestone (covered in next section).
-* Alternatively, `-m all` will enable all three milestones.
-* If you want to just collect data from the current revision, `--use-current-revision` will do just that.
-* A `--dry-run` is also available for testing purposes.
+- Similarly, passing `-m M2` will enable the `M2` milestone (covered in next section).
+- Alternatively, `-m all` will enable all three milestones.
+- If you want to just collect data from the current revision, `--use-current-revision` will do just that.
+- A `--dry-run` is also available for testing purposes.
 
 Go ahead and try updating `M1` and `M3` with the command above.
 
@@ -154,11 +155,11 @@ You should now be ready to run the script for `M2`. With the proposed structure,
 
 ```
 .
-├── awfy-data
-├── awfy-gen
+├── awfy
+|   └── gh-pages
 └── mozilla-unified
 
-$ python3 awfy-gen/src/arewefluentyet/aggregate.py -m M2 --mc mozilla-unified --gh-pages-data awfy-data/data
+$ python3 awfy/src/arewefluentyet/aggregate.py -m M2 --mc mozilla-unified --gh-pages-data awfy/gh-pages/data
 ```
 
 Following the prompts will be similar to `M1` and `M3`, but this time it will ask you to apply the `collect-startup-entries` onto the target date's commit.
