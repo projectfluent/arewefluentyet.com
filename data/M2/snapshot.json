@@ -1,6 +1,6 @@
 {
-"date": "2022-10-07",
-"revision": "18f202cd3601571afe09387a4450756ef2e0b21b",
+"date": "2022-11-11",
+"revision": "88ff674216266947f95c594f8598b9f4f88537b9",
 "data": [
 {
 "type": "properties",
@@ -51,8 +51,8 @@
 "index": "5",
 "call": "get()",
 "path": "resource://services-settings/RemoteSettingsClient.jsm",
-"line": "419",
-"col": "39"
+"line": "421",
+"col": "58"
 },
 {
 "index": "6",
@@ -67,62 +67,6 @@
 "path": "resource://gre/modules/URLDecorationAnnotationsService.jsm",
 "line": "47",
 "col": "11"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "readerView.savetopocket.label",
-"stack": [
-{
-"index": "0",
-"call": "<TOP LEVEL>",
-"path": "chrome://pocket/content/SaveToPocket.jsm",
-"line": "129",
-"col": "20"
-},
-{
-"index": "1",
-"call": "BG__beforeUIStartup()",
-"path": "resource:///modules/BrowserGlue.jsm",
-"line": "1273",
-"col": "4"
-},
-{
-"index": "2",
-"call": "BG_observe()",
-"path": "resource:///modules/BrowserGlue.jsm",
-"line": "927",
-"col": "13"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "readerView.savetopocket.label",
-"stack": [
-{
-"index": "0",
-"call": "<TOP LEVEL>",
-"path": "chrome://pocket/content/SaveToPocket.jsm",
-"line": "129",
-"col": "20"
-},
-{
-"index": "1",
-"call": "BG__beforeUIStartup()",
-"path": "resource:///modules/BrowserGlue.jsm",
-"line": "1273",
-"col": "4"
-},
-{
-"index": "2",
-"call": "BG_observe()",
-"path": "resource:///modules/BrowserGlue.jsm",
-"line": "927",
-"col": "13"
 }
 ],
 "file": null
@@ -226,56 +170,56 @@
 "index": "0",
 "call": "_fetchTimeout()",
 "path": "resource://gre/modules/Region.sys.mjs",
-"line": "742",
+"line": "743",
 "col": "25"
 },
 {
 "index": "1",
 "call": "_getRegion()",
 "path": "resource://gre/modules/Region.sys.mjs",
-"line": "408",
+"line": "409",
 "col": "27"
 },
 {
 "index": "2",
 "call": "_fetchRegion()",
 "path": "resource://gre/modules/Region.sys.mjs",
-"line": "209",
+"line": "210",
 "col": "26"
 },
 {
 "index": "3",
 "call": "init/<()",
 "path": "resource://gre/modules/Region.sys.mjs",
-"line": "166",
+"line": "167",
 "col": "50"
 },
 {
 "index": "4",
 "call": "_idleDispatch/<()",
 "path": "resource://gre/modules/Region.sys.mjs",
-"line": "800",
+"line": "801",
 "col": "43"
 },
 {
 "index": "5",
 "call": "_idleDispatch()",
 "path": "resource://gre/modules/Region.sys.mjs",
-"line": "799",
+"line": "800",
 "col": "11"
 },
 {
 "index": "6",
 "call": "init()",
 "path": "resource://gre/modules/Region.sys.mjs",
-"line": "166",
+"line": "167",
 "col": "25"
 },
 {
 "index": "7",
 "call": "<TOP LEVEL>",
 "path": "resource://gre/modules/Region.sys.mjs",
-"line": "873",
+"line": "874",
 "col": "7"
 },
 {
@@ -310,120 +254,8 @@
 "index": "12",
 "call": "onStartup/<()",
 "path": "resource://gre/modules/ExtensionCommon.jsm",
-"line": "1382",
+"line": "1385",
 "col": "16"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": [
-{
-"index": "0",
-"call": "_execute()",
-"path": "resource://services-settings/RemoteSettingsWorker.jsm",
-"line": "79",
-"col": "20"
-},
-{
-"index": "1",
-"call": "importJSONDump()",
-"path": "resource://services-settings/RemoteSettingsWorker.jsm",
-"line": "180",
-"col": "16"
-},
-{
-"index": "2",
-"call": "_importJSONDump()",
-"path": "resource://services-settings/RemoteSettingsClient.jsm",
-"line": "924",
-"col": "51"
-},
-{
-"index": "3",
-"call": "get/this._importingPromise<()",
-"path": "resource://services-settings/RemoteSettingsClient.jsm",
-"line": "429",
-"col": "27"
-},
-{
-"index": "4",
-"call": "get()",
-"path": "resource://services-settings/RemoteSettingsClient.jsm",
-"line": "444",
-"col": "12"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1894",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "882",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": [
-{
-"index": "0",
-"call": "_execute()",
-"path": "resource://services-settings/RemoteSettingsWorker.jsm",
-"line": "79",
-"col": "20"
-},
-{
-"index": "1",
-"call": "importJSONDump()",
-"path": "resource://services-settings/RemoteSettingsWorker.jsm",
-"line": "180",
-"col": "16"
-},
-{
-"index": "2",
-"call": "_importJSONDump()",
-"path": "resource://services-settings/RemoteSettingsClient.jsm",
-"line": "924",
-"col": "51"
-},
-{
-"index": "3",
-"call": "get/this._importingPromise<()",
-"path": "resource://services-settings/RemoteSettingsClient.jsm",
-"line": "429",
-"col": "27"
-},
-{
-"index": "4",
-"call": "get()",
-"path": "resource://services-settings/RemoteSettingsClient.jsm",
-"line": "444",
-"col": "12"
-},
-{
-"index": "5",
-"call": "InterpretGeneratorResume()",
-"path": "self-hosted",
-"line": "1894",
-"col": "33"
-},
-{
-"index": "6",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "882",
-"col": "26"
 }
 ],
 "file": null
@@ -450,6 +282,118 @@
 "type": "ftl",
 "id": "plugins-widevine-description",
 "stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.accept_languages",
+"stack": [
+{
+"index": "0",
+"call": "_execute()",
+"path": "resource://services-settings/RemoteSettingsWorker.jsm",
+"line": "79",
+"col": "20"
+},
+{
+"index": "1",
+"call": "importJSONDump()",
+"path": "resource://services-settings/RemoteSettingsWorker.jsm",
+"line": "180",
+"col": "16"
+},
+{
+"index": "2",
+"call": "_importJSONDump()",
+"path": "resource://services-settings/RemoteSettingsClient.jsm",
+"line": "933",
+"col": "51"
+},
+{
+"index": "3",
+"call": "get/this._importingPromise<()",
+"path": "resource://services-settings/RemoteSettingsClient.jsm",
+"line": "438",
+"col": "27"
+},
+{
+"index": "4",
+"call": "get()",
+"path": "resource://services-settings/RemoteSettingsClient.jsm",
+"line": "453",
+"col": "12"
+},
+{
+"index": "5",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1957",
+"col": "33"
+},
+{
+"index": "6",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "945",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.accept_languages",
+"stack": [
+{
+"index": "0",
+"call": "_execute()",
+"path": "resource://services-settings/RemoteSettingsWorker.jsm",
+"line": "79",
+"col": "20"
+},
+{
+"index": "1",
+"call": "importJSONDump()",
+"path": "resource://services-settings/RemoteSettingsWorker.jsm",
+"line": "180",
+"col": "16"
+},
+{
+"index": "2",
+"call": "_importJSONDump()",
+"path": "resource://services-settings/RemoteSettingsClient.jsm",
+"line": "933",
+"col": "51"
+},
+{
+"index": "3",
+"call": "get/this._importingPromise<()",
+"path": "resource://services-settings/RemoteSettingsClient.jsm",
+"line": "438",
+"col": "27"
+},
+{
+"index": "4",
+"call": "get()",
+"path": "resource://services-settings/RemoteSettingsClient.jsm",
+"line": "453",
+"col": "12"
+},
+{
+"index": "5",
+"call": "InterpretGeneratorResume()",
+"path": "self-hosted",
+"line": "1957",
+"col": "33"
+},
+{
+"index": "6",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "945",
+"col": "26"
+}
+],
 "file": null
 },
 {
@@ -1546,6 +1490,12 @@
 },
 {
 "type": "ftl",
+"id": "places-untag-bookmark",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
 "id": "places-delete-folder",
 "stack": null,
 "file": null
@@ -1654,6 +1604,12 @@
 },
 {
 "type": "ftl",
+"id": "popup-select-window-or-screen",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
 "id": "popup-all-windows-shared",
 "stack": null,
 "file": null
@@ -1685,6 +1641,12 @@
 {
 "type": "ftl",
 "id": "panel-save-update-password",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "credential-description-provider-explanation",
 "stack": null,
 "file": null
 },
@@ -2105,6 +2067,12 @@
 {
 "type": "ftl",
 "id": "menu-view-full-screen",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "menu-view-enter-readerview",
 "stack": null,
 "file": null
 },
@@ -2668,6 +2636,12 @@
 },
 {
 "type": "ftl",
+"id": "urlbar-identity-credential-anchor",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
 "id": "urlbar-storage-access-anchor",
 "stack": null,
 "file": null
@@ -2693,6 +2667,12 @@
 {
 "type": "ftl",
 "id": "urlbar-go-button",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "reader-view-enter-button",
 "stack": null,
 "file": null
 },
@@ -2866,21 +2846,56 @@
 "index": "0",
 "call": "update()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "7036",
+"line": "7059",
 "col": "26"
 },
 {
 "index": "1",
 "call": "onBeforeInitialXULLayout()",
 "path": "chrome://browser/content/browser.js",
-"line": "1690",
+"line": "1667",
 "col": "28"
 },
 {
 "index": "2",
 "call": "onBeforeInitialXULLayout()",
 "path": "self-hosted",
-"line": "1431",
+"line": "1494",
+"col": "24"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "tabs.emptyTabTitle",
+"stack": [
+{
+"index": "0",
+"call": "init()",
+"path": "chrome://browser/content/tabbrowser-tabs.js",
+"line": "65",
+"col": "45"
+},
+{
+"index": "1",
+"call": "init()",
+"path": "chrome://browser/content/tabbrowser.js",
+"line": "54",
+"col": "24"
+},
+{
+"index": "2",
+"call": "onDOMContentLoaded()",
+"path": "chrome://browser/content/browser.js",
+"line": "1725",
+"col": "13"
+},
+{
+"index": "3",
+"call": "onDOMContentLoaded()",
+"path": "self-hosted",
+"line": "1494",
 "col": "24"
 }
 ],
@@ -2894,90 +2909,55 @@
 },
 {
 "type": "properties",
-"id": "tabs.emptyTabTitle",
-"stack": [
-{
-"index": "0",
-"call": "init()",
-"path": "chrome://browser/content/tabbrowser-tabs.js",
-"line": "64",
-"col": "45"
-},
-{
-"index": "1",
-"call": "init()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "57",
-"col": "24"
-},
-{
-"index": "2",
-"call": "onDOMContentLoaded()",
-"path": "chrome://browser/content/browser.js",
-"line": "1748",
-"col": "13"
-},
-{
-"index": "3",
-"call": "onDOMContentLoaded()",
-"path": "self-hosted",
-"line": "1431",
-"col": "24"
-}
-],
-"file": null
-},
-{
-"type": "properties",
 "id": "VK_CONTROL",
 "stack": [
 {
 "index": "0",
 "call": "getModifierString()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "67",
+"line": "65",
 "col": "28"
 },
 {
 "index": "1",
 "call": "prettifyShortcut()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "50",
+"line": "48",
 "col": "26"
 },
 {
 "index": "2",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "7020",
+"line": "6996",
 "col": "32"
 },
 {
 "index": "3",
 "call": "init()",
 "path": "chrome://browser/content/tabbrowser-tabs.js",
-"line": "83",
+"line": "84",
 "col": "8"
 },
 {
 "index": "4",
 "call": "init()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "57",
+"line": "54",
 "col": "24"
 },
 {
 "index": "5",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1748",
+"line": "1725",
 "col": "13"
 },
 {
 "index": "6",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1431",
+"line": "1494",
 "col": "24"
 }
 ],
@@ -2991,49 +2971,49 @@
 "index": "0",
 "call": "getModifierString()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "68",
+"line": "66",
 "col": "28"
 },
 {
 "index": "1",
 "call": "prettifyShortcut()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "50",
+"line": "48",
 "col": "26"
 },
 {
 "index": "2",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "7020",
+"line": "6996",
 "col": "32"
 },
 {
 "index": "3",
 "call": "init()",
 "path": "chrome://browser/content/tabbrowser-tabs.js",
-"line": "83",
+"line": "84",
 "col": "8"
 },
 {
 "index": "4",
 "call": "init()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "57",
+"line": "54",
 "col": "24"
 },
 {
 "index": "5",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1748",
+"line": "1725",
 "col": "13"
 },
 {
 "index": "6",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1431",
+"line": "1494",
 "col": "24"
 }
 ],
@@ -3047,42 +3027,42 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "716",
+"line": "693",
 "col": "26"
 },
 {
 "index": "1",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "7025",
+"line": "7001",
 "col": "23"
 },
 {
 "index": "2",
 "call": "init()",
 "path": "chrome://browser/content/tabbrowser-tabs.js",
-"line": "83",
+"line": "84",
 "col": "8"
 },
 {
 "index": "3",
 "call": "init()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "57",
+"line": "54",
 "col": "24"
 },
 {
 "index": "4",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1748",
+"line": "1725",
 "col": "13"
 },
 {
 "index": "5",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1431",
+"line": "1494",
 "col": "24"
 }
 ],
@@ -3096,42 +3076,42 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "716",
+"line": "693",
 "col": "26"
 },
 {
 "index": "1",
 "call": "GetDynamicShortcutTooltipText()",
 "path": "chrome://browser/content/browser.js",
-"line": "7025",
+"line": "7001",
 "col": "23"
 },
 {
 "index": "2",
 "call": "init()",
 "path": "chrome://browser/content/tabbrowser-tabs.js",
-"line": "83",
+"line": "84",
 "col": "8"
 },
 {
 "index": "3",
 "call": "init()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "57",
+"line": "54",
 "col": "24"
 },
 {
 "index": "4",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1748",
+"line": "1725",
 "col": "13"
 },
 {
 "index": "5",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1431",
+"line": "1494",
 "col": "24"
 }
 ],
@@ -3151,63 +3131,63 @@
 "index": "0",
 "call": "_initPasteAndGo()",
 "path": "resource:///modules/UrlbarInput.sys.mjs",
-"line": "2782",
+"line": "2773",
 "col": "7"
 },
 {
 "index": "1",
 "call": "UrlbarInput()",
 "path": "resource:///modules/UrlbarInput.sys.mjs",
-"line": "268",
+"line": "266",
 "col": "9"
 },
 {
 "index": "2",
 "call": "anonymous()",
 "path": "chrome://browser/content/browser.js",
-"line": "365",
+"line": "346",
 "col": "15"
 },
 {
 "index": "3",
 "call": "get()",
 "path": "resource://gre/modules/XPCOMUtils.sys.mjs",
-"line": "57",
+"line": "54",
 "col": "50"
 },
 {
 "index": "4",
 "call": "_setInitialFocus/<()",
 "path": "chrome://browser/content/browser.js",
-"line": "2224",
+"line": "2202",
 "col": "8"
 },
 {
 "index": "5",
 "call": "_callWithURIToLoad()",
 "path": "chrome://browser/content/browser.js",
-"line": "2529",
+"line": "2507",
 "col": "14"
 },
 {
 "index": "6",
 "call": "_setInitialFocus()",
 "path": "chrome://browser/content/browser.js",
-"line": "2212",
+"line": "2190",
 "col": "9"
 },
 {
 "index": "7",
 "call": "onDOMContentLoaded()",
 "path": "chrome://browser/content/browser.js",
-"line": "1785",
+"line": "1763",
 "col": "9"
 },
 {
 "index": "8",
 "call": "onDOMContentLoaded()",
 "path": "self-hosted",
-"line": "1431",
+"line": "1494",
 "col": "24"
 }
 ],
@@ -3232,210 +3212,6 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "quickactions-cmd-addons2",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-addons",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-cmd-bookmarks",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-bookmarks",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-cmd-clearhistory",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-clearhistory",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-cmd-downloads",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-downloads",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-cmd-extensions",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-extensions",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-cmd-inspector",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-inspector",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-cmd-logins",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-logins",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-cmd-plugins",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-plugins",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-cmd-print",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-print",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-cmd-private",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-private",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-cmd-refresh",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-refresh",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-cmd-restart",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-restart",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-cmd-screenshot",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-screenshot2",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-cmd-settings",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-settings",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-cmd-themes",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-themes",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-cmd-update",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-update",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-cmd-viewsource",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "quickactions-viewsource",
-"stack": null,
-"file": null
-},
-{
 "type": "properties",
 "id": "brandShortName",
 "stack": [
@@ -3443,14 +3219,14 @@
 "index": "0",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "1923",
+"line": "1901",
 "col": "4"
 },
 {
 "index": "1",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1431",
+"line": "1494",
 "col": "24"
 }
 ],
@@ -3464,35 +3240,35 @@
 "index": "0",
 "call": "getModifierString()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "94",
+"line": "92",
 "col": "26"
 },
 {
 "index": "1",
 "call": "prettifyShortcut()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "50",
+"line": "48",
 "col": "26"
 },
 {
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "2015",
+"line": "1993",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2021",
+"line": "1999",
 "col": "32"
 },
 {
 "index": "4",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1431",
+"line": "1494",
 "col": "24"
 }
 ],
@@ -3506,35 +3282,35 @@
 "index": "0",
 "call": "getModifierString()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "95",
+"line": "93",
 "col": "26"
 },
 {
 "index": "1",
 "call": "prettifyShortcut()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "50",
+"line": "48",
 "col": "26"
 },
 {
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "2015",
+"line": "1993",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2021",
+"line": "1999",
 "col": "32"
 },
 {
 "index": "4",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1431",
+"line": "1494",
 "col": "24"
 }
 ],
@@ -3548,35 +3324,35 @@
 "index": "0",
 "call": "getKeyString()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "133",
+"line": "131",
 "col": "21"
 },
 {
 "index": "1",
 "call": "prettifyShortcut()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "51",
+"line": "49",
 "col": "19"
 },
 {
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "2015",
+"line": "1993",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2021",
+"line": "1999",
 "col": "32"
 },
 {
 "index": "4",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1431",
+"line": "1494",
 "col": "24"
 }
 ],
@@ -3590,35 +3366,35 @@
 "index": "0",
 "call": "getModifierString()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "94",
+"line": "92",
 "col": "26"
 },
 {
 "index": "1",
 "call": "prettifyShortcut()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "50",
+"line": "48",
 "col": "26"
 },
 {
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "2015",
+"line": "1993",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2027",
+"line": "2005",
 "col": "32"
 },
 {
 "index": "4",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1431",
+"line": "1494",
 "col": "24"
 }
 ],
@@ -3632,35 +3408,35 @@
 "index": "0",
 "call": "getModifierString()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "95",
+"line": "93",
 "col": "26"
 },
 {
 "index": "1",
 "call": "prettifyShortcut()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "50",
+"line": "48",
 "col": "26"
 },
 {
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "2015",
+"line": "1993",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2027",
+"line": "2005",
 "col": "32"
 },
 {
 "index": "4",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1431",
+"line": "1494",
 "col": "24"
 }
 ],
@@ -3674,35 +3450,35 @@
 "index": "0",
 "call": "getKeyString()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "133",
+"line": "131",
 "col": "21"
 },
 {
 "index": "1",
 "call": "prettifyShortcut()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "51",
+"line": "49",
 "col": "19"
 },
 {
 "index": "2",
 "call": "initBackForwardButtonTooltip()",
 "path": "chrome://browser/content/browser.js",
-"line": "2015",
+"line": "1993",
 "col": "31"
 },
 {
 "index": "3",
 "call": "_delayedStartup()",
 "path": "chrome://browser/content/browser.js",
-"line": "2027",
+"line": "2005",
 "col": "32"
 },
 {
 "index": "4",
 "call": "_delayedStartup()",
 "path": "self-hosted",
-"line": "1431",
+"line": "1494",
 "col": "24"
 }
 ],
@@ -3800,28 +3576,28 @@
 "index": "0",
 "call": "getIntlSettings()",
 "path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "490",
+"line": "492",
 "col": "7"
 },
 {
 "index": "1",
 "call": "_loadIntlData()",
 "path": "resource://gre/modules/TelemetryEnvironment.jsm",
-"line": "1770",
+"line": "1767",
 "col": "45"
 },
 {
 "index": "2",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1894",
+"line": "1957",
 "col": "33"
 },
 {
 "index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "882",
+"line": "945",
 "col": "26"
 }
 ],
@@ -3882,118 +3658,6 @@
 "file": null
 },
 {
-"type": "properties",
-"id": "readerView.enter",
-"stack": [
-{
-"index": "0",
-"call": "updateReaderButton()",
-"path": "resource:///actors/AboutReaderParent.sys.mjs",
-"line": "252",
-"col": "36"
-},
-{
-"index": "1",
-"call": "updateReaderButton()",
-"path": "resource:///actors/AboutReaderParent.sys.mjs",
-"line": "218",
-"col": "10"
-},
-{
-"index": "2",
-"call": "onLocationChange()",
-"path": "chrome://browser/content/browser.js",
-"line": "5543",
-"col": "22"
-},
-{
-"index": "3",
-"call": "callListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "887",
-"col": "30"
-},
-{
-"index": "4",
-"call": "_callProgressListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "901",
-"col": "21"
-},
-{
-"index": "5",
-"call": "_callProgressListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "6366",
-"col": "45"
-},
-{
-"index": "6",
-"call": "onLocationChange()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "6794",
-"col": "13"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "readerView.enter.accesskey",
-"stack": [
-{
-"index": "0",
-"call": "updateReaderButton()",
-"path": "resource:///actors/AboutReaderParent.sys.mjs",
-"line": "262",
-"col": "22"
-},
-{
-"index": "1",
-"call": "updateReaderButton()",
-"path": "resource:///actors/AboutReaderParent.sys.mjs",
-"line": "218",
-"col": "10"
-},
-{
-"index": "2",
-"call": "onLocationChange()",
-"path": "chrome://browser/content/browser.js",
-"line": "5543",
-"col": "22"
-},
-{
-"index": "3",
-"call": "callListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "887",
-"col": "30"
-},
-{
-"index": "4",
-"call": "_callProgressListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "901",
-"col": "21"
-},
-{
-"index": "5",
-"call": "_callProgressListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "6366",
-"col": "45"
-},
-{
-"index": "6",
-"call": "onLocationChange()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "6794",
-"col": "13"
-}
-],
-"file": null
-},
-{
 "type": "ftl",
 "id": "search-one-offs-with-title",
 "stack": null,
@@ -4031,28 +3695,28 @@
 "index": "0",
 "call": "getModifierString()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "67",
+"line": "65",
 "col": "28"
 },
 {
 "index": "1",
 "call": "prettifyShortcut()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "50",
+"line": "48",
 "col": "26"
 },
 {
 "index": "2",
 "call": "BUI__updateStar()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1835",
+"line": "1857",
 "col": "30"
 },
 {
 "index": "3",
 "call": "BUI_updateStarState/<()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1776",
+"line": "1798",
 "col": "13"
 }
 ],
@@ -4066,28 +3730,28 @@
 "index": "0",
 "call": "getModifierString()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "68",
+"line": "66",
 "col": "28"
 },
 {
 "index": "1",
 "call": "prettifyShortcut()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "50",
+"line": "48",
 "col": "26"
 },
 {
 "index": "2",
 "call": "BUI__updateStar()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1835",
+"line": "1857",
 "col": "30"
 },
 {
 "index": "3",
 "call": "BUI_updateStarState/<()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1776",
+"line": "1798",
 "col": "13"
 }
 ],
@@ -4101,35 +3765,35 @@
 "index": "0",
 "call": "getModifierString()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "67",
+"line": "65",
 "col": "28"
 },
 {
 "index": "1",
 "call": "prettifyShortcut()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "50",
+"line": "48",
 "col": "26"
 },
 {
 "index": "2",
 "call": "updateBookmarkPageMenuItem()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1895",
+"line": "1917",
 "col": "39"
 },
 {
 "index": "3",
 "call": "BUI__updateStar()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1844",
+"line": "1866",
 "col": "9"
 },
 {
 "index": "4",
 "call": "BUI_updateStarState/<()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1776",
+"line": "1798",
 "col": "13"
 }
 ],
@@ -4143,35 +3807,35 @@
 "index": "0",
 "call": "getModifierString()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "68",
+"line": "66",
 "col": "28"
 },
 {
 "index": "1",
 "call": "prettifyShortcut()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "50",
+"line": "48",
 "col": "26"
 },
 {
 "index": "2",
 "call": "updateBookmarkPageMenuItem()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1895",
+"line": "1917",
 "col": "39"
 },
 {
 "index": "3",
 "call": "BUI__updateStar()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1844",
+"line": "1866",
 "col": "9"
 },
 {
 "index": "4",
 "call": "BUI_updateStarState/<()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1776",
+"line": "1798",
 "col": "13"
 }
 ],
@@ -4550,108 +4214,6 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-section-header-topsites",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
 "type": "properties",
 "id": "zoom-button.label",
 "stack": [
@@ -4659,7 +4221,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "716",
+"line": "693",
 "col": "26"
 },
 {
@@ -4673,14 +4235,14 @@
 "index": "2",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1894",
+"line": "1957",
 "col": "33"
 },
 {
 "index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "882",
+"line": "945",
 "col": "26"
 }
 ],
@@ -4694,7 +4256,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "716",
+"line": "693",
 "col": "26"
 },
 {
@@ -4708,259 +4270,17 @@
 "index": "2",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1894",
+"line": "1957",
 "col": "33"
 },
 {
 "index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "882",
+"line": "945",
 "col": "26"
 }
 ],
-"file": null
-},
-{
-"type": "properties",
-"id": "PrivateTokenDescription",
-"stack": [
-{
-"index": "0",
-"call": "init()",
-"path": "resource://gre/modules/crypto-SDR.js",
-"line": "59",
-"col": "24"
-},
-{
-"index": "1",
-"call": "LoginManagerCrypto_SDR()",
-"path": "resource://gre/modules/crypto-SDR.js",
-"line": "18",
-"col": "7"
-},
-{
-"index": "2",
-"call": "get _crypto()",
-"path": "resource://gre/modules/storage-json.js",
-"line": "40",
-"col": "68"
-},
-{
-"index": "3",
-"call": "initialize()",
-"path": "resource://gre/modules/storage-json.js",
-"line": "68",
-"col": "6"
-},
-{
-"index": "4",
-"call": "_initStorage()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "88",
-"col": "47"
-},
-{
-"index": "5",
-"call": "init()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "79",
-"col": "9"
-},
-{
-"index": "6",
-"call": "LoginManager()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "34",
-"col": "7"
-},
-{
-"index": "7",
-"call": "task()",
-"path": "resource:///modules/BrowserGlue.jsm",
-"line": "2443",
-"col": "12"
-},
-{
-"index": "8",
-"call": "_scheduleStartupIdleTasks/<()",
-"path": "resource:///modules/BrowserGlue.jsm",
-"line": "2883",
-"col": "19"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "ManufacturerID",
-"stack": [
-{
-"index": "0",
-"call": "init()",
-"path": "resource://gre/modules/crypto-SDR.js",
-"line": "59",
-"col": "24"
-},
-{
-"index": "1",
-"call": "LoginManagerCrypto_SDR()",
-"path": "resource://gre/modules/crypto-SDR.js",
-"line": "18",
-"col": "7"
-},
-{
-"index": "2",
-"call": "get _crypto()",
-"path": "resource://gre/modules/storage-json.js",
-"line": "40",
-"col": "68"
-},
-{
-"index": "3",
-"call": "initialize()",
-"path": "resource://gre/modules/storage-json.js",
-"line": "68",
-"col": "6"
-},
-{
-"index": "4",
-"call": "_initStorage()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "88",
-"col": "47"
-},
-{
-"index": "5",
-"call": "init()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "79",
-"col": "9"
-},
-{
-"index": "6",
-"call": "LoginManager()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "34",
-"col": "7"
-},
-{
-"index": "7",
-"call": "task()",
-"path": "resource:///modules/BrowserGlue.jsm",
-"line": "2443",
-"col": "12"
-},
-{
-"index": "8",
-"call": "_scheduleStartupIdleTasks/<()",
-"path": "resource:///modules/BrowserGlue.jsm",
-"line": "2883",
-"col": "19"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "PrivateTokenDescription",
-"stack": [
-{
-"index": "0",
-"call": "isPrimaryPasswordSet()",
-"path": "resource://gre/modules/LoginHelper.jsm",
-"line": "1596",
-"col": "24"
-},
-{
-"index": "1",
-"call": "_initStorage/<()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "95",
-"col": "25"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "ManufacturerID",
-"stack": [
-{
-"index": "0",
-"call": "isPrimaryPasswordSet()",
-"path": "resource://gre/modules/LoginHelper.jsm",
-"line": "1596",
-"col": "24"
-},
-{
-"index": "1",
-"call": "_initStorage/<()",
-"path": "resource://gre/modules/LoginManager.jsm",
-"line": "95",
-"col": "25"
-}
-],
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-custom-pocket-title",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-custom-pocket-subtitle",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-custom-pocket-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-header-pocket",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-pocket-learn-more",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-custom-pocket-title",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-custom-pocket-subtitle",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-custom-pocket-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-header-pocket",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-pocket-learn-more",
-"stack": null,
 "file": null
 },
 {
@@ -5067,6 +4387,24 @@
 },
 {
 "type": "ftl",
+"id": "newtab-custom-pocket-title",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-custom-pocket-subtitle",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-custom-pocket-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
 "id": "newtab-section-header-pocket",
 "stack": null,
 "file": null
@@ -5074,6 +4412,740 @@
 {
 "type": "ftl",
 "id": "newtab-pocket-learn-more",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-cmd-addons2",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-addons",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-cmd-bookmarks",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-bookmarks",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-cmd-clearhistory",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-clearhistory",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-cmd-downloads",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-downloads",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-cmd-extensions",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-extensions",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-cmd-inspector",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-inspector",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-cmd-logins",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-logins",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-cmd-plugins",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-plugins",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-cmd-print",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-print",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-cmd-private",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-private",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-cmd-refresh",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-refresh",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-cmd-restart",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-restart",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-cmd-screenshot",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-screenshot2",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-cmd-settings",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-settings",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-cmd-themes",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-themes",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-cmd-update",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-update",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-cmd-viewsource",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "quickactions-viewsource",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-custom-pocket-title",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-custom-pocket-subtitle",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-custom-pocket-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-pocket",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-pocket-learn-more",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-search-box-handoff-input",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-search-box-handoff-text",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-search-box-handoff-input",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-search-box-handoff-text",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "PrivateTokenDescription",
+"stack": [
+{
+"index": "0",
+"call": "init()",
+"path": "resource://gre/modules/crypto-SDR.js",
+"line": "59",
+"col": "24"
+},
+{
+"index": "1",
+"call": "LoginManagerCrypto_SDR()",
+"path": "resource://gre/modules/crypto-SDR.js",
+"line": "18",
+"col": "7"
+},
+{
+"index": "2",
+"call": "get _crypto()",
+"path": "resource://gre/modules/storage-json.js",
+"line": "40",
+"col": "68"
+},
+{
+"index": "3",
+"call": "initialize()",
+"path": "resource://gre/modules/storage-json.js",
+"line": "68",
+"col": "6"
+},
+{
+"index": "4",
+"call": "_initStorage()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "88",
+"col": "47"
+},
+{
+"index": "5",
+"call": "init()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "79",
+"col": "9"
+},
+{
+"index": "6",
+"call": "LoginManager()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "34",
+"col": "7"
+},
+{
+"index": "7",
+"call": "task()",
+"path": "resource:///modules/BrowserGlue.jsm",
+"line": "2429",
+"col": "12"
+},
+{
+"index": "8",
+"call": "_scheduleStartupIdleTasks/<()",
+"path": "resource:///modules/BrowserGlue.jsm",
+"line": "2882",
+"col": "19"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "ManufacturerID",
+"stack": [
+{
+"index": "0",
+"call": "init()",
+"path": "resource://gre/modules/crypto-SDR.js",
+"line": "59",
+"col": "24"
+},
+{
+"index": "1",
+"call": "LoginManagerCrypto_SDR()",
+"path": "resource://gre/modules/crypto-SDR.js",
+"line": "18",
+"col": "7"
+},
+{
+"index": "2",
+"call": "get _crypto()",
+"path": "resource://gre/modules/storage-json.js",
+"line": "40",
+"col": "68"
+},
+{
+"index": "3",
+"call": "initialize()",
+"path": "resource://gre/modules/storage-json.js",
+"line": "68",
+"col": "6"
+},
+{
+"index": "4",
+"call": "_initStorage()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "88",
+"col": "47"
+},
+{
+"index": "5",
+"call": "init()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "79",
+"col": "9"
+},
+{
+"index": "6",
+"call": "LoginManager()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "34",
+"col": "7"
+},
+{
+"index": "7",
+"call": "task()",
+"path": "resource:///modules/BrowserGlue.jsm",
+"line": "2429",
+"col": "12"
+},
+{
+"index": "8",
+"call": "_scheduleStartupIdleTasks/<()",
+"path": "resource:///modules/BrowserGlue.jsm",
+"line": "2882",
+"col": "19"
+}
+],
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "PrivateTokenDescription",
+"stack": [
+{
+"index": "0",
+"call": "isPrimaryPasswordSet()",
+"path": "resource://gre/modules/LoginHelper.jsm",
+"line": "1553",
+"col": "24"
+},
+{
+"index": "1",
+"call": "_initStorage/<()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "95",
+"col": "25"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "ManufacturerID",
+"stack": [
+{
+"index": "0",
+"call": "isPrimaryPasswordSet()",
+"path": "resource://gre/modules/LoginHelper.jsm",
+"line": "1553",
+"col": "24"
+},
+{
+"index": "1",
+"call": "_initStorage/<()",
+"path": "resource://gre/modules/LoginManager.jsm",
+"line": "95",
+"col": "25"
+}
+],
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-topsites",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-pocket",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-pocket-learn-more",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-topsites",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-topsite-sponsored",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-topsites-placeholder-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-section-header-pocket",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-pocket-learn-more",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "browser-import-button2",
 "stack": null,
 "file": null
 },
@@ -5090,296 +5162,20 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "browser-import-button2",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-header-topsites",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-topsites-placeholder-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-section-header-pocket",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-pocket-learn-more",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-search-box-handoff-input",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-search-box-handoff-text",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-search-box-handoff-input",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-search-box-handoff-text",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "intl.accept_languages",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "intl.accept_languages",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -5548,18 +5344,6 @@
 {
 "type": "properties",
 "id": "brandShortName",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
 "stack": null,
 "file": null
 },
@@ -5595,43 +5379,43 @@
 },
 {
 "type": "properties",
-"id": "6",
+"id": "intl.accept_languages",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
+"id": "brandShortName",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
 "id": "intl.accept_languages",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -5655,7 +5439,49 @@
 },
 {
 "type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
 "id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "10",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -5721,25 +5547,37 @@
 },
 {
 "type": "properties",
-"id": "10",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "10",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "10",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "intl.accept_languages",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -5766,12 +5604,6 @@
 },
 {
 "type": "properties",
-"id": "brandShortName",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
 "id": "intl.accept_languages",
 "stack": [
 {
@@ -5793,18 +5625,6 @@
 },
 {
 "type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
 "id": "6",
 "stack": null,
 "file": null
@@ -5865,25 +5685,13 @@
 },
 {
 "type": "properties",
-"id": "6",
+"id": "10",
 "stack": null,
 "file": null
 },
 {
 "type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
+"id": "10",
 "stack": null,
 "file": null
 },
@@ -5972,14 +5780,62 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
 "stack": null,
 "file": null
 },
@@ -6038,30 +5894,6 @@
 "file": null
 },
 {
-"type": "ftl",
-"id": "newtab-topsite-sponsored",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
 "type": "properties",
 "id": "6",
 "stack": null,
@@ -6243,66 +6075,6 @@
 },
 {
 "type": "properties",
-"id": "12",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "12",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
 "id": "6",
 "stack": null,
 "file": null
@@ -6358,114 +6130,6 @@
 {
 "type": "properties",
 "id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "13",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "13",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "10",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
-"stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "6",
 "stack": null,
 "file": null
 },
@@ -6495,6 +6159,12 @@
 },
 {
 "type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
 "id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
@@ -6520,6 +6190,588 @@
 {
 "type": "ftl",
 "id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-source-read-time",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-source-read-time",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-source-read-time",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "6",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-default-theme-name-auto",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-firefox-compact-light-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-firefox-compact-dark-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-firefox-alpenglow-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "expressionist-colorway-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-balanced-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "expressionist-colorway-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-bold-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "visionary-colorway-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-soft-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "visionary-colorway-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-balanced-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "dreamer-colorway-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-balanced-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "playmaker-colorway-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-soft-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "playmaker-colorway-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-bold-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "expressionist-colorway-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-soft-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "visionary-colorway-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-bold-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "activist-colorway-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-soft-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "activist-colorway-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-balanced-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "activist-colorway-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-bold-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "dreamer-colorway-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-soft-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "dreamer-colorway-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-bold-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "innovator-colorway-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-balanced-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "innovator-colorway-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-bold-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "playmaker-colorway-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-balanced-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "innovator-colorway-name",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-colorways-soft-name",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.accept_languages",
+"stack": [
+{
+"index": "0",
+"call": "get _worker()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "189",
+"col": "34"
+},
+{
+"index": "1",
+"call": "postMessage()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "316",
+"col": "8"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "945",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.accept_languages",
+"stack": [
+{
+"index": "0",
+"call": "get _worker()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "189",
+"col": "34"
+},
+{
+"index": "1",
+"call": "postMessage()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "316",
+"col": "8"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "945",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "intl.accept_languages",
+"stack": [
+{
+"index": "0",
+"call": "get _worker()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "189",
+"col": "34"
+},
+{
+"index": "1",
+"call": "postMessage()",
+"path": "resource://gre/modules/PromiseWorker.jsm",
+"line": "316",
+"col": "8"
+},
+{
+"index": "2",
+"call": "AsyncFunctionNext()",
+"path": "self-hosted",
+"line": "945",
+"col": "26"
+}
+],
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-source-read-time",
 "stack": null,
 "file": null
 },
@@ -6579,6 +6831,18 @@
 },
 {
 "type": "ftl",
+"id": "newtab-label-sponsored-by",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
 "id": "newtab-label-source-read-time",
 "stack": null,
 "file": null
@@ -6591,6 +6855,96 @@
 },
 {
 "type": "ftl",
+"id": "newtab-label-source-read-time",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-source-read-time",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-label-source-read-time",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "properties",
+"id": "PrivateTokenDescription",
+"stack": [
+{
+"index": "0",
+"call": "_scheduleBestEffortUserIdleTasks/idleTasks<()",
+"path": "resource:///modules/BrowserGlue.jsm",
+"line": "2916",
+"col": "28"
+},
+{
+"index": "1",
+"call": "_scheduleBestEffortUserIdleTasks/<()",
+"path": "resource:///modules/BrowserGlue.jsm",
+"line": "2983",
+"col": "18"
+}
+],
+"file": null
+},
+{
+"type": "properties",
+"id": "ManufacturerID",
+"stack": [
+{
+"index": "0",
+"call": "_scheduleBestEffortUserIdleTasks/idleTasks<()",
+"path": "resource:///modules/BrowserGlue.jsm",
+"line": "2916",
+"col": "28"
+},
+{
+"index": "1",
+"call": "_scheduleBestEffortUserIdleTasks/<()",
+"path": "resource:///modules/BrowserGlue.jsm",
+"line": "2983",
+"col": "18"
+}
+],
+"file": null
+},
+{
+"type": "ftl",
 "id": "newtab-label-sponsored-by",
 "stack": null,
 "file": null
@@ -6603,103 +6957,31 @@
 },
 {
 "type": "ftl",
+"id": "newtab-label-source-read-time",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "newtab-menu-content-tooltip",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-default-theme-description",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
+"id": "extension-default-theme-name-auto",
+"stack": null,
+"file": null
+},
+{
+"type": "ftl",
 "id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-label-sponsored-by",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "newtab-menu-content-tooltip",
 "stack": null,
 "file": null
 },
@@ -6753,293 +7035,13 @@
 },
 {
 "type": "properties",
-"id": "readerView.enter",
-"stack": [
-{
-"index": "0",
-"call": "updateReaderButton()",
-"path": "resource:///actors/AboutReaderParent.sys.mjs",
-"line": "252",
-"col": "36"
-},
-{
-"index": "1",
-"call": "updateReaderButton()",
-"path": "resource:///actors/AboutReaderParent.sys.mjs",
-"line": "218",
-"col": "10"
-},
-{
-"index": "2",
-"call": "onLocationChange()",
-"path": "chrome://browser/content/browser.js",
-"line": "5543",
-"col": "22"
-},
-{
-"index": "3",
-"call": "callListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "887",
-"col": "30"
-},
-{
-"index": "4",
-"call": "_callProgressListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "901",
-"col": "21"
-},
-{
-"index": "5",
-"call": "updateCurrentBrowser()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "1110",
-"col": "11"
-},
-{
-"index": "6",
-"call": "_setupEventListeners/<()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "5792",
-"col": "15"
-},
-{
-"index": "7",
-"call": "set selectedIndex()",
-"path": "chrome://global/content/elements/tabbox.js",
-"line": "236",
-"col": "13"
-},
-{
-"index": "8",
-"call": "set selectedPanel()",
-"path": "chrome://global/content/elements/tabbox.js",
-"line": "246",
-"col": "53"
-},
-{
-"index": "9",
-"call": "set selectedIndex()",
-"path": "chrome://global/content/elements/tabbox.js",
-"line": "599",
-"col": "8"
-},
-{
-"index": "10",
-"call": "set selectedItem()",
-"path": "chrome://global/content/elements/tabbox.js",
-"line": "617",
-"col": "34"
-},
-{
-"index": "11",
-"call": "set selectedTab()",
-"path": "chrome://global/content/elements/tabbox.js",
-"line": "80",
-"col": "10"
-},
-{
-"index": "12",
-"call": "set selectedTab()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "309",
-"col": "6"
-},
-{
-"index": "13",
-"call": "_blurTab()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "4275",
-"col": "30"
-},
-{
-"index": "14",
-"call": "_beginRemoveTab()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "3917",
-"col": "13"
-},
-{
-"index": "15",
-"call": "removeTab()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "3785",
-"col": "14"
-},
-{
-"index": "16",
-"call": "removeCurrentTab()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "3740",
-"col": "11"
-},
-{
-"index": "17",
-"call": "BrowserCloseTabOrWindow()",
-"path": "chrome://browser/content/browser.js",
-"line": "3116",
-"col": "11"
-},
-{
-"index": "18",
-"call": "oncommand()",
-"path": "chrome://browser/content/browser.xhtml",
-"line": "1",
-"col": "23"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "readerView.enter.accesskey",
-"stack": [
-{
-"index": "0",
-"call": "updateReaderButton()",
-"path": "resource:///actors/AboutReaderParent.sys.mjs",
-"line": "262",
-"col": "22"
-},
-{
-"index": "1",
-"call": "updateReaderButton()",
-"path": "resource:///actors/AboutReaderParent.sys.mjs",
-"line": "218",
-"col": "10"
-},
-{
-"index": "2",
-"call": "onLocationChange()",
-"path": "chrome://browser/content/browser.js",
-"line": "5543",
-"col": "22"
-},
-{
-"index": "3",
-"call": "callListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "887",
-"col": "30"
-},
-{
-"index": "4",
-"call": "_callProgressListeners()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "901",
-"col": "21"
-},
-{
-"index": "5",
-"call": "updateCurrentBrowser()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "1110",
-"col": "11"
-},
-{
-"index": "6",
-"call": "_setupEventListeners/<()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "5792",
-"col": "15"
-},
-{
-"index": "7",
-"call": "set selectedIndex()",
-"path": "chrome://global/content/elements/tabbox.js",
-"line": "236",
-"col": "13"
-},
-{
-"index": "8",
-"call": "set selectedPanel()",
-"path": "chrome://global/content/elements/tabbox.js",
-"line": "246",
-"col": "53"
-},
-{
-"index": "9",
-"call": "set selectedIndex()",
-"path": "chrome://global/content/elements/tabbox.js",
-"line": "599",
-"col": "8"
-},
-{
-"index": "10",
-"call": "set selectedItem()",
-"path": "chrome://global/content/elements/tabbox.js",
-"line": "617",
-"col": "34"
-},
-{
-"index": "11",
-"call": "set selectedTab()",
-"path": "chrome://global/content/elements/tabbox.js",
-"line": "80",
-"col": "10"
-},
-{
-"index": "12",
-"call": "set selectedTab()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "309",
-"col": "6"
-},
-{
-"index": "13",
-"call": "_blurTab()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "4275",
-"col": "30"
-},
-{
-"index": "14",
-"call": "_beginRemoveTab()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "3917",
-"col": "13"
-},
-{
-"index": "15",
-"call": "removeTab()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "3785",
-"col": "14"
-},
-{
-"index": "16",
-"call": "removeCurrentTab()",
-"path": "chrome://browser/content/tabbrowser.js",
-"line": "3740",
-"col": "11"
-},
-{
-"index": "17",
-"call": "BrowserCloseTabOrWindow()",
-"path": "chrome://browser/content/browser.js",
-"line": "3116",
-"col": "11"
-},
-{
-"index": "18",
-"call": "oncommand()",
-"path": "chrome://browser/content/browser.xhtml",
-"line": "1",
-"col": "23"
-}
-],
-"file": null
-},
-{
-"type": "properties",
 "id": "identity.identified.verifier",
 "stack": [
 {
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "716",
+"line": "693",
 "col": "26"
 },
 {
@@ -7067,35 +7069,35 @@
 "index": "4",
 "call": "onSecurityChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5731",
+"line": "5705",
 "col": "21"
 },
 {
 "index": "5",
 "call": "callListeners()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "887",
+"line": "886",
 "col": "30"
 },
 {
 "index": "6",
 "call": "_callProgressListeners()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "901",
+"line": "900",
 "col": "21"
 },
 {
 "index": "7",
 "call": "updateCurrentBrowser()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "1120",
+"line": "1119",
 "col": "13"
 },
 {
 "index": "8",
 "call": "_setupEventListeners/<()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "5792",
+"line": "5808",
 "col": "15"
 },
 {
@@ -7137,42 +7139,42 @@
 "index": "14",
 "call": "set selectedTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "309",
+"line": "308",
 "col": "6"
 },
 {
 "index": "15",
 "call": "_blurTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "4275",
+"line": "4282",
 "col": "30"
 },
 {
 "index": "16",
 "call": "_beginRemoveTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3917",
+"line": "3921",
 "col": "13"
 },
 {
 "index": "17",
 "call": "removeTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3785",
+"line": "3789",
 "col": "14"
 },
 {
 "index": "18",
 "call": "removeCurrentTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3740",
+"line": "3744",
 "col": "11"
 },
 {
 "index": "19",
 "call": "BrowserCloseTabOrWindow()",
 "path": "chrome://browser/content/browser.js",
-"line": "3116",
+"line": "3095",
 "col": "11"
 },
 {
@@ -7193,7 +7195,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "716",
+"line": "693",
 "col": "26"
 },
 {
@@ -7221,35 +7223,35 @@
 "index": "4",
 "call": "onSecurityChange()",
 "path": "chrome://browser/content/browser.js",
-"line": "5731",
+"line": "5705",
 "col": "21"
 },
 {
 "index": "5",
 "call": "callListeners()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "887",
+"line": "886",
 "col": "30"
 },
 {
 "index": "6",
 "call": "_callProgressListeners()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "901",
+"line": "900",
 "col": "21"
 },
 {
 "index": "7",
 "call": "updateCurrentBrowser()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "1120",
+"line": "1119",
 "col": "13"
 },
 {
 "index": "8",
 "call": "_setupEventListeners/<()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "5792",
+"line": "5808",
 "col": "15"
 },
 {
@@ -7291,42 +7293,42 @@
 "index": "14",
 "call": "set selectedTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "309",
+"line": "308",
 "col": "6"
 },
 {
 "index": "15",
 "call": "_blurTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "4275",
+"line": "4282",
 "col": "30"
 },
 {
 "index": "16",
 "call": "_beginRemoveTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3917",
+"line": "3921",
 "col": "13"
 },
 {
 "index": "17",
 "call": "removeTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3785",
+"line": "3789",
 "col": "14"
 },
 {
 "index": "18",
 "call": "removeCurrentTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3740",
+"line": "3744",
 "col": "11"
 },
 {
 "index": "19",
 "call": "BrowserCloseTabOrWindow()",
 "path": "chrome://browser/content/browser.js",
-"line": "3116",
+"line": "3095",
 "col": "11"
 },
 {
@@ -7347,56 +7349,56 @@
 "index": "0",
 "call": "get noTrackerTooltipText()",
 "path": "chrome://browser/content/browser-siteProtections.js",
-"line": "1277",
+"line": "1457",
 "col": "22"
 },
 {
 "index": "1",
 "call": "showNoTrackerTooltipForTPIcon()",
 "path": "chrome://browser/content/browser-siteProtections.js",
-"line": "2107",
+"line": "2287",
 "col": "4"
 },
 {
 "index": "2",
 "call": "onContentBlockingEvent()",
 "path": "chrome://browser/content/browser-siteProtections.js",
-"line": "1751",
+"line": "1925",
 "col": "11"
 },
 {
 "index": "3",
 "call": "onContentBlockingEvent()",
 "path": "chrome://browser/content/browser.js",
-"line": "5687",
+"line": "5661",
 "col": "24"
 },
 {
 "index": "4",
 "call": "callListeners()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "887",
+"line": "886",
 "col": "30"
 },
 {
 "index": "5",
 "call": "_callProgressListeners()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "901",
+"line": "900",
 "col": "21"
 },
 {
 "index": "6",
 "call": "updateCurrentBrowser()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "1129",
+"line": "1128",
 "col": "13"
 },
 {
 "index": "7",
 "call": "_setupEventListeners/<()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "5792",
+"line": "5808",
 "col": "15"
 },
 {
@@ -7438,42 +7440,42 @@
 "index": "13",
 "call": "set selectedTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "309",
+"line": "308",
 "col": "6"
 },
 {
 "index": "14",
 "call": "_blurTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "4275",
+"line": "4282",
 "col": "30"
 },
 {
 "index": "15",
 "call": "_beginRemoveTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3917",
+"line": "3921",
 "col": "13"
 },
 {
 "index": "16",
 "call": "removeTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3785",
+"line": "3789",
 "col": "14"
 },
 {
 "index": "17",
 "call": "removeCurrentTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3740",
+"line": "3744",
 "col": "11"
 },
 {
 "index": "18",
 "call": "BrowserCloseTabOrWindow()",
 "path": "chrome://browser/content/browser.js",
-"line": "3116",
+"line": "3095",
 "col": "11"
 },
 {
@@ -7494,63 +7496,63 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "716",
+"line": "693",
 "col": "26"
 },
 {
 "index": "1",
 "call": "get noTrackerTooltipText()",
 "path": "chrome://browser/content/browser-siteProtections.js",
-"line": "1275",
+"line": "1455",
 "col": "59"
 },
 {
 "index": "2",
 "call": "showNoTrackerTooltipForTPIcon()",
 "path": "chrome://browser/content/browser-siteProtections.js",
-"line": "2107",
+"line": "2287",
 "col": "4"
 },
 {
 "index": "3",
 "call": "onContentBlockingEvent()",
 "path": "chrome://browser/content/browser-siteProtections.js",
-"line": "1751",
+"line": "1925",
 "col": "11"
 },
 {
 "index": "4",
 "call": "onContentBlockingEvent()",
 "path": "chrome://browser/content/browser.js",
-"line": "5687",
+"line": "5661",
 "col": "24"
 },
 {
 "index": "5",
 "call": "callListeners()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "887",
+"line": "886",
 "col": "30"
 },
 {
 "index": "6",
 "call": "_callProgressListeners()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "901",
+"line": "900",
 "col": "21"
 },
 {
 "index": "7",
 "call": "updateCurrentBrowser()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "1129",
+"line": "1128",
 "col": "13"
 },
 {
 "index": "8",
 "call": "_setupEventListeners/<()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "5792",
+"line": "5808",
 "col": "15"
 },
 {
@@ -7592,42 +7594,42 @@
 "index": "14",
 "call": "set selectedTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "309",
+"line": "308",
 "col": "6"
 },
 {
 "index": "15",
 "call": "_blurTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "4275",
+"line": "4282",
 "col": "30"
 },
 {
 "index": "16",
 "call": "_beginRemoveTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3917",
+"line": "3921",
 "col": "13"
 },
 {
 "index": "17",
 "call": "removeTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3785",
+"line": "3789",
 "col": "14"
 },
 {
 "index": "18",
 "call": "removeCurrentTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3740",
+"line": "3744",
 "col": "11"
 },
 {
 "index": "19",
 "call": "BrowserCloseTabOrWindow()",
 "path": "chrome://browser/content/browser.js",
-"line": "3116",
+"line": "3095",
 "col": "11"
 },
 {
@@ -7648,63 +7650,63 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "716",
+"line": "693",
 "col": "26"
 },
 {
 "index": "1",
 "call": "get noTrackerTooltipText()",
 "path": "chrome://browser/content/browser-siteProtections.js",
-"line": "1275",
+"line": "1455",
 "col": "59"
 },
 {
 "index": "2",
 "call": "showNoTrackerTooltipForTPIcon()",
 "path": "chrome://browser/content/browser-siteProtections.js",
-"line": "2107",
+"line": "2287",
 "col": "4"
 },
 {
 "index": "3",
 "call": "onContentBlockingEvent()",
 "path": "chrome://browser/content/browser-siteProtections.js",
-"line": "1751",
+"line": "1925",
 "col": "11"
 },
 {
 "index": "4",
 "call": "onContentBlockingEvent()",
 "path": "chrome://browser/content/browser.js",
-"line": "5687",
+"line": "5661",
 "col": "24"
 },
 {
 "index": "5",
 "call": "callListeners()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "887",
+"line": "886",
 "col": "30"
 },
 {
 "index": "6",
 "call": "_callProgressListeners()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "901",
+"line": "900",
 "col": "21"
 },
 {
 "index": "7",
 "call": "updateCurrentBrowser()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "1129",
+"line": "1128",
 "col": "13"
 },
 {
 "index": "8",
 "call": "_setupEventListeners/<()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "5792",
+"line": "5808",
 "col": "15"
 },
 {
@@ -7746,42 +7748,42 @@
 "index": "14",
 "call": "set selectedTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "309",
+"line": "308",
 "col": "6"
 },
 {
 "index": "15",
 "call": "_blurTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "4275",
+"line": "4282",
 "col": "30"
 },
 {
 "index": "16",
 "call": "_beginRemoveTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3917",
+"line": "3921",
 "col": "13"
 },
 {
 "index": "17",
 "call": "removeTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3785",
+"line": "3789",
 "col": "14"
 },
 {
 "index": "18",
 "call": "removeCurrentTab()",
 "path": "chrome://browser/content/tabbrowser.js",
-"line": "3740",
+"line": "3744",
 "col": "11"
 },
 {
 "index": "19",
 "call": "BrowserCloseTabOrWindow()",
 "path": "chrome://browser/content/browser.js",
-"line": "3116",
+"line": "3095",
 "col": "11"
 },
 {
@@ -7808,28 +7810,28 @@
 "index": "0",
 "call": "getModifierString()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "67",
+"line": "65",
 "col": "28"
 },
 {
 "index": "1",
 "call": "prettifyShortcut()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "50",
+"line": "48",
 "col": "26"
 },
 {
 "index": "2",
 "call": "BUI__updateStar()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1835",
+"line": "1857",
 "col": "30"
 },
 {
 "index": "3",
 "call": "BUI_updateStarState/<()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1776",
+"line": "1798",
 "col": "13"
 }
 ],
@@ -7843,28 +7845,28 @@
 "index": "0",
 "call": "getModifierString()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "68",
+"line": "66",
 "col": "28"
 },
 {
 "index": "1",
 "call": "prettifyShortcut()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "50",
+"line": "48",
 "col": "26"
 },
 {
 "index": "2",
 "call": "BUI__updateStar()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1835",
+"line": "1857",
 "col": "30"
 },
 {
 "index": "3",
 "call": "BUI_updateStarState/<()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1776",
+"line": "1798",
 "col": "13"
 }
 ],
@@ -7878,35 +7880,35 @@
 "index": "0",
 "call": "getModifierString()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "67",
+"line": "65",
 "col": "28"
 },
 {
 "index": "1",
 "call": "prettifyShortcut()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "50",
+"line": "48",
 "col": "26"
 },
 {
 "index": "2",
 "call": "updateBookmarkPageMenuItem()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1895",
+"line": "1917",
 "col": "39"
 },
 {
 "index": "3",
 "call": "BUI__updateStar()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1844",
+"line": "1866",
 "col": "9"
 },
 {
 "index": "4",
 "call": "BUI_updateStarState/<()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1776",
+"line": "1798",
 "col": "13"
 }
 ],
@@ -7920,35 +7922,35 @@
 "index": "0",
 "call": "getModifierString()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "68",
+"line": "66",
 "col": "28"
 },
 {
 "index": "1",
 "call": "prettifyShortcut()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "50",
+"line": "48",
 "col": "26"
 },
 {
 "index": "2",
 "call": "updateBookmarkPageMenuItem()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1895",
+"line": "1917",
 "col": "39"
 },
 {
 "index": "3",
 "call": "BUI__updateStar()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1844",
+"line": "1866",
 "col": "9"
 },
 {
 "index": "4",
 "call": "BUI_updateStarState/<()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1776",
+"line": "1798",
 "col": "13"
 }
 ],
@@ -7962,55 +7964,13 @@
 },
 {
 "type": "properties",
-"id": "readerView.enter",
-"stack": [
-{
-"index": "0",
-"call": "updateReaderButton()",
-"path": "resource:///actors/AboutReaderParent.sys.mjs",
-"line": "252",
-"col": "36"
-},
-{
-"index": "1",
-"call": "receiveMessage()",
-"path": "resource:///actors/AboutReaderParent.sys.mjs",
-"line": "195",
-"col": "13"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "readerView.enter.accesskey",
-"stack": [
-{
-"index": "0",
-"call": "updateReaderButton()",
-"path": "resource:///actors/AboutReaderParent.sys.mjs",
-"line": "262",
-"col": "22"
-},
-{
-"index": "1",
-"call": "receiveMessage()",
-"path": "resource:///actors/AboutReaderParent.sys.mjs",
-"line": "195",
-"col": "13"
-}
-],
-"file": null
-},
-{
-"type": "properties",
 "id": "zoom-button.label",
 "stack": [
 {
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "716",
+"line": "693",
 "col": "26"
 },
 {
@@ -8024,14 +7984,14 @@
 "index": "2",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1894",
+"line": "1957",
 "col": "33"
 },
 {
 "index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "882",
+"line": "945",
 "col": "26"
 }
 ],
@@ -8045,7 +8005,7 @@
 "index": "0",
 "call": "getFormattedString()",
 "path": "chrome://browser/content/browser.js",
-"line": "716",
+"line": "693",
 "col": "26"
 },
 {
@@ -8059,257 +8019,17 @@
 "index": "2",
 "call": "InterpretGeneratorResume()",
 "path": "self-hosted",
-"line": "1894",
+"line": "1957",
 "col": "33"
 },
 {
 "index": "3",
 "call": "AsyncFunctionNext()",
 "path": "self-hosted",
-"line": "882",
+"line": "945",
 "col": "26"
 }
 ],
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-default-theme-name-auto",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-firefox-compact-light-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-firefox-alpenglow-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "playmaker-colorway-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-balanced-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "expressionist-colorway-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-soft-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "expressionist-colorway-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-bold-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "activist-colorway-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-bold-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "activist-colorway-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-balanced-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "activist-colorway-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-soft-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "dreamer-colorway-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-balanced-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "dreamer-colorway-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-bold-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "innovator-colorway-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-soft-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-firefox-compact-dark-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "playmaker-colorway-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-soft-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "playmaker-colorway-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-bold-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "expressionist-colorway-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-balanced-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "visionary-colorway-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-soft-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "visionary-colorway-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-bold-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "visionary-colorway-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-balanced-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "dreamer-colorway-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-soft-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "innovator-colorway-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-balanced-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "innovator-colorway-name",
-"stack": null,
-"file": null
-},
-{
-"type": "ftl",
-"id": "extension-colorways-bold-name",
-"stack": null,
 "file": null
 },
 {
@@ -8320,42 +8040,42 @@
 "index": "0",
 "call": "getModifierString()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "67",
+"line": "65",
 "col": "28"
 },
 {
 "index": "1",
 "call": "prettifyShortcut()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "50",
+"line": "48",
 "col": "26"
 },
 {
 "index": "2",
 "call": "updateBookmarkPageMenuItem()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1895",
+"line": "1917",
 "col": "39"
 },
 {
 "index": "3",
 "call": "BUI_uninit()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1721",
+"line": "1743",
 "col": "9"
 },
 {
 "index": "4",
 "call": "onUnload()",
 "path": "chrome://browser/content/browser.js",
-"line": "2569",
+"line": "2548",
 "col": "18"
 },
 {
 "index": "5",
 "call": "onUnload()",
 "path": "self-hosted",
-"line": "1431",
+"line": "1494",
 "col": "24"
 }
 ],
@@ -8369,42 +8089,42 @@
 "index": "0",
 "call": "getModifierString()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "68",
+"line": "66",
 "col": "28"
 },
 {
 "index": "1",
 "call": "prettifyShortcut()",
 "path": "resource://gre/modules/ShortcutUtils.sys.mjs",
-"line": "50",
+"line": "48",
 "col": "26"
 },
 {
 "index": "2",
 "call": "updateBookmarkPageMenuItem()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1895",
+"line": "1917",
 "col": "39"
 },
 {
 "index": "3",
 "call": "BUI_uninit()",
 "path": "chrome://browser/content/browser-places.js",
-"line": "1721",
+"line": "1743",
 "col": "9"
 },
 {
 "index": "4",
 "call": "onUnload()",
 "path": "chrome://browser/content/browser.js",
-"line": "2569",
+"line": "2548",
 "col": "18"
 },
 {
 "index": "5",
 "call": "onUnload()",
 "path": "self-hosted",
-"line": "1431",
+"line": "1494",
 "col": "24"
 }
 ],
@@ -8414,90 +8134,6 @@
 "type": "ftl",
 "id": "menu-bookmark-tab",
 "stack": null,
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": [
-{
-"index": "0",
-"call": "get _worker()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "189",
-"col": "34"
-},
-{
-"index": "1",
-"call": "postMessage()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "316",
-"col": "8"
-},
-{
-"index": "2",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "882",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": [
-{
-"index": "0",
-"call": "get _worker()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "189",
-"col": "34"
-},
-{
-"index": "1",
-"call": "postMessage()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "316",
-"col": "8"
-},
-{
-"index": "2",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "882",
-"col": "26"
-}
-],
-"file": null
-},
-{
-"type": "properties",
-"id": "intl.accept_languages",
-"stack": [
-{
-"index": "0",
-"call": "get _worker()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "189",
-"col": "34"
-},
-{
-"index": "1",
-"call": "postMessage()",
-"path": "resource://gre/modules/PromiseWorker.jsm",
-"line": "316",
-"col": "8"
-},
-{
-"index": "2",
-"call": "AsyncFunctionNext()",
-"path": "self-hosted",
-"line": "882",
-"col": "26"
-}
-],
 "file": null
 }
 ]

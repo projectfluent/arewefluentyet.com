@@ -1,6 +1,6 @@
 {
-"date": "2022-10-07",
-"revision": "18f202cd3601571afe09387a4450756ef2e0b21b",
+"date": "2022-11-11",
+"revision": "88ff674216266947f95c594f8598b9f4f88537b9",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.ftl",
@@ -20,7 +20,7 @@
 },
 {
 "file": "en-US/browser/browser/aboutPocket.ftl",
-"count": 48
+"count": 46
 },
 {
 "file": "en-US/browser/browser/aboutPolicies.ftl",
@@ -80,7 +80,7 @@
 },
 {
 "file": "en-US/browser/browser/browser.ftl",
-"count": 286
+"count": 288
 },
 {
 "file": "en-US/browser/browser/browserContext.ftl",
@@ -112,7 +112,7 @@
 },
 {
 "file": "en-US/browser/browser/downloads.ftl",
-"count": 51
+"count": 55
 },
 {
 "file": "en-US/browser/browser/editBookmarkOverlay.ftl",
@@ -120,23 +120,23 @@
 },
 {
 "file": "en-US/browser/browser/featureCallout.ftl",
-"count": 13
+"count": 21
 },
 {
 "file": "en-US/browser/browser/firefoxView.ftl",
-"count": 48
+"count": 54
 },
 {
 "file": "en-US/browser/browser/menubar.ftl",
-"count": 92
+"count": 94
 },
 {
 "file": "en-US/browser/browser/migration.ftl",
-"count": 49
+"count": 50
 },
 {
 "file": "en-US/browser/browser/newtab/asrouter.ftl",
-"count": 64
+"count": 70
 },
 {
 "file": "en-US/browser/browser/newtab/newtab.ftl",
@@ -144,7 +144,11 @@
 },
 {
 "file": "en-US/browser/browser/newtab/onboarding.ftl",
-"count": 136
+"count": 147
+},
+{
+"file": "en-US/browser/browser/originControls.ftl",
+"count": 9
 },
 {
 "file": "en-US/browser/browser/pageInfo.ftl",
@@ -160,7 +164,7 @@
 },
 {
 "file": "en-US/browser/browser/places.ftl",
-"count": 66
+"count": 67
 },
 {
 "file": "en-US/browser/browser/policies/policies-descriptions.ftl",
@@ -220,7 +224,7 @@
 },
 {
 "file": "en-US/browser/browser/preferences/preferences.ftl",
-"count": 457
+"count": 458
 },
 {
 "file": "en-US/browser/browser/preferences/selectBookmark.ftl",
@@ -319,8 +323,12 @@
 "count": 17
 },
 {
+"file": "en-US/browser/browser/unifiedExtensions.ftl",
+"count": 7
+},
+{
 "file": "en-US/browser/browser/webrtcIndicator.ftl",
-"count": 13
+"count": 80
 },
 {
 "file": "en-US/browser/chrome/browser/accounts.properties",
@@ -328,7 +336,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
-"count": 452
+"count": 387
 },
 {
 "file": "en-US/browser/chrome/browser/customizableui/customizableWidgets.properties",
@@ -391,10 +399,6 @@
 "count": 1
 },
 {
-"file": "en-US/browser/chrome/browser/webrtcIndicator.properties",
-"count": 22
-},
-{
 "file": "en-US/browser/chrome/overrides/appstrings.properties",
 "count": 37
 },
@@ -416,7 +420,7 @@
 },
 {
 "file": "en-US/browser/installer/custom.properties",
-"count": 57
+"count": 58
 },
 {
 "file": "en-US/browser/installer/mui.properties",
@@ -436,7 +440,7 @@
 },
 {
 "file": "en-US/browser/pdfviewer/viewer.properties",
-"count": 171
+"count": 163
 },
 {
 "file": "en-US/browser/updater/updater.ini",
@@ -480,7 +484,7 @@
 },
 {
 "file": "en-US/devtools/client/debugger.properties",
-"count": 308
+"count": 313
 },
 {
 "file": "en-US/devtools/client/device.properties",
@@ -524,7 +528,7 @@
 },
 {
 "file": "en-US/devtools/client/netmonitor.properties",
-"count": 381
+"count": 383
 },
 {
 "file": "en-US/devtools/client/network-throttling.properties",
@@ -612,7 +616,7 @@
 },
 {
 "file": "en-US/devtools/shared/styleinspector.properties",
-"count": 55
+"count": 56
 },
 {
 "file": "en-US/devtools/startup/key-shortcuts.ftl",
@@ -640,7 +644,7 @@
 },
 {
 "file": "en-US/dom/chrome/dom/dom.properties",
-"count": 269
+"count": 267
 },
 {
 "file": "en-US/dom/chrome/global-strres.properties",
@@ -712,11 +716,11 @@
 },
 {
 "file": "en-US/dom/dom/media.ftl",
-"count": 1
+"count": 2
 },
 {
 "file": "en-US/netwerk/necko.properties",
-"count": 52
+"count": 53
 },
 {
 "file": "en-US/security/manager/chrome/pipnss/nsserrors.properties",
@@ -777,10 +781,6 @@
 {
 "file": "en-US/toolkit/chrome/global-platform/win/platformKeys.properties",
 "count": 7
-},
-{
-"file": "en-US/toolkit/chrome/global/aboutReader.properties",
-"count": 29
 },
 {
 "file": "en-US/toolkit/chrome/global/aboutStudies.properties",
@@ -852,7 +852,7 @@
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/downloads/downloads.properties",
-"count": 47
+"count": 1
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/downloads/unknownContentType.properties",
@@ -864,7 +864,7 @@
 },
 {
 "file": "en-US/toolkit/chrome/mozapps/update/updates.properties",
-"count": 30
+"count": 32
 },
 {
 "file": "en-US/toolkit/chrome/passwordmgr/passwordmgr.properties",
@@ -892,7 +892,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutAddons.ftl",
-"count": 206
+"count": 207
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutCompat.ftl",
@@ -907,12 +907,16 @@
 "count": 13
 },
 {
+"file": "en-US/toolkit/toolkit/about/aboutLogging.ftl",
+"count": 9
+},
+{
 "file": "en-US/toolkit/toolkit/about/aboutMozilla.ftl",
 "count": 3
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutNetworking.ftl",
-"count": 63
+"count": 57
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutPerformance.ftl",
@@ -931,6 +935,10 @@
 "count": 36
 },
 {
+"file": "en-US/toolkit/toolkit/about/aboutReader.ftl",
+"count": 18
+},
+{
 "file": "en-US/toolkit/toolkit/about/aboutRights.ftl",
 "count": 32
 },
@@ -940,7 +948,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutSupport.ftl",
-"count": 265
+"count": 275
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutTelemetry.ftl",
@@ -969,6 +977,14 @@
 {
 "file": "en-US/toolkit/toolkit/about/url-classifier.ftl",
 "count": 49
+},
+{
+"file": "en-US/toolkit/toolkit/downloads/downloadUI.ftl",
+"count": 11
+},
+{
+"file": "en-US/toolkit/toolkit/downloads/downloadUtils.ftl",
+"count": 22
 },
 {
 "file": "en-US/toolkit/toolkit/featuregates/features.ftl",
@@ -1056,7 +1072,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/global/videocontrols.ftl",
-"count": 24
+"count": 23
 },
 {
 "file": "en-US/toolkit/toolkit/global/wizard.ftl",
@@ -1080,7 +1096,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/neterror/certError.ftl",
-"count": 59
+"count": 61
 },
 {
 "file": "en-US/toolkit/toolkit/neterror/netError.ftl",
@@ -1088,7 +1104,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/neterror/nsserrors.ftl",
-"count": 332
+"count": 330
 },
 {
 "file": "en-US/toolkit/toolkit/payments/payments.ftl",
