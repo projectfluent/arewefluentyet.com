@@ -24,7 +24,7 @@ class Aggregator(object):
 
     def gather(self):
         fls = files.ProjectFiles("en-US", self.configs)
-        results = [{} for cfg in self.configs]
+        results: list[dict[str, int]] = [{} for _ in self.configs]
         for l10n_path, f, _, tests in fls:
             if "android-dtd" in tests:
                 # ignore Android native strings
@@ -36,7 +36,8 @@ class Aggregator(object):
             p.readFile(f)
             string_count = len(list(p))
             for i, cfg in enumerate(self.configs):
-                l10n_file = paths.File(l10n_path, mozpath.relpath(l10n_path, mozpath.abspath(".")), locale='en-US')
+                l10n_file = paths.File(l10n_path, mozpath.relpath(
+                    l10n_path, mozpath.abspath(".")), locale='en-US')
                 if cfg.filter(l10n_file) != "ignore":
                     results[i][l10n_file.file] = string_count
         return results

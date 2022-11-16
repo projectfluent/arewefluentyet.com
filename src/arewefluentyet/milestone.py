@@ -1,6 +1,6 @@
 import os
 import json
-from datetime import date
+from datetime import date, timedelta
 
 
 def parse_date(input):
@@ -8,8 +8,8 @@ def parse_date(input):
 
 
 class Milestone:
-    name = None
-    start_date = None
+    name: str = None  # type: ignore
+    start_date: date = None  # type: ignore
 
     def __init__(self, data_path):
         self.data_path = os.path.join(data_path, self.name)
@@ -37,7 +37,7 @@ class Milestone:
         """
         return False
 
-    def get_data(self, date, revision):
+    def get_data(self, source, date, revision) -> tuple[list[dict[str, str | int]], dict[str, int]]:
         raise NotImplementedError
 
     def collect_data(self, source, date, revision):
@@ -57,7 +57,7 @@ class Milestone:
 
         return (progress_entry, snapshot)
 
-    def get_next_date(self, frequency):
+    def get_next_date(self, frequency: timedelta):
         progress_data = self.get_progress_data()
         if len(progress_data) > 0:
             return parse_date(progress_data[-1]["date"]) + frequency

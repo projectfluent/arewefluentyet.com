@@ -11,8 +11,10 @@ PARAMS = {
     "dry_run": False,
 }
 
+Milestones = list[Milestone1 | Milestone2 | Milestone3]
 
-def get_next_date(milestones):
+
+def get_next_date(milestones: Milestones):
     next_date = None
 
     for milestone in milestones:
@@ -23,14 +25,15 @@ def get_next_date(milestones):
     return next_date
 
 
-def is_switch_to_revision_required(milestones, source, date):
+def is_switch_to_revision_required(milestones: Milestones, source: Source, date):
     for milestone in milestones:
         if not milestone.has_log_for_date(source, date):
             return True
     return False
 
 
-def update_milestones_for_revision(source, milestones, revision, use_current_revision):
+def update_milestones_for_revision(
+        source: Source, milestones: Milestones, revision, use_current_revision):
     for milestone in milestones:
         rev_date = source.get_revision_date(revision, use_current_revision)
         milestone_last_date = milestone.get_last_date()
@@ -52,14 +55,15 @@ def update_milestones_for_revision(source, milestones, revision, use_current_rev
             milestone.save_snapshot(snapshot)
 
 
-def main(use_current_revision, source, milestones):
+def main(use_current_revision, source: Source, milestones: Milestones):
     start_revision = source.get_current_revision()
     print(f"Your current revision is: {start_revision}")
 
     any_update_happened = False
 
     if use_current_revision:
-        update_milestones_for_revision(source, milestones, start_revision, True)
+        update_milestones_for_revision(
+            source, milestones, start_revision, True)
         any_update_happened = True
     else:
         next_date = get_next_date(milestones)
@@ -72,8 +76,9 @@ def main(use_current_revision, source, milestones):
                 break
             next_rev_date = source.get_revision_date(next_revision, False)
 
-            if next_rev_date < next_date:
-                print(f"But the latest available revision is {next_revision} ({next_rev_date})")
+            if not next_date or next_rev_date < next_date:
+                print(
+                    f"But the latest available revision is {next_revision} ({next_rev_date})")
                 response = input("Do you want to collect date for it (Y/N):")
                 if response.lower() != "y":
                     break
@@ -86,7 +91,8 @@ def main(use_current_revision, source, milestones):
 
             print(f" - Collecting data")
             any_update_happened = True
-            update_milestones_for_revision(source, milestones, current_revision, False)
+            update_milestones_for_revision(
+                source, milestones, current_revision, False)
             next_date += PARAMS["frequency"]
 
         end_revision = source.get_current_revision()
@@ -111,19 +117,22 @@ def verify_mc_path(parser, mc_path):
         parser.error(f"{mc_path} path is not readable!")
 
 
-def verify_milestone_paths(parser, gh_pages_data_path, milestone_name):
+def verify_milestone_paths(
+        parser: argparse.ArgumentParser, gh_pages_data_path: str, milestone_name: str):
     data_path = os.path.join(gh_pages_data_path, milestone_name)
 
     if not is_file_writable(data_path, "progress.json"):
-        parser.error(f"{os.path.join(data_path, 'progress.json')} path is not writable!")
+        parser.error(
+            f"{os.path.join(data_path, 'progress.json')} path is not writable!")
     if not is_file_writable(data_path, "snapshot.json"):
-        parser.error(f"{os.path.join(data_path, 'snapshot.json')} path is not writable!")
+        parser.error(
+            f"{os.path.join(data_path, 'snapshot.json')} path is not writable!")
 
 
-def set_milestones(parser, args):
+def set_milestones(parser: argparse.ArgumentParser, args):
     milestone_args = args.milestone
 
-    result = []
+    result: Milestones = []
     if "M1" in milestone_args or "all" in milestone_args:
         verify_milestone_paths(parser, args.gh_pages_data, "M1")
         result.append(Milestone1(args.gh_pages_data))

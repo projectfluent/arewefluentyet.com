@@ -8,7 +8,7 @@ def parse_date(input):
 
 
 class Source:
-    def __init__(self, path):
+    def __init__(self, path: str):
         self.path = path
         self.current_revision = None
 
@@ -36,12 +36,12 @@ class Source:
             result = subprocess.run([
                 "hg", "id", "--cwd", self.path,
                 "-r", rev, "-T", "{date|shortdate}"
-                ], check=True, capture_output=True, encoding="ascii")
+            ], check=True, capture_output=True, encoding="ascii")
         else:
             result = subprocess.run([
                 "hg", "id", "--cwd", self.path,
                 "-r", rev, "-T", "{pushdate|shortdate}"
-                ], check=True, capture_output=True, encoding="ascii")
+            ], check=True, capture_output=True, encoding="ascii")
 
         return parse_date(result.stdout)
 

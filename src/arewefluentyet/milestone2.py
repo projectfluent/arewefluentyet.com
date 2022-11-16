@@ -22,20 +22,23 @@ class Milestone2(Milestone):
 
     def get_data(self, source, date, revision):
         if not self.has_log_for_date(source, date):
-            response = input(f"About to attempt to apply the `collect-startup-entries` onto {revision} (Y/N): ")
+            response = input(
+                f"About to attempt to apply the `collect-startup-entries` onto {revision} (Y/N): ")
             if response.lower() != "y":
                 return None
             source.rebase_bookmark(revision, self.bookmark)
             source.switch_to_revision(self.bookmark)
 
-            response = input("About to build Firefox with the `collect-startup-entries` (Y/N): ")
+            response = input(
+                "About to build Firefox with the `collect-startup-entries` (Y/N): ")
             if response.lower() != "y":
                 return None
 
             print(f"Building Firefox with `collect-startup-entries`. You can see the progress via `tail -f firefox-build-log.txt`.")
             source.build_firefox()
 
-            response = input("About to launch Firefox with `collect-startup-entries` (Y/N): ")
+            response = input(
+                "About to launch Firefox with `collect-startup-entries` (Y/N): ")
             if response.lower() != "y":
                 return None
 
@@ -70,7 +73,7 @@ class Milestone2(Milestone):
         matches = re.finditer("== Entry ==(.*?)== Entry End ==",
                               raw_data, re.DOTALL | re.MULTILINE)
         for match in matches:
-            entry = {
+            entry: dict[str, str | None] = {
                 "type": None,
                 "id": None,
                 "stack": None,
@@ -89,9 +92,10 @@ class Milestone2(Milestone):
                     stack = True
                     entry["stack"] = ""
                 elif stack and len(line) > 0:
-                    entry["stack"] += line + "\n"
+                    entry["stack"] += line + "\n"  # type: ignore
             if entry["stack"] is not None:
-                entry["stack"] = self.parse_stack(entry["stack"])
+                entry["stack"] = self.parse_stack(  # type: ignore
+                    entry["stack"])
 
             if entry["type"] == "dtd":
                 context = self.find_context(contexts, match.start())
@@ -107,7 +111,7 @@ class Milestone2(Milestone):
             "properties": 0
         }
         for entry in entries:
-            progress[entry["type"]] += 1
+            progress[entry["type"]] += 1  # type: ignore
 
         return (entries, progress)
 
@@ -117,7 +121,8 @@ class Milestone2(Milestone):
         for line in stack.split("\n"):
             if len(line.strip()) == 0:
                 continue
-            match = re.match("([0-9]+) (.*?) \[\"([^\"]+)\":([0-9]+):([0-9]+)]", line)
+            match = re.match(
+                "([0-9]+) (.*?) \[\"([^\"]+)\":([0-9]+):([0-9]+)]", line)
             if match is None:
                 print(line)
                 continue
