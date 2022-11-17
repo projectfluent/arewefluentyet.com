@@ -1,10 +1,11 @@
 import argparse
+from datetime import date, timedelta
 import os
+
 from milestone1 import Milestone1
 from milestone2 import Milestone2
 from milestone3 import Milestone3
-from source import Source
-from datetime import timedelta
+from source import HgSource, Source
 
 PARAMS = {
     "frequency": timedelta(days=7),
@@ -15,7 +16,7 @@ Milestones = list[Milestone1 | Milestone2 | Milestone3]
 
 
 def get_next_date(milestones: Milestones):
-    next_date = None
+    next_date: date = None  # type: ignore
 
     for milestone in milestones:
         candidate = milestone.get_next_date(PARAMS["frequency"])
@@ -173,7 +174,7 @@ if __name__ == "__main__":
     milestones = set_milestones(parser, args)
 
     verify_mc_path(parser, args.mc)
-    source = Source(args.mc)
+    source = HgSource(args.mc)
 
     PARAMS["dry_run"] = args.dry_run
 

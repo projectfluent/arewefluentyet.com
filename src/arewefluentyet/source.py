@@ -8,10 +8,35 @@ def parse_date(input):
 
 
 class Source:
+    current_revision: str | None = None
+    path: str
+
     def __init__(self, path: str):
         self.path = path
         self.current_revision = None
 
+    def get_current_revision(self) -> str:
+        raise NotImplementedError
+
+    def pick_next_revision(self, next_date: date) -> str:
+        raise NotImplementedError
+
+    def get_revision_date(self, rev: str, use_current_revision: bool) -> date:
+        raise NotImplementedError
+
+    def switch_to_revision(self, rev: str) -> None:
+        raise NotImplementedError
+
+    def rebase_bookmark(self, revision: str, bookmark: str) -> None:
+        raise NotImplementedError
+
+    def build_firefox(self):
+        cmd = os.path.join(self.path, "mach")
+        with open("firefox-build-log.txt", "w") as fp:
+            subprocess.run([cmd, "build"], stdout=fp, check=True)
+
+
+class HgSource(Source):
     def get_current_revision(self):
         if not self.current_revision:
             result = subprocess.run([
@@ -75,8 +100,3 @@ class Source:
                 "hg", "rebase", "--cwd", self.path,
                 "-b", bookmark, "-d", revision
             ], check=True, stdout=subprocess.DEVNULL)
-
-    def build_firefox(self):
-        cmd = os.path.join(self.path, "mach")
-        with open("firefox-build-log.txt", "w") as fp:
-            subprocess.run([cmd, "build"], stdout=fp, check=True)
