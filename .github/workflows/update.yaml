@@ -1,0 +1,42 @@
+name: Update
+on:
+  schedule:
+    - cron: "0 6 * * *" # Daily at 6AM UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v3
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v3
+        with:
+          ref: gh-pages
+          path: gh-pages
+      - name: Checkout mozilla/gecko-dev
+        uses: actions/checkout@v3
+        with:
+          repository: mozilla/gecko-dev
+          path: gecko-dev
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Generate new data
+        run: >
+          python src/arewefluentyet/aggregate.py
+          --mc ./gecko-dev --git --gh-pages-data gh-pages/data
+          -m M3 --use-current-revision
+      - name: Update gh-pages branch
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "$(git -C ../gecko-dev show -s --format=%cs)"
+          git push
+        working-directory: ./gh-pages
