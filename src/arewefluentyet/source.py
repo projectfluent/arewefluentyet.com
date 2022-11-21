@@ -8,7 +8,7 @@ def parse_date(input):
 
 
 class Source:
-    current_revision: str | None = None
+    current_revision: str | None
     path: str
 
     def __init__(self, path: str):
