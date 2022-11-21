@@ -5,7 +5,7 @@ import os
 from milestone1 import Milestone1
 from milestone2 import Milestone2
 from milestone3 import Milestone3
-from source import HgSource, Source
+from source import GitSource, HgSource, Source
 
 PARAMS = {
     "frequency": timedelta(days=7),
@@ -164,6 +164,9 @@ if __name__ == "__main__":
                         required=True,
                         metavar='../mozilla-unified',
                         help='Path to mozilla-central clone')
+    parser.add_argument('--git',
+                        action='store_true',
+                        help='Work with a git rather than hg mozilla-central clone')
     parser.add_argument('--gh-pages-data',
                         required=True,
                         metavar='../awfy/gh-pages/data',
@@ -174,7 +177,10 @@ if __name__ == "__main__":
     milestones = set_milestones(parser, args)
 
     verify_mc_path(parser, args.mc)
-    source = HgSource(args.mc)
+    if args.git:
+        source = GitSource(args.mc)
+    else:
+        source = HgSource(args.mc)
 
     PARAMS["dry_run"] = args.dry_run
 

@@ -36,6 +36,31 @@ class Source:
             subprocess.run([cmd, "build"], stdout=fp, check=True)
 
 
+class GitSource(Source):
+    def get_current_revision(self):
+        if not self.current_revision:
+            result = subprocess.run([
+                "git", "--no-pager", "-C", self.path,
+                "show", "--no-patch", "--format=%h"
+            ], check=True, capture_output=True, encoding="ascii")
+            self.current_revision = result.stdout.strip()
+        return self.current_revision
+
+    def get_revision_date(self, rev, use_current_revision):
+        if use_current_revision:
+            result = subprocess.run([
+                "git", "--no-pager", "-C", self.path,
+                "show", "--no-patch", "--format=%cs"
+            ], check=True, capture_output=True, encoding="ascii")
+        else:
+            result = subprocess.run([
+                "git", "--no-pager", "-C", self.path,
+                "show", "--no-patch", "--format=%cs", rev
+            ], check=True, capture_output=True, encoding="ascii")
+
+        return parse_date(result.stdout)
+
+
 class HgSource(Source):
     def get_current_revision(self):
         if not self.current_revision:
