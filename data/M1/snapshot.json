@@ -1,6 +1,6 @@
 {
-"date": "2022-11-11",
-"revision": "88ff674216266947f95c594f8598b9f4f88537b9",
+"date": "2022-11-18",
+"revision": "9f650dfc14c536cabc98fdc6513f6abc39e1e48a",
 "data": [
 {
 "type": "ftl",
@@ -529,6 +529,10 @@
 {
 "type": "ftl",
 "id": "toolbar-context-menu-remove-from-toolbar"
+},
+{
+"type": "ftl",
+"id": "toolbar-context-menu-pin-to-toolbar"
 },
 {
 "type": "ftl",
@@ -1900,6 +1904,10 @@
 },
 {
 "type": "ftl",
+"id": "unified-extensions-context-menu-pin-to-toolbar"
+},
+{
+"type": "ftl",
 "id": "unified-extensions-context-menu-manage-extension"
 },
 {
@@ -2036,7 +2044,7 @@
 },
 {
 "type": "ftl",
-"id": "profiler-popup-title"
+"id": "profiler-popup-header-text"
 },
 {
 "type": "ftl",
