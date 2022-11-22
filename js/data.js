@@ -256,7 +256,7 @@ async function prepare_data(url) {
       borderWidth: 0,
       data: month_bars,
       datalabels: {
-        display: "auto",
+        display: false,
         anchor: "center",
         align: aligns,
         backgroundColor: State.theme.datalabels.background,
