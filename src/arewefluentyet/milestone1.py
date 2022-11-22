@@ -2,17 +2,19 @@ import os
 import re
 from collections import defaultdict
 from datetime import date
-from milestone import Milestone
 from functools import partial
+from milestone import Milestone
+from source import Source
 
 HTML_ENTITIES = ["quot", "amp", "nbsp", "lt", "gt"]
+
 
 class Milestone1(Milestone):
     name = "M1"
     start_date = date(2019, 3, 24)
     main_file = "./browser/base/content/browser.xhtml"
 
-    def get_data(self, source, date, revision):
+    def get_data(self, source: Source, date, revision):
         entries = []
         self.matches_in_file(self.main_file, entries, source.path)
 
