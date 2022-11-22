@@ -33,10 +33,10 @@ const State = {
       categoriesBar: [2, 4],
       columns: ["type", "file", "count"],
       columnSort: [5, "desc"],
-    }
+    },
   ],
   currentMilestone: "M3",
-  activeMilestone: activeMilestone || "M3"
+  activeMilestone: activeMilestone || "M3",
 };
 
 const Page = {
@@ -113,10 +113,7 @@ function getIdPath(entry) {
   return "";
 }
 
-const twoPartModules = [
-  "devtools",
-  "security",
-];
+const twoPartModules = ["devtools", "security"];
 
 function getLinkForPath(path) {
   let [mod] = path.split("/", 1);
@@ -152,7 +149,7 @@ function prepareData(data) {
   let result = {
     data: [],
     columns: [],
-    order: null
+    order: null,
   };
 
   let i = 0;
@@ -170,24 +167,48 @@ function prepareData(data) {
 
   let activeMilestone = Page.getActiveMilestone();
   result.columns = [
-    { title: "Order", data: "order" , visible: activeMilestone.columns.includes("order")},
-    { title: "Type", data: "type" , visible: activeMilestone.columns.includes("type")},
-    { title: "ID", data: "id", visible: activeMilestone.columns.includes("id")},
-    { title: "File", data: "file", visible: activeMilestone.columns.includes("file") },
-    { title: "Stack", data: "stack", visible: activeMilestone.columns.includes("stack") },
-    { title: "Count", data: "count", visible: activeMilestone.columns.includes("count") }
+    {
+      title: "Order",
+      data: "order",
+      visible: activeMilestone.columns.includes("order"),
+    },
+    {
+      title: "Type",
+      data: "type",
+      visible: activeMilestone.columns.includes("type"),
+    },
+    {
+      title: "ID",
+      data: "id",
+      visible: activeMilestone.columns.includes("id"),
+    },
+    {
+      title: "File",
+      data: "file",
+      visible: activeMilestone.columns.includes("file"),
+    },
+    {
+      title: "Stack",
+      data: "stack",
+      visible: activeMilestone.columns.includes("stack"),
+    },
+    {
+      title: "Count",
+      data: "count",
+      visible: activeMilestone.columns.includes("count"),
+    },
   ];
   result.order = activeMilestone.columnSort;
   return result;
 }
 
-$(document).ready(async function() {
+$(document).ready(async function () {
   let { data, columns, order } = await loadFile();
   $("#example").DataTable({
     data,
     columns,
     order,
     pageLength: 25,
-    destroy: true
+    destroy: true,
   });
 });

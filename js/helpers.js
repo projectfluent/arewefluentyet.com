@@ -33,13 +33,21 @@ function getBarPosition(chart, index) {
   let meta2 = chart.getDatasetMeta(Page.getCategoriesBar()[1]);
   let x2 = meta2.data[index] ? meta2.data[index]._model.x : 0;
   let y2 = meta2.data[index]._model.y;
-  return [[x, y], [x2, y2]];
+  return [
+    [x, y],
+    [x2, y2],
+  ];
 }
 
 function getBarCategories(start = 0, end = 0) {
   let result = [];
   for (let idx in Page.getCategories()) {
-    if ((Page.getCategories[0] === null || idx >= Page.getCategoriesBar()[0] + start) && (Page.getCategoriesBar()[1] === null || idx <= Page.getCategoriesBar()[1] + end)) {
+    if (
+      (Page.getCategories[0] === null ||
+        idx >= Page.getCategoriesBar()[0] + start) &&
+      (Page.getCategoriesBar()[1] === null ||
+        idx <= Page.getCategoriesBar()[1] + end)
+    ) {
       result.push(Page.getCategories()[idx]);
     }
   }

@@ -3,25 +3,41 @@ window.addEventListener("load", main);
 async function main() {
   {
     // Manually trigger external font loading to prevent canvas from drawing before the fonts are ready.
-    let firaSansRegular = new FontFace('Fira Sans', 'url(./vendor/fira/woff/FiraSans-Regular.woff)', {
-      style: 'normal',
-      weight: '400'
-    });
-    let firaSansLight = new FontFace('Fira Sans', 'url(./vendor/fira/woff/FiraSans-Light.woff)', {
-      style: 'normal',
-      weight: '300'
-    });
-    let firaSansMedium = new FontFace('Fira Sans', 'url(./vendor/fira/woff/FiraSans-Medium.woff)', {
-      style: 'normal',
-      weight: '500'
-    });
+    let firaSansRegular = new FontFace(
+      "Fira Sans",
+      "url(./vendor/fira/woff/FiraSans-Regular.woff)",
+      {
+        style: "normal",
+        weight: "400",
+      }
+    );
+    let firaSansLight = new FontFace(
+      "Fira Sans",
+      "url(./vendor/fira/woff/FiraSans-Light.woff)",
+      {
+        style: "normal",
+        weight: "300",
+      }
+    );
+    let firaSansMedium = new FontFace(
+      "Fira Sans",
+      "url(./vendor/fira/woff/FiraSans-Medium.woff)",
+      {
+        style: "normal",
+        weight: "500",
+      }
+    );
     document.fonts.add(firaSansRegular);
     document.fonts.add(firaSansLight);
     document.fonts.add(firaSansMedium);
     firaSansRegular.load();
     firaSansLight.load();
     firaSansMedium.load();
-    await Promise.all([firaSansRegular.loaded, firaSansLight.loaded, firaSansMedium]);
+    await Promise.all([
+      firaSansRegular.loaded,
+      firaSansLight.loaded,
+      firaSansMedium,
+    ]);
   }
 
   layout();
@@ -34,7 +50,6 @@ async function main() {
   );
   State.charts.push(chart);
 
-
   Page.updateMilestones();
   Page.setListLinkTarget();
 
@@ -42,7 +57,6 @@ async function main() {
     //updateAspectMode();
     //await new Promise((resolve) => setTimeout(resolve, 1000));
   }
-
 
   document.body.style.display = "block";
   window.addEventListener("resize", updateAspectMode);
@@ -52,11 +66,11 @@ function create_chart(selector, { all_labels, month_labels, data }) {
   // This hack allows us to draw shadow for the circles
   let draw = Chart.controllers.line.prototype.draw;
   Chart.controllers.line = Chart.controllers.line.extend({
-    draw: function(ease) {
+    draw: function (ease) {
       draw.call(this, ease);
       let ctx = this.chart.chart.ctx;
       let _stroke = ctx.stroke;
-      ctx.stroke = function() {
+      ctx.stroke = function () {
         ctx.save();
         if (this.strokeStyle == State.theme.points.color) {
           ctx.shadowColor = State.theme.points.shadow.color;
@@ -67,7 +81,7 @@ function create_chart(selector, { all_labels, month_labels, data }) {
         _stroke.apply(this, arguments);
         ctx.restore();
       };
-    }
+    },
   });
 
   let ctx = document.querySelector(selector).getContext("2d");

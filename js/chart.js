@@ -14,7 +14,7 @@ function get_chart(ctx, data, all_labels, month_labels) {
         fontColor: State.theme.main.font.color,
       },
       animation: {
-        duration: 0
+        duration: 0,
       },
       scales: {
         yAxes: [
@@ -23,7 +23,7 @@ function get_chart(ctx, data, all_labels, month_labels) {
             id: "main-y-axis",
             display: true,
             gridLines: {
-              display: false
+              display: false,
             },
             ticks: {
               padding: Page.getYAxisPadding(),
@@ -31,13 +31,13 @@ function get_chart(ctx, data, all_labels, month_labels) {
               fontSize: Page.getChartFontSize(),
               fontFamily: State.theme.main.font.family,
               fontColor: State.theme.axes.font.color,
-            }
+            },
           },
           {
             stacked: true,
             id: "background-y-axis",
             display: false,
-          }
+          },
         ],
         xAxes: [
           {
@@ -47,7 +47,7 @@ function get_chart(ctx, data, all_labels, month_labels) {
             type: "time",
             time: {
               unit: "quarter",
-              stepSize: 1
+              stepSize: 1,
             },
             labels: State.dashboard ? month_labels : all_labels,
             ticks: {
@@ -58,8 +58,8 @@ function get_chart(ctx, data, all_labels, month_labels) {
               fontColor: State.theme.axes.font.color,
             },
             gridLines: {
-              display: false
-            }
+              display: false,
+            },
           },
           {
             display: false,
@@ -67,51 +67,54 @@ function get_chart(ctx, data, all_labels, month_labels) {
             type: "time",
             time: {
               unit: "quarter",
-              stepSize: 1
+              stepSize: 1,
             },
-          }
-        ]
+          },
+        ],
       },
       tooltips: {
-        enabled: false
+        enabled: false,
       },
-      hover: State.dashboard ? false : {
-        mode: "index",
-        axis: "x",
-        intersect: false,
-        animationDuration: 0,
-        onHover: function(event, elements) {
-          if (elements.length == 0) {
-            return;
-          }
-          let index = elements[0]._index;
-          let ctx = this.chart.ctx;
-          let [[x, y], [x2, y2]] = getBarPosition(this.chart, index);
+      hover: State.dashboard
+        ? false
+        : {
+            mode: "index",
+            axis: "x",
+            intersect: false,
+            animationDuration: 0,
+            onHover: function (event, elements) {
+              if (elements.length == 0) {
+                return;
+              }
+              let index = elements[0]._index;
+              let ctx = this.chart.ctx;
+              let [[x, y], [x2, y2]] = getBarPosition(this.chart, index);
 
-          var boxHeight = (Page.getActiveMilestone().categories.length + 1) * 22.4;
-          var boxHeightHalf = boxHeight / 2;
-          let distance = Math.abs(y2 - y);
-          if (boxHeight >= distance) {
-            return;
-          }
+              var boxHeight =
+                (Page.getActiveMilestone().categories.length + 1) * 22.4;
+              var boxHeightHalf = boxHeight / 2;
+              let distance = Math.abs(y2 - y);
+              if (boxHeight >= distance) {
+                return;
+              }
 
-          let distanceHalf = distance / 2;
-          ctx.save();
-          ctx.lineWith = State.theme.bar.width,
-          ctx.strokeStyle = State.theme.bar.color,
-          ctx.beginPath();
-          ctx.moveTo(x, y);
-          ctx.lineTo(x, y - distanceHalf + boxHeightHalf);
-          ctx.stroke();
+              let distanceHalf = distance / 2;
+              ctx.save();
+              (ctx.lineWith = State.theme.bar.width),
+                (ctx.strokeStyle = State.theme.bar.color),
+                ctx.beginPath();
+              ctx.moveTo(x, y);
+              ctx.lineTo(x, y - distanceHalf + boxHeightHalf);
+              ctx.stroke();
 
-          ctx.beginPath();
-          ctx.moveTo(x, y - distanceHalf - boxHeightHalf);
-          ctx.lineTo(x, y - distance);
-          ctx.stroke();
+              ctx.beginPath();
+              ctx.moveTo(x, y - distanceHalf - boxHeightHalf);
+              ctx.lineTo(x, y - distance);
+              ctx.stroke();
 
-          ctx.restore();
-        },
-      },
+              ctx.restore();
+            },
+          },
       elements: {
         point: {
           borderColor: State.theme.points.color,
@@ -120,17 +123,17 @@ function get_chart(ctx, data, all_labels, month_labels) {
           hoverRadius: State.theme.points.radius,
           hoverBorderColor: State.theme.points.color,
           radius: State.theme.points.radius,
-        }
+        },
       },
       legend: {
         display: Page.shouldDisplayLegend(),
         position: "bottom",
         labels: {
-          filter: function(l) {
+          filter: function (l) {
             return Page.getActiveMilestone().categories.includes(l.text);
           },
         },
       },
-    }
+    },
   });
 }

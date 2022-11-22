@@ -48,9 +48,9 @@ async function prepare_data(url) {
 
     if (
       i == snapshots.length ||
-      (month_labels.length < 1 ||
-        month_labels[month_labels.length - 1].getTime() + interval <=
-          new_label.getTime())
+      month_labels.length < 1 ||
+      month_labels[month_labels.length - 1].getTime() + interval <=
+        new_label.getTime()
     ) {
       if (i === snapshots.length) {
         month_labels.pop();
@@ -84,11 +84,7 @@ async function prepare_data(url) {
           inBar = true;
         }
       }
-      month_bars.push([
-        barStart,
-        barEnd,
-        new_label,
-      ]);
+      month_bars.push([barStart, barEnd, new_label]);
     }
   }
 
@@ -103,7 +99,6 @@ async function prepare_data(url) {
       cat.push(0);
     }
   }
-
 
   // Add an artificial label on the far right to make the last data label in non-dashboard mode
   // not be clipped.
@@ -129,45 +124,45 @@ async function prepare_data(url) {
       State.dashboard || category !== "ftl"
         ? { display: false }
         : {
-            display: function(context) {
+            display: function (context) {
               return context.active;
             },
             anchor: "center",
             align: "start",
-            offset: function(t) {
+            offset: function (t) {
               let index = t.dataIndex;
 
               let idx = Page.getCategories().indexOf("ftl");
               let meta = t.chart.getDatasetMeta(idx);
-              let ftlY = meta.data[index]._model.y
+              let ftlY = meta.data[index]._model.y;
 
               let [[x, y], [x2, y2]] = getBarPosition(t.chart, index);
               let distance = Math.abs(y2 - y);
               var boxHeight = (Page.getCategories().length + 1) * 22.4;
-              let value = Math.round((y - ftlY) - distance / 2 - boxHeight / 2);
+              let value = Math.round(y - ftlY - distance / 2 - boxHeight / 2);
               return value;
             },
             backgroundColor: State.theme.datalabels.background,
             borderRadius: State.theme.datalabels.border.radius,
             padding: {
               left: 8,
-              right: 8
+              right: 8,
             },
             color: State.theme.main.font.color,
             font: {
               family: State.theme.main.font.family,
               style: State.theme.main.font.weight,
               size: 14,
-              lineHeight: 1.6
+              lineHeight: 1.6,
             },
-            formatter: function(value, ctx) {
+            formatter: function (value, ctx) {
               let chart = ctx.chart;
               let index = ctx.dataIndex;
               let label = ctx.chart.data.labels[index];
               let result = label.toLocaleString("en-US", {
                 day: "numeric",
                 month: "short",
-                year: "numeric"
+                year: "numeric",
               });
               result += "\n";
               let values = [];
@@ -176,12 +171,13 @@ async function prepare_data(url) {
                   continue;
                 }
                 let label = State.theme.categories.labels[category];
-                let value = getDatasetByLabel(ctx.chart, label).data[index] || 0;
+                let value =
+                  getDatasetByLabel(ctx.chart, label).data[index] || 0;
                 values.push(`! \u2B24 ${label}|${value}`);
               }
               result += values.reverse().join("\n");
               return result;
-            }
+            },
           };
     datasets.push({
       type: "line",
@@ -194,7 +190,8 @@ async function prepare_data(url) {
       data: all_points[category],
       datalabels: datalabels,
       pointRadius: 0,
-      pointHoverRadius: State.dashboard || !barCategories.includes(category) ? 0 : 4
+      pointHoverRadius:
+        State.dashboard || !barCategories.includes(category) ? 0 : 4,
     });
   }
 
@@ -207,15 +204,15 @@ async function prepare_data(url) {
         borderColor: "white",
         showLine: false,
         tooltips: {
-          enabled: false
+          enabled: false,
         },
         data: Array(month_labels.length).fill(0),
         fill: false,
         yAxisID: "background-y-axis",
         xAxisID: "main-x-axis",
         datalabels: {
-          display: false
-        }
+          display: false,
+        },
       });
     }
     let barCategories = getBarCategories();
@@ -225,20 +222,22 @@ async function prepare_data(url) {
       datasets.push({
         type: "line",
         label: `${category} Dots`,
-        backgroundColor: inBar ? State.theme.categories.colors[category] : "rgba(0,0,0,0)",
+        backgroundColor: inBar
+          ? State.theme.categories.colors[category]
+          : "rgba(0,0,0,0)",
         borderWidth: inBar ? State.theme.points.border.width : 0,
         borderColor: State.theme.points.color,
         showLine: false,
         tooltips: {
-          enabled: false
+          enabled: false,
         },
         data: month_points[category] || 0,
         fill: false,
         yAxisID: "background-y-axis",
         xAxisID: "main-x-axis",
         datalabels: {
-          display: false
-        }
+          display: false,
+        },
       });
     }
 
@@ -267,18 +266,18 @@ async function prepare_data(url) {
           family: State.theme.main.font.family,
           style: State.theme.main.font.weight,
           size: 14,
-          lineHeight: 1.6
+          lineHeight: 1.6,
         },
         padding: {
           left: 8,
         },
-        formatter: function(value, ctx) {
+        formatter: function (value, ctx) {
           if (value === null) {
             return "";
           }
           let result = value[2].toLocaleString("en-US", {
             month: "short",
-            year: "numeric"
+            year: "numeric",
           });
           result += "\n";
           let values = [];
@@ -288,13 +287,16 @@ async function prepare_data(url) {
               continue;
             }
             let label = State.theme.categories.labels[category];
-            let value = getDatasetByLabel(ctx.chart, `${category} Dots`).data[ctx.dataIndex] || 0;
+            let value =
+              getDatasetByLabel(ctx.chart, `${category} Dots`).data[
+                ctx.dataIndex
+              ] || 0;
             values.push(`! \u2B24 ${i}|${value}`);
           }
           result += values.reverse().join("\n");
           return result;
-        }
-      }
+        },
+      },
     });
   }
 
@@ -303,7 +305,7 @@ async function prepare_data(url) {
     month_labels: month_labels,
     data: {
       labels: all_labels,
-      datasets: datasets
-    }
+      datasets: datasets,
+    },
   };
 }

@@ -1,34 +1,36 @@
-const isDashboard = (new URL(document.location)).searchParams.has("dashboard");
-const activeMilestone = (new URL(document.location)).searchParams.get("milestone");
+const isDashboard = new URL(document.location).searchParams.has("dashboard");
+const activeMilestone = new URL(document.location).searchParams.get(
+  "milestone"
+);
 
 const State = {
   milestones: [
     {
-      "code": "M1",
-      "name": "browser.xhtml",
-      "title": "Strings loaded in browser.xhtml",
-      "categories": ["dtd", "ftl"],
-      "skipInDashboard": [],
-      "categoriesBar": [null, 1],
-      "monthIntervals": 3,
+      code: "M1",
+      name: "browser.xhtml",
+      title: "Strings loaded in browser.xhtml",
+      categories: ["dtd", "ftl"],
+      skipInDashboard: [],
+      categoriesBar: [null, 1],
+      monthIntervals: 3,
     },
     {
-      "code": "M2",
-      "name": "startup",
-      "title": "Strings loaded during startup",
-      "categories": ["dtd", "properties", "ftl"],
-      "skipInDashboard": [],
-      "categoriesBar": [0, 2],
-      "monthIntervals": 2,
+      code: "M2",
+      name: "startup",
+      title: "Strings loaded during startup",
+      categories: ["dtd", "properties", "ftl"],
+      skipInDashboard: [],
+      categoriesBar: [0, 2],
+      monthIntervals: 2,
     },
     {
-      "code": "M3",
-      "name": "mozilla-central",
-      "title": "Strings available in mozilla-central",
-      "categories": ["ini", "inc", "dtd", "properties", "ftl"],
-      "skipInDashboard": ["ini", "inc"],
-      "categoriesBar": [2, 4],
-      "monthIntervals": 6,
+      code: "M3",
+      name: "mozilla-central",
+      title: "Strings available in mozilla-central",
+      categories: ["ini", "inc", "dtd", "properties", "ftl"],
+      skipInDashboard: ["ini", "inc"],
+      categoriesBar: [2, 4],
+      monthIntervals: 6,
     },
   ],
   currentMilestone: "M3",
@@ -66,7 +68,7 @@ const State = {
       font: {
         size: {
           small: 12,
-          large: 16
+          large: 16,
         },
         color: "#909090",
       },
@@ -84,8 +86,8 @@ const State = {
           large: 17,
           weight: 500,
           color: "#737373",
-        }
-      }
+        },
+      },
     },
     datalabels: {
       title: {
@@ -109,7 +111,7 @@ const State = {
       background: "white",
       border: {
         radius: 5,
-      }
+      },
     },
     points: {
       color: "#ffffff",
@@ -127,9 +129,9 @@ const State = {
     bar: {
       color: "rgba(255, 255, 255, 0.7)",
       width: 1,
-    }
+    },
   },
-  charts: []
+  charts: [],
 };
 
 const Page = {
@@ -173,7 +175,7 @@ const Page = {
                 ftl += 1;
               }
             }
-            State.milestonesStatus[0] = `${Math.round(ftl / total * 100)}%`
+            State.milestonesStatus[0] = `${Math.round((ftl / total) * 100)}%`;
             break;
           }
           case "M2": {
@@ -185,7 +187,7 @@ const Page = {
                 ftl += 1;
               }
             }
-            State.milestonesStatus[1] = `${Math.round(ftl / total * 100)}%`
+            State.milestonesStatus[1] = `${Math.round((ftl / total) * 100)}%`;
             break;
           }
           case "M3": {
@@ -197,7 +199,7 @@ const Page = {
                 ftl += entry.count;
               }
             }
-            State.milestonesStatus[2] = `${Math.round(ftl / total * 100)}%`
+            State.milestonesStatus[2] = `${Math.round((ftl / total) * 100)}%`;
             break;
           }
         }
@@ -213,14 +215,14 @@ const Page = {
       let tr = document.createElement("tr");
 
       {
-          let td = document.createElement("td");
-          td.innerHTML = `${String.fromCodePoint(0x1F389)}`;
+        let td = document.createElement("td");
+        td.innerHTML = `${String.fromCodePoint(0x1f389)}`;
 
-          if (milestonesStatus[i - 1] !== "100%") {
-            td.style.opacity = "0";
-          }
+        if (milestonesStatus[i - 1] !== "100%") {
+          td.style.opacity = "0";
+        }
 
-          tr.appendChild(td);
+        tr.appendChild(td);
       }
       {
         let td = document.createElement("td");
@@ -238,20 +240,23 @@ const Page = {
         tr.appendChild(td);
       }
       {
-          let td = document.createElement("td");
-          td.innerHTML = `${String.fromCodePoint(0x1F389)}`;
+        let td = document.createElement("td");
+        td.innerHTML = `${String.fromCodePoint(0x1f389)}`;
 
-          if (milestonesStatus[i - 1] !== "100%") {
-            td.style.opacity = "0";
-          }
+        if (milestonesStatus[i - 1] !== "100%") {
+          td.style.opacity = "0";
+        }
 
-          tr.appendChild(td);
+        tr.appendChild(td);
       }
       if (State.activeMilestone == milestone.code) {
         tr.classList.add("active");
       }
 
-      tr.addEventListener("click", Page.reloadIntoMilestone.bind(this, milestone.code));
+      tr.addEventListener(
+        "click",
+        Page.reloadIntoMilestone.bind(this, milestone.code)
+      );
 
       tbody.appendChild(tr);
       i++;
@@ -265,7 +270,9 @@ const Page = {
     let activeMilestone = Page.getActiveMilestone();
     let categories = activeMilestone.categories;
     if (State.dashboard) {
-      categories = categories.filter(cat => !activeMilestone.skipInDashboard.includes(cat));
+      categories = categories.filter(
+        (cat) => !activeMilestone.skipInDashboard.includes(cat)
+      );
     }
     return categories;
   },
@@ -286,7 +293,8 @@ const Page = {
     return categoriesBar;
   },
   getTitlePosition(aspectMode = State.aspectMode, sizeMode = State.sizeMode) {
-    return State.dashboard && (sizeMode == "large" || aspectMode == "heightLimited")
+    return State.dashboard &&
+      (sizeMode == "large" || aspectMode == "heightLimited")
       ? "left"
       : "top";
   },
@@ -294,26 +302,37 @@ const Page = {
     return State.theme.title.font.size.large;
   },
   getYAxisPadding(aspectMode = State.aspectMode, sizeMode = State.sizeMode) {
-    return sizeMode == "large" ? State.theme.axes.padding.y.large : State.theme.axes.padding.y.small;
+    return sizeMode == "large"
+      ? State.theme.axes.padding.y.large
+      : State.theme.axes.padding.y.small;
   },
   getChartFontSize(aspectMode = State.aspectMode, sizeMode = State.sizeMode) {
     return sizeMode == "large"
       ? State.theme.axes.font.size.large
       : State.theme.axes.font.size.small;
   },
-  getDatalabelsTitleFontSize(aspectMode = State.aspectMode, sizeMode = State.sizeMode) {
+  getDatalabelsTitleFontSize(
+    aspectMode = State.aspectMode,
+    sizeMode = State.sizeMode
+  ) {
     return sizeMode == "large"
       ? State.theme.datalabels.title.font.size.large
       : State.theme.datalabels.title.font.size.small;
   },
-  getDatalabelsLabelFontSize(aspectMode = State.aspectMode, sizeMode = State.sizeMode) {
+  getDatalabelsLabelFontSize(
+    aspectMode = State.aspectMode,
+    sizeMode = State.sizeMode
+  ) {
     return sizeMode == "large"
       ? State.theme.datalabels.labels.font.size.large
       : State.theme.datalabels.labels.font.size.small;
   },
-  shouldDisplayLegend(aspectMode = State.aspectMode, sizeMode = State.sizeMode) {
+  shouldDisplayLegend(
+    aspectMode = State.aspectMode,
+    sizeMode = State.sizeMode
+  ) {
     return sizeMode == "small";
-  }
+  },
 };
 
 function layout() {
@@ -358,10 +377,12 @@ function updateAspectMode() {
 
 function updateChart(aspectMode, sizeMode) {
   for (var x in State.charts) {
-    State.charts[x].options.title.position = Page.getTitlePosition(aspectMode, sizeMode);
-    State.charts[
-      x
-    ].options.scales.yAxes[0].ticks.padding = Page.getYAxisPadding(aspectMode, sizeMode);
+    State.charts[x].options.title.position = Page.getTitlePosition(
+      aspectMode,
+      sizeMode
+    );
+    State.charts[x].options.scales.yAxes[0].ticks.padding =
+      Page.getYAxisPadding(aspectMode, sizeMode);
     State.charts[x].update();
   }
 }
