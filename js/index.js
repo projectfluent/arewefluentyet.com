@@ -50,8 +50,8 @@ async function main() {
   );
   State.charts.push(chart);
 
-  Page.updateMilestones();
-  Page.setListLinkTarget();
+  //Page.updateMilestones();
+  //Page.setListLinkTarget();
 
   if (State.dashboard) {
     //updateAspectMode();
