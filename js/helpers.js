@@ -18,21 +18,20 @@ function getCategoryForLabel(label) {
 }
 
 function getBarPosition(chart, index) {
-  let x;
-  let y;
-  if (Page.getCategoriesBar()[0] === null) {
-    let meta = chart.getDatasetMeta(0);
-    x = meta.data[index] ? meta.data[index]._model.x : 0;
-    y = chart.chartArea.bottom;
-  } else {
-    let idx0 = Page.getCategoriesBar()[0];
-    let meta = chart.getDatasetMeta(idx0);
-    x = meta.data[index] ? meta.data[index]._model.x : 0;
-    y = meta.data[index]._model.y;
-  }
-  let meta2 = chart.getDatasetMeta(Page.getCategoriesBar()[1]);
-  let x2 = meta2.data[index] ? meta2.data[index]._model.x : 0;
-  let y2 = meta2.data[index]._model.y;
+  const idx0 = Page.getCategoriesBar()[0];
+  const meta = chart.getDatasetMeta(idx0 ?? 0);
+  if (index >= meta.data.length) index = meta.data.length - 1;
+  const model = meta.data[index]._model;
+  const x = model.x;
+  const y = idx0 === null ? chart.chartArea.bottom : model.y;
+
+  const idx2 = Page.getCategoriesBar()[1];
+  const meta2 = chart.getDatasetMeta(idx2);
+  if (index >= meta2.data.length) index = meta2.data.length - 1;
+  const model2 = meta2.data[index]._model;
+  const x2 = model2.x;
+  const y2 = model2.y;
+
   return [
     [x, y],
     [x2, y2],
