@@ -16,7 +16,11 @@ class Milestone:
         self.progress_data = None
 
     def append_progress_entry(self, progress_entry):
-        self.get_progress_data().append(progress_entry)
+        progress_data = self.get_progress_data()
+        if progress_data[-1]["date"] == progress_entry["date"]:
+            progress_data[-1] = progress_entry
+        else:
+            progress_data.append(progress_entry)
 
     def get_progress_data(self):
         if self.progress_data is None:

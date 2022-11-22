@@ -37,10 +37,11 @@ def update_milestones_for_revision(
         source: Source, milestones: Milestones, revision, use_current_revision):
     for milestone in milestones:
         rev_date = source.get_revision_date(revision, use_current_revision)
-        milestone_last_date = milestone.get_last_date()
-        if milestone_last_date and rev_date <= milestone_last_date:
-            print(f"   - {milestone.name}: Skipping (Already collected)")
-            continue
+        if not use_current_revision:
+            milestone_last_date = milestone.get_last_date()
+            if milestone_last_date and rev_date <= milestone_last_date:
+                print(f"   - {milestone.name}: Skipping (Already collected)")
+                continue
         result = milestone.collect_data(source, rev_date, revision)
         if result is None:
             print(f"   - {milestone.name}: Skipping (User aborted)")
