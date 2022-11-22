@@ -69,18 +69,21 @@ function create_chart(selector, { all_labels, month_labels, data }) {
     draw: function (ease) {
       draw.call(this, ease);
       let ctx = this.chart.chart.ctx;
-      let _stroke = ctx.stroke;
-      ctx.stroke = function () {
-        ctx.save();
-        if (this.strokeStyle == State.theme.points.color) {
-          ctx.shadowColor = State.theme.points.shadow.color;
-          ctx.shadowBlur = State.theme.points.shadow.blur;
-          ctx.shadowOffsetX = State.theme.points.shadow.offsetX;
-          ctx.shadowOffsetY = State.theme.points.shadow.offsetY;
-        }
-        _stroke.apply(this, arguments);
-        ctx.restore();
-      };
+      if (!ctx.stroke._fixed) {
+        let _stroke = ctx.stroke;
+        ctx.stroke = function () {
+          ctx.save();
+          if (this.strokeStyle == State.theme.points.color) {
+            ctx.shadowColor = State.theme.points.shadow.color;
+            ctx.shadowBlur = State.theme.points.shadow.blur;
+            ctx.shadowOffsetX = State.theme.points.shadow.offsetX;
+            ctx.shadowOffsetY = State.theme.points.shadow.offsetY;
+          }
+          _stroke.apply(this, arguments);
+          ctx.restore();
+        };
+        ctx.stroke._fixed = true;
+      }
     },
   });
 
