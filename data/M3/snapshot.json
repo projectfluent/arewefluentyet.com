@@ -1,6 +1,6 @@
 {
-"date": "2022-11-18",
-"revision": "9f650dfc14c536cabc98fdc6513f6abc39e1e48a",
+"date": "2022-11-23",
+"revision": "2798391322",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.ftl",
@@ -80,7 +80,7 @@
 },
 {
 "file": "en-US/browser/browser/browser.ftl",
-"count": 289
+"count": 292
 },
 {
 "file": "en-US/browser/browser/browserContext.ftl",
@@ -97,6 +97,10 @@
 {
 "file": "en-US/browser/browser/colorways.ftl",
 "count": 15
+},
+{
+"file": "en-US/browser/browser/confirmationHints.ftl",
+"count": 7
 },
 {
 "file": "en-US/browser/browser/contentCrash.ftl",
@@ -304,7 +308,7 @@
 },
 {
 "file": "en-US/browser/browser/tabbrowser.ftl",
-"count": 1
+"count": 33
 },
 {
 "file": "en-US/browser/browser/textRecognition.ftl",
@@ -336,7 +340,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
-"count": 388
+"count": 368
 },
 {
 "file": "en-US/browser/chrome/browser/customizableui/customizableWidgets.properties",
@@ -381,10 +385,6 @@
 {
 "file": "en-US/browser/chrome/browser/syncSetup.properties",
 "count": 4
-},
-{
-"file": "en-US/browser/chrome/browser/tabbrowser.properties",
-"count": 27
 },
 {
 "file": "en-US/browser/chrome/browser/taskbar.properties",
@@ -953,6 +953,10 @@
 {
 "file": "en-US/toolkit/toolkit/about/aboutWebrtc.ftl",
 "count": 92
+},
+{
+"file": "en-US/toolkit/toolkit/about/aboutWindowsMessages.ftl",
+"count": 3
 },
 {
 "file": "en-US/toolkit/toolkit/about/abuseReports.ftl",
