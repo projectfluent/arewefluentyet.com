@@ -1,6 +1,6 @@
 {
-"date": "2023-05-22",
-"revision": "2d678a843c",
+"date": "2023-05-23",
+"revision": "a4fd6daad3",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.ftl",
@@ -55,6 +55,10 @@
 "count": 25
 },
 {
+"file": "en-US/browser/browser/addonNotifications.ftl",
+"count": 43
+},
+{
 "file": "en-US/browser/browser/allTabsMenu.ftl",
 "count": 4
 },
@@ -72,7 +76,7 @@
 },
 {
 "file": "en-US/browser/browser/browser.ftl",
-"count": 304
+"count": 303
 },
 {
 "file": "en-US/browser/browser/browserContext.ftl",
@@ -113,6 +117,10 @@
 {
 "file": "en-US/browser/browser/editBookmarkOverlay.ftl",
 "count": 12
+},
+{
+"file": "en-US/browser/browser/extensionsUI.ftl",
+"count": 5
 },
 {
 "file": "en-US/browser/browser/featureCallout.ftl",
@@ -352,7 +360,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
-"count": 353
+"count": 237
 },
 {
 "file": "en-US/browser/chrome/browser/customizableui/customizableWidgets.properties",
@@ -492,7 +500,7 @@
 },
 {
 "file": "en-US/devtools/client/debugger.properties",
-"count": 325
+"count": 328
 },
 {
 "file": "en-US/devtools/client/device.properties",
@@ -652,7 +660,7 @@
 },
 {
 "file": "en-US/dom/chrome/dom/dom.properties",
-"count": 269
+"count": 268
 },
 {
 "file": "en-US/dom/chrome/global-strres.properties",
@@ -668,7 +676,7 @@
 },
 {
 "file": "en-US/dom/chrome/layout/css.properties",
-"count": 39
+"count": 46
 },
 {
 "file": "en-US/dom/chrome/layout/htmlparser.properties",
@@ -1033,6 +1041,14 @@
 {
 "file": "en-US/toolkit/toolkit/global/datetimebox.ftl",
 "count": 13
+},
+{
+"file": "en-US/toolkit/toolkit/global/extensionPermissions.ftl",
+"count": 24
+},
+{
+"file": "en-US/toolkit/toolkit/global/extensions.ftl",
+"count": 29
 },
 {
 "file": "en-US/toolkit/toolkit/global/handlerDialog.ftl",
