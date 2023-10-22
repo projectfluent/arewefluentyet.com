@@ -1,6 +1,6 @@
 {
-"date": "2023-10-20",
-"revision": "cc35ffeaf3",
+"date": "2023-10-21",
+"revision": "3389de86c4",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.ftl",
@@ -73,6 +73,10 @@
 {
 "file": "en-US/browser/browser/appmenu.ftl",
 "count": 96
+},
+{
+"file": "en-US/browser/browser/backgroundtasks/defaultagent.ftl",
+"count": 5
 },
 {
 "file": "en-US/browser/browser/browser.ftl",
@@ -300,7 +304,7 @@
 },
 {
 "file": "en-US/browser/browser/screenshotsOverlay.ftl",
-"count": 4
+"count": 5
 },
 {
 "file": "en-US/browser/browser/search.ftl",
@@ -437,10 +441,6 @@
 {
 "file": "en-US/browser/crashreporter/crashreporter-override.ini",
 "count": 2
-},
-{
-"file": "en-US/browser/defaultagent/defaultagent_localized.ini",
-"count": 5
 },
 {
 "file": "en-US/browser/extensions/formautofill/formautofill.properties",
