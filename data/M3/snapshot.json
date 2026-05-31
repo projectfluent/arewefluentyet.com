@@ -1,6 +1,6 @@
 {
-"date": "2026-05-29",
-"revision": "93d84001b8",
+"date": "2026-05-30",
+"revision": "a5789d9e5a",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.ftl",
@@ -104,7 +104,7 @@
 },
 {
 "file": "en-US/browser/browser/contentSharing.ftl",
-"count": 12
+"count": 17
 },
 {
 "file": "en-US/browser/browser/contextual-manager.ftl",
@@ -220,7 +220,7 @@
 },
 {
 "file": "en-US/browser/browser/policies/policies-descriptions.ftl",
-"count": 121
+"count": 122
 },
 {
 "file": "en-US/browser/browser/policy-messages.ftl",
@@ -336,7 +336,7 @@
 },
 {
 "file": "en-US/browser/browser/sidebar.ftl",
-"count": 82
+"count": 86
 },
 {
 "file": "en-US/browser/browser/sidebarMenu.ftl",
@@ -409,10 +409,6 @@
 {
 "file": "en-US/browser/browser/webProtocolHandler.ftl",
 "count": 4
-},
-{
-"file": "en-US/browser/browser/webauthnDialog.ftl",
-"count": 25
 },
 {
 "file": "en-US/browser/browser/webrtc-preview.ftl",
@@ -1080,7 +1076,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/global/extensions.ftl",
-"count": 48
+"count": 49
 },
 {
 "file": "en-US/toolkit/toolkit/global/handlerDialog.ftl",
@@ -1249,6 +1245,10 @@
 {
 "file": "en-US/toolkit/toolkit/updates/history.ftl",
 "count": 12
+},
+{
+"file": "en-US/toolkit/toolkit/webauthnDialog.ftl",
+"count": 25
 }
 ]
 }
