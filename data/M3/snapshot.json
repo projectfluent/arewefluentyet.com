@@ -1,6 +1,6 @@
 {
 "date": "2026-10-13",
-"revision": "997f570a3a",
+"revision": "84fa096f86",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.ftl",
@@ -96,7 +96,7 @@
 },
 {
 "file": "en-US/browser/browser/browser.ftl",
-"count": 516
+"count": 514
 },
 {
 "file": "en-US/browser/browser/browserContext.ftl",
@@ -112,7 +112,7 @@
 },
 {
 "file": "en-US/browser/browser/confirmationHints.ftl",
-"count": 18
+"count": 19
 },
 {
 "file": "en-US/browser/browser/contentCrash.ftl",
@@ -176,7 +176,7 @@
 },
 {
 "file": "en-US/browser/browser/ipProtection.ftl",
-"count": 181
+"count": 180
 },
 {
 "file": "en-US/browser/browser/linuxDesktopEntry.ftl",
@@ -192,7 +192,7 @@
 },
 {
 "file": "en-US/browser/browser/newtab/asrouter.ftl",
-"count": 201
+"count": 203
 },
 {
 "file": "en-US/browser/browser/newtab/newtab.ftl",
@@ -444,7 +444,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/browser.properties",
-"count": 181
+"count": 172
 },
 {
 "file": "en-US/browser/chrome/browser/customizableui/customizableWidgets.properties",
@@ -468,7 +468,7 @@
 },
 {
 "file": "en-US/browser/chrome/browser/taskbar.properties",
-"count": 8
+"count": 7
 },
 {
 "file": "en-US/browser/chrome/browser/uiDensity.properties",
@@ -476,7 +476,7 @@
 },
 {
 "file": "en-US/browser/chrome/overrides/appstrings.properties",
-"count": 43
+"count": 38
 },
 {
 "file": "en-US/browser/installer/custom.properties",
@@ -875,10 +875,6 @@
 "count": 33
 },
 {
-"file": "en-US/toolkit/chrome/global/viewSource.properties",
-"count": 11
-},
-{
 "file": "en-US/toolkit/chrome/global/wizard.properties",
 "count": 4
 },
@@ -936,7 +932,7 @@
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutGlean.ftl",
-"count": 84
+"count": 86
 },
 {
 "file": "en-US/toolkit/toolkit/about/aboutHttpsOnlyError.ftl",
@@ -1197,6 +1193,10 @@
 {
 "file": "en-US/toolkit/toolkit/global/videocontrols.ftl",
 "count": 23
+},
+{
+"file": "en-US/toolkit/toolkit/global/viewSource.ftl",
+"count": 10
 },
 {
 "file": "en-US/toolkit/toolkit/global/wizard.ftl",
