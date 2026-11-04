@@ -1,6 +1,6 @@
 {
 "date": "2026-11-03",
-"revision": "112b98932d",
+"revision": "dcafde486e",
 "data": [
 {
 "file": "en-US/browser/branding/official/brand.ftl",
@@ -168,7 +168,7 @@
 },
 {
 "file": "en-US/browser/browser/genai.ftl",
-"count": 109
+"count": 110
 },
 {
 "file": "en-US/browser/browser/identityCredentialNotification.ftl",
@@ -216,7 +216,7 @@
 },
 {
 "file": "en-US/browser/browser/pageInfo.ftl",
-"count": 87
+"count": 99
 },
 {
 "file": "en-US/browser/browser/panelUI.ftl",
@@ -700,7 +700,7 @@
 },
 {
 "file": "en-US/dom/chrome/dom/dom.properties",
-"count": 313
+"count": 298
 },
 {
 "file": "en-US/dom/chrome/layout/HtmlForm.properties",
@@ -763,6 +763,10 @@
 "count": 2
 },
 {
+"file": "en-US/dom/dom/manifest.ftl",
+"count": 15
+},
+{
 "file": "en-US/dom/dom/media.ftl",
 "count": 2
 },
@@ -787,10 +791,6 @@
 "count": 55
 },
 {
-"file": "en-US/security/manager/chrome/pippki/pippki.properties",
-"count": 16
-},
-{
 "file": "en-US/security/manager/security/certificates/certManager.ftl",
 "count": 94
 },
@@ -800,7 +800,7 @@
 },
 {
 "file": "en-US/security/manager/security/pippki/pippki.ftl",
-"count": 47
+"count": 51
 },
 {
 "file": "en-US/toolkit/chrome/alerts/alert.properties",
